@@ -1,0 +1,28 @@
+{
+    "name": "Microsoft.ObjectAnchors.Runtime.Core",
+    "references": [
+        "Unity.XR.WindowsMixedReality",
+        "Unity.XR.ARFoundation",
+        "Microsoft.MixedReality.OpenXR",
+        "Microsoft.ObjectAnchors.Runtime.Api.Editor",
+        "Microsoft.ObjectAnchors.Runtime.Api.WSA"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WSA"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.microsoft.mixedreality.openxr",
+            "expression": "0.0.1",
+            "define": "MIXED_REALITY_OPENXR"
+        }
+    ],
+    "noEngineReferences": false
+}
