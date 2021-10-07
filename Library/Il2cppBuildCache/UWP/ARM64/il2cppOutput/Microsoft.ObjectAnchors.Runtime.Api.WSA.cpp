@@ -187,6 +187,12 @@ struct Func_2_t1EA98CA1CFF887FCEF0314A974583D8AD6078D4B;
 struct Func_2_t0B6A86D0941C273E5216BB4738FC4442AA4A8DE2;
 // System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectInstance>
 struct Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A;
+// System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs>
+struct Func_2_tEB19F6CC56B51BCB70CAE6AF001A15F54D9287E6;
+// System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectModel>
+struct Func_2_t65AA99373EC8EC5E431B92B372C4F33C91EF3CDA;
+// System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectObserver>
+struct Func_2_t06672F8CC1C731B0FCD15079BC8336B353661F96;
 // System.Collections.Generic.IDictionary`2<System.String,System.Delegate>
 struct IDictionary_2_tBEB13C0046CFA03C8FF979A27DEEEA9C56570385;
 // System.Collections.Generic.IDictionary`2<System.UInt64,System.Collections.Generic.IDictionary`2<System.String,System.Delegate>>
@@ -361,10 +367,16 @@ struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
 struct U3CU3Ec__DisplayClass5_0_tF8357BC06AFE2FB78DEABB50AB21A852D50121B5;
 // Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<>c__DisplayClass6_0
 struct U3CU3Ec__DisplayClass6_0_t30F69D296A5CFB4A9AB9F4927F275D5026E37E55;
-// Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c
-struct U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC;
+// Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c__DisplayClass18_0
+struct U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB;
+// Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs/<>c__DisplayClass6_0
+struct U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC;
+// Microsoft.Azure.ObjectAnchors.ObjectModel/<>c__DisplayClass20_0
+struct U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421;
 // Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c
 struct U3CU3Ec_tFD91BC58C5E6C8E86DFE79CFC47CFDB910BAC32A;
+// Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass12_0
+struct U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38;
 // Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass6_0
 struct U3CU3Ec__DisplayClass6_0_tE4577ACCC4C8604FE904D733F4468E467E92D3F1;
 // Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass8_0
@@ -391,7 +403,10 @@ IL2CPP_EXTERN_C RuntimeClass* Func_1_t3D666A081DF50250461C0077FF34B42E065B57BA_i
 IL2CPP_EXTERN_C RuntimeClass* Func_1_t566CDFF99A50C5BB82DBBE05C3AE0C4B82123DAC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_tCA09C261383BADDF5EC7B858BF18602981EFF020_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_tCBA63CE88D56EF3562CEFE04685FD57DC4B17443_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t06672F8CC1C731B0FCD15079BC8336B353661F96_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_2_t1EA98CA1CFF887FCEF0314A974583D8AD6078D4B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t65AA99373EC8EC5E431B92B372C4F33C91EF3CDA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_tEB19F6CC56B51BCB70CAE6AF001A15F54D9287E6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ICachedObject_tADE3AB059703632AF47D325E67EE75DFE8C9DFFB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDictionary_2_t22F02A503FC2B8ADFC4383C57DF812675C1079AB_il2cpp_TypeInfo_var;
@@ -413,11 +428,14 @@ IL2CPP_EXTERN_C RuntimeClass* ProjectedObjectEventHandlerCache_t29A785DF3F3F5134
 IL2CPP_EXTERN_C RuntimeClass* StringComparer_t69EC059128AD0CAE268CA1A1C33125DAC9D7F8D6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass5_0_tF8357BC06AFE2FB78DEABB50AB21A852D50121B5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass6_0_t30F69D296A5CFB4A9AB9F4927F275D5026E37E55_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass6_0_tE4577ACCC4C8604FE904D733F4468E467E92D3F1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass8_0_tCDF8C41DA5DEA8586421997037E6E8E9FA820599_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tFD91BC58C5E6C8E86DFE79CFC47CFDB910BAC32A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WeakReference_1_t4B5624B5202F11C3C45DB82BF8AF31727D8117E1_il2cpp_TypeInfo_var;
@@ -435,6 +453,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralEFC01655CCC809F2F9C9DBB30DFFF78C5BC267E2
 IL2CPP_EXTERN_C String_t* _stringLiteralF15767575F8E51FACC175148AE8F3B04EE1E0D1C;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D;
 IL2CPP_EXTERN_C String_t* _stringLiteralFFE3A1B73CD7FC81540FBBE737435B0A887629D5;
+IL2CPP_EXTERN_C const RuntimeMethod* AccountInformation_ConvertHandleToCookie_mF86C1241424DE201E1F12F587E96B07F94E90E27_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisIntPtr_t_m81A9A601EB41F240B8FF9E0EEE280263890FA95C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t3BAB82D47CEBC41A1EF7BA96DE9DD20CB499A7B6_TisU3CLoadObjectModelAsyncU3Ed__6_tD47B2589E9E37DA5AE9EE70987C6A1DF27D61370_m291C62A1BB24535A4D3D3C398AF47CC5CE7A237F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t6B2A2E39CF558B6EF46D14B41BAC56E4BD6DAF13_TisU3CRequestAccessAsyncU3Ed__5_tBA8CDED496794E2619979EC0F7AE5A2B55484EFB_mE202C3251F8FD06E038469A6C5785A4E3F80E23D_RuntimeMethod_var;
@@ -479,6 +498,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_m965F674EA3EDB2EE7EEE75E9DA974
 IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_m9F03CC79AE980F9CB6E45E1B61B21582D48FE379_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_m9FE407C7EB40F076DA6EF9DEE0019ECFED091D7F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_mE724F5A976B60F49E77DE0259C6DEC546B38536E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_m0446479E03EF621B670BB454DEA6781EFC5B5F8B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_m1A11D927AC9F9E781F60BF1443C9F89EF8DACF08_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_m57D6E6D11CC517E8B9D71443687BB911643222E4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_mA97880115E9A07CB19D17416A0EB7B31DBC1CA30_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_mD03B30FB0D78FDC82B383B0369A682518C9DBA3E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8_RuntimeMethod_var;
@@ -487,10 +509,19 @@ IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_GetValueOrDefault_m040A76387E8FA
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mB071BC29148D7C56773D88642264E7AE3C53711F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mEEF1423DF9C28D8AF6BE170571F24ACB5B7B0B0E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_m67C4D178349F37B57BAF33AEA96E014F2F54C00E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ObjectAnchorsSession_ConvertHandleToCookie_m3A0B958F2D3496881D47AE3E73C446933B38FE7D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ObjectDiagnosticsSession_ConvertHandleToCookie_m2D8AE568C6F7A181D7B71E528EFB87F1FC86FD12_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ObjectInstanceChangedEventArgs_ConvertHandleToCookie_m1EA3F5E51EE31C65680FCF1D5FA8A2ADD36A0761_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectInstance_ConvertHandleToCookie_m06D2F356AF0436E655A193D69EE3D72926AD01A9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ObjectModel_ConvertHandleToCookie_m24FFF9DD80E55C49383F640E862EB1015B5D0F8E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ObjectObserver_ConvertHandleToCookie_mD82A220B0DAA4E31F2343907B5B166CA562B80CB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ObjectQuery_ConvertHandleToCookie_m94751321E824D67C213DDFD616E34C34B9AB9500_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ProjectedObjectCache_GetOrCreate_TisObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323_mE5F154C09F28BCE4A1D62C2700283B0F968F30D0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ProjectedObjectCache_GetOrCreate_TisObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_m8CC34956E497445325DEF05BFBBABA33CDC31165_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ProjectedObjectCache_GetOrCreate_TisObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E_m46C7BFE0DA1D870074B33D5314A157DC2E099DDF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ProjectedObjectCache_GetOrCreate_TisObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251_m491A3894F1B654836D0BE19BD81959BFF381E01C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ProjectedObjectCache_ProjectedObjectCleanupHandler_mB6B642C75375902F952BF695EED0080E057632F4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ProjectedObjectCache_Remove_mE7437B508380613DCF47FA3248B4771025DF9A07_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ProjectedObjectEventHandlerCache_AddEventHandler_TisObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB_mE779E00230BD81D318A7F9B7F479FC6E112A53BD_RuntimeMethod_var;
@@ -515,8 +546,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* Task_Run_TisObjectModel_t9E452AEB6DB4E215B0
 IL2CPP_EXTERN_C const RuntimeMethod* Task_Run_TisObjectObserverAccessStatus_tB87DB6A04C14175CF8E91E885B29DBA5A0D02A5D_mF750593C8688FFD5BE7D28B1E86F16344A7E5020_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CDetectAsyncU3Eb__8_1_mB7C80810D7E67B2CFCBC371457A7A43072B3E19C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CRequestAccessAsyncU3Eb__5_0_mA220D444C85E3C129007A146E1329A87C49E4D78_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3C_cctorU3Eb__20_0_mE110D755523A3B90AA058B8D7D7CAAD4628D93A5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass12_0_U3CGetOrCreateInstanceU3Eb__0_mCE942B0D767F4FA019FC774C6C3348ADA667ACAC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass18_0_U3CGetOrCreateInstanceU3Eb__0_m15BA04FC7EEFAF5D5D1FEF7F9DFCC541DFF28C8A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass20_0_U3CGetOrCreateInstanceU3Eb__0_m1DC8BA877957A09B58F0FAFF3CBBA2A3B82C2853_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3CCloseAsyncU3Eb__0_mC3A356B0A2DBF0FE8849FD719F42F042CE0B5743_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass6_0_U3CGetOrCreateInstanceU3Eb__0_m28F04B6D99037CE664158D33B3D87282851DCBD8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass6_0_U3CLoadObjectModelAsyncU3Eb__0_m5DFC11B723438767B04BD1D6FF3E0B2D49447876_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass6_0_U3CUploadDiagnosticsAsyncU3Eb__0_mE7F38B2CEDBFFD3C7CD49ADB6F888E21E7E4E0F7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass8_0_U3CDetectAsyncU3Eb__0_mA6FBCDEAFF867003C157ECE0A97F92BF8A296E69_RuntimeMethod_var;
@@ -1234,28 +1268,86 @@ public:
 };
 
 
-// Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c
-struct U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC  : public RuntimeObject
+// Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c__DisplayClass18_0
+struct U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB  : public RuntimeObject
 {
 public:
+	// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c__DisplayClass18_0::cookie
+	uint64_t ___cookie_0;
+	// System.Boolean Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c__DisplayClass18_0::transfer
+	bool ___transfer_1;
 
 public:
+	inline static int32_t get_offset_of_cookie_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB, ___cookie_0)); }
+	inline uint64_t get_cookie_0() const { return ___cookie_0; }
+	inline uint64_t* get_address_of_cookie_0() { return &___cookie_0; }
+	inline void set_cookie_0(uint64_t value)
+	{
+		___cookie_0 = value;
+	}
+
+	inline static int32_t get_offset_of_transfer_1() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB, ___transfer_1)); }
+	inline bool get_transfer_1() const { return ___transfer_1; }
+	inline bool* get_address_of_transfer_1() { return &___transfer_1; }
+	inline void set_transfer_1(bool value)
+	{
+		___transfer_1 = value;
+	}
 };
 
-struct U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC_StaticFields
+
+// Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs/<>c__DisplayClass6_0
+struct U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC  : public RuntimeObject
 {
 public:
-	// Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c::<>9
-	U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC * ___U3CU3E9_0;
+	// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs/<>c__DisplayClass6_0::cookie
+	uint64_t ___cookie_0;
+	// System.Boolean Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs/<>c__DisplayClass6_0::transfer
+	bool ___transfer_1;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E9_0() { return static_cast<int32_t>(offsetof(U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC_StaticFields, ___U3CU3E9_0)); }
-	inline U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC * get_U3CU3E9_0() const { return ___U3CU3E9_0; }
-	inline U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC ** get_address_of_U3CU3E9_0() { return &___U3CU3E9_0; }
-	inline void set_U3CU3E9_0(U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC * value)
+	inline static int32_t get_offset_of_cookie_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC, ___cookie_0)); }
+	inline uint64_t get_cookie_0() const { return ___cookie_0; }
+	inline uint64_t* get_address_of_cookie_0() { return &___cookie_0; }
+	inline void set_cookie_0(uint64_t value)
 	{
-		___U3CU3E9_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E9_0), (void*)value);
+		___cookie_0 = value;
+	}
+
+	inline static int32_t get_offset_of_transfer_1() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC, ___transfer_1)); }
+	inline bool get_transfer_1() const { return ___transfer_1; }
+	inline bool* get_address_of_transfer_1() { return &___transfer_1; }
+	inline void set_transfer_1(bool value)
+	{
+		___transfer_1 = value;
+	}
+};
+
+
+// Microsoft.Azure.ObjectAnchors.ObjectModel/<>c__DisplayClass20_0
+struct U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421  : public RuntimeObject
+{
+public:
+	// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectModel/<>c__DisplayClass20_0::cookie
+	uint64_t ___cookie_0;
+	// System.Boolean Microsoft.Azure.ObjectAnchors.ObjectModel/<>c__DisplayClass20_0::transfer
+	bool ___transfer_1;
+
+public:
+	inline static int32_t get_offset_of_cookie_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421, ___cookie_0)); }
+	inline uint64_t get_cookie_0() const { return ___cookie_0; }
+	inline uint64_t* get_address_of_cookie_0() { return &___cookie_0; }
+	inline void set_cookie_0(uint64_t value)
+	{
+		___cookie_0 = value;
+	}
+
+	inline static int32_t get_offset_of_transfer_1() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421, ___transfer_1)); }
+	inline bool get_transfer_1() const { return ___transfer_1; }
+	inline bool* get_address_of_transfer_1() { return &___transfer_1; }
+	inline void set_transfer_1(bool value)
+	{
+		___transfer_1 = value;
 	}
 };
 
@@ -1304,6 +1396,34 @@ public:
 	{
 		___U3CU3E9__8_1_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E9__8_1_2), (void*)value);
+	}
+};
+
+
+// Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass12_0
+struct U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38  : public RuntimeObject
+{
+public:
+	// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass12_0::cookie
+	uint64_t ___cookie_0;
+	// System.Boolean Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass12_0::transfer
+	bool ___transfer_1;
+
+public:
+	inline static int32_t get_offset_of_cookie_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38, ___cookie_0)); }
+	inline uint64_t get_cookie_0() const { return ___cookie_0; }
+	inline uint64_t* get_address_of_cookie_0() { return &___cookie_0; }
+	inline void set_cookie_0(uint64_t value)
+	{
+		___cookie_0 = value;
+	}
+
+	inline static int32_t get_offset_of_transfer_1() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38, ___transfer_1)); }
+	inline bool get_transfer_1() const { return ___transfer_1; }
+	inline bool* get_address_of_transfer_1() { return &___transfer_1; }
+	inline void set_transfer_1(bool value)
+	{
+		___transfer_1 = value;
 	}
 };
 
@@ -3252,8 +3372,6 @@ struct ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_StaticFields
 public:
 	// Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandlerNative Microsoft.Azure.ObjectAnchors.ObjectInstance::ChangedStaticHandlerDelegate
 	ObjectInstanceChangedHandlerNative_t81D2FF40E93C9EB565BB1E3E4BC71185C712583A * ___ChangedStaticHandlerDelegate_1;
-	// System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectInstance> Microsoft.Azure.ObjectAnchors.ObjectInstance::createFromCookieFactoryFunction
-	Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A * ___createFromCookieFactoryFunction_2;
 
 public:
 	inline static int32_t get_offset_of_ChangedStaticHandlerDelegate_1() { return static_cast<int32_t>(offsetof(ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_StaticFields, ___ChangedStaticHandlerDelegate_1)); }
@@ -3263,15 +3381,6 @@ public:
 	{
 		___ChangedStaticHandlerDelegate_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___ChangedStaticHandlerDelegate_1), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_createFromCookieFactoryFunction_2() { return static_cast<int32_t>(offsetof(ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_StaticFields, ___createFromCookieFactoryFunction_2)); }
-	inline Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A * get_createFromCookieFactoryFunction_2() const { return ___createFromCookieFactoryFunction_2; }
-	inline Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A ** get_address_of_createFromCookieFactoryFunction_2() { return &___createFromCookieFactoryFunction_2; }
-	inline void set_createFromCookieFactoryFunction_2(Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A * value)
-	{
-		___createFromCookieFactoryFunction_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___createFromCookieFactoryFunction_2), (void*)value);
 	}
 };
 
@@ -3609,9 +3718,9 @@ public:
 	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
 	int32_t ___m_stateFlags_9;
 	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
-	RuntimeObject * ___m_continuationObject_28;
+	RuntimeObject * ___m_continuationObject_10;
 	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
-	ContingentProperties_t1E249C737B8B8644ED1D60EEFA101D326B199EA0 * ___m_contingentProperties_33;
+	ContingentProperties_t1E249C737B8B8644ED1D60EEFA101D326B199EA0 * ___m_contingentProperties_15;
 
 public:
 	inline static int32_t get_offset_of_m_taskId_4() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60, ___m_taskId_4)); }
@@ -3666,22 +3775,22 @@ public:
 		___m_stateFlags_9 = value;
 	}
 
-	inline static int32_t get_offset_of_m_continuationObject_28() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60, ___m_continuationObject_28)); }
-	inline RuntimeObject * get_m_continuationObject_28() const { return ___m_continuationObject_28; }
-	inline RuntimeObject ** get_address_of_m_continuationObject_28() { return &___m_continuationObject_28; }
-	inline void set_m_continuationObject_28(RuntimeObject * value)
+	inline static int32_t get_offset_of_m_continuationObject_10() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60, ___m_continuationObject_10)); }
+	inline RuntimeObject * get_m_continuationObject_10() const { return ___m_continuationObject_10; }
+	inline RuntimeObject ** get_address_of_m_continuationObject_10() { return &___m_continuationObject_10; }
+	inline void set_m_continuationObject_10(RuntimeObject * value)
 	{
-		___m_continuationObject_28 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_continuationObject_28), (void*)value);
+		___m_continuationObject_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_continuationObject_10), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_m_contingentProperties_33() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60, ___m_contingentProperties_33)); }
-	inline ContingentProperties_t1E249C737B8B8644ED1D60EEFA101D326B199EA0 * get_m_contingentProperties_33() const { return ___m_contingentProperties_33; }
-	inline ContingentProperties_t1E249C737B8B8644ED1D60EEFA101D326B199EA0 ** get_address_of_m_contingentProperties_33() { return &___m_contingentProperties_33; }
-	inline void set_m_contingentProperties_33(ContingentProperties_t1E249C737B8B8644ED1D60EEFA101D326B199EA0 * value)
+	inline static int32_t get_offset_of_m_contingentProperties_15() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60, ___m_contingentProperties_15)); }
+	inline ContingentProperties_t1E249C737B8B8644ED1D60EEFA101D326B199EA0 * get_m_contingentProperties_15() const { return ___m_contingentProperties_15; }
+	inline ContingentProperties_t1E249C737B8B8644ED1D60EEFA101D326B199EA0 ** get_address_of_m_contingentProperties_15() { return &___m_contingentProperties_15; }
+	inline void set_m_contingentProperties_15(ContingentProperties_t1E249C737B8B8644ED1D60EEFA101D326B199EA0 * value)
 	{
-		___m_contingentProperties_33 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_contingentProperties_33), (void*)value);
+		___m_contingentProperties_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_contingentProperties_15), (void*)value);
 	}
 };
 
@@ -3693,25 +3802,25 @@ public:
 	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::s_factory
 	TaskFactory_t22D999A05A967C31A4B5FFBD08864809BF35EA3B * ___s_factory_3;
 	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
-	RuntimeObject * ___s_taskCompletionSentinel_29;
+	RuntimeObject * ___s_taskCompletionSentinel_11;
 	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
-	bool ___s_asyncDebuggingEnabled_30;
+	bool ___s_asyncDebuggingEnabled_12;
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
-	Dictionary_2_tB758E2A2593CD827EFC041BE1F1BB4B68DE1C3E8 * ___s_currentActiveTasks_31;
+	Dictionary_2_tB758E2A2593CD827EFC041BE1F1BB4B68DE1C3E8 * ___s_currentActiveTasks_13;
 	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
-	RuntimeObject * ___s_activeTasksLock_32;
+	RuntimeObject * ___s_activeTasksLock_14;
 	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
-	Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * ___s_taskCancelCallback_34;
+	Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * ___s_taskCancelCallback_16;
 	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
-	Func_1_tBCF42601FA307876E83080BE4204110820F8BF3B * ___s_createContingentProperties_35;
+	Func_1_tBCF42601FA307876E83080BE4204110820F8BF3B * ___s_createContingentProperties_17;
 	// System.Threading.Tasks.Task System.Threading.Tasks.Task::s_completedTask
-	Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * ___s_completedTask_36;
+	Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * ___s_completedTask_18;
 	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
-	Predicate_1_tC0DBBC8498BD1EE6ABFFAA5628024105FA7D11BD * ___s_IsExceptionObservedByParentPredicate_37;
+	Predicate_1_tC0DBBC8498BD1EE6ABFFAA5628024105FA7D11BD * ___s_IsExceptionObservedByParentPredicate_19;
 	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
-	ContextCallback_t93707E0430F4FF3E15E1FB5A4844BE89C657AE8B * ___s_ecCallback_38;
+	ContextCallback_t93707E0430F4FF3E15E1FB5A4844BE89C657AE8B * ___s_ecCallback_20;
 	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
-	Predicate_1_t5C96B81B31A697B11C4C3767E3298773AF25DFEB * ___s_IsTaskContinuationNullPredicate_39;
+	Predicate_1_t5C96B81B31A697B11C4C3767E3298773AF25DFEB * ___s_IsTaskContinuationNullPredicate_21;
 
 public:
 	inline static int32_t get_offset_of_s_taskIdCounter_2() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_taskIdCounter_2)); }
@@ -3731,93 +3840,93 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___s_factory_3), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_taskCompletionSentinel_29() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_taskCompletionSentinel_29)); }
-	inline RuntimeObject * get_s_taskCompletionSentinel_29() const { return ___s_taskCompletionSentinel_29; }
-	inline RuntimeObject ** get_address_of_s_taskCompletionSentinel_29() { return &___s_taskCompletionSentinel_29; }
-	inline void set_s_taskCompletionSentinel_29(RuntimeObject * value)
+	inline static int32_t get_offset_of_s_taskCompletionSentinel_11() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_taskCompletionSentinel_11)); }
+	inline RuntimeObject * get_s_taskCompletionSentinel_11() const { return ___s_taskCompletionSentinel_11; }
+	inline RuntimeObject ** get_address_of_s_taskCompletionSentinel_11() { return &___s_taskCompletionSentinel_11; }
+	inline void set_s_taskCompletionSentinel_11(RuntimeObject * value)
 	{
-		___s_taskCompletionSentinel_29 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_taskCompletionSentinel_29), (void*)value);
+		___s_taskCompletionSentinel_11 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_taskCompletionSentinel_11), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_asyncDebuggingEnabled_30() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_asyncDebuggingEnabled_30)); }
-	inline bool get_s_asyncDebuggingEnabled_30() const { return ___s_asyncDebuggingEnabled_30; }
-	inline bool* get_address_of_s_asyncDebuggingEnabled_30() { return &___s_asyncDebuggingEnabled_30; }
-	inline void set_s_asyncDebuggingEnabled_30(bool value)
+	inline static int32_t get_offset_of_s_asyncDebuggingEnabled_12() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_asyncDebuggingEnabled_12)); }
+	inline bool get_s_asyncDebuggingEnabled_12() const { return ___s_asyncDebuggingEnabled_12; }
+	inline bool* get_address_of_s_asyncDebuggingEnabled_12() { return &___s_asyncDebuggingEnabled_12; }
+	inline void set_s_asyncDebuggingEnabled_12(bool value)
 	{
-		___s_asyncDebuggingEnabled_30 = value;
+		___s_asyncDebuggingEnabled_12 = value;
 	}
 
-	inline static int32_t get_offset_of_s_currentActiveTasks_31() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_currentActiveTasks_31)); }
-	inline Dictionary_2_tB758E2A2593CD827EFC041BE1F1BB4B68DE1C3E8 * get_s_currentActiveTasks_31() const { return ___s_currentActiveTasks_31; }
-	inline Dictionary_2_tB758E2A2593CD827EFC041BE1F1BB4B68DE1C3E8 ** get_address_of_s_currentActiveTasks_31() { return &___s_currentActiveTasks_31; }
-	inline void set_s_currentActiveTasks_31(Dictionary_2_tB758E2A2593CD827EFC041BE1F1BB4B68DE1C3E8 * value)
+	inline static int32_t get_offset_of_s_currentActiveTasks_13() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_currentActiveTasks_13)); }
+	inline Dictionary_2_tB758E2A2593CD827EFC041BE1F1BB4B68DE1C3E8 * get_s_currentActiveTasks_13() const { return ___s_currentActiveTasks_13; }
+	inline Dictionary_2_tB758E2A2593CD827EFC041BE1F1BB4B68DE1C3E8 ** get_address_of_s_currentActiveTasks_13() { return &___s_currentActiveTasks_13; }
+	inline void set_s_currentActiveTasks_13(Dictionary_2_tB758E2A2593CD827EFC041BE1F1BB4B68DE1C3E8 * value)
 	{
-		___s_currentActiveTasks_31 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_currentActiveTasks_31), (void*)value);
+		___s_currentActiveTasks_13 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_currentActiveTasks_13), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_activeTasksLock_32() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_activeTasksLock_32)); }
-	inline RuntimeObject * get_s_activeTasksLock_32() const { return ___s_activeTasksLock_32; }
-	inline RuntimeObject ** get_address_of_s_activeTasksLock_32() { return &___s_activeTasksLock_32; }
-	inline void set_s_activeTasksLock_32(RuntimeObject * value)
+	inline static int32_t get_offset_of_s_activeTasksLock_14() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_activeTasksLock_14)); }
+	inline RuntimeObject * get_s_activeTasksLock_14() const { return ___s_activeTasksLock_14; }
+	inline RuntimeObject ** get_address_of_s_activeTasksLock_14() { return &___s_activeTasksLock_14; }
+	inline void set_s_activeTasksLock_14(RuntimeObject * value)
 	{
-		___s_activeTasksLock_32 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_activeTasksLock_32), (void*)value);
+		___s_activeTasksLock_14 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_activeTasksLock_14), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_taskCancelCallback_34() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_taskCancelCallback_34)); }
-	inline Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * get_s_taskCancelCallback_34() const { return ___s_taskCancelCallback_34; }
-	inline Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC ** get_address_of_s_taskCancelCallback_34() { return &___s_taskCancelCallback_34; }
-	inline void set_s_taskCancelCallback_34(Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * value)
+	inline static int32_t get_offset_of_s_taskCancelCallback_16() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_taskCancelCallback_16)); }
+	inline Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * get_s_taskCancelCallback_16() const { return ___s_taskCancelCallback_16; }
+	inline Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC ** get_address_of_s_taskCancelCallback_16() { return &___s_taskCancelCallback_16; }
+	inline void set_s_taskCancelCallback_16(Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * value)
 	{
-		___s_taskCancelCallback_34 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_taskCancelCallback_34), (void*)value);
+		___s_taskCancelCallback_16 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_taskCancelCallback_16), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_createContingentProperties_35() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_createContingentProperties_35)); }
-	inline Func_1_tBCF42601FA307876E83080BE4204110820F8BF3B * get_s_createContingentProperties_35() const { return ___s_createContingentProperties_35; }
-	inline Func_1_tBCF42601FA307876E83080BE4204110820F8BF3B ** get_address_of_s_createContingentProperties_35() { return &___s_createContingentProperties_35; }
-	inline void set_s_createContingentProperties_35(Func_1_tBCF42601FA307876E83080BE4204110820F8BF3B * value)
+	inline static int32_t get_offset_of_s_createContingentProperties_17() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_createContingentProperties_17)); }
+	inline Func_1_tBCF42601FA307876E83080BE4204110820F8BF3B * get_s_createContingentProperties_17() const { return ___s_createContingentProperties_17; }
+	inline Func_1_tBCF42601FA307876E83080BE4204110820F8BF3B ** get_address_of_s_createContingentProperties_17() { return &___s_createContingentProperties_17; }
+	inline void set_s_createContingentProperties_17(Func_1_tBCF42601FA307876E83080BE4204110820F8BF3B * value)
 	{
-		___s_createContingentProperties_35 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_createContingentProperties_35), (void*)value);
+		___s_createContingentProperties_17 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_createContingentProperties_17), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_completedTask_36() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_completedTask_36)); }
-	inline Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * get_s_completedTask_36() const { return ___s_completedTask_36; }
-	inline Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 ** get_address_of_s_completedTask_36() { return &___s_completedTask_36; }
-	inline void set_s_completedTask_36(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * value)
+	inline static int32_t get_offset_of_s_completedTask_18() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_completedTask_18)); }
+	inline Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * get_s_completedTask_18() const { return ___s_completedTask_18; }
+	inline Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 ** get_address_of_s_completedTask_18() { return &___s_completedTask_18; }
+	inline void set_s_completedTask_18(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * value)
 	{
-		___s_completedTask_36 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_completedTask_36), (void*)value);
+		___s_completedTask_18 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_completedTask_18), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_IsExceptionObservedByParentPredicate_37() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_IsExceptionObservedByParentPredicate_37)); }
-	inline Predicate_1_tC0DBBC8498BD1EE6ABFFAA5628024105FA7D11BD * get_s_IsExceptionObservedByParentPredicate_37() const { return ___s_IsExceptionObservedByParentPredicate_37; }
-	inline Predicate_1_tC0DBBC8498BD1EE6ABFFAA5628024105FA7D11BD ** get_address_of_s_IsExceptionObservedByParentPredicate_37() { return &___s_IsExceptionObservedByParentPredicate_37; }
-	inline void set_s_IsExceptionObservedByParentPredicate_37(Predicate_1_tC0DBBC8498BD1EE6ABFFAA5628024105FA7D11BD * value)
+	inline static int32_t get_offset_of_s_IsExceptionObservedByParentPredicate_19() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_IsExceptionObservedByParentPredicate_19)); }
+	inline Predicate_1_tC0DBBC8498BD1EE6ABFFAA5628024105FA7D11BD * get_s_IsExceptionObservedByParentPredicate_19() const { return ___s_IsExceptionObservedByParentPredicate_19; }
+	inline Predicate_1_tC0DBBC8498BD1EE6ABFFAA5628024105FA7D11BD ** get_address_of_s_IsExceptionObservedByParentPredicate_19() { return &___s_IsExceptionObservedByParentPredicate_19; }
+	inline void set_s_IsExceptionObservedByParentPredicate_19(Predicate_1_tC0DBBC8498BD1EE6ABFFAA5628024105FA7D11BD * value)
 	{
-		___s_IsExceptionObservedByParentPredicate_37 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_IsExceptionObservedByParentPredicate_37), (void*)value);
+		___s_IsExceptionObservedByParentPredicate_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_IsExceptionObservedByParentPredicate_19), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_ecCallback_38() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_ecCallback_38)); }
-	inline ContextCallback_t93707E0430F4FF3E15E1FB5A4844BE89C657AE8B * get_s_ecCallback_38() const { return ___s_ecCallback_38; }
-	inline ContextCallback_t93707E0430F4FF3E15E1FB5A4844BE89C657AE8B ** get_address_of_s_ecCallback_38() { return &___s_ecCallback_38; }
-	inline void set_s_ecCallback_38(ContextCallback_t93707E0430F4FF3E15E1FB5A4844BE89C657AE8B * value)
+	inline static int32_t get_offset_of_s_ecCallback_20() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_ecCallback_20)); }
+	inline ContextCallback_t93707E0430F4FF3E15E1FB5A4844BE89C657AE8B * get_s_ecCallback_20() const { return ___s_ecCallback_20; }
+	inline ContextCallback_t93707E0430F4FF3E15E1FB5A4844BE89C657AE8B ** get_address_of_s_ecCallback_20() { return &___s_ecCallback_20; }
+	inline void set_s_ecCallback_20(ContextCallback_t93707E0430F4FF3E15E1FB5A4844BE89C657AE8B * value)
 	{
-		___s_ecCallback_38 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_ecCallback_38), (void*)value);
+		___s_ecCallback_20 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_ecCallback_20), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_s_IsTaskContinuationNullPredicate_39() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_IsTaskContinuationNullPredicate_39)); }
-	inline Predicate_1_t5C96B81B31A697B11C4C3767E3298773AF25DFEB * get_s_IsTaskContinuationNullPredicate_39() const { return ___s_IsTaskContinuationNullPredicate_39; }
-	inline Predicate_1_t5C96B81B31A697B11C4C3767E3298773AF25DFEB ** get_address_of_s_IsTaskContinuationNullPredicate_39() { return &___s_IsTaskContinuationNullPredicate_39; }
-	inline void set_s_IsTaskContinuationNullPredicate_39(Predicate_1_t5C96B81B31A697B11C4C3767E3298773AF25DFEB * value)
+	inline static int32_t get_offset_of_s_IsTaskContinuationNullPredicate_21() { return static_cast<int32_t>(offsetof(Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60_StaticFields, ___s_IsTaskContinuationNullPredicate_21)); }
+	inline Predicate_1_t5C96B81B31A697B11C4C3767E3298773AF25DFEB * get_s_IsTaskContinuationNullPredicate_21() const { return ___s_IsTaskContinuationNullPredicate_21; }
+	inline Predicate_1_t5C96B81B31A697B11C4C3767E3298773AF25DFEB ** get_address_of_s_IsTaskContinuationNullPredicate_21() { return &___s_IsTaskContinuationNullPredicate_21; }
+	inline void set_s_IsTaskContinuationNullPredicate_21(Predicate_1_t5C96B81B31A697B11C4C3767E3298773AF25DFEB * value)
 	{
-		___s_IsTaskContinuationNullPredicate_39 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_IsTaskContinuationNullPredicate_39), (void*)value);
+		___s_IsTaskContinuationNullPredicate_21 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_IsTaskContinuationNullPredicate_21), (void*)value);
 	}
 };
 
@@ -3873,16 +3982,16 @@ struct Task_1_tE1058F8BAEAC1C1EE02FBB0B07FF3AFF7107F990  : public Task_t804B25CF
 {
 public:
 	// TResult System.Threading.Tasks.Task`1::m_result
-	RuntimeObject* ___m_result_40;
+	RuntimeObject* ___m_result_22;
 
 public:
-	inline static int32_t get_offset_of_m_result_40() { return static_cast<int32_t>(offsetof(Task_1_tE1058F8BAEAC1C1EE02FBB0B07FF3AFF7107F990, ___m_result_40)); }
-	inline RuntimeObject* get_m_result_40() const { return ___m_result_40; }
-	inline RuntimeObject** get_address_of_m_result_40() { return &___m_result_40; }
-	inline void set_m_result_40(RuntimeObject* value)
+	inline static int32_t get_offset_of_m_result_22() { return static_cast<int32_t>(offsetof(Task_1_tE1058F8BAEAC1C1EE02FBB0B07FF3AFF7107F990, ___m_result_22)); }
+	inline RuntimeObject* get_m_result_22() const { return ___m_result_22; }
+	inline RuntimeObject** get_address_of_m_result_22() { return &___m_result_22; }
+	inline void set_m_result_22(RuntimeObject* value)
 	{
-		___m_result_40 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_result_40), (void*)value);
+		___m_result_22 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_result_22), (void*)value);
 	}
 };
 
@@ -3890,27 +3999,27 @@ struct Task_1_tE1058F8BAEAC1C1EE02FBB0B07FF3AFF7107F990_StaticFields
 {
 public:
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_Factory
-	TaskFactory_1_tFD390DDAFFD4B372C51F6CFB7F7A0873EF7200C1 * ___s_Factory_41;
+	TaskFactory_1_tFD390DDAFFD4B372C51F6CFB7F7A0873EF7200C1 * ___s_Factory_23;
 	// System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,System.Threading.Tasks.Task`1<TResult>> System.Threading.Tasks.Task`1::TaskWhenAnyCast
-	Func_2_t54A561A4AF51A625BA853F0FF360C1D9B9A88335 * ___TaskWhenAnyCast_42;
+	Func_2_t54A561A4AF51A625BA853F0FF360C1D9B9A88335 * ___TaskWhenAnyCast_24;
 
 public:
-	inline static int32_t get_offset_of_s_Factory_41() { return static_cast<int32_t>(offsetof(Task_1_tE1058F8BAEAC1C1EE02FBB0B07FF3AFF7107F990_StaticFields, ___s_Factory_41)); }
-	inline TaskFactory_1_tFD390DDAFFD4B372C51F6CFB7F7A0873EF7200C1 * get_s_Factory_41() const { return ___s_Factory_41; }
-	inline TaskFactory_1_tFD390DDAFFD4B372C51F6CFB7F7A0873EF7200C1 ** get_address_of_s_Factory_41() { return &___s_Factory_41; }
-	inline void set_s_Factory_41(TaskFactory_1_tFD390DDAFFD4B372C51F6CFB7F7A0873EF7200C1 * value)
+	inline static int32_t get_offset_of_s_Factory_23() { return static_cast<int32_t>(offsetof(Task_1_tE1058F8BAEAC1C1EE02FBB0B07FF3AFF7107F990_StaticFields, ___s_Factory_23)); }
+	inline TaskFactory_1_tFD390DDAFFD4B372C51F6CFB7F7A0873EF7200C1 * get_s_Factory_23() const { return ___s_Factory_23; }
+	inline TaskFactory_1_tFD390DDAFFD4B372C51F6CFB7F7A0873EF7200C1 ** get_address_of_s_Factory_23() { return &___s_Factory_23; }
+	inline void set_s_Factory_23(TaskFactory_1_tFD390DDAFFD4B372C51F6CFB7F7A0873EF7200C1 * value)
 	{
-		___s_Factory_41 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_Factory_41), (void*)value);
+		___s_Factory_23 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_Factory_23), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_TaskWhenAnyCast_42() { return static_cast<int32_t>(offsetof(Task_1_tE1058F8BAEAC1C1EE02FBB0B07FF3AFF7107F990_StaticFields, ___TaskWhenAnyCast_42)); }
-	inline Func_2_t54A561A4AF51A625BA853F0FF360C1D9B9A88335 * get_TaskWhenAnyCast_42() const { return ___TaskWhenAnyCast_42; }
-	inline Func_2_t54A561A4AF51A625BA853F0FF360C1D9B9A88335 ** get_address_of_TaskWhenAnyCast_42() { return &___TaskWhenAnyCast_42; }
-	inline void set_TaskWhenAnyCast_42(Func_2_t54A561A4AF51A625BA853F0FF360C1D9B9A88335 * value)
+	inline static int32_t get_offset_of_TaskWhenAnyCast_24() { return static_cast<int32_t>(offsetof(Task_1_tE1058F8BAEAC1C1EE02FBB0B07FF3AFF7107F990_StaticFields, ___TaskWhenAnyCast_24)); }
+	inline Func_2_t54A561A4AF51A625BA853F0FF360C1D9B9A88335 * get_TaskWhenAnyCast_24() const { return ___TaskWhenAnyCast_24; }
+	inline Func_2_t54A561A4AF51A625BA853F0FF360C1D9B9A88335 ** get_address_of_TaskWhenAnyCast_24() { return &___TaskWhenAnyCast_24; }
+	inline void set_TaskWhenAnyCast_24(Func_2_t54A561A4AF51A625BA853F0FF360C1D9B9A88335 * value)
 	{
-		___TaskWhenAnyCast_42 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___TaskWhenAnyCast_42), (void*)value);
+		___TaskWhenAnyCast_24 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___TaskWhenAnyCast_24), (void*)value);
 	}
 };
 
@@ -3920,16 +4029,16 @@ struct Task_1_t57CAAD800F14E90B34CE88F2457073DF06DB9526  : public Task_t804B25CF
 {
 public:
 	// TResult System.Threading.Tasks.Task`1::m_result
-	IList_ObjectInstance_t4FD48D228D34A4FF7ED2684D6090213407B69E7E * ___m_result_40;
+	IList_ObjectInstance_t4FD48D228D34A4FF7ED2684D6090213407B69E7E * ___m_result_22;
 
 public:
-	inline static int32_t get_offset_of_m_result_40() { return static_cast<int32_t>(offsetof(Task_1_t57CAAD800F14E90B34CE88F2457073DF06DB9526, ___m_result_40)); }
-	inline IList_ObjectInstance_t4FD48D228D34A4FF7ED2684D6090213407B69E7E * get_m_result_40() const { return ___m_result_40; }
-	inline IList_ObjectInstance_t4FD48D228D34A4FF7ED2684D6090213407B69E7E ** get_address_of_m_result_40() { return &___m_result_40; }
-	inline void set_m_result_40(IList_ObjectInstance_t4FD48D228D34A4FF7ED2684D6090213407B69E7E * value)
+	inline static int32_t get_offset_of_m_result_22() { return static_cast<int32_t>(offsetof(Task_1_t57CAAD800F14E90B34CE88F2457073DF06DB9526, ___m_result_22)); }
+	inline IList_ObjectInstance_t4FD48D228D34A4FF7ED2684D6090213407B69E7E * get_m_result_22() const { return ___m_result_22; }
+	inline IList_ObjectInstance_t4FD48D228D34A4FF7ED2684D6090213407B69E7E ** get_address_of_m_result_22() { return &___m_result_22; }
+	inline void set_m_result_22(IList_ObjectInstance_t4FD48D228D34A4FF7ED2684D6090213407B69E7E * value)
 	{
-		___m_result_40 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_result_40), (void*)value);
+		___m_result_22 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_result_22), (void*)value);
 	}
 };
 
@@ -3937,27 +4046,27 @@ struct Task_1_t57CAAD800F14E90B34CE88F2457073DF06DB9526_StaticFields
 {
 public:
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_Factory
-	TaskFactory_1_t95157F9263173FE90A94CBCD5E56284595BCF0E6 * ___s_Factory_41;
+	TaskFactory_1_t95157F9263173FE90A94CBCD5E56284595BCF0E6 * ___s_Factory_23;
 	// System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,System.Threading.Tasks.Task`1<TResult>> System.Threading.Tasks.Task`1::TaskWhenAnyCast
-	Func_2_tEA9FB4DE99822D779FAA9706E79C77A4432E6811 * ___TaskWhenAnyCast_42;
+	Func_2_tEA9FB4DE99822D779FAA9706E79C77A4432E6811 * ___TaskWhenAnyCast_24;
 
 public:
-	inline static int32_t get_offset_of_s_Factory_41() { return static_cast<int32_t>(offsetof(Task_1_t57CAAD800F14E90B34CE88F2457073DF06DB9526_StaticFields, ___s_Factory_41)); }
-	inline TaskFactory_1_t95157F9263173FE90A94CBCD5E56284595BCF0E6 * get_s_Factory_41() const { return ___s_Factory_41; }
-	inline TaskFactory_1_t95157F9263173FE90A94CBCD5E56284595BCF0E6 ** get_address_of_s_Factory_41() { return &___s_Factory_41; }
-	inline void set_s_Factory_41(TaskFactory_1_t95157F9263173FE90A94CBCD5E56284595BCF0E6 * value)
+	inline static int32_t get_offset_of_s_Factory_23() { return static_cast<int32_t>(offsetof(Task_1_t57CAAD800F14E90B34CE88F2457073DF06DB9526_StaticFields, ___s_Factory_23)); }
+	inline TaskFactory_1_t95157F9263173FE90A94CBCD5E56284595BCF0E6 * get_s_Factory_23() const { return ___s_Factory_23; }
+	inline TaskFactory_1_t95157F9263173FE90A94CBCD5E56284595BCF0E6 ** get_address_of_s_Factory_23() { return &___s_Factory_23; }
+	inline void set_s_Factory_23(TaskFactory_1_t95157F9263173FE90A94CBCD5E56284595BCF0E6 * value)
 	{
-		___s_Factory_41 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_Factory_41), (void*)value);
+		___s_Factory_23 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_Factory_23), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_TaskWhenAnyCast_42() { return static_cast<int32_t>(offsetof(Task_1_t57CAAD800F14E90B34CE88F2457073DF06DB9526_StaticFields, ___TaskWhenAnyCast_42)); }
-	inline Func_2_tEA9FB4DE99822D779FAA9706E79C77A4432E6811 * get_TaskWhenAnyCast_42() const { return ___TaskWhenAnyCast_42; }
-	inline Func_2_tEA9FB4DE99822D779FAA9706E79C77A4432E6811 ** get_address_of_TaskWhenAnyCast_42() { return &___TaskWhenAnyCast_42; }
-	inline void set_TaskWhenAnyCast_42(Func_2_tEA9FB4DE99822D779FAA9706E79C77A4432E6811 * value)
+	inline static int32_t get_offset_of_TaskWhenAnyCast_24() { return static_cast<int32_t>(offsetof(Task_1_t57CAAD800F14E90B34CE88F2457073DF06DB9526_StaticFields, ___TaskWhenAnyCast_24)); }
+	inline Func_2_tEA9FB4DE99822D779FAA9706E79C77A4432E6811 * get_TaskWhenAnyCast_24() const { return ___TaskWhenAnyCast_24; }
+	inline Func_2_tEA9FB4DE99822D779FAA9706E79C77A4432E6811 ** get_address_of_TaskWhenAnyCast_24() { return &___TaskWhenAnyCast_24; }
+	inline void set_TaskWhenAnyCast_24(Func_2_tEA9FB4DE99822D779FAA9706E79C77A4432E6811 * value)
 	{
-		___TaskWhenAnyCast_42 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___TaskWhenAnyCast_42), (void*)value);
+		___TaskWhenAnyCast_24 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___TaskWhenAnyCast_24), (void*)value);
 	}
 };
 
@@ -3967,15 +4076,15 @@ struct Task_1_t1E9CE6483D7E49955B33A549DCFE29EC6FEE4E4E  : public Task_t804B25CF
 {
 public:
 	// TResult System.Threading.Tasks.Task`1::m_result
-	int32_t ___m_result_40;
+	int32_t ___m_result_22;
 
 public:
-	inline static int32_t get_offset_of_m_result_40() { return static_cast<int32_t>(offsetof(Task_1_t1E9CE6483D7E49955B33A549DCFE29EC6FEE4E4E, ___m_result_40)); }
-	inline int32_t get_m_result_40() const { return ___m_result_40; }
-	inline int32_t* get_address_of_m_result_40() { return &___m_result_40; }
-	inline void set_m_result_40(int32_t value)
+	inline static int32_t get_offset_of_m_result_22() { return static_cast<int32_t>(offsetof(Task_1_t1E9CE6483D7E49955B33A549DCFE29EC6FEE4E4E, ___m_result_22)); }
+	inline int32_t get_m_result_22() const { return ___m_result_22; }
+	inline int32_t* get_address_of_m_result_22() { return &___m_result_22; }
+	inline void set_m_result_22(int32_t value)
 	{
-		___m_result_40 = value;
+		___m_result_22 = value;
 	}
 };
 
@@ -3983,27 +4092,27 @@ struct Task_1_t1E9CE6483D7E49955B33A549DCFE29EC6FEE4E4E_StaticFields
 {
 public:
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_Factory
-	TaskFactory_1_t129E59AB94491289C46EE839FD1233266636736E * ___s_Factory_41;
+	TaskFactory_1_t129E59AB94491289C46EE839FD1233266636736E * ___s_Factory_23;
 	// System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,System.Threading.Tasks.Task`1<TResult>> System.Threading.Tasks.Task`1::TaskWhenAnyCast
-	Func_2_tACC9C8728346AA2736538A99E86E6AF2614A7EF7 * ___TaskWhenAnyCast_42;
+	Func_2_tACC9C8728346AA2736538A99E86E6AF2614A7EF7 * ___TaskWhenAnyCast_24;
 
 public:
-	inline static int32_t get_offset_of_s_Factory_41() { return static_cast<int32_t>(offsetof(Task_1_t1E9CE6483D7E49955B33A549DCFE29EC6FEE4E4E_StaticFields, ___s_Factory_41)); }
-	inline TaskFactory_1_t129E59AB94491289C46EE839FD1233266636736E * get_s_Factory_41() const { return ___s_Factory_41; }
-	inline TaskFactory_1_t129E59AB94491289C46EE839FD1233266636736E ** get_address_of_s_Factory_41() { return &___s_Factory_41; }
-	inline void set_s_Factory_41(TaskFactory_1_t129E59AB94491289C46EE839FD1233266636736E * value)
+	inline static int32_t get_offset_of_s_Factory_23() { return static_cast<int32_t>(offsetof(Task_1_t1E9CE6483D7E49955B33A549DCFE29EC6FEE4E4E_StaticFields, ___s_Factory_23)); }
+	inline TaskFactory_1_t129E59AB94491289C46EE839FD1233266636736E * get_s_Factory_23() const { return ___s_Factory_23; }
+	inline TaskFactory_1_t129E59AB94491289C46EE839FD1233266636736E ** get_address_of_s_Factory_23() { return &___s_Factory_23; }
+	inline void set_s_Factory_23(TaskFactory_1_t129E59AB94491289C46EE839FD1233266636736E * value)
 	{
-		___s_Factory_41 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_Factory_41), (void*)value);
+		___s_Factory_23 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_Factory_23), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_TaskWhenAnyCast_42() { return static_cast<int32_t>(offsetof(Task_1_t1E9CE6483D7E49955B33A549DCFE29EC6FEE4E4E_StaticFields, ___TaskWhenAnyCast_42)); }
-	inline Func_2_tACC9C8728346AA2736538A99E86E6AF2614A7EF7 * get_TaskWhenAnyCast_42() const { return ___TaskWhenAnyCast_42; }
-	inline Func_2_tACC9C8728346AA2736538A99E86E6AF2614A7EF7 ** get_address_of_TaskWhenAnyCast_42() { return &___TaskWhenAnyCast_42; }
-	inline void set_TaskWhenAnyCast_42(Func_2_tACC9C8728346AA2736538A99E86E6AF2614A7EF7 * value)
+	inline static int32_t get_offset_of_TaskWhenAnyCast_24() { return static_cast<int32_t>(offsetof(Task_1_t1E9CE6483D7E49955B33A549DCFE29EC6FEE4E4E_StaticFields, ___TaskWhenAnyCast_24)); }
+	inline Func_2_tACC9C8728346AA2736538A99E86E6AF2614A7EF7 * get_TaskWhenAnyCast_24() const { return ___TaskWhenAnyCast_24; }
+	inline Func_2_tACC9C8728346AA2736538A99E86E6AF2614A7EF7 ** get_address_of_TaskWhenAnyCast_24() { return &___TaskWhenAnyCast_24; }
+	inline void set_TaskWhenAnyCast_24(Func_2_tACC9C8728346AA2736538A99E86E6AF2614A7EF7 * value)
 	{
-		___TaskWhenAnyCast_42 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___TaskWhenAnyCast_42), (void*)value);
+		___TaskWhenAnyCast_24 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___TaskWhenAnyCast_24), (void*)value);
 	}
 };
 
@@ -4013,16 +4122,16 @@ struct Task_1_t3DC421626769567893B6F8A692214DE8880546DE  : public Task_t804B25CF
 {
 public:
 	// TResult System.Threading.Tasks.Task`1::m_result
-	ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * ___m_result_40;
+	ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * ___m_result_22;
 
 public:
-	inline static int32_t get_offset_of_m_result_40() { return static_cast<int32_t>(offsetof(Task_1_t3DC421626769567893B6F8A692214DE8880546DE, ___m_result_40)); }
-	inline ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * get_m_result_40() const { return ___m_result_40; }
-	inline ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E ** get_address_of_m_result_40() { return &___m_result_40; }
-	inline void set_m_result_40(ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * value)
+	inline static int32_t get_offset_of_m_result_22() { return static_cast<int32_t>(offsetof(Task_1_t3DC421626769567893B6F8A692214DE8880546DE, ___m_result_22)); }
+	inline ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * get_m_result_22() const { return ___m_result_22; }
+	inline ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E ** get_address_of_m_result_22() { return &___m_result_22; }
+	inline void set_m_result_22(ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * value)
 	{
-		___m_result_40 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_result_40), (void*)value);
+		___m_result_22 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_result_22), (void*)value);
 	}
 };
 
@@ -4030,27 +4139,27 @@ struct Task_1_t3DC421626769567893B6F8A692214DE8880546DE_StaticFields
 {
 public:
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_Factory
-	TaskFactory_1_tF1D7AA5C86FD5737442E109B1D74FE397BACBECF * ___s_Factory_41;
+	TaskFactory_1_tF1D7AA5C86FD5737442E109B1D74FE397BACBECF * ___s_Factory_23;
 	// System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,System.Threading.Tasks.Task`1<TResult>> System.Threading.Tasks.Task`1::TaskWhenAnyCast
-	Func_2_t1B914A6916F3548C880C63308FEF515734CEE717 * ___TaskWhenAnyCast_42;
+	Func_2_t1B914A6916F3548C880C63308FEF515734CEE717 * ___TaskWhenAnyCast_24;
 
 public:
-	inline static int32_t get_offset_of_s_Factory_41() { return static_cast<int32_t>(offsetof(Task_1_t3DC421626769567893B6F8A692214DE8880546DE_StaticFields, ___s_Factory_41)); }
-	inline TaskFactory_1_tF1D7AA5C86FD5737442E109B1D74FE397BACBECF * get_s_Factory_41() const { return ___s_Factory_41; }
-	inline TaskFactory_1_tF1D7AA5C86FD5737442E109B1D74FE397BACBECF ** get_address_of_s_Factory_41() { return &___s_Factory_41; }
-	inline void set_s_Factory_41(TaskFactory_1_tF1D7AA5C86FD5737442E109B1D74FE397BACBECF * value)
+	inline static int32_t get_offset_of_s_Factory_23() { return static_cast<int32_t>(offsetof(Task_1_t3DC421626769567893B6F8A692214DE8880546DE_StaticFields, ___s_Factory_23)); }
+	inline TaskFactory_1_tF1D7AA5C86FD5737442E109B1D74FE397BACBECF * get_s_Factory_23() const { return ___s_Factory_23; }
+	inline TaskFactory_1_tF1D7AA5C86FD5737442E109B1D74FE397BACBECF ** get_address_of_s_Factory_23() { return &___s_Factory_23; }
+	inline void set_s_Factory_23(TaskFactory_1_tF1D7AA5C86FD5737442E109B1D74FE397BACBECF * value)
 	{
-		___s_Factory_41 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_Factory_41), (void*)value);
+		___s_Factory_23 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_Factory_23), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_TaskWhenAnyCast_42() { return static_cast<int32_t>(offsetof(Task_1_t3DC421626769567893B6F8A692214DE8880546DE_StaticFields, ___TaskWhenAnyCast_42)); }
-	inline Func_2_t1B914A6916F3548C880C63308FEF515734CEE717 * get_TaskWhenAnyCast_42() const { return ___TaskWhenAnyCast_42; }
-	inline Func_2_t1B914A6916F3548C880C63308FEF515734CEE717 ** get_address_of_TaskWhenAnyCast_42() { return &___TaskWhenAnyCast_42; }
-	inline void set_TaskWhenAnyCast_42(Func_2_t1B914A6916F3548C880C63308FEF515734CEE717 * value)
+	inline static int32_t get_offset_of_TaskWhenAnyCast_24() { return static_cast<int32_t>(offsetof(Task_1_t3DC421626769567893B6F8A692214DE8880546DE_StaticFields, ___TaskWhenAnyCast_24)); }
+	inline Func_2_t1B914A6916F3548C880C63308FEF515734CEE717 * get_TaskWhenAnyCast_24() const { return ___TaskWhenAnyCast_24; }
+	inline Func_2_t1B914A6916F3548C880C63308FEF515734CEE717 ** get_address_of_TaskWhenAnyCast_24() { return &___TaskWhenAnyCast_24; }
+	inline void set_TaskWhenAnyCast_24(Func_2_t1B914A6916F3548C880C63308FEF515734CEE717 * value)
 	{
-		___TaskWhenAnyCast_42 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___TaskWhenAnyCast_42), (void*)value);
+		___TaskWhenAnyCast_24 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___TaskWhenAnyCast_24), (void*)value);
 	}
 };
 
@@ -4060,15 +4169,15 @@ struct Task_1_t594876688E7B856E9D7648C6B3D62897ED89D093  : public Task_t804B25CF
 {
 public:
 	// TResult System.Threading.Tasks.Task`1::m_result
-	int32_t ___m_result_40;
+	int32_t ___m_result_22;
 
 public:
-	inline static int32_t get_offset_of_m_result_40() { return static_cast<int32_t>(offsetof(Task_1_t594876688E7B856E9D7648C6B3D62897ED89D093, ___m_result_40)); }
-	inline int32_t get_m_result_40() const { return ___m_result_40; }
-	inline int32_t* get_address_of_m_result_40() { return &___m_result_40; }
-	inline void set_m_result_40(int32_t value)
+	inline static int32_t get_offset_of_m_result_22() { return static_cast<int32_t>(offsetof(Task_1_t594876688E7B856E9D7648C6B3D62897ED89D093, ___m_result_22)); }
+	inline int32_t get_m_result_22() const { return ___m_result_22; }
+	inline int32_t* get_address_of_m_result_22() { return &___m_result_22; }
+	inline void set_m_result_22(int32_t value)
 	{
-		___m_result_40 = value;
+		___m_result_22 = value;
 	}
 };
 
@@ -4076,27 +4185,27 @@ struct Task_1_t594876688E7B856E9D7648C6B3D62897ED89D093_StaticFields
 {
 public:
 	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_Factory
-	TaskFactory_1_t53DF7127A2CDEA440A74E93959337A6FE756A12B * ___s_Factory_41;
+	TaskFactory_1_t53DF7127A2CDEA440A74E93959337A6FE756A12B * ___s_Factory_23;
 	// System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,System.Threading.Tasks.Task`1<TResult>> System.Threading.Tasks.Task`1::TaskWhenAnyCast
-	Func_2_t0890DFDCD017200D2247F28868574245029D8FED * ___TaskWhenAnyCast_42;
+	Func_2_t0890DFDCD017200D2247F28868574245029D8FED * ___TaskWhenAnyCast_24;
 
 public:
-	inline static int32_t get_offset_of_s_Factory_41() { return static_cast<int32_t>(offsetof(Task_1_t594876688E7B856E9D7648C6B3D62897ED89D093_StaticFields, ___s_Factory_41)); }
-	inline TaskFactory_1_t53DF7127A2CDEA440A74E93959337A6FE756A12B * get_s_Factory_41() const { return ___s_Factory_41; }
-	inline TaskFactory_1_t53DF7127A2CDEA440A74E93959337A6FE756A12B ** get_address_of_s_Factory_41() { return &___s_Factory_41; }
-	inline void set_s_Factory_41(TaskFactory_1_t53DF7127A2CDEA440A74E93959337A6FE756A12B * value)
+	inline static int32_t get_offset_of_s_Factory_23() { return static_cast<int32_t>(offsetof(Task_1_t594876688E7B856E9D7648C6B3D62897ED89D093_StaticFields, ___s_Factory_23)); }
+	inline TaskFactory_1_t53DF7127A2CDEA440A74E93959337A6FE756A12B * get_s_Factory_23() const { return ___s_Factory_23; }
+	inline TaskFactory_1_t53DF7127A2CDEA440A74E93959337A6FE756A12B ** get_address_of_s_Factory_23() { return &___s_Factory_23; }
+	inline void set_s_Factory_23(TaskFactory_1_t53DF7127A2CDEA440A74E93959337A6FE756A12B * value)
 	{
-		___s_Factory_41 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___s_Factory_41), (void*)value);
+		___s_Factory_23 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___s_Factory_23), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_TaskWhenAnyCast_42() { return static_cast<int32_t>(offsetof(Task_1_t594876688E7B856E9D7648C6B3D62897ED89D093_StaticFields, ___TaskWhenAnyCast_42)); }
-	inline Func_2_t0890DFDCD017200D2247F28868574245029D8FED * get_TaskWhenAnyCast_42() const { return ___TaskWhenAnyCast_42; }
-	inline Func_2_t0890DFDCD017200D2247F28868574245029D8FED ** get_address_of_TaskWhenAnyCast_42() { return &___TaskWhenAnyCast_42; }
-	inline void set_TaskWhenAnyCast_42(Func_2_t0890DFDCD017200D2247F28868574245029D8FED * value)
+	inline static int32_t get_offset_of_TaskWhenAnyCast_24() { return static_cast<int32_t>(offsetof(Task_1_t594876688E7B856E9D7648C6B3D62897ED89D093_StaticFields, ___TaskWhenAnyCast_24)); }
+	inline Func_2_t0890DFDCD017200D2247F28868574245029D8FED * get_TaskWhenAnyCast_24() const { return ___TaskWhenAnyCast_24; }
+	inline Func_2_t0890DFDCD017200D2247F28868574245029D8FED ** get_address_of_TaskWhenAnyCast_24() { return &___TaskWhenAnyCast_24; }
+	inline void set_TaskWhenAnyCast_24(Func_2_t0890DFDCD017200D2247F28868574245029D8FED * value)
 	{
-		___TaskWhenAnyCast_42 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___TaskWhenAnyCast_42), (void*)value);
+		___TaskWhenAnyCast_24 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___TaskWhenAnyCast_24), (void*)value);
 	}
 };
 
@@ -4600,6 +4709,33 @@ public:
 
 // System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectInstance>
 struct Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs>
+struct Func_2_tEB19F6CC56B51BCB70CAE6AF001A15F54D9287E6  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectModel>
+struct Func_2_t65AA99373EC8EC5E431B92B372C4F33C91EF3CDA  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectObserver>
+struct Func_2_t06672F8CC1C731B0FCD15079BC8336B353661F96  : public MulticastDelegate_t
 {
 public:
 
@@ -5163,10 +5299,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m67C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectInstanceStateAbi_t7DC2C1434F149B133B841C92F7A780B4F47E6FFA  Nullable_1_GetValueOrDefault_m040A76387E8FAF6F379D32C8B7C638E2B68FEB24_gshared_inline (Nullable_1_tF7FD6FC815DDDA67E3820976128C42DA04405FE3 * __this, const RuntimeMethod* method);
 // System.Void System.Nullable`1<Microsoft.Azure.ObjectAnchors.ObjectInstanceState>::.ctor(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_mB071BC29148D7C56773D88642264E7AE3C53711F_gshared (Nullable_1_t93EBF510CEF1959BA792E0DCA53E3ABFF4EBDEC6 * __this, ObjectInstanceState_t38190E60E4D89F7D9EAEE95F7623C45348472AFE  ___value0, const RuntimeMethod* method);
-// T Microsoft.Azure.ObjectAnchors.ProjectedObjectCache::GetOrCreate<System.Object>(System.UInt64,System.Func`2<System.UInt64,T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * ProjectedObjectCache_GetOrCreate_TisRuntimeObject_m82348B0A6CCBA6742D8EA35BA7CD885FDFBB4C2B_gshared (uint64_t ___cookie0, Func_2_t0B6A86D0941C273E5216BB4738FC4442AA4A8DE2 * ___createFactory1, const RuntimeMethod* method);
 // System.Void System.Func`2<System.UInt64,System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m6CFF53DABBCDEA2CA8B051805CF16879F03231CD_gshared (Func_2_t0B6A86D0941C273E5216BB4738FC4442AA4A8DE2 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
+// T Microsoft.Azure.ObjectAnchors.ProjectedObjectCache::GetOrCreate<System.Object>(System.UInt64,System.Func`2<System.UInt64,T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * ProjectedObjectCache_GetOrCreate_TisRuntimeObject_m82348B0A6CCBA6742D8EA35BA7CD885FDFBB4C2B_gshared (uint64_t ___cookie0, Func_2_t0B6A86D0941C273E5216BB4738FC4442AA4A8DE2 * ___createFactory1, const RuntimeMethod* method);
 // System.Void System.Nullable`1<Microsoft.Azure.ObjectAnchors.ObjectInstanceStateAbi>::.ctor(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_mEEF1423DF9C28D8AF6BE170571F24ACB5B7B0B0E_gshared (Nullable_1_tF7FD6FC815DDDA67E3820976128C42DA04405FE3 * __this, ObjectInstanceStateAbi_t7DC2C1434F149B133B841C92F7A780B4F47E6FFA  ___value0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>::Start<Microsoft.Azure.ObjectAnchors.ObjectObserver/<RequestAccessAsync>d__5>(!!0&)
@@ -5252,10 +5388,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m88880E0413421D13FD95325EDC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_account_information_create_guid_account_id_string_account_key_string_account_domain_m5C4FE9E1BE600D6174CAEFB4B910867DF67BF30E (Guid_t  ___account_id0, String_t* ___account_key1, String_t* ___account_domain2, intptr_t* ___instance3, const RuntimeMethod* method);
 // System.Void Microsoft.Azure.ObjectAnchors.NativeLibraryHelpers::CheckStatus(System.IntPtr,Microsoft.Azure.ObjectAnchors.status)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8 (intptr_t ___handle0, int32_t ___value1, const RuntimeMethod* method);
+// System.Void Microsoft.Azure.ObjectAnchors.ProjectedObjectCache::Add(Microsoft.Azure.ObjectAnchors.ICachedObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F (RuntimeObject* ___instance0, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_account_information_release(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_account_information_release_m7F86EACFD7B582D48EE301FCEE6442B06C564B98 (intptr_t ___handle0, const RuntimeMethod* method);
 // System.Void System.Object::Finalize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Finalize_mC59C83CF4F7707E425FFA6362931C25D4C36676A (RuntimeObject * __this, const RuntimeMethod* method);
+// System.UInt64 Microsoft.Azure.ObjectAnchors.AccountInformation::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AccountInformation_ConvertHandleToCookie_mF86C1241424DE201E1F12F587E96B07F94E90E27 (intptr_t ___handle0, const RuntimeMethod* method);
+// System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method);
+// System.Void System.ArgumentException::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m71044C2110E357B71A1C30D2561C3F861AF1DC0D (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * __this, String_t* ___message0, String_t* ___paramName1, const RuntimeMethod* method);
+// System.Int64 System.IntPtr::ToInt64()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t IntPtr_ToInt64_m521F809F5D9ECAF93E808CFFFE45F67620C7879A (intptr_t* __this, const RuntimeMethod* method);
 // System.Void Microsoft.Azure.ObjectAnchors.BasePrivateList`1<Microsoft.Azure.ObjectAnchors.ObjectInstance>::.ctor()
 inline void BasePrivateList_1__ctor_mA8EDAE70D6AF1B1D6BD6255991208F26BA1EE30E (BasePrivateList_1_t10920D6FE8E37F1A2296D2DB75DD1AEFE92892D9 * __this, const RuntimeMethod* method)
 {
@@ -5271,8 +5417,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_ilist_object_instan
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_ilist_object_instance_get_item_m7003F0FC4054F782BC46C49580F5F006B8C9F54B (intptr_t ___handle0, int32_t ___index1, intptr_t* ___result2, const RuntimeMethod* method);
 // System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method);
-// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::.ctor(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstance__ctor_m2AE8571F16DCE1CC29BE93DA49D2C0D85C8F7949 (ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method);
+// Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance::GetOrCreateInstance(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * ObjectInstance_GetOrCreateInstance_m308AFC8C6669673DF618895DBD7FADA82B9B9F2A (intptr_t ___handle0, bool ___transfer1, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_ilist_object_instance_set_item(System.IntPtr,System.Int32,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_ilist_object_instance_set_item_m39E739A63996CACB3EDBD2044046892E3246CE97 (intptr_t ___handle0, int32_t ___index1, intptr_t ___value2, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_ilist_object_instance_remove_item(System.IntPtr,System.Int32)
@@ -5305,8 +5451,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_anchors_sess
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_anchors_session_release_mACB2C8EE318D53B89AD6B52F2F9E52D5B9D6E950 (intptr_t ___handle0, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_anchors_session_create_object_observer(System.IntPtr,System.IntPtr&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_anchors_session_create_object_observer_m4E80AC16EBC7BAA684D9B987247BE6B503E17158 (intptr_t ___handle0, intptr_t* ___result1, const RuntimeMethod* method);
-// System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver::.ctor(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectObserver__ctor_mCDF2CC2DE301D20F38B2A45AB29FC29D4D888D80 (ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method);
+// Microsoft.Azure.ObjectAnchors.ObjectObserver Microsoft.Azure.ObjectAnchors.ObjectObserver::GetOrCreateInstance(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * ObjectObserver_GetOrCreateInstance_mBF0535D5A2C49A6E73A7E624D0BFF032FFB88DA3 (intptr_t ___handle0, bool ___transfer1, const RuntimeMethod* method);
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectAnchorsSession_ConvertHandleToCookie_m3A0B958F2D3496881D47AE3E73C446933B38FE7D (intptr_t ___handle0, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.Diagnostics.NativeLibrary::aoa_object_diagnostics_session_create_object_observer_observer_uint32_max_session_size_in_mega_bytes(System.IntPtr,System.UInt32,System.IntPtr&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_diagnostics_session_create_object_observer_observer_uint32_max_session_size_in_mega_bytes_mD160B0FA404908574EFBC6B62925F70B2CFA102F (intptr_t ___observer0, uint32_t ___max_session_size_in_mega_bytes1, intptr_t* ___instance2, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.Diagnostics.NativeLibrary::aoa_object_diagnostics_session_release(System.IntPtr)
@@ -5335,6 +5483,8 @@ inline Task_1_t1E9CE6483D7E49955B33A549DCFE29EC6FEE4E4E * AsyncTaskMethodBuilder
 {
 	return ((  Task_1_t1E9CE6483D7E49955B33A549DCFE29EC6FEE4E4E * (*) (AsyncTaskMethodBuilder_1_tB4A12FBB60D174161A70220083006FEF9DF873F9 *, const RuntimeMethod*))AsyncTaskMethodBuilder_1_get_Task_mB473AA6169C4F62847F439EB0DD89D9DFC648314_gshared)(__this, method);
 }
+// System.UInt64 Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectDiagnosticsSession_ConvertHandleToCookie_m2D8AE568C6F7A181D7B71E528EFB87F1FC86FD12 (intptr_t ___handle0, const RuntimeMethod* method);
 // System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::ChangedStaticHandler(System.UInt64,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1 (uint64_t ___cookie0, intptr_t ___args1, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_instance_addref(System.IntPtr)
@@ -5349,19 +5499,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_instance_get
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_instance_get_mode_m7EB922C31036824C09B8AD086F8DA80C3ABDD522 (intptr_t ___handle0, int32_t* ___result1, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_instance_set_mode(System.IntPtr,Microsoft.Azure.ObjectAnchors.ObjectInstanceTrackingMode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_instance_set_mode_mDF2A05D837D329B5EAB50BDDF396D103CE4AD934 (intptr_t ___handle0, int32_t ___value1, const RuntimeMethod* method);
-// Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance::GetInstance(System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * ObjectInstance_GetInstance_mBF83A8CEB8E9BCA15F85DBE9B7085DEE7CB34EA1 (uint64_t ___cookie0, const RuntimeMethod* method);
+// Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance::GetOrCreateInstance(System.UInt64,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * ObjectInstance_GetOrCreateInstance_mEFDC4F8A4500A4178EF4387FFEFB2B9500B80EB7 (uint64_t ___cookie0, bool ___transfer1, const RuntimeMethod* method);
 // T Microsoft.Azure.ObjectAnchors.ProjectedObjectEventHandlerCache::GetEventHandler<Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandler>(Microsoft.Azure.ObjectAnchors.ICachedObject,System.String)
 inline ObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB * ProjectedObjectEventHandlerCache_GetEventHandler_TisObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB_m268931DB8B39BFF15A3B5762B656D8B9C68D227A (RuntimeObject* ___instance0, String_t* ___eventName1, const RuntimeMethod* method)
 {
 	return ((  ObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB * (*) (RuntimeObject*, String_t*, const RuntimeMethod*))ProjectedObjectEventHandlerCache_GetEventHandler_TisRuntimeObject_m2F4FA054A23312DE16DC56812180B81D7C197EEB_gshared)(___instance0, ___eventName1, method);
 }
-// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::.ctor(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstanceChangedEventArgs__ctor_m749E8F2B1D2FCD3DC0D561FBF22765EE63C5B6D2 (ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method);
+// Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::GetOrCreateInstance(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * ObjectInstanceChangedEventArgs_GetOrCreateInstance_mFFA3D6C12D23A4D7F728F5BBF35DF941BA9CFB3F (intptr_t ___handle0, bool ___transfer1, const RuntimeMethod* method);
 // System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandler::Invoke(System.Object,Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstanceChangedHandler_Invoke_mA5416F33C54FACD36D74494DCFEEDF7F6254000F (ObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB * __this, RuntimeObject * ___sender0, ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * ___args1, const RuntimeMethod* method);
-// System.Void Microsoft.Azure.ObjectAnchors.ProjectedObjectCache::Add(Microsoft.Azure.ObjectAnchors.ICachedObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F (RuntimeObject* ___instance0, const RuntimeMethod* method);
 // System.Void Microsoft.Azure.ObjectAnchors.ProjectedObjectEventHandlerCache::AddEventHandler<Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandler>(Microsoft.Azure.ObjectAnchors.ICachedObject,System.String,T)
 inline void ProjectedObjectEventHandlerCache_AddEventHandler_TisObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB_mE779E00230BD81D318A7F9B7F479FC6E112A53BD (RuntimeObject* ___instance0, String_t* ___eventName1, ObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB * ___handler2, const RuntimeMethod* method)
 {
@@ -5397,30 +5545,44 @@ inline void Nullable_1__ctor_mB071BC29148D7C56773D88642264E7AE3C53711F (Nullable
 }
 // System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstance::ConvertHandleToCookie(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectInstance_ConvertHandleToCookie_m06D2F356AF0436E655A193D69EE3D72926AD01A9 (intptr_t ___handle0, const RuntimeMethod* method);
-// T Microsoft.Azure.ObjectAnchors.ProjectedObjectCache::GetOrCreate<Microsoft.Azure.ObjectAnchors.ObjectInstance>(System.UInt64,System.Func`2<System.UInt64,T>)
-inline ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * ProjectedObjectCache_GetOrCreate_TisObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_m8CC34956E497445325DEF05BFBBABA33CDC31165 (uint64_t ___cookie0, Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A * ___createFactory1, const RuntimeMethod* method)
-{
-	return ((  ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * (*) (uint64_t, Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A *, const RuntimeMethod*))ProjectedObjectCache_GetOrCreate_TisRuntimeObject_m82348B0A6CCBA6742D8EA35BA7CD885FDFBB4C2B_gshared)(___cookie0, ___createFactory1, method);
-}
-// System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method);
-// System.Void System.ArgumentException::.ctor(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m71044C2110E357B71A1C30D2561C3F861AF1DC0D (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * __this, String_t* ___message0, String_t* ___paramName1, const RuntimeMethod* method);
-// System.Int64 System.IntPtr::ToInt64()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t IntPtr_ToInt64_m521F809F5D9ECAF93E808CFFFE45F67620C7879A (intptr_t* __this, const RuntimeMethod* method);
-// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandlerNative::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstanceChangedHandlerNative__ctor_m3632527EAC6BF85311BE3FD3BAB5850BC2CA2E39 (ObjectInstanceChangedHandlerNative_t81D2FF40E93C9EB565BB1E3E4BC71185C712583A * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c__DisplayClass18_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_m8D9F0455579964E1E7F4BCC81135BD5780722976 (U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB * __this, const RuntimeMethod* method);
 // System.Void System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectInstance>::.ctor(System.Object,System.IntPtr)
 inline void Func_2__ctor_mD03B30FB0D78FDC82B383B0369A682518C9DBA3E (Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
 	((  void (*) (Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_2__ctor_m6CFF53DABBCDEA2CA8B051805CF16879F03231CD_gshared)(__this, ___object0, ___method1, method);
 }
+// T Microsoft.Azure.ObjectAnchors.ProjectedObjectCache::GetOrCreate<Microsoft.Azure.ObjectAnchors.ObjectInstance>(System.UInt64,System.Func`2<System.UInt64,T>)
+inline ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * ProjectedObjectCache_GetOrCreate_TisObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_m8CC34956E497445325DEF05BFBBABA33CDC31165 (uint64_t ___cookie0, Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A * ___createFactory1, const RuntimeMethod* method)
+{
+	return ((  ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * (*) (uint64_t, Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A *, const RuntimeMethod*))ProjectedObjectCache_GetOrCreate_TisRuntimeObject_m82348B0A6CCBA6742D8EA35BA7CD885FDFBB4C2B_gshared)(___cookie0, ___createFactory1, method);
+}
+// System.Void System.IntPtr::.ctor(System.Int64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntPtr__ctor_m2CDDF5A1715E7BCFDFB6823D7A18339BD8EB0E90 (intptr_t* __this, int64_t ___value0, const RuntimeMethod* method);
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandlerNative::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstanceChangedHandlerNative__ctor_m3632527EAC6BF85311BE3FD3BAB5850BC2CA2E39 (ObjectInstanceChangedHandlerNative_t81D2FF40E93C9EB565BB1E3E4BC71185C712583A * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void System.EventArgs::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs__ctor_m5ECB9A8ED0A9E2DBB1ED999BAC1CB44F4354E571 (EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA * __this, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_instance_changed_event_args_addref(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_instance_changed_event_args_addref_mB31FB95A49DB4C56F7F0DDDC1596AF3442FF254D (intptr_t ___handle0, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_instance_changed_event_args_release(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_instance_changed_event_args_release_mC233F3498A1069EFF39E0497FA2DC9FF64BC5D43 (intptr_t ___handle0, const RuntimeMethod* method);
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectInstanceChangedEventArgs_ConvertHandleToCookie_m1EA3F5E51EE31C65680FCF1D5FA8A2ADD36A0761 (intptr_t ___handle0, const RuntimeMethod* method);
+// Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::GetOrCreateInstance(System.UInt64,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * ObjectInstanceChangedEventArgs_GetOrCreateInstance_m86D0E6F2983D7FCA8357F3EDD5FC06C50FBDB07D (uint64_t ___cookie0, bool ___transfer1, const RuntimeMethod* method);
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs/<>c__DisplayClass6_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_mF64551237FCD1FE8B727F64BB74288EDBA0C9731 (U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC * __this, const RuntimeMethod* method);
+// System.Void System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m57D6E6D11CC517E8B9D71443687BB911643222E4 (Func_2_tEB19F6CC56B51BCB70CAE6AF001A15F54D9287E6 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_tEB19F6CC56B51BCB70CAE6AF001A15F54D9287E6 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_2__ctor_m6CFF53DABBCDEA2CA8B051805CF16879F03231CD_gshared)(__this, ___object0, ___method1, method);
+}
+// T Microsoft.Azure.ObjectAnchors.ProjectedObjectCache::GetOrCreate<Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs>(System.UInt64,System.Func`2<System.UInt64,T>)
+inline ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * ProjectedObjectCache_GetOrCreate_TisObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323_mE5F154C09F28BCE4A1D62C2700283B0F968F30D0 (uint64_t ___cookie0, Func_2_tEB19F6CC56B51BCB70CAE6AF001A15F54D9287E6 * ___createFactory1, const RuntimeMethod* method)
+{
+	return ((  ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * (*) (uint64_t, Func_2_tEB19F6CC56B51BCB70CAE6AF001A15F54D9287E6 *, const RuntimeMethod*))ProjectedObjectCache_GetOrCreate_TisRuntimeObject_m82348B0A6CCBA6742D8EA35BA7CD885FDFBB4C2B_gshared)(___cookie0, ___createFactory1, method);
+}
 // Microsoft.Azure.ObjectAnchors.ObjectInstanceState Microsoft.Azure.ObjectAnchors.ObjectInstanceStateAbi::Convert(Microsoft.Azure.ObjectAnchors.ObjectInstanceStateAbi)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstanceState_t38190E60E4D89F7D9EAEE95F7623C45348472AFE  ObjectInstanceStateAbi_Convert_mAC3DB0C1EE584D28D659E0B0AF5CFF3617A08AC1 (ObjectInstanceStateAbi_t7DC2C1434F149B133B841C92F7A780B4F47E6FFA  ___value0, const RuntimeMethod* method);
 // System.DateTimeOffset System.DateTimeOffset::FromUnixTimeMilliseconds(System.Int64)
@@ -5452,6 +5614,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_model_get_ve
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_model_get_vertex_normals_m39E1243DC19CDD68017DEE87243B3F2C44616415 (intptr_t ___handle0, Vector3U5BU5D_tAC9DBD7707F6E8B6DEE1543B81CEFC825311C207* ___normals1, int32_t ___normals_count2, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_model_get_triangle_indices(System.IntPtr,System.UInt32[],System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_model_get_triangle_indices_m458E39FDD0A8BEB6AC78497C9315DA379A79EB0D (intptr_t ___handle0, UInt32U5BU5D_tCF06F1E9E72E0302C762578FF5358CC523F2A2CF* ___indices1, int32_t ___indices_count2, const RuntimeMethod* method);
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectModel::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectModel_ConvertHandleToCookie_m24FFF9DD80E55C49383F640E862EB1015B5D0F8E (intptr_t ___handle0, const RuntimeMethod* method);
+// Microsoft.Azure.ObjectAnchors.ObjectModel Microsoft.Azure.ObjectAnchors.ObjectModel::GetOrCreateInstance(System.UInt64,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * ObjectModel_GetOrCreateInstance_m3B694144C4AF36CC3286AC17A7C9E12F802E1CB9 (uint64_t ___cookie0, bool ___transfer1, const RuntimeMethod* method);
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectModel/<>c__DisplayClass20_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0__ctor_mE0AA9774F0B2902665D52E3DA2DD4FDA4ABC002E (U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421 * __this, const RuntimeMethod* method);
+// System.Void System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectModel>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m1A11D927AC9F9E781F60BF1443C9F89EF8DACF08 (Func_2_t65AA99373EC8EC5E431B92B372C4F33C91EF3CDA * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t65AA99373EC8EC5E431B92B372C4F33C91EF3CDA *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_2__ctor_m6CFF53DABBCDEA2CA8B051805CF16879F03231CD_gshared)(__this, ___object0, ___method1, method);
+}
+// T Microsoft.Azure.ObjectAnchors.ProjectedObjectCache::GetOrCreate<Microsoft.Azure.ObjectAnchors.ObjectModel>(System.UInt64,System.Func`2<System.UInt64,T>)
+inline ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * ProjectedObjectCache_GetOrCreate_TisObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E_m46C7BFE0DA1D870074B33D5314A157DC2E099DDF (uint64_t ___cookie0, Func_2_t65AA99373EC8EC5E431B92B372C4F33C91EF3CDA * ___createFactory1, const RuntimeMethod* method)
+{
+	return ((  ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * (*) (uint64_t, Func_2_t65AA99373EC8EC5E431B92B372C4F33C91EF3CDA *, const RuntimeMethod*))ProjectedObjectCache_GetOrCreate_TisRuntimeObject_m82348B0A6CCBA6742D8EA35BA7CD885FDFBB4C2B_gshared)(___cookie0, ___createFactory1, method);
+}
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_observer_addref(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_observer_addref_mCA2B923C2B6D19458CD3FD488103E8DA2C7FCE37 (intptr_t ___handle0, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_observer_release(System.IntPtr)
@@ -5507,6 +5685,22 @@ inline Task_1_tE1058F8BAEAC1C1EE02FBB0B07FF3AFF7107F990 * AsyncTaskMethodBuilder
 {
 	return ((  Task_1_tE1058F8BAEAC1C1EE02FBB0B07FF3AFF7107F990 * (*) (AsyncTaskMethodBuilder_1_tD0D1868D821E130445209EE8EA77A13A0B7F4A56 *, const RuntimeMethod*))AsyncTaskMethodBuilder_1_get_Task_m61DEC300353320E428E17DA0D59D61974F4415BB_gshared)(__this, method);
 }
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectObserver::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectObserver_ConvertHandleToCookie_mD82A220B0DAA4E31F2343907B5B166CA562B80CB (intptr_t ___handle0, const RuntimeMethod* method);
+// Microsoft.Azure.ObjectAnchors.ObjectObserver Microsoft.Azure.ObjectAnchors.ObjectObserver::GetOrCreateInstance(System.UInt64,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * ObjectObserver_GetOrCreateInstance_mB82EE0DFC043D973E8E529B154B18ED782DC5B5E (uint64_t ___cookie0, bool ___transfer1, const RuntimeMethod* method);
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass12_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0__ctor_m7C4497D0F3488A54E5F85C995B1657A2D150D879 (U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38 * __this, const RuntimeMethod* method);
+// System.Void System.Func`2<System.UInt64,Microsoft.Azure.ObjectAnchors.ObjectObserver>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m0446479E03EF621B670BB454DEA6781EFC5B5F8B (Func_2_t06672F8CC1C731B0FCD15079BC8336B353661F96 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t06672F8CC1C731B0FCD15079BC8336B353661F96 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_2__ctor_m6CFF53DABBCDEA2CA8B051805CF16879F03231CD_gshared)(__this, ___object0, ___method1, method);
+}
+// T Microsoft.Azure.ObjectAnchors.ProjectedObjectCache::GetOrCreate<Microsoft.Azure.ObjectAnchors.ObjectObserver>(System.UInt64,System.Func`2<System.UInt64,T>)
+inline ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * ProjectedObjectCache_GetOrCreate_TisObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251_m491A3894F1B654836D0BE19BD81959BFF381E01C (uint64_t ___cookie0, Func_2_t06672F8CC1C731B0FCD15079BC8336B353661F96 * ___createFactory1, const RuntimeMethod* method)
+{
+	return ((  ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * (*) (uint64_t, Func_2_t06672F8CC1C731B0FCD15079BC8336B353661F96 *, const RuntimeMethod*))ProjectedObjectCache_GetOrCreate_TisRuntimeObject_m82348B0A6CCBA6742D8EA35BA7CD885FDFBB4C2B_gshared)(___cookie0, ___createFactory1, method);
+}
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_query_create_object_model_model(System.IntPtr,System.IntPtr&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_query_create_object_model_model_m4BE4B2D15FE744057DD33CA818470B46B3068AED (intptr_t ___model0, intptr_t* ___instance1, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_query_create_object_model_model_object_observation_mode_observation_mode(System.IntPtr,Microsoft.Azure.ObjectAnchors.ObjectObservationMode,System.IntPtr&)
@@ -5515,6 +5709,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_query_create
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_query_release_mC7C5E8A1E768FF0B2D6A6D1510359F03AED73E86 (intptr_t ___handle0, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_query_dispose(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_query_dispose_mBB1F957EA34DDC0F5E03C0DDA2E742F90DD40327 (intptr_t ___handle0, const RuntimeMethod* method);
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectQuery::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectQuery_ConvertHandleToCookie_m94751321E824D67C213DDFD616E34C34B9AB9500 (intptr_t ___handle0, const RuntimeMethod* method);
 // System.Void Microsoft.Azure.ObjectAnchors.ProjectedObjectCache::ProjectedObjectCleanupHandler(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectedObjectCache_ProjectedObjectCleanupHandler_mB6B642C75375902F952BF695EED0080E057632F4 (uint64_t ___cookie0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.UInt64,System.WeakReference`1<Microsoft.Azure.ObjectAnchors.ICachedObject>>::.ctor()
@@ -5662,18 +5858,30 @@ inline void AsyncTaskMethodBuilder_1_SetStateMachine_m45EE5C5F41F3330602AEB9F60C
 }
 // System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<UploadDiagnosticsAsync>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadDiagnosticsAsyncU3Ed__6_SetStateMachine_m6E23BAE6366C90383ECED06A7EF03FC3F13C82D1 (U3CUploadDiagnosticsAsyncU3Ed__6_t92976B2FC651A9BFDFF0A8A2FC003D80CF7EEE1A * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
-// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mAA1DB7ED1E6D96FB68C746616E81FAEEB35D4D55 (U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC * __this, const RuntimeMethod* method);
-// System.Void System.IntPtr::.ctor(System.Int64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntPtr__ctor_m2CDDF5A1715E7BCFDFB6823D7A18339BD8EB0E90 (intptr_t* __this, int64_t ___value0, const RuntimeMethod* method);
+// System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectInstance::ConvertCookieToHandle(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ObjectInstance_ConvertCookieToHandle_mD2B1C29F5833621C7E9B5C3E1E5E0836809A595C (uint64_t ___cookie0, const RuntimeMethod* method);
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::.ctor(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstance__ctor_m2AE8571F16DCE1CC29BE93DA49D2C0D85C8F7949 (ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method);
+// System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::ConvertCookieToHandle(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ObjectInstanceChangedEventArgs_ConvertCookieToHandle_mD87ED015FBB2E12BC7740674911E79FA297DF681 (uint64_t ___cookie0, const RuntimeMethod* method);
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::.ctor(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstanceChangedEventArgs__ctor_m749E8F2B1D2FCD3DC0D561FBF22765EE63C5B6D2 (ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method);
+// System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectModel::ConvertCookieToHandle(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ObjectModel_ConvertCookieToHandle_mD6F2A94EF8A79BD845BF308A48107C1E81D8DA5D (uint64_t ___cookie0, const RuntimeMethod* method);
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::.ctor(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectModel__ctor_m32CFC5641458D37F8D730A880588EFC26DA1FC65 (ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method);
 // System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mF21C7A9CEE63E53AAFC87EFB6CAAD8FC377790E9 (U3CU3Ec_tFD91BC58C5E6C8E86DFE79CFC47CFDB910BAC32A * __this, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_observer_request_access_async(Microsoft.Azure.ObjectAnchors.ObjectObserverAccessStatus&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_observer_request_access_async_m13B6D3CDFF0BE2CF60062BB9532AEAFFFB2CA4A4 (int32_t* ___result0, const RuntimeMethod* method);
+// System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectObserver::ConvertCookieToHandle(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ObjectObserver_ConvertCookieToHandle_m34E976D899D02A7D9EC9EBE544DDCAA935875D3C (uint64_t ___cookie0, const RuntimeMethod* method);
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver::.ctor(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectObserver__ctor_mCDF2CC2DE301D20F38B2A45AB29FC29D4D888D80 (ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method);
 // Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.NativeLibrary::aoa_object_observer_load_object_model_async(System.IntPtr,System.Byte[],System.Int32,System.IntPtr&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_aoa_object_observer_load_object_model_async_m86C7DAF65BDA588610187A702356DE3C5E86E54E (intptr_t ___handle0, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___buffer1, int32_t ___buffer_count2, intptr_t* ___result3, const RuntimeMethod* method);
-// System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::.ctor(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectModel__ctor_m32CFC5641458D37F8D730A880588EFC26DA1FC65 (ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method);
+// Microsoft.Azure.ObjectAnchors.ObjectModel Microsoft.Azure.ObjectAnchors.ObjectModel::GetOrCreateInstance(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * ObjectModel_GetOrCreateInstance_m038FC92249DE1ABD88C351A287EF2D301F6A1BBB (intptr_t ___handle0, bool ___transfer1, const RuntimeMethod* method);
 // System.Void System.Func`2<Microsoft.Azure.ObjectAnchors.ObjectQuery,System.IntPtr>::.ctor(System.Object,System.IntPtr)
 inline void Func_2__ctor_mA97880115E9A07CB19D17416A0EB7B31DBC1CA30 (Func_2_t1EA98CA1CFF887FCEF0314A974583D8AD6078D4B * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
@@ -6012,6 +6220,12 @@ IL2CPP_EXTERN_C int32_t CDECL aoa_object_diagnostics_session_upload_diagnostics_
 // System.Void Microsoft.Azure.ObjectAnchors.AccountInformation::.ctor(System.Guid,System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AccountInformation__ctor_m5AAAD6704F44E886627F257E6EAD0F85F4ABA7BD (AccountInformation_t7D574DD357633081D672A3280145D72D81E2CEC7 * __this, Guid_t  ___accountId0, String_t* ___accountKey1, String_t* ___accountDomain2, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	int32_t V_0 = 0;
 	{
 		// public AccountInformation(System.Guid accountId, string accountKey, string accountDomain)
@@ -6028,6 +6242,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AccountInformation__ctor_m5AAAD6704F44E8
 		intptr_t L_5 = __this->get_handle_0();
 		int32_t L_6 = V_0;
 		NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8((intptr_t)L_5, L_6, /*hidden argument*/NULL);
+		// Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.Add(this);
+		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -6079,6 +6296,51 @@ IL_002a:
 	{
 		// }
 		return;
+	}
+}
+// System.UInt64 Microsoft.Azure.ObjectAnchors.AccountInformation::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AccountInformation_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mC10DDA555DB4ECE32FD39D09625A3D190D191181 (AccountInformation_t7D574DD357633081D672A3280145D72D81E2CEC7 * __this, const RuntimeMethod* method)
+{
+	{
+		// ulong ICachedObject.Cookie => ConvertHandleToCookie(this.handle);
+		intptr_t L_0 = __this->get_handle_0();
+		uint64_t L_1;
+		L_1 = AccountInformation_ConvertHandleToCookie_mF86C1241424DE201E1F12F587E96B07F94E90E27((intptr_t)L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.UInt64 Microsoft.Azure.ObjectAnchors.AccountInformation::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AccountInformation_ConvertHandleToCookie_mF86C1241424DE201E1F12F587E96B07F94E90E27 (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (handle == IntPtr.Zero)
+		intptr_t L_0 = ___handle0;
+		bool L_1;
+		L_1 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_0, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		// throw new ArgumentException("Invalid handle.", nameof(handle));
+		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_2 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m71044C2110E357B71A1C30D2561C3F861AF1DC0D(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4FA4AF8CCEA6268C5E66D1C425E81865807A8330)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFFE3A1B73CD7FC81540FBBE737435B0A887629D5)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AccountInformation_ConvertHandleToCookie_mF86C1241424DE201E1F12F587E96B07F94E90E27_RuntimeMethod_var)));
+	}
+
+IL_001d:
+	{
+		// return (ulong)handle.ToInt64();
+		int64_t L_3;
+		L_3 = IntPtr_ToInt64_m521F809F5D9ECAF93E808CFFFE45F67620C7879A((intptr_t*)(&___handle0), /*hidden argument*/NULL);
+		return L_3;
 	}
 }
 #ifdef __clang__
@@ -6209,7 +6471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE4
 		int32_t L_3;
 		L_3 = NativeLibrary_aoa_ilist_object_instance_get_item_m7003F0FC4054F782BC46C49580F5F006B8C9F54B((intptr_t)L_1, L_2, (intptr_t*)(&V_0), /*hidden argument*/NULL);
 		NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8((intptr_t)L_0, L_3, /*hidden argument*/NULL);
-		// result_object = (result_handle != IntPtr.Zero) ? new Microsoft.Azure.ObjectAnchors.ObjectInstance(result_handle, transfer:true) : null;
+		// result_object = (result_handle != IntPtr.Zero) ? Microsoft.Azure.ObjectAnchors.ObjectInstance.GetOrCreateInstance(result_handle, transfer: true) : null;
 		intptr_t L_4 = V_0;
 		bool L_5;
 		L_5 = IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8((intptr_t)L_4, (intptr_t)(0), /*hidden argument*/NULL);
@@ -6225,8 +6487,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE4
 IL_0028:
 	{
 		intptr_t L_6 = V_0;
-		ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * L_7 = (ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 *)il2cpp_codegen_object_new(ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var);
-		ObjectInstance__ctor_m2AE8571F16DCE1CC29BE93DA49D2C0D85C8F7949(L_7, (intptr_t)L_6, (bool)1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var);
+		ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * L_7;
+		L_7 = ObjectInstance_GetOrCreateInstance_m308AFC8C6669673DF618895DBD7FADA82B9B9F2A((intptr_t)L_6, (bool)1, /*hidden argument*/NULL);
 		// return result_object;
 		return L_7;
 	}
@@ -8060,6 +8323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectAnchorsSession__ctor_m4217B1AD96CC
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -8098,6 +8362,9 @@ IL_0016:
 		intptr_t L_5 = __this->get_handle_0();
 		int32_t L_6 = V_0;
 		NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8((intptr_t)L_5, L_6, /*hidden argument*/NULL);
+		// Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.Add(this);
+		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -8158,7 +8425,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	intptr_t V_0;
@@ -8170,7 +8436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39
 		int32_t L_2;
 		L_2 = NativeLibrary_aoa_object_anchors_session_create_object_observer_m4E80AC16EBC7BAA684D9B987247BE6B503E17158((intptr_t)L_1, (intptr_t*)(&V_0), /*hidden argument*/NULL);
 		NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8((intptr_t)L_0, L_2, /*hidden argument*/NULL);
-		// result_object = (result_handle != IntPtr.Zero) ? new Microsoft.Azure.ObjectAnchors.ObjectObserver(result_handle, transfer:true) : null;
+		// result_object = (result_handle != IntPtr.Zero) ? Microsoft.Azure.ObjectAnchors.ObjectObserver.GetOrCreateInstance(result_handle, transfer: true) : null;
 		intptr_t L_3 = V_0;
 		bool L_4;
 		L_4 = IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8((intptr_t)L_3, (intptr_t)(0), /*hidden argument*/NULL);
@@ -8186,10 +8452,55 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39
 IL_0027:
 	{
 		intptr_t L_5 = V_0;
-		ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * L_6 = (ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 *)il2cpp_codegen_object_new(ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251_il2cpp_TypeInfo_var);
-		ObjectObserver__ctor_mCDF2CC2DE301D20F38B2A45AB29FC29D4D888D80(L_6, (intptr_t)L_5, (bool)1, /*hidden argument*/NULL);
+		ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * L_6;
+		L_6 = ObjectObserver_GetOrCreateInstance_mBF0535D5A2C49A6E73A7E624D0BFF032FFB88DA3((intptr_t)L_5, (bool)1, /*hidden argument*/NULL);
 		// return result_object;
 		return L_6;
+	}
+}
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectAnchorsSession_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mDC3BF30BF72AA2BEA33E4BB5DA09925DEC5CD530 (ObjectAnchorsSession_tA1D323E2F5D8638273FF539F93201D1BAC89F154 * __this, const RuntimeMethod* method)
+{
+	{
+		// ulong ICachedObject.Cookie => ConvertHandleToCookie(this.handle);
+		intptr_t L_0 = __this->get_handle_0();
+		uint64_t L_1;
+		L_1 = ObjectAnchorsSession_ConvertHandleToCookie_m3A0B958F2D3496881D47AE3E73C446933B38FE7D((intptr_t)L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectAnchorsSession_ConvertHandleToCookie_m3A0B958F2D3496881D47AE3E73C446933B38FE7D (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (handle == IntPtr.Zero)
+		intptr_t L_0 = ___handle0;
+		bool L_1;
+		L_1 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_0, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		// throw new ArgumentException("Invalid handle.", nameof(handle));
+		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_2 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m71044C2110E357B71A1C30D2561C3F861AF1DC0D(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4FA4AF8CCEA6268C5E66D1C425E81865807A8330)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFFE3A1B73CD7FC81540FBBE737435B0A887629D5)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectAnchorsSession_ConvertHandleToCookie_m3A0B958F2D3496881D47AE3E73C446933B38FE7D_RuntimeMethod_var)));
+	}
+
+IL_001d:
+	{
+		// return (ulong)handle.ToInt64();
+		int64_t L_3;
+		L_3 = IntPtr_ToInt64_m521F809F5D9ECAF93E808CFFFE45F67620C7879A((intptr_t*)(&___handle0), /*hidden argument*/NULL);
+		return L_3;
 	}
 }
 #ifdef __clang__
@@ -8207,6 +8518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectDiagnosticsSession__ctor_mE5B7A9F4
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -8246,6 +8558,9 @@ IL_0016:
 		intptr_t L_6 = __this->get_handle_0();
 		int32_t L_7 = V_0;
 		NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8((intptr_t)L_6, L_7, /*hidden argument*/NULL);
+		// Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.Add(this);
+		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -8368,6 +8683,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1E9CE6483D7E49955B33A549DCFE29EC6FEE4
 		return L_6;
 	}
 }
+// System.UInt64 Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectDiagnosticsSession_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_m8491E20EE14AAA4959178F04C0A9EDDDEC613D26 (ObjectDiagnosticsSession_tD966FB01B9466A9D1F2F69CA5C6E4ABDC0F783A7 * __this, const RuntimeMethod* method)
+{
+	{
+		// ulong ICachedObject.Cookie => ConvertHandleToCookie(this.handle);
+		intptr_t L_0 = __this->get_handle_0();
+		uint64_t L_1;
+		L_1 = ObjectDiagnosticsSession_ConvertHandleToCookie_m2D8AE568C6F7A181D7B71E528EFB87F1FC86FD12((intptr_t)L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.UInt64 Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectDiagnosticsSession_ConvertHandleToCookie_m2D8AE568C6F7A181D7B71E528EFB87F1FC86FD12 (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (handle == IntPtr.Zero)
+		intptr_t L_0 = ___handle0;
+		bool L_1;
+		L_1 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_0, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		// throw new ArgumentException("Invalid handle.", nameof(handle));
+		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_2 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m71044C2110E357B71A1C30D2561C3F861AF1DC0D(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4FA4AF8CCEA6268C5E66D1C425E81865807A8330)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFFE3A1B73CD7FC81540FBBE737435B0A887629D5)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDiagnosticsSession_ConvertHandleToCookie_m2D8AE568C6F7A181D7B71E528EFB87F1FC86FD12_RuntimeMethod_var)));
+	}
+
+IL_001d:
+	{
+		// return (ulong)handle.ToInt64();
+		int64_t L_3;
+		L_3 = IntPtr_ToInt64_m521F809F5D9ECAF93E808CFFFE45F67620C7879A((intptr_t*)(&___handle0), /*hidden argument*/NULL);
+		return L_3;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -8395,8 +8755,14 @@ extern "C" void CDECL ReversePInvokeWrapper_ObjectInstance_ChangedStaticHandler_
 // System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::.ctor(System.IntPtr,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstance__ctor_m2AE8571F16DCE1CC29BE93DA49D2C0D85C8F7949 (ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		// internal ObjectInstance(IntPtr ahandle, bool transfer)
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// protected ObjectInstance(IntPtr ahandle, bool transfer)
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
 		// this.handle = ahandle;
 		intptr_t L_0 = ___ahandle0;
@@ -8417,6 +8783,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstance__ctor_m2AE8571F16DCE1CC29
 
 IL_0017:
 	{
+		// Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.Add(this);
+		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -8530,7 +8899,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstance_ChangedStaticHandler_m1CE
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectEventHandlerCache_GetEventHandler_TisObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB_m268931DB8B39BFF15A3B5762B656D8B9C68D227A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectEventHandlerCache_t29A785DF3F3F5134A643B5353F6768CB61DFF4D5_il2cpp_TypeInfo_var);
@@ -8541,17 +8909,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstance_ChangedStaticHandler_m1CE
 	ObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB * G_B4_0 = NULL;
 	ObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB * G_B3_0 = NULL;
 	{
-		// Microsoft.Azure.ObjectAnchors.ObjectInstance instance = GetInstance(cookie);
+		// Microsoft.Azure.ObjectAnchors.ObjectInstance instance = GetOrCreateInstance(cookie, transfer: false);
 		uint64_t L_0 = ___cookie0;
 		IL2CPP_RUNTIME_CLASS_INIT(ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var);
 		ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * L_1;
-		L_1 = ObjectInstance_GetInstance_mBF83A8CEB8E9BCA15F85DBE9B7085DEE7CB34EA1(L_0, /*hidden argument*/NULL);
+		L_1 = ObjectInstance_GetOrCreateInstance_mEFDC4F8A4500A4178EF4387FFEFB2B9500B80EB7(L_0, (bool)0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		// if (instance == null)
 		ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * L_2 = V_0;
 		if (L_2)
 		{
-			goto IL_0015;
+			goto IL_0016;
 		}
 	}
 	{
@@ -8561,7 +8929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstance_ChangedStaticHandler_m1CE
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1_RuntimeMethod_var)));
 	}
 
-IL_0015:
+IL_0016:
 	{
 		// Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandler handler =
 		//     Microsoft.Azure.ObjectAnchors.ProjectedObjectEventHandlerCache.GetEventHandler<Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandler>(
@@ -8571,25 +8939,25 @@ IL_0015:
 		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectEventHandlerCache_t29A785DF3F3F5134A643B5353F6768CB61DFF4D5_il2cpp_TypeInfo_var);
 		ObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB * L_5;
 		L_5 = ProjectedObjectEventHandlerCache_GetEventHandler_TisObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB_m268931DB8B39BFF15A3B5762B656D8B9C68D227A(L_4, _stringLiteralBBA433E10BF74FAFBC9D4DCA2388A4E661A58898, /*hidden argument*/ProjectedObjectEventHandlerCache_GetEventHandler_TisObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB_m268931DB8B39BFF15A3B5762B656D8B9C68D227A_RuntimeMethod_var);
-		// handler?.Invoke(instance, new Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs(args, transfer: false));
+		// handler?.Invoke(instance, Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs.GetOrCreateInstance(args, transfer: false));
 		ObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB * L_6 = L_5;
 		G_B3_0 = L_6;
 		if (L_6)
 		{
 			G_B4_0 = L_6;
-			goto IL_0025;
+			goto IL_0026;
 		}
 	}
 	{
 		return;
 	}
 
-IL_0025:
+IL_0026:
 	{
 		ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * L_7 = V_0;
 		intptr_t L_8 = ___args1;
-		ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * L_9 = (ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 *)il2cpp_codegen_object_new(ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323_il2cpp_TypeInfo_var);
-		ObjectInstanceChangedEventArgs__ctor_m749E8F2B1D2FCD3DC0D561FBF22765EE63C5B6D2(L_9, (intptr_t)L_8, (bool)0, /*hidden argument*/NULL);
+		ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * L_9;
+		L_9 = ObjectInstanceChangedEventArgs_GetOrCreateInstance_mFFA3D6C12D23A4D7F728F5BBF35DF941BA9CFB3F((intptr_t)L_8, (bool)0, /*hidden argument*/NULL);
 		NullCheck(G_B4_0);
 		ObjectInstanceChangedHandler_Invoke_mA5416F33C54FACD36D74494DCFEEDF7F6254000F(G_B4_0, L_7, L_9, /*hidden argument*/NULL);
 		// }
@@ -8604,16 +8972,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstance_add_Changed_mFDB978B36A60
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICachedObject_tADE3AB059703632AF47D325E67EE75DFE8C9DFFB_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectEventHandlerCache_AddEventHandler_TisObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB_mE779E00230BD81D318A7F9B7F479FC6E112A53BD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectEventHandlerCache_t29A785DF3F3F5134A643B5353F6768CB61DFF4D5_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBBA433E10BF74FAFBC9D4DCA2388A4E661A58898);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.Add(this);
-		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
-		ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F(__this, /*hidden argument*/NULL);
 		// Microsoft.Azure.ObjectAnchors.ProjectedObjectEventHandlerCache.AddEventHandler(this, nameof(this.Changed), value);
 		ObjectInstanceChangedHandler_t7D2644AF12AC4DE5F0F5511824E09722ECBABCFB * L_0 = ___value0;
 		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectEventHandlerCache_t29A785DF3F3F5134A643B5353F6768CB61DFF4D5_il2cpp_TypeInfo_var);
@@ -8728,26 +9092,67 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectInstance_Microsoft_Azure_Objec
 		return L_1;
 	}
 }
-// Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance::GetInstance(System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * ObjectInstance_GetInstance_mBF83A8CEB8E9BCA15F85DBE9B7085DEE7CB34EA1 (uint64_t ___cookie0, const RuntimeMethod* method)
+// Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance::GetOrCreateInstance(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * ObjectInstance_GetOrCreateInstance_m308AFC8C6669673DF618895DBD7FADA82B9B9F2A (intptr_t ___handle0, bool ___transfer1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_GetOrCreate_TisObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_m8CC34956E497445325DEF05BFBBABA33CDC31165_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// => Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.GetOrCreate<Microsoft.Azure.ObjectAnchors.ObjectInstance>(cookie, createFromCookieFactoryFunction);
-		uint64_t L_0 = ___cookie0;
+		// => GetOrCreateInstance(ConvertHandleToCookie(handle), transfer);
+		intptr_t L_0 = ___handle0;
 		IL2CPP_RUNTIME_CLASS_INIT(ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var);
-		Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A * L_1 = ((ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_StaticFields*)il2cpp_codegen_static_fields_for(ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var))->get_createFromCookieFactoryFunction_2();
+		uint64_t L_1;
+		L_1 = ObjectInstance_ConvertHandleToCookie_m06D2F356AF0436E655A193D69EE3D72926AD01A9((intptr_t)L_0, /*hidden argument*/NULL);
+		bool L_2 = ___transfer1;
+		ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * L_3;
+		L_3 = ObjectInstance_GetOrCreateInstance_mEFDC4F8A4500A4178EF4387FFEFB2B9500B80EB7(L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance::GetOrCreateInstance(System.UInt64,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * ObjectInstance_GetOrCreateInstance_mEFDC4F8A4500A4178EF4387FFEFB2B9500B80EB7 (uint64_t ___cookie0, bool ___transfer1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2__ctor_mD03B30FB0D78FDC82B383B0369A682518C9DBA3E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_GetOrCreate_TisObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_m8CC34956E497445325DEF05BFBBABA33CDC31165_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass18_0_U3CGetOrCreateInstanceU3Eb__0_m15BA04FC7EEFAF5D5D1FEF7F9DFCC541DFF28C8A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB * V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB * L_0 = (U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB *)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass18_0__ctor_m8D9F0455579964E1E7F4BCC81135BD5780722976(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB * L_1 = V_0;
+		uint64_t L_2 = ___cookie0;
+		NullCheck(L_1);
+		L_1->set_cookie_0(L_2);
+		U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB * L_3 = V_0;
+		bool L_4 = ___transfer1;
+		NullCheck(L_3);
+		L_3->set_transfer_1(L_4);
+		// => Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.GetOrCreate<Microsoft.Azure.ObjectAnchors.ObjectInstance>(
+		//     cookie,
+		//     _ => new Microsoft.Azure.ObjectAnchors.ObjectInstance(ConvertCookieToHandle(cookie), transfer: transfer));
+		U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB * L_5 = V_0;
+		NullCheck(L_5);
+		uint64_t L_6 = L_5->get_cookie_0();
+		U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB * L_7 = V_0;
+		Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A * L_8 = (Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A *)il2cpp_codegen_object_new(Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A_il2cpp_TypeInfo_var);
+		Func_2__ctor_mD03B30FB0D78FDC82B383B0369A682518C9DBA3E(L_8, L_7, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass18_0_U3CGetOrCreateInstanceU3Eb__0_m15BA04FC7EEFAF5D5D1FEF7F9DFCC541DFF28C8A_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_mD03B30FB0D78FDC82B383B0369A682518C9DBA3E_RuntimeMethod_var);
 		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
-		ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * L_2;
-		L_2 = ProjectedObjectCache_GetOrCreate_TisObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_m8CC34956E497445325DEF05BFBBABA33CDC31165(L_0, L_1, /*hidden argument*/ProjectedObjectCache_GetOrCreate_TisObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_m8CC34956E497445325DEF05BFBBABA33CDC31165_RuntimeMethod_var);
-		return L_2;
+		ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * L_9;
+		L_9 = ProjectedObjectCache_GetOrCreate_TisObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_m8CC34956E497445325DEF05BFBBABA33CDC31165(L_6, L_8, /*hidden argument*/ProjectedObjectCache_GetOrCreate_TisObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_m8CC34956E497445325DEF05BFBBABA33CDC31165_RuntimeMethod_var);
+		return L_9;
 	}
 }
 // System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstance::ConvertHandleToCookie(System.IntPtr)
@@ -8784,19 +9189,27 @@ IL_001d:
 		return L_3;
 	}
 }
+// System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectInstance::ConvertCookieToHandle(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ObjectInstance_ConvertCookieToHandle_mD2B1C29F5833621C7E9B5C3E1E5E0836809A595C (uint64_t ___cookie0, const RuntimeMethod* method)
+{
+	{
+		// => new IntPtr((long)cookie);
+		uint64_t L_0 = ___cookie0;
+		intptr_t L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		IntPtr__ctor_m2CDDF5A1715E7BCFDFB6823D7A18339BD8EB0E90((&L_1), L_0, /*hidden argument*/NULL);
+		return (intptr_t)L_1;
+	}
+}
 // System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::.cctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstance__cctor_m0E7D4203701F856458B3387F6381A3A3B351961C (const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2__ctor_mD03B30FB0D78FDC82B383B0369A682518C9DBA3E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectInstanceChangedHandlerNative_t81D2FF40E93C9EB565BB1E3E4BC71185C712583A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3C_cctorU3Eb__20_0_mE110D755523A3B90AA058B8D7D7CAAD4628D93A5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -8804,13 +9217,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstance__cctor_m0E7D4203701F85645
 		ObjectInstanceChangedHandlerNative_t81D2FF40E93C9EB565BB1E3E4BC71185C712583A * L_0 = (ObjectInstanceChangedHandlerNative_t81D2FF40E93C9EB565BB1E3E4BC71185C712583A *)il2cpp_codegen_object_new(ObjectInstanceChangedHandlerNative_t81D2FF40E93C9EB565BB1E3E4BC71185C712583A_il2cpp_TypeInfo_var);
 		ObjectInstanceChangedHandlerNative__ctor_m3632527EAC6BF85311BE3FD3BAB5850BC2CA2E39(L_0, NULL, (intptr_t)((intptr_t)ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1_RuntimeMethod_var), /*hidden argument*/NULL);
 		((ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_StaticFields*)il2cpp_codegen_static_fields_for(ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var))->set_ChangedStaticHandlerDelegate_1(L_0);
-		// private static readonly Func<ulong, Microsoft.Azure.ObjectAnchors.ObjectInstance> createFromCookieFactoryFunction =
-		//     cookie => new Microsoft.Azure.ObjectAnchors.ObjectInstance(new IntPtr((long)cookie), transfer: false);
-		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC_il2cpp_TypeInfo_var);
-		U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC * L_1 = ((U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
-		Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A * L_2 = (Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A *)il2cpp_codegen_object_new(Func_2_tF5F595B607E5C1D66125ECCDACA48C1C54FBCF1A_il2cpp_TypeInfo_var);
-		Func_2__ctor_mD03B30FB0D78FDC82B383B0369A682518C9DBA3E(L_2, L_1, (intptr_t)((intptr_t)U3CU3Ec_U3C_cctorU3Eb__20_0_mE110D755523A3B90AA058B8D7D7CAAD4628D93A5_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_mD03B30FB0D78FDC82B383B0369A682518C9DBA3E_RuntimeMethod_var);
-		((ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_StaticFields*)il2cpp_codegen_static_fields_for(ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var))->set_createFromCookieFactoryFunction_2(L_2);
 		return;
 	}
 }
@@ -8829,10 +9235,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstanceChangedEventArgs__ctor_m74
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// internal ObjectInstanceChangedEventArgs(IntPtr ahandle, bool transfer)
+		// protected ObjectInstanceChangedEventArgs(IntPtr ahandle, bool transfer)
 		IL2CPP_RUNTIME_CLASS_INIT(EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA_il2cpp_TypeInfo_var);
 		EventArgs__ctor_m5ECB9A8ED0A9E2DBB1ED999BAC1CB44F4354E571(__this, /*hidden argument*/NULL);
 		// this.handle = ahandle;
@@ -8854,6 +9261,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectInstanceChangedEventArgs__ctor_m74
 
 IL_0017:
 	{
+		// Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.Add(this);
+		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -8905,6 +9315,119 @@ IL_002a:
 	{
 		// }
 		return;
+	}
+}
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectInstanceChangedEventArgs_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mD1F6DB6E667974FDC15829B7CF0BFCDA6ED6A080 (ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * __this, const RuntimeMethod* method)
+{
+	{
+		// ulong ICachedObject.Cookie => ConvertHandleToCookie(this.handle);
+		intptr_t L_0 = __this->get_handle_1();
+		uint64_t L_1;
+		L_1 = ObjectInstanceChangedEventArgs_ConvertHandleToCookie_m1EA3F5E51EE31C65680FCF1D5FA8A2ADD36A0761((intptr_t)L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::GetOrCreateInstance(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * ObjectInstanceChangedEventArgs_GetOrCreateInstance_mFFA3D6C12D23A4D7F728F5BBF35DF941BA9CFB3F (intptr_t ___handle0, bool ___transfer1, const RuntimeMethod* method)
+{
+	{
+		// => GetOrCreateInstance(ConvertHandleToCookie(handle), transfer);
+		intptr_t L_0 = ___handle0;
+		uint64_t L_1;
+		L_1 = ObjectInstanceChangedEventArgs_ConvertHandleToCookie_m1EA3F5E51EE31C65680FCF1D5FA8A2ADD36A0761((intptr_t)L_0, /*hidden argument*/NULL);
+		bool L_2 = ___transfer1;
+		ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * L_3;
+		L_3 = ObjectInstanceChangedEventArgs_GetOrCreateInstance_m86D0E6F2983D7FCA8357F3EDD5FC06C50FBDB07D(L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::GetOrCreateInstance(System.UInt64,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * ObjectInstanceChangedEventArgs_GetOrCreateInstance_m86D0E6F2983D7FCA8357F3EDD5FC06C50FBDB07D (uint64_t ___cookie0, bool ___transfer1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2__ctor_m57D6E6D11CC517E8B9D71443687BB911643222E4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tEB19F6CC56B51BCB70CAE6AF001A15F54D9287E6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_GetOrCreate_TisObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323_mE5F154C09F28BCE4A1D62C2700283B0F968F30D0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass6_0_U3CGetOrCreateInstanceU3Eb__0_m28F04B6D99037CE664158D33B3D87282851DCBD8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC * V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC * L_0 = (U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC *)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass6_0__ctor_mF64551237FCD1FE8B727F64BB74288EDBA0C9731(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC * L_1 = V_0;
+		uint64_t L_2 = ___cookie0;
+		NullCheck(L_1);
+		L_1->set_cookie_0(L_2);
+		U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC * L_3 = V_0;
+		bool L_4 = ___transfer1;
+		NullCheck(L_3);
+		L_3->set_transfer_1(L_4);
+		// => Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.GetOrCreate<Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs>(
+		//     cookie,
+		//     _ => new Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs(ConvertCookieToHandle(cookie), transfer: transfer));
+		U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC * L_5 = V_0;
+		NullCheck(L_5);
+		uint64_t L_6 = L_5->get_cookie_0();
+		U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC * L_7 = V_0;
+		Func_2_tEB19F6CC56B51BCB70CAE6AF001A15F54D9287E6 * L_8 = (Func_2_tEB19F6CC56B51BCB70CAE6AF001A15F54D9287E6 *)il2cpp_codegen_object_new(Func_2_tEB19F6CC56B51BCB70CAE6AF001A15F54D9287E6_il2cpp_TypeInfo_var);
+		Func_2__ctor_m57D6E6D11CC517E8B9D71443687BB911643222E4(L_8, L_7, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass6_0_U3CGetOrCreateInstanceU3Eb__0_m28F04B6D99037CE664158D33B3D87282851DCBD8_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m57D6E6D11CC517E8B9D71443687BB911643222E4_RuntimeMethod_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * L_9;
+		L_9 = ProjectedObjectCache_GetOrCreate_TisObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323_mE5F154C09F28BCE4A1D62C2700283B0F968F30D0(L_6, L_8, /*hidden argument*/ProjectedObjectCache_GetOrCreate_TisObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323_mE5F154C09F28BCE4A1D62C2700283B0F968F30D0_RuntimeMethod_var);
+		return L_9;
+	}
+}
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectInstanceChangedEventArgs_ConvertHandleToCookie_m1EA3F5E51EE31C65680FCF1D5FA8A2ADD36A0761 (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (handle == IntPtr.Zero)
+		intptr_t L_0 = ___handle0;
+		bool L_1;
+		L_1 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_0, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		// throw new ArgumentException("Invalid handle.", nameof(handle));
+		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_2 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m71044C2110E357B71A1C30D2561C3F861AF1DC0D(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4FA4AF8CCEA6268C5E66D1C425E81865807A8330)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFFE3A1B73CD7FC81540FBBE737435B0A887629D5)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectInstanceChangedEventArgs_ConvertHandleToCookie_m1EA3F5E51EE31C65680FCF1D5FA8A2ADD36A0761_RuntimeMethod_var)));
+	}
+
+IL_001d:
+	{
+		// return (ulong)handle.ToInt64();
+		int64_t L_3;
+		L_3 = IntPtr_ToInt64_m521F809F5D9ECAF93E808CFFFE45F67620C7879A((intptr_t*)(&___handle0), /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::ConvertCookieToHandle(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ObjectInstanceChangedEventArgs_ConvertCookieToHandle_mD87ED015FBB2E12BC7740674911E79FA297DF681 (uint64_t ___cookie0, const RuntimeMethod* method)
+{
+	{
+		// => new IntPtr((long)cookie);
+		uint64_t L_0 = ___cookie0;
+		intptr_t L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		IntPtr__ctor_m2CDDF5A1715E7BCFDFB6823D7A18339BD8EB0E90((&L_1), L_0, /*hidden argument*/NULL);
+		return (intptr_t)L_1;
 	}
 }
 #ifdef __clang__
@@ -9361,8 +9884,14 @@ IL2CPP_EXTERN_C  Nullable_1_tF7FD6FC815DDDA67E3820976128C42DA04405FE3  ObjectIns
 // System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::.ctor(System.IntPtr,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectModel__ctor_m32CFC5641458D37F8D730A880588EFC26DA1FC65 (ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		// internal ObjectModel(IntPtr ahandle, bool transfer)
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// protected ObjectModel(IntPtr ahandle, bool transfer)
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
 		// this.handle = ahandle;
 		intptr_t L_0 = ___ahandle0;
@@ -9383,6 +9912,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectModel__ctor_m32CFC5641458D37F8D730
 
 IL_0017:
 	{
+		// Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.Add(this);
+		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -9714,6 +10246,119 @@ IL_0016:
 		return;
 	}
 }
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectModel::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectModel_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mC5B27886120717C74C4A22BBA52A5FB29FC1E7C0 (ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * __this, const RuntimeMethod* method)
+{
+	{
+		// ulong ICachedObject.Cookie => ConvertHandleToCookie(this.handle);
+		intptr_t L_0 = __this->get_handle_0();
+		uint64_t L_1;
+		L_1 = ObjectModel_ConvertHandleToCookie_m24FFF9DD80E55C49383F640E862EB1015B5D0F8E((intptr_t)L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// Microsoft.Azure.ObjectAnchors.ObjectModel Microsoft.Azure.ObjectAnchors.ObjectModel::GetOrCreateInstance(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * ObjectModel_GetOrCreateInstance_m038FC92249DE1ABD88C351A287EF2D301F6A1BBB (intptr_t ___handle0, bool ___transfer1, const RuntimeMethod* method)
+{
+	{
+		// => GetOrCreateInstance(ConvertHandleToCookie(handle), transfer);
+		intptr_t L_0 = ___handle0;
+		uint64_t L_1;
+		L_1 = ObjectModel_ConvertHandleToCookie_m24FFF9DD80E55C49383F640E862EB1015B5D0F8E((intptr_t)L_0, /*hidden argument*/NULL);
+		bool L_2 = ___transfer1;
+		ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * L_3;
+		L_3 = ObjectModel_GetOrCreateInstance_m3B694144C4AF36CC3286AC17A7C9E12F802E1CB9(L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// Microsoft.Azure.ObjectAnchors.ObjectModel Microsoft.Azure.ObjectAnchors.ObjectModel::GetOrCreateInstance(System.UInt64,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * ObjectModel_GetOrCreateInstance_m3B694144C4AF36CC3286AC17A7C9E12F802E1CB9 (uint64_t ___cookie0, bool ___transfer1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2__ctor_m1A11D927AC9F9E781F60BF1443C9F89EF8DACF08_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t65AA99373EC8EC5E431B92B372C4F33C91EF3CDA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_GetOrCreate_TisObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E_m46C7BFE0DA1D870074B33D5314A157DC2E099DDF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass20_0_U3CGetOrCreateInstanceU3Eb__0_m1DC8BA877957A09B58F0FAFF3CBBA2A3B82C2853_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421 * V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421 * L_0 = (U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421 *)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass20_0__ctor_mE0AA9774F0B2902665D52E3DA2DD4FDA4ABC002E(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421 * L_1 = V_0;
+		uint64_t L_2 = ___cookie0;
+		NullCheck(L_1);
+		L_1->set_cookie_0(L_2);
+		U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421 * L_3 = V_0;
+		bool L_4 = ___transfer1;
+		NullCheck(L_3);
+		L_3->set_transfer_1(L_4);
+		// => Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.GetOrCreate<Microsoft.Azure.ObjectAnchors.ObjectModel>(
+		//     cookie,
+		//     _ => new Microsoft.Azure.ObjectAnchors.ObjectModel(ConvertCookieToHandle(cookie), transfer: transfer));
+		U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421 * L_5 = V_0;
+		NullCheck(L_5);
+		uint64_t L_6 = L_5->get_cookie_0();
+		U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421 * L_7 = V_0;
+		Func_2_t65AA99373EC8EC5E431B92B372C4F33C91EF3CDA * L_8 = (Func_2_t65AA99373EC8EC5E431B92B372C4F33C91EF3CDA *)il2cpp_codegen_object_new(Func_2_t65AA99373EC8EC5E431B92B372C4F33C91EF3CDA_il2cpp_TypeInfo_var);
+		Func_2__ctor_m1A11D927AC9F9E781F60BF1443C9F89EF8DACF08(L_8, L_7, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass20_0_U3CGetOrCreateInstanceU3Eb__0_m1DC8BA877957A09B58F0FAFF3CBBA2A3B82C2853_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m1A11D927AC9F9E781F60BF1443C9F89EF8DACF08_RuntimeMethod_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * L_9;
+		L_9 = ProjectedObjectCache_GetOrCreate_TisObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E_m46C7BFE0DA1D870074B33D5314A157DC2E099DDF(L_6, L_8, /*hidden argument*/ProjectedObjectCache_GetOrCreate_TisObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E_m46C7BFE0DA1D870074B33D5314A157DC2E099DDF_RuntimeMethod_var);
+		return L_9;
+	}
+}
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectModel::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectModel_ConvertHandleToCookie_m24FFF9DD80E55C49383F640E862EB1015B5D0F8E (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (handle == IntPtr.Zero)
+		intptr_t L_0 = ___handle0;
+		bool L_1;
+		L_1 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_0, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		// throw new ArgumentException("Invalid handle.", nameof(handle));
+		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_2 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m71044C2110E357B71A1C30D2561C3F861AF1DC0D(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4FA4AF8CCEA6268C5E66D1C425E81865807A8330)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFFE3A1B73CD7FC81540FBBE737435B0A887629D5)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectModel_ConvertHandleToCookie_m24FFF9DD80E55C49383F640E862EB1015B5D0F8E_RuntimeMethod_var)));
+	}
+
+IL_001d:
+	{
+		// return (ulong)handle.ToInt64();
+		int64_t L_3;
+		L_3 = IntPtr_ToInt64_m521F809F5D9ECAF93E808CFFFE45F67620C7879A((intptr_t*)(&___handle0), /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectModel::ConvertCookieToHandle(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ObjectModel_ConvertCookieToHandle_mD6F2A94EF8A79BD845BF308A48107C1E81D8DA5D (uint64_t ___cookie0, const RuntimeMethod* method)
+{
+	{
+		// => new IntPtr((long)cookie);
+		uint64_t L_0 = ___cookie0;
+		intptr_t L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		IntPtr__ctor_m2CDDF5A1715E7BCFDFB6823D7A18339BD8EB0E90((&L_1), L_0, /*hidden argument*/NULL);
+		return (intptr_t)L_1;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -9733,8 +10378,14 @@ IL_0016:
 // System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver::.ctor(System.IntPtr,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectObserver__ctor_mCDF2CC2DE301D20F38B2A45AB29FC29D4D888D80 (ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		// internal ObjectObserver(IntPtr ahandle, bool transfer)
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// protected ObjectObserver(IntPtr ahandle, bool transfer)
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
 		// this.handle = ahandle;
 		intptr_t L_0 = ___ahandle0;
@@ -9755,6 +10406,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectObserver__ctor_mCDF2CC2DE301D20F38
 
 IL_0017:
 	{
+		// Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.Add(this);
+		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -9930,6 +10584,119 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tE1058F8BAEAC1C1EE02FBB0B07FF3AFF7107F
 		return L_5;
 	}
 }
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectObserver::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectObserver_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_m29E5E2A650CC15C56FEEA07E1FEEDD44CCF013A2 (ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * __this, const RuntimeMethod* method)
+{
+	{
+		// ulong ICachedObject.Cookie => ConvertHandleToCookie(this.handle);
+		intptr_t L_0 = __this->get_handle_0();
+		uint64_t L_1;
+		L_1 = ObjectObserver_ConvertHandleToCookie_mD82A220B0DAA4E31F2343907B5B166CA562B80CB((intptr_t)L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// Microsoft.Azure.ObjectAnchors.ObjectObserver Microsoft.Azure.ObjectAnchors.ObjectObserver::GetOrCreateInstance(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * ObjectObserver_GetOrCreateInstance_mBF0535D5A2C49A6E73A7E624D0BFF032FFB88DA3 (intptr_t ___handle0, bool ___transfer1, const RuntimeMethod* method)
+{
+	{
+		// => GetOrCreateInstance(ConvertHandleToCookie(handle), transfer);
+		intptr_t L_0 = ___handle0;
+		uint64_t L_1;
+		L_1 = ObjectObserver_ConvertHandleToCookie_mD82A220B0DAA4E31F2343907B5B166CA562B80CB((intptr_t)L_0, /*hidden argument*/NULL);
+		bool L_2 = ___transfer1;
+		ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * L_3;
+		L_3 = ObjectObserver_GetOrCreateInstance_mB82EE0DFC043D973E8E529B154B18ED782DC5B5E(L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// Microsoft.Azure.ObjectAnchors.ObjectObserver Microsoft.Azure.ObjectAnchors.ObjectObserver::GetOrCreateInstance(System.UInt64,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * ObjectObserver_GetOrCreateInstance_mB82EE0DFC043D973E8E529B154B18ED782DC5B5E (uint64_t ___cookie0, bool ___transfer1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2__ctor_m0446479E03EF621B670BB454DEA6781EFC5B5F8B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t06672F8CC1C731B0FCD15079BC8336B353661F96_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_GetOrCreate_TisObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251_m491A3894F1B654836D0BE19BD81959BFF381E01C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass12_0_U3CGetOrCreateInstanceU3Eb__0_mCE942B0D767F4FA019FC774C6C3348ADA667ACAC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38 * V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38 * L_0 = (U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38 *)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass12_0__ctor_m7C4497D0F3488A54E5F85C995B1657A2D150D879(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38 * L_1 = V_0;
+		uint64_t L_2 = ___cookie0;
+		NullCheck(L_1);
+		L_1->set_cookie_0(L_2);
+		U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38 * L_3 = V_0;
+		bool L_4 = ___transfer1;
+		NullCheck(L_3);
+		L_3->set_transfer_1(L_4);
+		// => Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.GetOrCreate<Microsoft.Azure.ObjectAnchors.ObjectObserver>(
+		//     cookie,
+		//     _ => new Microsoft.Azure.ObjectAnchors.ObjectObserver(ConvertCookieToHandle(cookie), transfer: transfer));
+		U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38 * L_5 = V_0;
+		NullCheck(L_5);
+		uint64_t L_6 = L_5->get_cookie_0();
+		U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38 * L_7 = V_0;
+		Func_2_t06672F8CC1C731B0FCD15079BC8336B353661F96 * L_8 = (Func_2_t06672F8CC1C731B0FCD15079BC8336B353661F96 *)il2cpp_codegen_object_new(Func_2_t06672F8CC1C731B0FCD15079BC8336B353661F96_il2cpp_TypeInfo_var);
+		Func_2__ctor_m0446479E03EF621B670BB454DEA6781EFC5B5F8B(L_8, L_7, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass12_0_U3CGetOrCreateInstanceU3Eb__0_mCE942B0D767F4FA019FC774C6C3348ADA667ACAC_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m0446479E03EF621B670BB454DEA6781EFC5B5F8B_RuntimeMethod_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * L_9;
+		L_9 = ProjectedObjectCache_GetOrCreate_TisObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251_m491A3894F1B654836D0BE19BD81959BFF381E01C(L_6, L_8, /*hidden argument*/ProjectedObjectCache_GetOrCreate_TisObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251_m491A3894F1B654836D0BE19BD81959BFF381E01C_RuntimeMethod_var);
+		return L_9;
+	}
+}
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectObserver::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectObserver_ConvertHandleToCookie_mD82A220B0DAA4E31F2343907B5B166CA562B80CB (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (handle == IntPtr.Zero)
+		intptr_t L_0 = ___handle0;
+		bool L_1;
+		L_1 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_0, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		// throw new ArgumentException("Invalid handle.", nameof(handle));
+		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_2 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m71044C2110E357B71A1C30D2561C3F861AF1DC0D(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4FA4AF8CCEA6268C5E66D1C425E81865807A8330)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFFE3A1B73CD7FC81540FBBE737435B0A887629D5)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectObserver_ConvertHandleToCookie_mD82A220B0DAA4E31F2343907B5B166CA562B80CB_RuntimeMethod_var)));
+	}
+
+IL_001d:
+	{
+		// return (ulong)handle.ToInt64();
+		int64_t L_3;
+		L_3 = IntPtr_ToInt64_m521F809F5D9ECAF93E808CFFFE45F67620C7879A((intptr_t*)(&___handle0), /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectObserver::ConvertCookieToHandle(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ObjectObserver_ConvertCookieToHandle_m34E976D899D02A7D9EC9EBE544DDCAA935875D3C (uint64_t ___cookie0, const RuntimeMethod* method)
+{
+	{
+		// => new IntPtr((long)cookie);
+		uint64_t L_0 = ___cookie0;
+		intptr_t L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		IntPtr__ctor_m2CDDF5A1715E7BCFDFB6823D7A18339BD8EB0E90((&L_1), L_0, /*hidden argument*/NULL);
+		return (intptr_t)L_1;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -9953,6 +10720,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectQuery__ctor_mE5F096ABB64DD9203A1B5
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -9991,6 +10759,9 @@ IL_0016:
 		intptr_t L_5 = __this->get_handle_0();
 		int32_t L_6 = V_0;
 		NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8((intptr_t)L_5, L_6, /*hidden argument*/NULL);
+		// Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.Add(this);
+		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -10002,6 +10773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectQuery__ctor_m9CDF383D81F4FB4DD191F
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -10041,6 +10813,9 @@ IL_0016:
 		intptr_t L_6 = __this->get_handle_0();
 		int32_t L_7 = V_0;
 		NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8((intptr_t)L_6, L_7, /*hidden argument*/NULL);
+		// Microsoft.Azure.ObjectAnchors.ProjectedObjectCache.Add(this);
+		IL2CPP_RUNTIME_CLASS_INIT(ProjectedObjectCache_t4B2E075E624F4FC07243FBFC6348D1C2C4F87FEA_il2cpp_TypeInfo_var);
+		ProjectedObjectCache_Add_mC489037FD794053E877648F1689AC9CE0FB47C4F(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -10098,6 +10873,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectQuery_Dispose_m50679F4A2B7544D44F4
 		NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8((intptr_t)L_0, L_2, /*hidden argument*/NULL);
 		// }
 		return;
+	}
+}
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectQuery::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectQuery_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mFF318415069EAFEE2B45E94910314AE4AFA28B1C (ObjectQuery_t361BB1C3337BBA42D12C9C238C0890B213A6E04A * __this, const RuntimeMethod* method)
+{
+	{
+		// ulong ICachedObject.Cookie => ConvertHandleToCookie(this.handle);
+		intptr_t L_0 = __this->get_handle_0();
+		uint64_t L_1;
+		L_1 = ObjectQuery_ConvertHandleToCookie_m94751321E824D67C213DDFD616E34C34B9AB9500((intptr_t)L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectQuery::ConvertHandleToCookie(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t ObjectQuery_ConvertHandleToCookie_m94751321E824D67C213DDFD616E34C34B9AB9500 (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (handle == IntPtr.Zero)
+		intptr_t L_0 = ___handle0;
+		bool L_1;
+		L_1 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_0, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		// throw new ArgumentException("Invalid handle.", nameof(handle));
+		ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 * L_2 = (ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00_il2cpp_TypeInfo_var)));
+		ArgumentException__ctor_m71044C2110E357B71A1C30D2561C3F861AF1DC0D(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4FA4AF8CCEA6268C5E66D1C425E81865807A8330)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralFFE3A1B73CD7FC81540FBBE737435B0A887629D5)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectQuery_ConvertHandleToCookie_m94751321E824D67C213DDFD616E34C34B9AB9500_RuntimeMethod_var)));
+	}
+
+IL_001d:
+	{
+		// return (ulong)handle.ToInt64();
+		int64_t L_3;
+		L_3 = IntPtr_ToInt64_m521F809F5D9ECAF93E808CFFFE45F67620C7879A((intptr_t*)(&___handle0), /*hidden argument*/NULL);
+		return L_3;
 	}
 }
 #ifdef __clang__
@@ -11233,32 +12053,16 @@ IL2CPP_EXTERN_C  void U3CUploadDiagnosticsAsyncU3Ed__6_SetStateMachine_m6E23BAE6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mEC355995BAEEA3D3629CE5B9B33AB073290EA29B (const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC * L_0 = (U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC *)il2cpp_codegen_object_new(U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC_il2cpp_TypeInfo_var);
-		U3CU3Ec__ctor_mAA1DB7ED1E6D96FB68C746616E81FAEEB35D4D55(L_0, /*hidden argument*/NULL);
-		((U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC_il2cpp_TypeInfo_var))->set_U3CU3E9_0(L_0);
-		return;
-	}
-}
-// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mAA1DB7ED1E6D96FB68C746616E81FAEEB35D4D55 (U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC * __this, const RuntimeMethod* method)
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c__DisplayClass18_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_m8D9F0455579964E1E7F4BCC81135BD5780722976 (U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB * __this, const RuntimeMethod* method)
 {
 	{
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c::<.cctor>b__20_0(System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * U3CU3Ec_U3C_cctorU3Eb__20_0_mE110D755523A3B90AA058B8D7D7CAAD4628D93A5 (U3CU3Ec_tE25D7EAE21C6861F3B4B7DA2F1DEFFEBB2A124CC * __this, uint64_t ___cookie0, const RuntimeMethod* method)
+// Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c__DisplayClass18_0::<GetOrCreateInstance>b__0(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * U3CU3Ec__DisplayClass18_0_U3CGetOrCreateInstanceU3Eb__0_m15BA04FC7EEFAF5D5D1FEF7F9DFCC541DFF28C8A (U3CU3Ec__DisplayClass18_0_tC81D1730886DF63A5B974A4E6750A5211E8F0CEB * __this, uint64_t ____0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -11267,14 +12071,87 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// cookie => new Microsoft.Azure.ObjectAnchors.ObjectInstance(new IntPtr((long)cookie), transfer: false);
-		uint64_t L_0 = ___cookie0;
+		// _ => new Microsoft.Azure.ObjectAnchors.ObjectInstance(ConvertCookieToHandle(cookie), transfer: transfer));
+		uint64_t L_0 = __this->get_cookie_0();
+		IL2CPP_RUNTIME_CLASS_INIT(ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var);
 		intptr_t L_1;
-		memset((&L_1), 0, sizeof(L_1));
-		IntPtr__ctor_m2CDDF5A1715E7BCFDFB6823D7A18339BD8EB0E90((&L_1), L_0, /*hidden argument*/NULL);
-		ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * L_2 = (ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 *)il2cpp_codegen_object_new(ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var);
-		ObjectInstance__ctor_m2AE8571F16DCE1CC29BE93DA49D2C0D85C8F7949(L_2, (intptr_t)L_1, (bool)0, /*hidden argument*/NULL);
-		return L_2;
+		L_1 = ObjectInstance_ConvertCookieToHandle_mD2B1C29F5833621C7E9B5C3E1E5E0836809A595C(L_0, /*hidden argument*/NULL);
+		bool L_2 = __this->get_transfer_1();
+		ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 * L_3 = (ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4 *)il2cpp_codegen_object_new(ObjectInstance_tAAD636DB9F927FF804D7F2E67EAE442E7AA1B3C4_il2cpp_TypeInfo_var);
+		ObjectInstance__ctor_m2AE8571F16DCE1CC29BE93DA49D2C0D85C8F7949(L_3, (intptr_t)L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs/<>c__DisplayClass6_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_mF64551237FCD1FE8B727F64BB74288EDBA0C9731 (U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs/<>c__DisplayClass6_0::<GetOrCreateInstance>b__0(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * U3CU3Ec__DisplayClass6_0_U3CGetOrCreateInstanceU3Eb__0_m28F04B6D99037CE664158D33B3D87282851DCBD8 (U3CU3Ec__DisplayClass6_0_tFCAB56371C8113CD1E0BF9B7F4497E65153C5CEC * __this, uint64_t ____0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _ => new Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs(ConvertCookieToHandle(cookie), transfer: transfer));
+		uint64_t L_0 = __this->get_cookie_0();
+		intptr_t L_1;
+		L_1 = ObjectInstanceChangedEventArgs_ConvertCookieToHandle_mD87ED015FBB2E12BC7740674911E79FA297DF681(L_0, /*hidden argument*/NULL);
+		bool L_2 = __this->get_transfer_1();
+		ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 * L_3 = (ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323 *)il2cpp_codegen_object_new(ObjectInstanceChangedEventArgs_tBB190B6E5CE16E0CD293F67F030AE4539F263323_il2cpp_TypeInfo_var);
+		ObjectInstanceChangedEventArgs__ctor_m749E8F2B1D2FCD3DC0D561FBF22765EE63C5B6D2(L_3, (intptr_t)L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectModel/<>c__DisplayClass20_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0__ctor_mE0AA9774F0B2902665D52E3DA2DD4FDA4ABC002E (U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421 * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Microsoft.Azure.ObjectAnchors.ObjectModel Microsoft.Azure.ObjectAnchors.ObjectModel/<>c__DisplayClass20_0::<GetOrCreateInstance>b__0(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * U3CU3Ec__DisplayClass20_0_U3CGetOrCreateInstanceU3Eb__0_m1DC8BA877957A09B58F0FAFF3CBBA2A3B82C2853 (U3CU3Ec__DisplayClass20_0_t7E258EE808CB7181343979AC9F3E27E5D4032421 * __this, uint64_t ____0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _ => new Microsoft.Azure.ObjectAnchors.ObjectModel(ConvertCookieToHandle(cookie), transfer: transfer));
+		uint64_t L_0 = __this->get_cookie_0();
+		intptr_t L_1;
+		L_1 = ObjectModel_ConvertCookieToHandle_mD6F2A94EF8A79BD845BF308A48107C1E81D8DA5D(L_0, /*hidden argument*/NULL);
+		bool L_2 = __this->get_transfer_1();
+		ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * L_3 = (ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E *)il2cpp_codegen_object_new(ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E_il2cpp_TypeInfo_var);
+		ObjectModel__ctor_m32CFC5641458D37F8D730A880588EFC26DA1FC65(L_3, (intptr_t)L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
 	}
 }
 #ifdef __clang__
@@ -11360,6 +12237,42 @@ IL_0009:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass12_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0__ctor_m7C4497D0F3488A54E5F85C995B1657A2D150D879 (U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38 * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Microsoft.Azure.ObjectAnchors.ObjectObserver Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass12_0::<GetOrCreateInstance>b__0(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * U3CU3Ec__DisplayClass12_0_U3CGetOrCreateInstanceU3Eb__0_mCE942B0D767F4FA019FC774C6C3348ADA667ACAC (U3CU3Ec__DisplayClass12_0_t41DDDA085DB431137AAA45891C772181AFB72D38 * __this, uint64_t ____0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _ => new Microsoft.Azure.ObjectAnchors.ObjectObserver(ConvertCookieToHandle(cookie), transfer: transfer));
+		uint64_t L_0 = __this->get_cookie_0();
+		intptr_t L_1;
+		L_1 = ObjectObserver_ConvertCookieToHandle_m34E976D899D02A7D9EC9EBE544DDCAA935875D3C(L_0, /*hidden argument*/NULL);
+		bool L_2 = __this->get_transfer_1();
+		ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 * L_3 = (ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251 *)il2cpp_codegen_object_new(ObjectObserver_t6EF2738DCBDC580C9051EA0AC6A39F164FC8E251_il2cpp_TypeInfo_var);
+		ObjectObserver__ctor_mCDF2CC2DE301D20F38B2A45AB29FC29D4D888D80(L_3, (intptr_t)L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass6_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m6EAA34F097E9868EC97C439D229BB1B1FC517D5C (U3CU3Ec__DisplayClass6_0_tE4577ACCC4C8604FE904D733F4468E467E92D3F1 * __this, const RuntimeMethod* method)
 {
@@ -11371,12 +12284,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m6EAA34F0
 // Microsoft.Azure.ObjectAnchors.ObjectModel Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass6_0::<LoadObjectModelAsync>b__0()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * U3CU3Ec__DisplayClass6_0_U3CLoadObjectModelAsyncU3Eb__0_m5DFC11B723438767B04BD1D6FF3E0B2D49447876 (U3CU3Ec__DisplayClass6_0_tE4577ACCC4C8604FE904D733F4468E467E92D3F1 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* G_B2_0 = NULL;
@@ -11443,10 +12350,10 @@ IL_002b:
 		int32_t L_7;
 		L_7 = NativeLibrary_aoa_object_observer_load_object_model_async_m86C7DAF65BDA588610187A702356DE3C5E86E54E((intptr_t)G_B3_2, G_B3_1, G_B3_0, (intptr_t*)(&V_0), /*hidden argument*/NULL);
 		NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8((intptr_t)G_B3_3, L_7, /*hidden argument*/NULL);
-		// result_object = new Microsoft.Azure.ObjectAnchors.ObjectModel(result_handle, transfer:true);
+		// result_object = Microsoft.Azure.ObjectAnchors.ObjectModel.GetOrCreateInstance(result_handle, transfer: true);
 		intptr_t L_8 = V_0;
-		ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * L_9 = (ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E *)il2cpp_codegen_object_new(ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E_il2cpp_TypeInfo_var);
-		ObjectModel__ctor_m32CFC5641458D37F8D730A880588EFC26DA1FC65(L_9, (intptr_t)L_8, (bool)1, /*hidden argument*/NULL);
+		ObjectModel_t9E452AEB6DB4E215B01D2D9E2775BE50F3AA230E * L_9;
+		L_9 = ObjectModel_GetOrCreateInstance_m038FC92249DE1ABD88C351A287EF2D301F6A1BBB((intptr_t)L_8, (bool)1, /*hidden argument*/NULL);
 		// return result_object;
 		return L_9;
 	}
@@ -11627,7 +12534,7 @@ IL_0066:
 		int32_t L_18;
 		L_18 = NativeLibrary_aoa_object_observer_detect_async_queries_m494E649A2B26C984EF4A10BA377B300697AC2C7C((intptr_t)G_B10_2, G_B10_1, G_B10_0, (intptr_t*)(&V_1), /*hidden argument*/NULL);
 		NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8((intptr_t)G_B10_3, L_18, /*hidden argument*/NULL);
-		// result_object = new IList_ObjectInstance(result_handle, transfer:true);
+		// result_object = new IList_ObjectInstance(result_handle, transfer: true);
 		intptr_t L_19 = V_1;
 		IList_ObjectInstance_t4FD48D228D34A4FF7ED2684D6090213407B69E7E * L_20 = (IList_ObjectInstance_t4FD48D228D34A4FF7ED2684D6090213407B69E7E *)il2cpp_codegen_object_new(IList_ObjectInstance_t4FD48D228D34A4FF7ED2684D6090213407B69E7E_il2cpp_TypeInfo_var);
 		IList_ObjectInstance__ctor_m508CFC5932E64D10B6D7972AB51AC048BA71C3F7(L_20, (intptr_t)L_19, (bool)1, /*hidden argument*/NULL);
@@ -11703,7 +12610,7 @@ IL_000a:
 			//     IntPtr result_handle;
 			//     IList_ObjectInstance result_object;
 			//     Microsoft.Azure.ObjectAnchors.NativeLibraryHelpers.CheckStatus(this.handle, Microsoft.Azure.ObjectAnchors.NativeLibrary.aoa_object_observer_detect_async_queries(this.handle, queries_array, queries?.Length ?? 0, out result_handle));
-			//     result_object = new IList_ObjectInstance(result_handle, transfer:true);
+			//     result_object = new IList_ObjectInstance(result_handle, transfer: true);
 			//     return result_object;
 			// });
 			Func_1_t3D666A081DF50250461C0077FF34B42E065B57BA * L_7 = (Func_1_t3D666A081DF50250461C0077FF34B42E065B57BA *)il2cpp_codegen_object_new(Func_1_t3D666A081DF50250461C0077FF34B42E065B57BA_il2cpp_TypeInfo_var);
@@ -11884,7 +12791,7 @@ IL_000a:
 			//     IntPtr result_handle;
 			//     Microsoft.Azure.ObjectAnchors.ObjectModel result_object;
 			//     Microsoft.Azure.ObjectAnchors.NativeLibraryHelpers.CheckStatus(this.handle, Microsoft.Azure.ObjectAnchors.NativeLibrary.aoa_object_observer_load_object_model_async(this.handle, buffer, buffer?.Length ?? 0, out result_handle));
-			//     result_object = new Microsoft.Azure.ObjectAnchors.ObjectModel(result_handle, transfer:true);
+			//     result_object = Microsoft.Azure.ObjectAnchors.ObjectModel.GetOrCreateInstance(result_handle, transfer: true);
 			//     return result_object;
 			// });
 			Func_1_tCA09C261383BADDF5EC7B858BF18602981EFF020 * L_7 = (Func_1_tCA09C261383BADDF5EC7B858BF18602981EFF020 *)il2cpp_codegen_object_new(Func_1_tCA09C261383BADDF5EC7B858BF18602981EFF020_il2cpp_TypeInfo_var);

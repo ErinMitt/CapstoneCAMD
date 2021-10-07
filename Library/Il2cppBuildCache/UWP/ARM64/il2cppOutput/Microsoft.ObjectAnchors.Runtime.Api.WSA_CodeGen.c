@@ -204,155 +204,215 @@ extern void ObjectInstanceChangedHandler_EndInvoke_m833588B6383B67B35F23D02035B1
 extern void AccountInformation__ctor_m5AAAD6704F44E886627F257E6EAD0F85F4ABA7BD (void);
 // 0x00000071 System.Void Microsoft.Azure.ObjectAnchors.AccountInformation::Finalize()
 extern void AccountInformation_Finalize_mE10A5417E9678CDE766BE80F5684ED2D1AEBF5C0 (void);
-// 0x00000072 System.Void Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession::.ctor(Microsoft.Azure.ObjectAnchors.AccountInformation)
+// 0x00000072 System.UInt64 Microsoft.Azure.ObjectAnchors.AccountInformation::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+extern void AccountInformation_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mC10DDA555DB4ECE32FD39D09625A3D190D191181 (void);
+// 0x00000073 System.UInt64 Microsoft.Azure.ObjectAnchors.AccountInformation::ConvertHandleToCookie(System.IntPtr)
+extern void AccountInformation_ConvertHandleToCookie_mF86C1241424DE201E1F12F587E96B07F94E90E27 (void);
+// 0x00000074 System.Void Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession::.ctor(Microsoft.Azure.ObjectAnchors.AccountInformation)
 extern void ObjectAnchorsSession__ctor_m4217B1AD96CC0B62C8D760285F9B05E2AA0C6A80 (void);
-// 0x00000073 System.Void Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession::Finalize()
+// 0x00000075 System.Void Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession::Finalize()
 extern void ObjectAnchorsSession_Finalize_m7272E8D52B3673E6E636294AF84830F0B37C62A3 (void);
-// 0x00000074 Microsoft.Azure.ObjectAnchors.ObjectObserver Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession::CreateObjectObserver()
+// 0x00000076 Microsoft.Azure.ObjectAnchors.ObjectObserver Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession::CreateObjectObserver()
 extern void ObjectAnchorsSession_CreateObjectObserver_m9D78A7E9641245BBEC46844B48F5F6753F747805 (void);
-// 0x00000075 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::.ctor(System.IntPtr,System.Boolean)
+// 0x00000077 System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+extern void ObjectAnchorsSession_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mDC3BF30BF72AA2BEA33E4BB5DA09925DEC5CD530 (void);
+// 0x00000078 System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession::ConvertHandleToCookie(System.IntPtr)
+extern void ObjectAnchorsSession_ConvertHandleToCookie_m3A0B958F2D3496881D47AE3E73C446933B38FE7D (void);
+// 0x00000079 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::.ctor(System.IntPtr,System.Boolean)
 extern void ObjectInstanceChangedEventArgs__ctor_m749E8F2B1D2FCD3DC0D561FBF22765EE63C5B6D2 (void);
-// 0x00000076 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::Finalize()
+// 0x0000007A System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::Finalize()
 extern void ObjectInstanceChangedEventArgs_Finalize_m6D618A6E402ECF16983B6DD7A66657E1196DD768 (void);
-// 0x00000077 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::.ctor(System.IntPtr,System.Boolean)
+// 0x0000007B System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+extern void ObjectInstanceChangedEventArgs_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mD1F6DB6E667974FDC15829B7CF0BFCDA6ED6A080 (void);
+// 0x0000007C Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::GetOrCreateInstance(System.IntPtr,System.Boolean)
+extern void ObjectInstanceChangedEventArgs_GetOrCreateInstance_mFFA3D6C12D23A4D7F728F5BBF35DF941BA9CFB3F (void);
+// 0x0000007D Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::GetOrCreateInstance(System.UInt64,System.Boolean)
+extern void ObjectInstanceChangedEventArgs_GetOrCreateInstance_m86D0E6F2983D7FCA8357F3EDD5FC06C50FBDB07D (void);
+// 0x0000007E System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::ConvertHandleToCookie(System.IntPtr)
+extern void ObjectInstanceChangedEventArgs_ConvertHandleToCookie_m1EA3F5E51EE31C65680FCF1D5FA8A2ADD36A0761 (void);
+// 0x0000007F System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs::ConvertCookieToHandle(System.UInt64)
+extern void ObjectInstanceChangedEventArgs_ConvertCookieToHandle_mD87ED015FBB2E12BC7740674911E79FA297DF681 (void);
+// 0x00000080 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs/<>c__DisplayClass6_0::.ctor()
+extern void U3CU3Ec__DisplayClass6_0__ctor_mF64551237FCD1FE8B727F64BB74288EDBA0C9731 (void);
+// 0x00000081 Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedEventArgs/<>c__DisplayClass6_0::<GetOrCreateInstance>b__0(System.UInt64)
+extern void U3CU3Ec__DisplayClass6_0_U3CGetOrCreateInstanceU3Eb__0_m28F04B6D99037CE664158D33B3D87282851DCBD8 (void);
+// 0x00000082 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::.ctor(System.IntPtr,System.Boolean)
 extern void ObjectInstance__ctor_m2AE8571F16DCE1CC29BE93DA49D2C0D85C8F7949 (void);
-// 0x00000078 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::Finalize()
+// 0x00000083 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::Finalize()
 extern void ObjectInstance_Finalize_m7AB475FFEB64A6BBB0C9BE0665E979D4CD53761E (void);
-// 0x00000079 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::Dispose()
+// 0x00000084 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::Dispose()
 extern void ObjectInstance_Dispose_mAFA6818FE3DDBD68F7B9D7D53977A852BCFF7FAA (void);
-// 0x0000007A System.Guid Microsoft.Azure.ObjectAnchors.ObjectInstance::get_ModelId()
+// 0x00000085 System.Guid Microsoft.Azure.ObjectAnchors.ObjectInstance::get_ModelId()
 extern void ObjectInstance_get_ModelId_mFEB1F05495E9AE6769DBD00DC2AF7A32D583E792 (void);
-// 0x0000007B Microsoft.Azure.ObjectAnchors.ObjectInstanceTrackingMode Microsoft.Azure.ObjectAnchors.ObjectInstance::get_Mode()
+// 0x00000086 Microsoft.Azure.ObjectAnchors.ObjectInstanceTrackingMode Microsoft.Azure.ObjectAnchors.ObjectInstance::get_Mode()
 extern void ObjectInstance_get_Mode_mE8989801753E77EC93CFEECFC7D92D05E2AD64BC (void);
-// 0x0000007C System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::set_Mode(Microsoft.Azure.ObjectAnchors.ObjectInstanceTrackingMode)
+// 0x00000087 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::set_Mode(Microsoft.Azure.ObjectAnchors.ObjectInstanceTrackingMode)
 extern void ObjectInstance_set_Mode_mC9F1104333F78AFCCCBBFC5CEA9D7987A27AB247 (void);
-// 0x0000007D System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::ChangedStaticHandler(System.UInt64,System.IntPtr)
+// 0x00000088 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::ChangedStaticHandler(System.UInt64,System.IntPtr)
 extern void ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1 (void);
-// 0x0000007E System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::add_Changed(Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandler)
+// 0x00000089 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::add_Changed(Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandler)
 extern void ObjectInstance_add_Changed_mFDB978B36A60CF54D90156E4F78B48D90B6C387B (void);
-// 0x0000007F System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::remove_Changed(Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandler)
+// 0x0000008A System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::remove_Changed(Microsoft.Azure.ObjectAnchors.ObjectInstanceChangedHandler)
 extern void ObjectInstance_remove_Changed_m348FDDF50B337D08DFFBCB4BAC165BBE85A55866 (void);
-// 0x00000080 System.Nullable`1<Microsoft.Azure.ObjectAnchors.ObjectInstanceState> Microsoft.Azure.ObjectAnchors.ObjectInstance::TryGetCurrentState()
+// 0x0000008B System.Nullable`1<Microsoft.Azure.ObjectAnchors.ObjectInstanceState> Microsoft.Azure.ObjectAnchors.ObjectInstance::TryGetCurrentState()
 extern void ObjectInstance_TryGetCurrentState_mE9EB3F70D1B441C5685024E4725A9740039717AA (void);
-// 0x00000081 System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstance::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+// 0x0000008C System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstance::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
 extern void ObjectInstance_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_m15DF8A06ACD97FCF9370AA42E7AF579723A7ED13 (void);
-// 0x00000082 Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance::GetInstance(System.UInt64)
-extern void ObjectInstance_GetInstance_mBF83A8CEB8E9BCA15F85DBE9B7085DEE7CB34EA1 (void);
-// 0x00000083 System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstance::ConvertHandleToCookie(System.IntPtr)
+// 0x0000008D Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance::GetOrCreateInstance(System.IntPtr,System.Boolean)
+extern void ObjectInstance_GetOrCreateInstance_m308AFC8C6669673DF618895DBD7FADA82B9B9F2A (void);
+// 0x0000008E Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance::GetOrCreateInstance(System.UInt64,System.Boolean)
+extern void ObjectInstance_GetOrCreateInstance_mEFDC4F8A4500A4178EF4387FFEFB2B9500B80EB7 (void);
+// 0x0000008F System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectInstance::ConvertHandleToCookie(System.IntPtr)
 extern void ObjectInstance_ConvertHandleToCookie_m06D2F356AF0436E655A193D69EE3D72926AD01A9 (void);
-// 0x00000084 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::.cctor()
+// 0x00000090 System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectInstance::ConvertCookieToHandle(System.UInt64)
+extern void ObjectInstance_ConvertCookieToHandle_mD2B1C29F5833621C7E9B5C3E1E5E0836809A595C (void);
+// 0x00000091 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance::.cctor()
 extern void ObjectInstance__cctor_m0E7D4203701F856458B3387F6381A3A3B351961C (void);
-// 0x00000085 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c::.cctor()
-extern void U3CU3Ec__cctor_mEC355995BAEEA3D3629CE5B9B33AB073290EA29B (void);
-// 0x00000086 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c::.ctor()
-extern void U3CU3Ec__ctor_mAA1DB7ED1E6D96FB68C746616E81FAEEB35D4D55 (void);
-// 0x00000087 Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c::<.cctor>b__20_0(System.UInt64)
-extern void U3CU3Ec_U3C_cctorU3Eb__20_0_mE110D755523A3B90AA058B8D7D7CAAD4628D93A5 (void);
-// 0x00000088 System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::.ctor(System.IntPtr,System.Boolean)
+// 0x00000092 System.Void Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c__DisplayClass18_0::.ctor()
+extern void U3CU3Ec__DisplayClass18_0__ctor_m8D9F0455579964E1E7F4BCC81135BD5780722976 (void);
+// 0x00000093 Microsoft.Azure.ObjectAnchors.ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectInstance/<>c__DisplayClass18_0::<GetOrCreateInstance>b__0(System.UInt64)
+extern void U3CU3Ec__DisplayClass18_0_U3CGetOrCreateInstanceU3Eb__0_m15BA04FC7EEFAF5D5D1FEF7F9DFCC541DFF28C8A (void);
+// 0x00000094 System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::.ctor(System.IntPtr,System.Boolean)
 extern void ObjectModel__ctor_m32CFC5641458D37F8D730A880588EFC26DA1FC65 (void);
-// 0x00000089 System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::Finalize()
+// 0x00000095 System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::Finalize()
 extern void ObjectModel_Finalize_m6CF470D43192C22DFBE06EA976F0F155B8B45627 (void);
-// 0x0000008A System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::Dispose()
+// 0x00000096 System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::Dispose()
 extern void ObjectModel_Dispose_m4CE824386A5CE65D743112AB83596FA231290551 (void);
-// 0x0000008B System.Guid Microsoft.Azure.ObjectAnchors.ObjectModel::get_Id()
+// 0x00000097 System.Guid Microsoft.Azure.ObjectAnchors.ObjectModel::get_Id()
 extern void ObjectModel_get_Id_m85F19AF2E0854BE1BBB4BA97396FE6CC8882E8F4 (void);
-// 0x0000008C Microsoft.Azure.ObjectAnchors.SpatialGraph.SpatialOrientedBox Microsoft.Azure.ObjectAnchors.ObjectModel::get_BoundingBox()
+// 0x00000098 Microsoft.Azure.ObjectAnchors.SpatialGraph.SpatialOrientedBox Microsoft.Azure.ObjectAnchors.ObjectModel::get_BoundingBox()
 extern void ObjectModel_get_BoundingBox_m92734DA796E4E11A30252376A532B0855F911246 (void);
-// 0x0000008D System.Numerics.Matrix4x4 Microsoft.Azure.ObjectAnchors.ObjectModel::get_OriginToCenterTransform()
+// 0x00000099 System.Numerics.Matrix4x4 Microsoft.Azure.ObjectAnchors.ObjectModel::get_OriginToCenterTransform()
 extern void ObjectModel_get_OriginToCenterTransform_m93132C3B7309042D8900672B86FD9BAAFED7C64F (void);
-// 0x0000008E System.UInt32 Microsoft.Azure.ObjectAnchors.ObjectModel::get_VertexCount()
+// 0x0000009A System.UInt32 Microsoft.Azure.ObjectAnchors.ObjectModel::get_VertexCount()
 extern void ObjectModel_get_VertexCount_m7219196A650F9F06840A50B209E422C7A28D985F (void);
-// 0x0000008F System.UInt32 Microsoft.Azure.ObjectAnchors.ObjectModel::get_TriangleIndexCount()
+// 0x0000009B System.UInt32 Microsoft.Azure.ObjectAnchors.ObjectModel::get_TriangleIndexCount()
 extern void ObjectModel_get_TriangleIndexCount_mF5A11D11C24D489396733D3EF12F6749CB78738E (void);
-// 0x00000090 System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::GetVertexPositions(System.Numerics.Vector3[])
+// 0x0000009C System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::GetVertexPositions(System.Numerics.Vector3[])
 extern void ObjectModel_GetVertexPositions_m609DDA8DFD1A3894C2CDFC6050D21CF19238394E (void);
-// 0x00000091 System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::GetVertexNormals(System.Numerics.Vector3[])
+// 0x0000009D System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::GetVertexNormals(System.Numerics.Vector3[])
 extern void ObjectModel_GetVertexNormals_mF9E7D24C43ED4ED70CA9BE924F6E835DB7E6A62C (void);
-// 0x00000092 System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::GetTriangleIndices(System.UInt32[])
+// 0x0000009E System.Void Microsoft.Azure.ObjectAnchors.ObjectModel::GetTriangleIndices(System.UInt32[])
 extern void ObjectModel_GetTriangleIndices_m850D9132235DF4F398B1ECA127414C4ACA18E85C (void);
-// 0x00000093 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver::.ctor(System.IntPtr,System.Boolean)
+// 0x0000009F System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectModel::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+extern void ObjectModel_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mC5B27886120717C74C4A22BBA52A5FB29FC1E7C0 (void);
+// 0x000000A0 Microsoft.Azure.ObjectAnchors.ObjectModel Microsoft.Azure.ObjectAnchors.ObjectModel::GetOrCreateInstance(System.IntPtr,System.Boolean)
+extern void ObjectModel_GetOrCreateInstance_m038FC92249DE1ABD88C351A287EF2D301F6A1BBB (void);
+// 0x000000A1 Microsoft.Azure.ObjectAnchors.ObjectModel Microsoft.Azure.ObjectAnchors.ObjectModel::GetOrCreateInstance(System.UInt64,System.Boolean)
+extern void ObjectModel_GetOrCreateInstance_m3B694144C4AF36CC3286AC17A7C9E12F802E1CB9 (void);
+// 0x000000A2 System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectModel::ConvertHandleToCookie(System.IntPtr)
+extern void ObjectModel_ConvertHandleToCookie_m24FFF9DD80E55C49383F640E862EB1015B5D0F8E (void);
+// 0x000000A3 System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectModel::ConvertCookieToHandle(System.UInt64)
+extern void ObjectModel_ConvertCookieToHandle_mD6F2A94EF8A79BD845BF308A48107C1E81D8DA5D (void);
+// 0x000000A4 System.Void Microsoft.Azure.ObjectAnchors.ObjectModel/<>c__DisplayClass20_0::.ctor()
+extern void U3CU3Ec__DisplayClass20_0__ctor_mE0AA9774F0B2902665D52E3DA2DD4FDA4ABC002E (void);
+// 0x000000A5 Microsoft.Azure.ObjectAnchors.ObjectModel Microsoft.Azure.ObjectAnchors.ObjectModel/<>c__DisplayClass20_0::<GetOrCreateInstance>b__0(System.UInt64)
+extern void U3CU3Ec__DisplayClass20_0_U3CGetOrCreateInstanceU3Eb__0_m1DC8BA877957A09B58F0FAFF3CBBA2A3B82C2853 (void);
+// 0x000000A6 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver::.ctor(System.IntPtr,System.Boolean)
 extern void ObjectObserver__ctor_mCDF2CC2DE301D20F38B2A45AB29FC29D4D888D80 (void);
-// 0x00000094 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver::Finalize()
+// 0x000000A7 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver::Finalize()
 extern void ObjectObserver_Finalize_mDD2E39202EB126F5E21636DB727957DC7B6F05E8 (void);
-// 0x00000095 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver::Dispose()
+// 0x000000A8 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver::Dispose()
 extern void ObjectObserver_Dispose_mE1E859583BA79AFC428397EA61EC18822ACC6293 (void);
-// 0x00000096 System.Boolean Microsoft.Azure.ObjectAnchors.ObjectObserver::IsSupported()
+// 0x000000A9 System.Boolean Microsoft.Azure.ObjectAnchors.ObjectObserver::IsSupported()
 extern void ObjectObserver_IsSupported_mFCFC7F8904F653BB8304E595E2AB97A085F4F377 (void);
-// 0x00000097 System.Threading.Tasks.Task`1<Microsoft.Azure.ObjectAnchors.ObjectObserverAccessStatus> Microsoft.Azure.ObjectAnchors.ObjectObserver::RequestAccessAsync()
+// 0x000000AA System.Threading.Tasks.Task`1<Microsoft.Azure.ObjectAnchors.ObjectObserverAccessStatus> Microsoft.Azure.ObjectAnchors.ObjectObserver::RequestAccessAsync()
 extern void ObjectObserver_RequestAccessAsync_m704572D44DB6CEFAEB567224EFB5742D1EC8BC52 (void);
-// 0x00000098 System.Threading.Tasks.Task`1<Microsoft.Azure.ObjectAnchors.ObjectModel> Microsoft.Azure.ObjectAnchors.ObjectObserver::LoadObjectModelAsync(System.Byte[])
+// 0x000000AB System.Threading.Tasks.Task`1<Microsoft.Azure.ObjectAnchors.ObjectModel> Microsoft.Azure.ObjectAnchors.ObjectObserver::LoadObjectModelAsync(System.Byte[])
 extern void ObjectObserver_LoadObjectModelAsync_mE3E3F679BC2C99997D2A7E28CF18676317E20CCA (void);
-// 0x00000099 System.Threading.Tasks.Task`1<System.Collections.Generic.IList`1<Microsoft.Azure.ObjectAnchors.ObjectInstance>> Microsoft.Azure.ObjectAnchors.ObjectObserver::DetectAsync(Microsoft.Azure.ObjectAnchors.ObjectQuery[])
+// 0x000000AC System.Threading.Tasks.Task`1<System.Collections.Generic.IList`1<Microsoft.Azure.ObjectAnchors.ObjectInstance>> Microsoft.Azure.ObjectAnchors.ObjectObserver::DetectAsync(Microsoft.Azure.ObjectAnchors.ObjectQuery[])
 extern void ObjectObserver_DetectAsync_m28426C87758123C3A21F971E18A5E673171536B4 (void);
-// 0x0000009A System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c::.cctor()
+// 0x000000AD System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectObserver::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+extern void ObjectObserver_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_m29E5E2A650CC15C56FEEA07E1FEEDD44CCF013A2 (void);
+// 0x000000AE Microsoft.Azure.ObjectAnchors.ObjectObserver Microsoft.Azure.ObjectAnchors.ObjectObserver::GetOrCreateInstance(System.IntPtr,System.Boolean)
+extern void ObjectObserver_GetOrCreateInstance_mBF0535D5A2C49A6E73A7E624D0BFF032FFB88DA3 (void);
+// 0x000000AF Microsoft.Azure.ObjectAnchors.ObjectObserver Microsoft.Azure.ObjectAnchors.ObjectObserver::GetOrCreateInstance(System.UInt64,System.Boolean)
+extern void ObjectObserver_GetOrCreateInstance_mB82EE0DFC043D973E8E529B154B18ED782DC5B5E (void);
+// 0x000000B0 System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectObserver::ConvertHandleToCookie(System.IntPtr)
+extern void ObjectObserver_ConvertHandleToCookie_mD82A220B0DAA4E31F2343907B5B166CA562B80CB (void);
+// 0x000000B1 System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectObserver::ConvertCookieToHandle(System.UInt64)
+extern void ObjectObserver_ConvertCookieToHandle_m34E976D899D02A7D9EC9EBE544DDCAA935875D3C (void);
+// 0x000000B2 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c::.cctor()
 extern void U3CU3Ec__cctor_mB0D38184D142CA66DFE61AA91FE0136315ADC251 (void);
-// 0x0000009B System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c::.ctor()
+// 0x000000B3 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c::.ctor()
 extern void U3CU3Ec__ctor_mF21C7A9CEE63E53AAFC87EFB6CAAD8FC377790E9 (void);
-// 0x0000009C Microsoft.Azure.ObjectAnchors.ObjectObserverAccessStatus Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c::<RequestAccessAsync>b__5_0()
+// 0x000000B4 Microsoft.Azure.ObjectAnchors.ObjectObserverAccessStatus Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c::<RequestAccessAsync>b__5_0()
 extern void U3CU3Ec_U3CRequestAccessAsyncU3Eb__5_0_mA220D444C85E3C129007A146E1329A87C49E4D78 (void);
-// 0x0000009D System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c::<DetectAsync>b__8_1(Microsoft.Azure.ObjectAnchors.ObjectQuery)
+// 0x000000B5 System.IntPtr Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c::<DetectAsync>b__8_1(Microsoft.Azure.ObjectAnchors.ObjectQuery)
 extern void U3CU3Ec_U3CDetectAsyncU3Eb__8_1_mB7C80810D7E67B2CFCBC371457A7A43072B3E19C (void);
-// 0x0000009E System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<RequestAccessAsync>d__5::MoveNext()
+// 0x000000B6 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<RequestAccessAsync>d__5::MoveNext()
 extern void U3CRequestAccessAsyncU3Ed__5_MoveNext_m75409AC0FD3CEBD8A296C19BD8645959FB3A49DD (void);
-// 0x0000009F System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<RequestAccessAsync>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000B7 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<RequestAccessAsync>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CRequestAccessAsyncU3Ed__5_SetStateMachine_m7EDA3228966F76E3EDD221C6390AB3EE451D5A81 (void);
-// 0x000000A0 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass6_0::.ctor()
+// 0x000000B8 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass6_0::.ctor()
 extern void U3CU3Ec__DisplayClass6_0__ctor_m6EAA34F097E9868EC97C439D229BB1B1FC517D5C (void);
-// 0x000000A1 Microsoft.Azure.ObjectAnchors.ObjectModel Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass6_0::<LoadObjectModelAsync>b__0()
+// 0x000000B9 Microsoft.Azure.ObjectAnchors.ObjectModel Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass6_0::<LoadObjectModelAsync>b__0()
 extern void U3CU3Ec__DisplayClass6_0_U3CLoadObjectModelAsyncU3Eb__0_m5DFC11B723438767B04BD1D6FF3E0B2D49447876 (void);
-// 0x000000A2 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<LoadObjectModelAsync>d__6::MoveNext()
+// 0x000000BA System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<LoadObjectModelAsync>d__6::MoveNext()
 extern void U3CLoadObjectModelAsyncU3Ed__6_MoveNext_mC4B44C3A630EF2E2EF02FB2B8D1A69D51973E6AC (void);
-// 0x000000A3 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<LoadObjectModelAsync>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000BB System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<LoadObjectModelAsync>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CLoadObjectModelAsyncU3Ed__6_SetStateMachine_mEFED77671108A78E66FD7529EE8A2F62EAB84B6F (void);
-// 0x000000A4 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass8_0::.ctor()
+// 0x000000BC System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass8_0::.ctor()
 extern void U3CU3Ec__DisplayClass8_0__ctor_m8B5C0006E4308C152201E0956A170C434EDDB287 (void);
-// 0x000000A5 Microsoft.Azure.ObjectAnchors.IList_ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass8_0::<DetectAsync>b__0()
+// 0x000000BD Microsoft.Azure.ObjectAnchors.IList_ObjectInstance Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass8_0::<DetectAsync>b__0()
 extern void U3CU3Ec__DisplayClass8_0_U3CDetectAsyncU3Eb__0_mA6FBCDEAFF867003C157ECE0A97F92BF8A296E69 (void);
-// 0x000000A6 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<DetectAsync>d__8::MoveNext()
+// 0x000000BE System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<DetectAsync>d__8::MoveNext()
 extern void U3CDetectAsyncU3Ed__8_MoveNext_mD04A40169E1C56DEA960F33116F610100A5B2390 (void);
-// 0x000000A7 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<DetectAsync>d__8::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000BF System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<DetectAsync>d__8::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CDetectAsyncU3Ed__8_SetStateMachine_m44656A1609FCC50285193B20DFC46027A7494BA4 (void);
-// 0x000000A8 System.Void Microsoft.Azure.ObjectAnchors.ObjectQuery::.ctor(Microsoft.Azure.ObjectAnchors.ObjectModel)
+// 0x000000C0 System.Void Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass12_0::.ctor()
+extern void U3CU3Ec__DisplayClass12_0__ctor_m7C4497D0F3488A54E5F85C995B1657A2D150D879 (void);
+// 0x000000C1 Microsoft.Azure.ObjectAnchors.ObjectObserver Microsoft.Azure.ObjectAnchors.ObjectObserver/<>c__DisplayClass12_0::<GetOrCreateInstance>b__0(System.UInt64)
+extern void U3CU3Ec__DisplayClass12_0_U3CGetOrCreateInstanceU3Eb__0_mCE942B0D767F4FA019FC774C6C3348ADA667ACAC (void);
+// 0x000000C2 System.Void Microsoft.Azure.ObjectAnchors.ObjectQuery::.ctor(Microsoft.Azure.ObjectAnchors.ObjectModel)
 extern void ObjectQuery__ctor_mE5F096ABB64DD9203A1B53963955B589731A8970 (void);
-// 0x000000A9 System.Void Microsoft.Azure.ObjectAnchors.ObjectQuery::.ctor(Microsoft.Azure.ObjectAnchors.ObjectModel,Microsoft.Azure.ObjectAnchors.ObjectObservationMode)
+// 0x000000C3 System.Void Microsoft.Azure.ObjectAnchors.ObjectQuery::.ctor(Microsoft.Azure.ObjectAnchors.ObjectModel,Microsoft.Azure.ObjectAnchors.ObjectObservationMode)
 extern void ObjectQuery__ctor_m9CDF383D81F4FB4DD191F2AAC10139209E96E610 (void);
-// 0x000000AA System.Void Microsoft.Azure.ObjectAnchors.ObjectQuery::Finalize()
+// 0x000000C4 System.Void Microsoft.Azure.ObjectAnchors.ObjectQuery::Finalize()
 extern void ObjectQuery_Finalize_m4873F08A31676004416F228A4F02AB2DC1B65232 (void);
-// 0x000000AB System.Void Microsoft.Azure.ObjectAnchors.ObjectQuery::Dispose()
+// 0x000000C5 System.Void Microsoft.Azure.ObjectAnchors.ObjectQuery::Dispose()
 extern void ObjectQuery_Dispose_m50679F4A2B7544D44F4327EB8542F4B830DFA376 (void);
-// 0x000000AC Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.Diagnostics.NativeLibrary::aoa_object_diagnostics_session_close_async(System.IntPtr,System.String)
+// 0x000000C6 System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectQuery::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+extern void ObjectQuery_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mFF318415069EAFEE2B45E94910314AE4AFA28B1C (void);
+// 0x000000C7 System.UInt64 Microsoft.Azure.ObjectAnchors.ObjectQuery::ConvertHandleToCookie(System.IntPtr)
+extern void ObjectQuery_ConvertHandleToCookie_m94751321E824D67C213DDFD616E34C34B9AB9500 (void);
+// 0x000000C8 Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.Diagnostics.NativeLibrary::aoa_object_diagnostics_session_close_async(System.IntPtr,System.String)
 extern void NativeLibrary_aoa_object_diagnostics_session_close_async_m82A511F3621B9F11061E04CECE4BDDA3769BF9C0 (void);
-// 0x000000AD Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.Diagnostics.NativeLibrary::aoa_object_diagnostics_session_create_object_observer_observer_uint32_max_session_size_in_mega_bytes(System.IntPtr,System.UInt32,System.IntPtr&)
+// 0x000000C9 Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.Diagnostics.NativeLibrary::aoa_object_diagnostics_session_create_object_observer_observer_uint32_max_session_size_in_mega_bytes(System.IntPtr,System.UInt32,System.IntPtr&)
 extern void NativeLibrary_aoa_object_diagnostics_session_create_object_observer_observer_uint32_max_session_size_in_mega_bytes_mD160B0FA404908574EFBC6B62925F70B2CFA102F (void);
-// 0x000000AE Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.Diagnostics.NativeLibrary::aoa_object_diagnostics_session_release(System.IntPtr)
+// 0x000000CA Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.Diagnostics.NativeLibrary::aoa_object_diagnostics_session_release(System.IntPtr)
 extern void NativeLibrary_aoa_object_diagnostics_session_release_m34FDBC829B32BD96186D4EE4926E21E0FB98E978 (void);
-// 0x000000AF Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.Diagnostics.NativeLibrary::aoa_object_diagnostics_session_upload_diagnostics_async(System.String,System.IntPtr,Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsUploadStatus&)
+// 0x000000CB Microsoft.Azure.ObjectAnchors.status Microsoft.Azure.ObjectAnchors.Diagnostics.NativeLibrary::aoa_object_diagnostics_session_upload_diagnostics_async(System.String,System.IntPtr,Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsUploadStatus&)
 extern void NativeLibrary_aoa_object_diagnostics_session_upload_diagnostics_async_m38893C09FFADB96943990C38593DBF872F0119FB (void);
-// 0x000000B0 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::.ctor(Microsoft.Azure.ObjectAnchors.ObjectObserver,System.UInt32)
+// 0x000000CC System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::.ctor(Microsoft.Azure.ObjectAnchors.ObjectObserver,System.UInt32)
 extern void ObjectDiagnosticsSession__ctor_mE5B7A9F432B0B09673EC4057043AB559B5B08758 (void);
-// 0x000000B1 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::Finalize()
+// 0x000000CD System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::Finalize()
 extern void ObjectDiagnosticsSession_Finalize_m90FC37736304663A1D8AF98BB4AB7D3A0DA25B4A (void);
-// 0x000000B2 System.Threading.Tasks.Task Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::CloseAsync(System.String)
+// 0x000000CE System.Threading.Tasks.Task Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::CloseAsync(System.String)
 extern void ObjectDiagnosticsSession_CloseAsync_mCA9F4E1EC2472DF1045C5E4E6975838CE505636D (void);
-// 0x000000B3 System.Threading.Tasks.Task`1<Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsUploadStatus> Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::UploadDiagnosticsAsync(System.String,Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession)
+// 0x000000CF System.Threading.Tasks.Task`1<Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsUploadStatus> Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::UploadDiagnosticsAsync(System.String,Microsoft.Azure.ObjectAnchors.ObjectAnchorsSession)
 extern void ObjectDiagnosticsSession_UploadDiagnosticsAsync_mE9B6C43277C743B2E9481E92225A188CE4009482 (void);
-// 0x000000B4 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<>c__DisplayClass5_0::.ctor()
+// 0x000000D0 System.UInt64 Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::Microsoft.Azure.ObjectAnchors.ICachedObject.get_Cookie()
+extern void ObjectDiagnosticsSession_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_m8491E20EE14AAA4959178F04C0A9EDDDEC613D26 (void);
+// 0x000000D1 System.UInt64 Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession::ConvertHandleToCookie(System.IntPtr)
+extern void ObjectDiagnosticsSession_ConvertHandleToCookie_m2D8AE568C6F7A181D7B71E528EFB87F1FC86FD12 (void);
+// 0x000000D2 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<>c__DisplayClass5_0::.ctor()
 extern void U3CU3Ec__DisplayClass5_0__ctor_mCF8FF782727BEFA86D65E2D3665C0C90EAEECDC3 (void);
-// 0x000000B5 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<>c__DisplayClass5_0::<CloseAsync>b__0()
+// 0x000000D3 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<>c__DisplayClass5_0::<CloseAsync>b__0()
 extern void U3CU3Ec__DisplayClass5_0_U3CCloseAsyncU3Eb__0_mC3A356B0A2DBF0FE8849FD719F42F042CE0B5743 (void);
-// 0x000000B6 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<CloseAsync>d__5::MoveNext()
+// 0x000000D4 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<CloseAsync>d__5::MoveNext()
 extern void U3CCloseAsyncU3Ed__5_MoveNext_mF280DD5B0B1E0CD51AC5626CA4FA894DD3F8A113 (void);
-// 0x000000B7 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<CloseAsync>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000D5 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<CloseAsync>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CCloseAsyncU3Ed__5_SetStateMachine_m12A92CC6FD5C0BE3658B1A55E8ADB4E1579F53E9 (void);
-// 0x000000B8 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<>c__DisplayClass6_0::.ctor()
+// 0x000000D6 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<>c__DisplayClass6_0::.ctor()
 extern void U3CU3Ec__DisplayClass6_0__ctor_m88C8FEF5CA1AA19A1A640AAE2BB3242AC17BFF17 (void);
-// 0x000000B9 Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsUploadStatus Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<>c__DisplayClass6_0::<UploadDiagnosticsAsync>b__0()
+// 0x000000D7 Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsUploadStatus Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<>c__DisplayClass6_0::<UploadDiagnosticsAsync>b__0()
 extern void U3CU3Ec__DisplayClass6_0_U3CUploadDiagnosticsAsyncU3Eb__0_mE7F38B2CEDBFFD3C7CD49ADB6F888E21E7E4E0F7 (void);
-// 0x000000BA System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<UploadDiagnosticsAsync>d__6::MoveNext()
+// 0x000000D8 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<UploadDiagnosticsAsync>d__6::MoveNext()
 extern void U3CUploadDiagnosticsAsyncU3Ed__6_MoveNext_m5292974D4FD9DCD23E5A95D78FC734251A4F94A6 (void);
-// 0x000000BB System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<UploadDiagnosticsAsync>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000D9 System.Void Microsoft.Azure.ObjectAnchors.Diagnostics.ObjectDiagnosticsSession/<UploadDiagnosticsAsync>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CUploadDiagnosticsAsyncU3Ed__6_SetStateMachine_m6E23BAE6366C90383ECED06A7EF03FC3F13C82D1 (void);
-static Il2CppMethodPointer s_methodPointers[187] = 
+static Il2CppMethodPointer s_methodPointers[217] = 
 {
 	NativeLibraryHelpers_CheckStatus_m7F824A2F95224D52BD57ADF3A844D26FC326EE87,
 	NativeLibraryHelpers_CheckStatus_m64F514827140BB7843C18DFFCAA14328C96CC5A8,
@@ -467,11 +527,22 @@ static Il2CppMethodPointer s_methodPointers[187] =
 	ObjectInstanceChangedHandler_EndInvoke_m833588B6383B67B35F23D02035B100A5E4CBF824,
 	AccountInformation__ctor_m5AAAD6704F44E886627F257E6EAD0F85F4ABA7BD,
 	AccountInformation_Finalize_mE10A5417E9678CDE766BE80F5684ED2D1AEBF5C0,
+	AccountInformation_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mC10DDA555DB4ECE32FD39D09625A3D190D191181,
+	AccountInformation_ConvertHandleToCookie_mF86C1241424DE201E1F12F587E96B07F94E90E27,
 	ObjectAnchorsSession__ctor_m4217B1AD96CC0B62C8D760285F9B05E2AA0C6A80,
 	ObjectAnchorsSession_Finalize_m7272E8D52B3673E6E636294AF84830F0B37C62A3,
 	ObjectAnchorsSession_CreateObjectObserver_m9D78A7E9641245BBEC46844B48F5F6753F747805,
+	ObjectAnchorsSession_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mDC3BF30BF72AA2BEA33E4BB5DA09925DEC5CD530,
+	ObjectAnchorsSession_ConvertHandleToCookie_m3A0B958F2D3496881D47AE3E73C446933B38FE7D,
 	ObjectInstanceChangedEventArgs__ctor_m749E8F2B1D2FCD3DC0D561FBF22765EE63C5B6D2,
 	ObjectInstanceChangedEventArgs_Finalize_m6D618A6E402ECF16983B6DD7A66657E1196DD768,
+	ObjectInstanceChangedEventArgs_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mD1F6DB6E667974FDC15829B7CF0BFCDA6ED6A080,
+	ObjectInstanceChangedEventArgs_GetOrCreateInstance_mFFA3D6C12D23A4D7F728F5BBF35DF941BA9CFB3F,
+	ObjectInstanceChangedEventArgs_GetOrCreateInstance_m86D0E6F2983D7FCA8357F3EDD5FC06C50FBDB07D,
+	ObjectInstanceChangedEventArgs_ConvertHandleToCookie_m1EA3F5E51EE31C65680FCF1D5FA8A2ADD36A0761,
+	ObjectInstanceChangedEventArgs_ConvertCookieToHandle_mD87ED015FBB2E12BC7740674911E79FA297DF681,
+	U3CU3Ec__DisplayClass6_0__ctor_mF64551237FCD1FE8B727F64BB74288EDBA0C9731,
+	U3CU3Ec__DisplayClass6_0_U3CGetOrCreateInstanceU3Eb__0_m28F04B6D99037CE664158D33B3D87282851DCBD8,
 	ObjectInstance__ctor_m2AE8571F16DCE1CC29BE93DA49D2C0D85C8F7949,
 	ObjectInstance_Finalize_m7AB475FFEB64A6BBB0C9BE0665E979D4CD53761E,
 	ObjectInstance_Dispose_mAFA6818FE3DDBD68F7B9D7D53977A852BCFF7FAA,
@@ -483,12 +554,13 @@ static Il2CppMethodPointer s_methodPointers[187] =
 	ObjectInstance_remove_Changed_m348FDDF50B337D08DFFBCB4BAC165BBE85A55866,
 	ObjectInstance_TryGetCurrentState_mE9EB3F70D1B441C5685024E4725A9740039717AA,
 	ObjectInstance_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_m15DF8A06ACD97FCF9370AA42E7AF579723A7ED13,
-	ObjectInstance_GetInstance_mBF83A8CEB8E9BCA15F85DBE9B7085DEE7CB34EA1,
+	ObjectInstance_GetOrCreateInstance_m308AFC8C6669673DF618895DBD7FADA82B9B9F2A,
+	ObjectInstance_GetOrCreateInstance_mEFDC4F8A4500A4178EF4387FFEFB2B9500B80EB7,
 	ObjectInstance_ConvertHandleToCookie_m06D2F356AF0436E655A193D69EE3D72926AD01A9,
+	ObjectInstance_ConvertCookieToHandle_mD2B1C29F5833621C7E9B5C3E1E5E0836809A595C,
 	ObjectInstance__cctor_m0E7D4203701F856458B3387F6381A3A3B351961C,
-	U3CU3Ec__cctor_mEC355995BAEEA3D3629CE5B9B33AB073290EA29B,
-	U3CU3Ec__ctor_mAA1DB7ED1E6D96FB68C746616E81FAEEB35D4D55,
-	U3CU3Ec_U3C_cctorU3Eb__20_0_mE110D755523A3B90AA058B8D7D7CAAD4628D93A5,
+	U3CU3Ec__DisplayClass18_0__ctor_m8D9F0455579964E1E7F4BCC81135BD5780722976,
+	U3CU3Ec__DisplayClass18_0_U3CGetOrCreateInstanceU3Eb__0_m15BA04FC7EEFAF5D5D1FEF7F9DFCC541DFF28C8A,
 	ObjectModel__ctor_m32CFC5641458D37F8D730A880588EFC26DA1FC65,
 	ObjectModel_Finalize_m6CF470D43192C22DFBE06EA976F0F155B8B45627,
 	ObjectModel_Dispose_m4CE824386A5CE65D743112AB83596FA231290551,
@@ -500,6 +572,13 @@ static Il2CppMethodPointer s_methodPointers[187] =
 	ObjectModel_GetVertexPositions_m609DDA8DFD1A3894C2CDFC6050D21CF19238394E,
 	ObjectModel_GetVertexNormals_mF9E7D24C43ED4ED70CA9BE924F6E835DB7E6A62C,
 	ObjectModel_GetTriangleIndices_m850D9132235DF4F398B1ECA127414C4ACA18E85C,
+	ObjectModel_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mC5B27886120717C74C4A22BBA52A5FB29FC1E7C0,
+	ObjectModel_GetOrCreateInstance_m038FC92249DE1ABD88C351A287EF2D301F6A1BBB,
+	ObjectModel_GetOrCreateInstance_m3B694144C4AF36CC3286AC17A7C9E12F802E1CB9,
+	ObjectModel_ConvertHandleToCookie_m24FFF9DD80E55C49383F640E862EB1015B5D0F8E,
+	ObjectModel_ConvertCookieToHandle_mD6F2A94EF8A79BD845BF308A48107C1E81D8DA5D,
+	U3CU3Ec__DisplayClass20_0__ctor_mE0AA9774F0B2902665D52E3DA2DD4FDA4ABC002E,
+	U3CU3Ec__DisplayClass20_0_U3CGetOrCreateInstanceU3Eb__0_m1DC8BA877957A09B58F0FAFF3CBBA2A3B82C2853,
 	ObjectObserver__ctor_mCDF2CC2DE301D20F38B2A45AB29FC29D4D888D80,
 	ObjectObserver_Finalize_mDD2E39202EB126F5E21636DB727957DC7B6F05E8,
 	ObjectObserver_Dispose_mE1E859583BA79AFC428397EA61EC18822ACC6293,
@@ -507,6 +586,11 @@ static Il2CppMethodPointer s_methodPointers[187] =
 	ObjectObserver_RequestAccessAsync_m704572D44DB6CEFAEB567224EFB5742D1EC8BC52,
 	ObjectObserver_LoadObjectModelAsync_mE3E3F679BC2C99997D2A7E28CF18676317E20CCA,
 	ObjectObserver_DetectAsync_m28426C87758123C3A21F971E18A5E673171536B4,
+	ObjectObserver_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_m29E5E2A650CC15C56FEEA07E1FEEDD44CCF013A2,
+	ObjectObserver_GetOrCreateInstance_mBF0535D5A2C49A6E73A7E624D0BFF032FFB88DA3,
+	ObjectObserver_GetOrCreateInstance_mB82EE0DFC043D973E8E529B154B18ED782DC5B5E,
+	ObjectObserver_ConvertHandleToCookie_mD82A220B0DAA4E31F2343907B5B166CA562B80CB,
+	ObjectObserver_ConvertCookieToHandle_m34E976D899D02A7D9EC9EBE544DDCAA935875D3C,
 	U3CU3Ec__cctor_mB0D38184D142CA66DFE61AA91FE0136315ADC251,
 	U3CU3Ec__ctor_mF21C7A9CEE63E53AAFC87EFB6CAAD8FC377790E9,
 	U3CU3Ec_U3CRequestAccessAsyncU3Eb__5_0_mA220D444C85E3C129007A146E1329A87C49E4D78,
@@ -521,10 +605,14 @@ static Il2CppMethodPointer s_methodPointers[187] =
 	U3CU3Ec__DisplayClass8_0_U3CDetectAsyncU3Eb__0_mA6FBCDEAFF867003C157ECE0A97F92BF8A296E69,
 	U3CDetectAsyncU3Ed__8_MoveNext_mD04A40169E1C56DEA960F33116F610100A5B2390,
 	U3CDetectAsyncU3Ed__8_SetStateMachine_m44656A1609FCC50285193B20DFC46027A7494BA4,
+	U3CU3Ec__DisplayClass12_0__ctor_m7C4497D0F3488A54E5F85C995B1657A2D150D879,
+	U3CU3Ec__DisplayClass12_0_U3CGetOrCreateInstanceU3Eb__0_mCE942B0D767F4FA019FC774C6C3348ADA667ACAC,
 	ObjectQuery__ctor_mE5F096ABB64DD9203A1B53963955B589731A8970,
 	ObjectQuery__ctor_m9CDF383D81F4FB4DD191F2AAC10139209E96E610,
 	ObjectQuery_Finalize_m4873F08A31676004416F228A4F02AB2DC1B65232,
 	ObjectQuery_Dispose_m50679F4A2B7544D44F4327EB8542F4B830DFA376,
+	ObjectQuery_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_mFF318415069EAFEE2B45E94910314AE4AFA28B1C,
+	ObjectQuery_ConvertHandleToCookie_m94751321E824D67C213DDFD616E34C34B9AB9500,
 	NativeLibrary_aoa_object_diagnostics_session_close_async_m82A511F3621B9F11061E04CECE4BDDA3769BF9C0,
 	NativeLibrary_aoa_object_diagnostics_session_create_object_observer_observer_uint32_max_session_size_in_mega_bytes_mD160B0FA404908574EFBC6B62925F70B2CFA102F,
 	NativeLibrary_aoa_object_diagnostics_session_release_m34FDBC829B32BD96186D4EE4926E21E0FB98E978,
@@ -533,6 +621,8 @@ static Il2CppMethodPointer s_methodPointers[187] =
 	ObjectDiagnosticsSession_Finalize_m90FC37736304663A1D8AF98BB4AB7D3A0DA25B4A,
 	ObjectDiagnosticsSession_CloseAsync_mCA9F4E1EC2472DF1045C5E4E6975838CE505636D,
 	ObjectDiagnosticsSession_UploadDiagnosticsAsync_mE9B6C43277C743B2E9481E92225A188CE4009482,
+	ObjectDiagnosticsSession_Microsoft_Azure_ObjectAnchors_ICachedObject_get_Cookie_m8491E20EE14AAA4959178F04C0A9EDDDEC613D26,
+	ObjectDiagnosticsSession_ConvertHandleToCookie_m2D8AE568C6F7A181D7B71E528EFB87F1FC86FD12,
 	U3CU3Ec__DisplayClass5_0__ctor_mCF8FF782727BEFA86D65E2D3665C0C90EAEECDC3,
 	U3CU3Ec__DisplayClass5_0_U3CCloseAsyncU3Eb__0_mC3A356B0A2DBF0FE8849FD719F42F042CE0B5743,
 	U3CCloseAsyncU3Ed__5_MoveNext_mF280DD5B0B1E0CD51AC5626CA4FA894DD3F8A113,
@@ -558,91 +648,87 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[12] =
 {
 	{ 0x06000017, ObjectInstanceStateNullable_Convert_m9F2DB8727659CE43CD3556E34A32518AAAE555CA_AdjustorThunk },
 	{ 0x0600006A, ObjectInstanceStateAbi_Convert_mA9A2902D14016AD2B94D6ABEA99D3B5C1B50696D_AdjustorThunk },
-	{ 0x0600009E, U3CRequestAccessAsyncU3Ed__5_MoveNext_m75409AC0FD3CEBD8A296C19BD8645959FB3A49DD_AdjustorThunk },
-	{ 0x0600009F, U3CRequestAccessAsyncU3Ed__5_SetStateMachine_m7EDA3228966F76E3EDD221C6390AB3EE451D5A81_AdjustorThunk },
-	{ 0x060000A2, U3CLoadObjectModelAsyncU3Ed__6_MoveNext_mC4B44C3A630EF2E2EF02FB2B8D1A69D51973E6AC_AdjustorThunk },
-	{ 0x060000A3, U3CLoadObjectModelAsyncU3Ed__6_SetStateMachine_mEFED77671108A78E66FD7529EE8A2F62EAB84B6F_AdjustorThunk },
-	{ 0x060000A6, U3CDetectAsyncU3Ed__8_MoveNext_mD04A40169E1C56DEA960F33116F610100A5B2390_AdjustorThunk },
-	{ 0x060000A7, U3CDetectAsyncU3Ed__8_SetStateMachine_m44656A1609FCC50285193B20DFC46027A7494BA4_AdjustorThunk },
-	{ 0x060000B6, U3CCloseAsyncU3Ed__5_MoveNext_mF280DD5B0B1E0CD51AC5626CA4FA894DD3F8A113_AdjustorThunk },
-	{ 0x060000B7, U3CCloseAsyncU3Ed__5_SetStateMachine_m12A92CC6FD5C0BE3658B1A55E8ADB4E1579F53E9_AdjustorThunk },
-	{ 0x060000BA, U3CUploadDiagnosticsAsyncU3Ed__6_MoveNext_m5292974D4FD9DCD23E5A95D78FC734251A4F94A6_AdjustorThunk },
-	{ 0x060000BB, U3CUploadDiagnosticsAsyncU3Ed__6_SetStateMachine_m6E23BAE6366C90383ECED06A7EF03FC3F13C82D1_AdjustorThunk },
+	{ 0x060000B6, U3CRequestAccessAsyncU3Ed__5_MoveNext_m75409AC0FD3CEBD8A296C19BD8645959FB3A49DD_AdjustorThunk },
+	{ 0x060000B7, U3CRequestAccessAsyncU3Ed__5_SetStateMachine_m7EDA3228966F76E3EDD221C6390AB3EE451D5A81_AdjustorThunk },
+	{ 0x060000BA, U3CLoadObjectModelAsyncU3Ed__6_MoveNext_mC4B44C3A630EF2E2EF02FB2B8D1A69D51973E6AC_AdjustorThunk },
+	{ 0x060000BB, U3CLoadObjectModelAsyncU3Ed__6_SetStateMachine_mEFED77671108A78E66FD7529EE8A2F62EAB84B6F_AdjustorThunk },
+	{ 0x060000BE, U3CDetectAsyncU3Ed__8_MoveNext_mD04A40169E1C56DEA960F33116F610100A5B2390_AdjustorThunk },
+	{ 0x060000BF, U3CDetectAsyncU3Ed__8_SetStateMachine_m44656A1609FCC50285193B20DFC46027A7494BA4_AdjustorThunk },
+	{ 0x060000D4, U3CCloseAsyncU3Ed__5_MoveNext_mF280DD5B0B1E0CD51AC5626CA4FA894DD3F8A113_AdjustorThunk },
+	{ 0x060000D5, U3CCloseAsyncU3Ed__5_SetStateMachine_m12A92CC6FD5C0BE3658B1A55E8ADB4E1579F53E9_AdjustorThunk },
+	{ 0x060000D8, U3CUploadDiagnosticsAsyncU3Ed__6_MoveNext_m5292974D4FD9DCD23E5A95D78FC734251A4F94A6_AdjustorThunk },
+	{ 0x060000D9, U3CUploadDiagnosticsAsyncU3Ed__6_SetStateMachine_m6E23BAE6366C90383ECED06A7EF03FC3F13C82D1_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[187] = 
+static const int32_t s_InvokerIndices[217] = 
 {
-	8451,
-	7785,
-	5580,
+	7470,
+	6936,
+	5068,
 	-1,
 	-1,
 	-1,
-	8452,
-	8273,
-	8638,
-	8638,
-	8456,
+	7471,
+	7325,
+	7640,
+	7640,
+	7475,
 	-1,
-	8452,
-	8452,
-	2611,
-	2571,
-	728,
-	4626,
-	2611,
-	4589,
-	1153,
-	4626,
-	5414,
-	6502,
-	8125,
-	6509,
-	8125,
-	7382,
-	6894,
-	8125,
-	7383,
-	6895,
-	7382,
-	7382,
-	8125,
-	8125,
-	8125,
-	8125,
-	8125,
-	7382,
-	7382,
-	8125,
-	6896,
-	7383,
-	7382,
-	8125,
-	8125,
-	7382,
-	7382,
-	7382,
-	7382,
-	6901,
-	7382,
-	6901,
-	6901,
-	8125,
-	8125,
-	6511,
-	8125,
-	8109,
-	6511,
-	8125,
-	8109,
-	7382,
-	6894,
-	8125,
-	8125,
-	8127,
-	-1,
-	-1,
-	-1,
-	-1,
+	7471,
+	7471,
+	2404,
+	2370,
+	663,
+	4219,
+	2404,
+	4184,
+	1054,
+	4219,
+	4922,
+	5829,
+	7203,
+	5834,
+	7203,
+	6585,
+	6176,
+	7203,
+	6586,
+	6177,
+	6585,
+	6585,
+	7203,
+	7203,
+	7203,
+	7203,
+	7203,
+	6585,
+	6585,
+	7203,
+	6178,
+	6586,
+	6585,
+	7203,
+	7203,
+	6585,
+	6585,
+	6585,
+	6585,
+	6183,
+	6585,
+	6183,
+	6183,
+	7203,
+	7203,
+	5835,
+	7203,
+	7187,
+	5835,
+	7203,
+	7187,
+	6585,
+	6176,
+	7203,
+	7203,
+	7205,
 	-1,
 	-1,
 	-1,
@@ -670,99 +756,133 @@ static const int32_t s_InvokerIndices[187] =
 	-1,
 	-1,
 	-1,
-	2578,
-	5763,
-	5579,
-	3502,
-	2398,
-	4588,
-	5632,
-	8301,
-	2611,
-	2617,
-	766,
-	4626,
-	1375,
-	5763,
-	4626,
-	5763,
-	5629,
-	2578,
-	5763,
-	2578,
-	5763,
-	5763,
-	5547,
-	5579,
-	4588,
-	7779,
-	4626,
-	4626,
-	5413,
-	5580,
-	8270,
-	8158,
-	8638,
-	8638,
-	5763,
-	3503,
-	2578,
-	5763,
-	5763,
-	5547,
-	5716,
-	5605,
-	5579,
-	5579,
-	4626,
-	4626,
-	4626,
-	2578,
-	5763,
-	5763,
-	8622,
-	8596,
-	3511,
-	3511,
-	8638,
-	5763,
-	5579,
-	3419,
-	5763,
-	4626,
-	5763,
-	5629,
-	5763,
-	4626,
-	5763,
-	5629,
-	5763,
-	4626,
-	4626,
-	2609,
-	5763,
-	5763,
-	7385,
-	6894,
-	8125,
-	6908,
-	2609,
-	5763,
-	3511,
-	7477,
-	5763,
-	5763,
-	5763,
-	4626,
-	5763,
-	5579,
-	5763,
-	4626,
+	-1,
+	-1,
+	-1,
+	-1,
+	2375,
+	5210,
+	5067,
+	3225,
+	2221,
+	4183,
+	5108,
+	7350,
+	2404,
+	2409,
+	700,
+	4219,
+	1263,
+	5210,
+	5068,
+	7227,
+	4219,
+	5210,
+	5105,
+	5068,
+	7227,
+	2375,
+	5210,
+	5068,
+	6662,
+	6658,
+	7227,
+	7237,
+	5210,
+	3226,
+	2375,
+	5210,
+	5210,
+	5035,
+	5067,
+	4183,
+	6930,
+	4219,
+	4219,
+	4921,
+	5068,
+	6662,
+	6658,
+	7227,
+	7237,
+	7640,
+	5210,
+	3226,
+	2375,
+	5210,
+	5210,
+	5035,
+	5166,
+	5081,
+	5067,
+	5067,
+	4219,
+	4219,
+	4219,
+	5068,
+	6662,
+	6658,
+	7227,
+	7237,
+	5210,
+	3226,
+	2375,
+	5210,
+	5210,
+	7625,
+	7601,
+	3232,
+	3232,
+	5068,
+	6662,
+	6658,
+	7227,
+	7237,
+	7640,
+	5210,
+	5067,
+	3148,
+	5210,
+	4219,
+	5210,
+	5105,
+	5210,
+	4219,
+	5210,
+	5105,
+	5210,
+	4219,
+	5210,
+	3226,
+	4219,
+	2402,
+	5210,
+	5210,
+	5068,
+	7227,
+	6588,
+	6176,
+	7203,
+	6190,
+	2402,
+	5210,
+	3232,
+	6674,
+	5068,
+	7227,
+	5210,
+	5210,
+	5210,
+	4219,
+	5210,
+	5067,
+	5210,
+	4219,
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[2] = 
 {
 	{ 0x0600000E, 21,  (void**)&ProjectedObjectCache_ProjectedObjectCleanupHandler_mB6B642C75375902F952BF695EED0080E057632F4_RuntimeMethod_var, 0 },
-	{ 0x0600007D, 19,  (void**)&ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1_RuntimeMethod_var, 0 },
+	{ 0x06000088, 19,  (void**)&ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1_RuntimeMethod_var, 0 },
 };
 static const Il2CppTokenRangePair s_rgctxIndices[7] = 
 {
@@ -776,38 +896,38 @@ static const Il2CppTokenRangePair s_rgctxIndices[7] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[25] = 
 {
-	{ (Il2CppRGCTXDataType)2, 475 },
-	{ (Il2CppRGCTXDataType)2, 476 },
-	{ (Il2CppRGCTXDataType)2, 477 },
-	{ (Il2CppRGCTXDataType)3, 19460 },
-	{ (Il2CppRGCTXDataType)2, 473 },
-	{ (Il2CppRGCTXDataType)3, 3870 },
-	{ (Il2CppRGCTXDataType)3, 3871 },
-	{ (Il2CppRGCTXDataType)3, 3873 },
-	{ (Il2CppRGCTXDataType)3, 4376 },
-	{ (Il2CppRGCTXDataType)2, 1890 },
-	{ (Il2CppRGCTXDataType)3, 4375 },
-	{ (Il2CppRGCTXDataType)3, 3872 },
-	{ (Il2CppRGCTXDataType)3, 3869 },
-	{ (Il2CppRGCTXDataType)3, 3875 },
-	{ (Il2CppRGCTXDataType)3, 3874 },
-	{ (Il2CppRGCTXDataType)2, 1422 },
-	{ (Il2CppRGCTXDataType)3, 429 },
-	{ (Il2CppRGCTXDataType)2, 1453 },
-	{ (Il2CppRGCTXDataType)3, 560 },
-	{ (Il2CppRGCTXDataType)3, 3877 },
-	{ (Il2CppRGCTXDataType)3, 3876 },
-	{ (Il2CppRGCTXDataType)2, 968 },
-	{ (Il2CppRGCTXDataType)3, 3879 },
-	{ (Il2CppRGCTXDataType)2, 970 },
-	{ (Il2CppRGCTXDataType)3, 3878 },
+	{ (Il2CppRGCTXDataType)2, 455 },
+	{ (Il2CppRGCTXDataType)2, 456 },
+	{ (Il2CppRGCTXDataType)2, 457 },
+	{ (Il2CppRGCTXDataType)3, 18008 },
+	{ (Il2CppRGCTXDataType)2, 454 },
+	{ (Il2CppRGCTXDataType)3, 3413 },
+	{ (Il2CppRGCTXDataType)3, 3414 },
+	{ (Il2CppRGCTXDataType)3, 3416 },
+	{ (Il2CppRGCTXDataType)3, 3881 },
+	{ (Il2CppRGCTXDataType)2, 1771 },
+	{ (Il2CppRGCTXDataType)3, 3880 },
+	{ (Il2CppRGCTXDataType)3, 3415 },
+	{ (Il2CppRGCTXDataType)3, 3412 },
+	{ (Il2CppRGCTXDataType)3, 3418 },
+	{ (Il2CppRGCTXDataType)3, 3417 },
+	{ (Il2CppRGCTXDataType)2, 1366 },
+	{ (Il2CppRGCTXDataType)3, 357 },
+	{ (Il2CppRGCTXDataType)2, 1396 },
+	{ (Il2CppRGCTXDataType)3, 475 },
+	{ (Il2CppRGCTXDataType)3, 3420 },
+	{ (Il2CppRGCTXDataType)3, 3419 },
+	{ (Il2CppRGCTXDataType)2, 929 },
+	{ (Il2CppRGCTXDataType)3, 3422 },
+	{ (Il2CppRGCTXDataType)2, 931 },
+	{ (Il2CppRGCTXDataType)3, 3421 },
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_ObjectAnchors_Runtime_Api_WSA_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_ObjectAnchors_Runtime_Api_WSA_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_ObjectAnchors_Runtime_Api_WSA_CodeGenModule = 
 {
 	"Microsoft.ObjectAnchors.Runtime.Api.WSA.dll",
-	187,
+	217,
 	s_methodPointers,
 	12,
 	s_adjustorThunks,
