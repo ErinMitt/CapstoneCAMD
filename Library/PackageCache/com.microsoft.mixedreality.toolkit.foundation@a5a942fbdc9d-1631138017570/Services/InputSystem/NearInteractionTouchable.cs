@@ -244,4 +244,6 @@ namespace Microsoft.MixedReality.Toolkit.Input
             return Math.Abs(planeSpacePoint.z);
         }
     }
+    //Detect collisions between the GameObjects with Colliders attached
+
 }

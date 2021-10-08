@@ -70,6 +70,7 @@ namespace Microsoft.MixedReality.Toolkit
                 if (InteractableOnClick == PhysicalPressEventBehavior.EventOnTouch)
                 {
                     routingTarget.HasPress = true;
+                    UnityEngine.Debug.Log("Button Pressed");
                 }
             }
         }

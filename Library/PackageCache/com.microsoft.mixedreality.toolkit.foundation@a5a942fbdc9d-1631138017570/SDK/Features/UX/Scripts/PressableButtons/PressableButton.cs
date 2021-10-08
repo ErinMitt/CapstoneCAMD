@@ -324,7 +324,7 @@ namespace Microsoft.MixedReality.Toolkit.UI
         {
             if (IsTouching)
             {
-                UpdateTouch();
+                Debug.Log("button pressed");
             }
             else if (currentPushDistance > startPushDistance)
             {
