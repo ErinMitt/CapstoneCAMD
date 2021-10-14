@@ -978,6 +978,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA2DF5C0CBC300BBD4DE86CAD037D689B970E1753
 IL2CPP_EXTERN_C String_t* _stringLiteralA39DA86475AB7776B7D4E0D042A44D8F61F7D4F9;
 IL2CPP_EXTERN_C String_t* _stringLiteralAADDC93DC7865FE26AC43D595E1DBF250854D507;
 IL2CPP_EXTERN_C String_t* _stringLiteralB78A509B4143D3D9D738069A0BA66589CBB1BB73;
+IL2CPP_EXTERN_C String_t* _stringLiteralF306F86BEC897EB5148B36EA8FC2EF0247F62623;
 IL2CPP_EXTERN_C String_t* _stringLiteralFB2B0B16C48C277D3D47A255003E6AD8C5AF71C8;
 IL2CPP_EXTERN_C String_t* _stringLiteralFB67F3D8B43F0FBD96CE5B37A99C007F8EF46DF8;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_m2A8E2330DA2682497439CB6DF3F48585BFFDF7E8_RuntimeMethod_var;
@@ -24591,8 +24592,6 @@ inline void List_1_Clear_m6C7B2A898BABD952EC1C0BFF68DE7A0B503EAE04 (List_1_t18C9
 }
 // System.Boolean Microsoft.MixedReality.Toolkit.UI.PressableButton::get_IsTouching()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PressableButton_get_IsTouching_m6E5A4D89DCE3555C4F69D65996AEFFCBCD5A9ECC_inline (PressableButton_t72E0E9537996F63C4DCF36EE1E3C08ED59CD903F * __this, const RuntimeMethod* method);
-// System.Void Microsoft.MixedReality.Toolkit.UI.PressableButton::UpdateTouch()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressableButton_UpdateTouch_mB61458F45283883923A82A5C35DAE12EB2164EF2 (PressableButton_t72E0E9537996F63C4DCF36EE1E3C08ED59CD903F * __this, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.UI.PressableButton::RetractButton()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressableButton_RetractButton_m01C24F68B34F6F124EA3A85B8F37303E0AE486DE (PressableButton_t72E0E9537996F63C4DCF36EE1E3C08ED59CD903F * __this, const RuntimeMethod* method);
 // System.Single Microsoft.MixedReality.Toolkit.UI.PressableButton::GetFarthestDistanceAlongPressDirection()
@@ -24671,6 +24670,8 @@ inline void Dictionary_2_set_Item_m8A75EAF2091C326418D6407803B135E2BFCB0B23 (Dic
 {
 	((  void (*) (Dictionary_2_tFB19AD637A1859A4B53CC7833DFF3EBCA3EDB5C3 *, RuntimeObject*, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , const RuntimeMethod*))Dictionary_2_set_Item_mD54DD91FBB4FE1346722CBF9660471FDE6D34EDE_gshared)(__this, ___key0, ___value1, method);
 }
+// System.Void Microsoft.MixedReality.Toolkit.UI.PressableButton::UpdateTouch()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressableButton_UpdateTouch_mB61458F45283883923A82A5C35DAE12EB2164EF2 (PressableButton_t72E0E9537996F63C4DCF36EE1E3C08ED59CD903F * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.Toolkit.Input.IMixedRealityController,UnityEngine.Vector3>::Remove(!0)
 inline bool Dictionary_2_Remove_m2ECD278F715A70FB6248639EA83E713A0AB0B8A6 (Dictionary_2_tFB19AD637A1859A4B53CC7833DFF3EBCA3EDB5C3 * __this, RuntimeObject* ___key0, const RuntimeMethod* method)
 {
@@ -26431,13 +26432,20 @@ IL_0041:
 // System.Void Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::OnHandPressUntouched()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_OnHandPressUntouched_m6D2052585D5FEC07289531B324A63D052813E0C7 (PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8EA8B20EDD69893CF1CEBDDBAF0C6049C9F2D64E);
+		s_Il2CppMethodInitialized = true;
+	}
 	{
 		// if (CanRouteInput())
 		bool L_0;
 		L_0 = PhysicalPressEventRouter_CanRouteInput_m09BB9AFD9481D52C711FD6B99B6D331FF64D52DD(__this, /*hidden argument*/NULL);
 		if (!L_0)
 		{
-			goto IL_0029;
+			goto IL_0033;
 		}
 	}
 	{
@@ -26449,7 +26457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_OnHandPressUnto
 		int32_t L_2 = __this->get_InteractableOnClick_5();
 		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
 		{
-			goto IL_0029;
+			goto IL_0033;
 		}
 	}
 	{
@@ -26457,9 +26465,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_OnHandPressUnto
 		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_3 = __this->get_routingTarget_4();
 		NullCheck(L_3);
 		VirtActionInvoker1< bool >::Invoke(22 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPress(System.Boolean) */, L_3, (bool)1);
+		// UnityEngine.Debug.Log("Button Pressed");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral8EA8B20EDD69893CF1CEBDDBAF0C6049C9F2D64E, /*hidden argument*/NULL);
 	}
 
-IL_0029:
+IL_0033:
 	{
 		// }
 		return;
@@ -32574,30 +32585,38 @@ IL_0030:
 // System.Void Microsoft.MixedReality.Toolkit.UI.PressableButton::Update()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressableButton_Update_m9C55C1A43584F71BCC603C83BB3E817C29796FAF (PressableButton_t72E0E9537996F63C4DCF36EE1E3C08ED59CD903F * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF306F86BEC897EB5148B36EA8FC2EF0247F62623);
+		s_Il2CppMethodInitialized = true;
+	}
 	{
 		// if (IsTouching)
 		bool L_0;
 		L_0 = PressableButton_get_IsTouching_m6E5A4D89DCE3555C4F69D65996AEFFCBCD5A9ECC_inline(__this, /*hidden argument*/NULL);
 		if (!L_0)
 		{
-			goto IL_000f;
+			goto IL_0013;
 		}
 	}
 	{
-		// UpdateTouch();
-		PressableButton_UpdateTouch_mB61458F45283883923A82A5C35DAE12EB2164EF2(__this, /*hidden argument*/NULL);
+		// Debug.Log("button pressed");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteralF306F86BEC897EB5148B36EA8FC2EF0247F62623, /*hidden argument*/NULL);
 		// }
 		return;
 	}
 
-IL_000f:
+IL_0013:
 	{
 		// else if (currentPushDistance > startPushDistance)
 		float L_1 = __this->get_currentPushDistance_22();
 		float L_2 = __this->get_startPushDistance_8();
 		if ((!(((float)L_1) > ((float)L_2))))
 		{
-			goto IL_0023;
+			goto IL_0027;
 		}
 	}
 	{
@@ -32605,7 +32624,7 @@ IL_000f:
 		PressableButton_RetractButton_m01C24F68B34F6F124EA3A85B8F37303E0AE486DE(__this, /*hidden argument*/NULL);
 	}
 
-IL_0023:
+IL_0027:
 	{
 		// }
 		return;

@@ -31,6 +31,7 @@ namespace Microsoft.MixedReality.Toolkit
             {
                 routingTarget = GetComponent<Interactable>();
             }
+            Debug.Log("logs work");
         }
 
         private bool CanRouteInput()
@@ -45,6 +46,7 @@ namespace Microsoft.MixedReality.Toolkit
         /// </summary>
         public void OnHandPressTouched()
         {
+            UnityEngine.Debug.Log("Button Pressed1");
             if (CanRouteInput())
             {
                 routingTarget.HasPhysicalTouch = true;
@@ -64,6 +66,7 @@ namespace Microsoft.MixedReality.Toolkit
         /// </summary>
         public void OnHandPressUntouched()
         {
+            UnityEngine.Debug.Log("Button Pressed2");
             if (CanRouteInput())
             {
                 routingTarget.HasPhysicalTouch = false;
@@ -82,7 +85,7 @@ namespace Microsoft.MixedReality.Toolkit
         /// </summary>
         public void OnHandPressTriggered()
         {
-            UnityEngine.Debug.Log("Button Pressed");
+            UnityEngine.Debug.Log("Button Pressed3");
             if (CanRouteInput())
             {
                 routingTarget.HasPhysicalTouch = true;

@@ -432,7 +432,7 @@ namespace Microsoft.MixedReality.Toolkit.Input
                             // During runtime profile switch this may happen but we can ignore
                             if (!MixedRealityToolkit.Instance.IsProfileSwitching)
                             {
-                                Debug.LogError("The pointer you are trying to remove does not exist in the mapping dict!");
+                              //  Debug.LogError("The pointer you are trying to remove does not exist in the mapping dict!");
                             }
                             return;
                         }

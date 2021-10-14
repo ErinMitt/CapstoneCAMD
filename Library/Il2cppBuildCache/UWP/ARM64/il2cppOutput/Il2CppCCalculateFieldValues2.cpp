@@ -805,6 +805,15 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
+struct U3CModuleU3E_tFDCAFCBB4B3431CFF2DC4D3E03FBFDF54EFF7E9A 
+{
+public:
+
+public:
+};
+
+
+// <Module>
 struct U3CModuleU3E_tD8188D12A68BD8365D43EB095191E8169573353B 
 {
 public:
@@ -32180,6 +32189,25 @@ public:
 };
 
 
+// Collided
+struct Collided_t22C1A605500A67195AFE8993F57262F9E06B875B  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// UnityEngine.GameObject Collided::gameObject
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___gameObject_4;
+
+public:
+	inline static int32_t get_offset_of_gameObject_4() { return static_cast<int32_t>(offsetof(Collided_t22C1A605500A67195AFE8993F57262F9E06B875B, ___gameObject_4)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_gameObject_4() const { return ___gameObject_4; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_gameObject_4() { return &___gameObject_4; }
+	inline void set_gameObject_4(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___gameObject_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___gameObject_4), (void*)value);
+	}
+};
+
+
 // Microsoft.MixedReality.Toolkit.Experimental.ColorPicker.ColorPicker
 struct ColorPicker_t357C62A69E0796C05AC6104AC19AE47DAD627E36  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -36804,6 +36832,42 @@ public:
 	inline void set_UpdateDualAxisDataPerfMarker_29(ProfilerMarker_tAE86534C80C5D67768DB3B244D8D139A2E6495E1  value)
 	{
 		___UpdateDualAxisDataPerfMarker_29 = value;
+	}
+};
+
+
+// buttonselected
+struct buttonselected_t19EC9DA7DA278D0F0D98D3F1FDF973729794F560  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
+};
+
+
+// onTrigger
+struct onTrigger_t7D27562474B9E4AB438F9B68A92740A1215D255C  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
+};
+
+
+// triggered
+struct triggered_tCCB1DF2545C767EBD250BDD3C1722F3EFA903C0F  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// System.Double triggered::startPos
+	double ___startPos_4;
+
+public:
+	inline static int32_t get_offset_of_startPos_4() { return static_cast<int32_t>(offsetof(triggered_tCCB1DF2545C767EBD250BDD3C1722F3EFA903C0F, ___startPos_4)); }
+	inline double get_startPos_4() const { return ___startPos_4; }
+	inline double* get_address_of_startPos_4() { return &___startPos_4; }
+	inline void set_startPos_4(double value)
+	{
+		___startPos_4 = value;
 	}
 };
 
@@ -43570,6 +43634,14 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6506[5] =
 	RuntimeDebuggerOpenXRFeature_tE0D0BEE876CB547A518EF73B7596C17F6A507B32::get_offset_of_cacheSize_17(),
 	RuntimeDebuggerOpenXRFeature_tE0D0BEE876CB547A518EF73B7596C17F6A507B32::get_offset_of_perThreadCacheSize_18(),
 	0,
+};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6509[1] = 
+{
+	Collided_t22C1A605500A67195AFE8993F57262F9E06B875B::get_offset_of_gameObject_4(),
+};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6512[1] = 
+{
+	triggered_tCCB1DF2545C767EBD250BDD3C1722F3EFA903C0F::get_offset_of_startPos_4(),
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
