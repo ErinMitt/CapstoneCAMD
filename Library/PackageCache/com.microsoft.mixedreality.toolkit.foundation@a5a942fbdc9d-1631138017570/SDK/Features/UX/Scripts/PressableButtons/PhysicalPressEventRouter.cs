@@ -3,7 +3,6 @@
 
 using Microsoft.MixedReality.Toolkit.UI;
 using UnityEngine;
-
 namespace Microsoft.MixedReality.Toolkit
 {
     ///<summary>
@@ -13,6 +12,8 @@ namespace Microsoft.MixedReality.Toolkit
     [AddComponentMenu("Scripts/MRTK/SDK/PhysicalPressEventRouter")]
     public class PhysicalPressEventRouter : MonoBehaviour
     {
+        public GameObject menu;
+        //menu.GetComponent<Collided>().onHit();
         [Tooltip("Interactable to which the press events are being routed. Defaults to the object of the component.")]
         public Interactable routingTarget;
 
@@ -47,6 +48,8 @@ namespace Microsoft.MixedReality.Toolkit
         public void OnHandPressTouched()
         {
             UnityEngine.Debug.Log("Button Pressed1");
+            menu.active = false;
+
             if (CanRouteInput())
             {
                 routingTarget.HasPhysicalTouch = true;
@@ -66,7 +69,6 @@ namespace Microsoft.MixedReality.Toolkit
         /// </summary>
         public void OnHandPressUntouched()
         {
-            UnityEngine.Debug.Log("Button Pressed2");
             if (CanRouteInput())
             {
                 routingTarget.HasPhysicalTouch = false;
@@ -85,7 +87,6 @@ namespace Microsoft.MixedReality.Toolkit
         /// </summary>
         public void OnHandPressTriggered()
         {
-            UnityEngine.Debug.Log("Button Pressed3");
             if (CanRouteInput())
             {
                 routingTarget.HasPhysicalTouch = true;
