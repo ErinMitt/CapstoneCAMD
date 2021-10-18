@@ -18,7 +18,7 @@ public class Collided : MonoBehaviour
         Debug.Log("Trigger On : " + m_ObjectCollider.isTrigger);
     }
 
-    private void OnTriggerEnter()
+    private void OnHit()
     {
         Debug.Log("triggered!");
     }

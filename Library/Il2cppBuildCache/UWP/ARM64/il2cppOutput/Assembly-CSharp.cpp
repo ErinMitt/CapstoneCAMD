@@ -44,6 +44,7 @@ struct triggered_tCCB1DF2545C767EBD250BDD3C1722F3EFA903C0F;
 IL2CPP_EXTERN_C RuntimeClass* Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral4854AD76D65A8E87F9D4CA7FCDDF7F5014EEB3F4;
 IL2CPP_EXTERN_C String_t* _stringLiteral6EF8F7D01F218EB5A55D0DA937418864565ADAB1;
 IL2CPP_EXTERN_C String_t* _stringLiteral8BF8BACA60841B8A61153EA5D106C62E78CC59AE;
 IL2CPP_EXTERN_C String_t* _stringLiteral8CB6B154CCC6C7F9AC1EF09CC033916BBE7EC610;
@@ -51,6 +52,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteralAC355DBFF6DAA41ACD3E11017EF0AE49EBAEE027
 IL2CPP_EXTERN_C String_t* _stringLiteralB2C1779E6635E7BE3F877BB034B30951538168F2;
 IL2CPP_EXTERN_C String_t* _stringLiteralCA706B38CFEC0AA56CF382BCA05EB975E7EB2E5B;
 IL2CPP_EXTERN_C String_t* _stringLiteralF21700510B497B89FEE85DE675D6E241730F23A7;
+IL2CPP_EXTERN_C String_t* _stringLiteralFA46A87FB3C78DF4A767EE628200EAD23F2926FC;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCollider_t5E81E43C2ECA0209A7C4528E84A632712D192B02_mCE49E8783A1794715E6D539C8BB8C78CC589AB60_RuntimeMethod_var;
 struct ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017 ;
 
 
@@ -639,17 +642,17 @@ public:
 struct Collided_t22C1A605500A67195AFE8993F57262F9E06B875B  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
-	// UnityEngine.GameObject Collided::gameObject
-	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___gameObject_4;
+	// UnityEngine.Collider Collided::m_ObjectCollider
+	Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * ___m_ObjectCollider_4;
 
 public:
-	inline static int32_t get_offset_of_gameObject_4() { return static_cast<int32_t>(offsetof(Collided_t22C1A605500A67195AFE8993F57262F9E06B875B, ___gameObject_4)); }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_gameObject_4() const { return ___gameObject_4; }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_gameObject_4() { return &___gameObject_4; }
-	inline void set_gameObject_4(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	inline static int32_t get_offset_of_m_ObjectCollider_4() { return static_cast<int32_t>(offsetof(Collided_t22C1A605500A67195AFE8993F57262F9E06B875B, ___m_ObjectCollider_4)); }
+	inline Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * get_m_ObjectCollider_4() const { return ___m_ObjectCollider_4; }
+	inline Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 ** get_address_of_m_ObjectCollider_4() { return &___m_ObjectCollider_4; }
+	inline void set_m_ObjectCollider_4(Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * value)
 	{
-		___gameObject_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___gameObject_4), (void*)value);
+		___m_ObjectCollider_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_ObjectCollider_4), (void*)value);
 	}
 };
 
@@ -694,9 +697,24 @@ public:
 #endif
 
 
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Component_GetComponent_TisRuntimeObject_m69D9C576D6DD024C709E29EEADBC8041299A3AA7_gshared (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method);
 
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Collider>()
+inline Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * Component_GetComponent_TisCollider_t5E81E43C2ECA0209A7C4528E84A632712D192B02_mCE49E8783A1794715E6D539C8BB8C78CC589AB60 (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method)
+{
+	return ((  Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * (*) (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 *, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m69D9C576D6DD024C709E29EEADBC8041299A3AA7_gshared)(__this, method);
+}
+// System.Boolean UnityEngine.Collider::get_isTrigger()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_get_isTrigger_m3A9C990365C94B7125DB5993D782D3D0FE876A60 (Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * __this, const RuntimeMethod* method);
+// System.String System.Boolean::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Boolean_ToString_m59BB8456DD05A874BBD756E57EA8AD983287015C (bool* __this, const RuntimeMethod* method);
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method);
 // System.Void UnityEngine.Debug::Log(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8 (RuntimeObject * ___message0, const RuntimeMethod* method);
+// System.Void UnityEngine.Collider::set_isTrigger(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_isTrigger_mEDFE3DFA29D42E9DEB9D91A3D25BACC4470305ED (Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * __this, bool ___value0, const RuntimeMethod* method);
 // UnityEngine.GameObject UnityEngine.Collision::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * Collision_get_gameObject_m5682F872FD28419AA36F0651CE8B19825A21859D (Collision_tDC11F9B3834FD25DEB8C7DD1C51B635D240BBBF0 * __this, const RuntimeMethod* method);
 // System.String UnityEngine.Object::get_name()
@@ -724,6 +742,89 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void Collided::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collided_Start_m025F25A8F9B5C639832DFC049A6204F820C31412 (Collided_t22C1A605500A67195AFE8993F57262F9E06B875B * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCollider_t5E81E43C2ECA0209A7C4528E84A632712D192B02_mCE49E8783A1794715E6D539C8BB8C78CC589AB60_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFA46A87FB3C78DF4A767EE628200EAD23F2926FC);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// m_ObjectCollider = GetComponent<Collider>();
+		Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * L_0;
+		L_0 = Component_GetComponent_TisCollider_t5E81E43C2ECA0209A7C4528E84A632712D192B02_mCE49E8783A1794715E6D539C8BB8C78CC589AB60(__this, /*hidden argument*/Component_GetComponent_TisCollider_t5E81E43C2ECA0209A7C4528E84A632712D192B02_mCE49E8783A1794715E6D539C8BB8C78CC589AB60_RuntimeMethod_var);
+		__this->set_m_ObjectCollider_4(L_0);
+		// Debug.Log("Trigger On : " + m_ObjectCollider.isTrigger);
+		Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * L_1 = __this->get_m_ObjectCollider_4();
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = Collider_get_isTrigger_m3A9C990365C94B7125DB5993D782D3D0FE876A60(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		String_t* L_3;
+		L_3 = Boolean_ToString_m59BB8456DD05A874BBD756E57EA8AD983287015C((bool*)(&V_0), /*hidden argument*/NULL);
+		String_t* L_4;
+		L_4 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteralFA46A87FB3C78DF4A767EE628200EAD23F2926FC, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_4, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void Collided::OnHit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collided_OnHit_m0583101B651E4EC15F04E87CD100A7E98E4A892F (Collided_t22C1A605500A67195AFE8993F57262F9E06B875B * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4854AD76D65A8E87F9D4CA7FCDDF7F5014EEB3F4);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("triggered!");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral4854AD76D65A8E87F9D4CA7FCDDF7F5014EEB3F4, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void Collided::OnClick()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collided_OnClick_mF35C23A862FD1CB1BF4CFCFF5BCF783F836FE337 (Collided_t22C1A605500A67195AFE8993F57262F9E06B875B * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFA46A87FB3C78DF4A767EE628200EAD23F2926FC);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// m_ObjectCollider.isTrigger = true;
+		Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * L_0 = __this->get_m_ObjectCollider_4();
+		NullCheck(L_0);
+		Collider_set_isTrigger_mEDFE3DFA29D42E9DEB9D91A3D25BACC4470305ED(L_0, (bool)1, /*hidden argument*/NULL);
+		// Debug.Log("Trigger On : " + m_ObjectCollider.isTrigger);
+		Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * L_1 = __this->get_m_ObjectCollider_4();
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = Collider_get_isTrigger_m3A9C990365C94B7125DB5993D782D3D0FE876A60(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		String_t* L_3;
+		L_3 = Boolean_ToString_m59BB8456DD05A874BBD756E57EA8AD983287015C((bool*)(&V_0), /*hidden argument*/NULL);
+		String_t* L_4;
+		L_4 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteralFA46A87FB3C78DF4A767EE628200EAD23F2926FC, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_4, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
 // System.Void Collided::OnCollisionEnter(UnityEngine.Collision)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collided_OnCollisionEnter_m5366077015AA32F571E6892303631A39A6B76757 (Collided_t22C1A605500A67195AFE8993F57262F9E06B875B * __this, Collision_tDC11F9B3834FD25DEB8C7DD1C51B635D240BBBF0 * ___collision0, const RuntimeMethod* method)
 {

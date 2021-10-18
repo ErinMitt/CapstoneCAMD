@@ -1873,6 +1873,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rigidbody_t101F2E2F9F16E765A77429B2DE4527D204
 	Rigidbody_t101F2E2F9F16E765A77429B2DE4527D2047A887A * icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
+// System.Boolean UnityEngine.Collider::get_isTrigger()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Collider_get_isTrigger_m3A9C990365C94B7125DB5993D782D3D0FE876A60 (Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * __this, const RuntimeMethod* method)
+{
+	typedef bool (*Collider_get_isTrigger_m3A9C990365C94B7125DB5993D782D3D0FE876A60_ftn) (Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 *);
+	static Collider_get_isTrigger_m3A9C990365C94B7125DB5993D782D3D0FE876A60_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Collider_get_isTrigger_m3A9C990365C94B7125DB5993D782D3D0FE876A60_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Collider::get_isTrigger()");
+	bool icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
 // System.Void UnityEngine.Collider::set_isTrigger(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_isTrigger_mEDFE3DFA29D42E9DEB9D91A3D25BACC4470305ED (Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * __this, bool ___value0, const RuntimeMethod* method)
 {

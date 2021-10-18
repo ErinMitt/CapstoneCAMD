@@ -926,7 +926,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral17F9E25D2E54C81C8AA30DB3C54D640F70DE74EA
 IL2CPP_EXTERN_C String_t* _stringLiteral1A1DD8B20321DD86A99F09905C387810542BCDA3;
 IL2CPP_EXTERN_C String_t* _stringLiteral1C37EA2E82339B9ED3E7D91AC7D971A32F506BAF;
 IL2CPP_EXTERN_C String_t* _stringLiteral1D242038C35CE0D7DEC6FF5B269D23CB04BD2238;
-IL2CPP_EXTERN_C String_t* _stringLiteral1EB9F4C97F94C3F9BA356B4DBC614CB95E9E1DAD;
 IL2CPP_EXTERN_C String_t* _stringLiteral2018B341D83E91A067776A54394A88467DC626EF;
 IL2CPP_EXTERN_C String_t* _stringLiteral243D20DAFCE1794663DCBF42B7AAAF6EAF303E0D;
 IL2CPP_EXTERN_C String_t* _stringLiteral25347E19430FB3A371595AB89188293CFB4C3411;
@@ -28154,7 +28153,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityInputModule_Microsoft_MixedR
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m0FF7623C1BD2F4A7D02936D842C2C3630A39358F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mFAA2592B4D40AEA30F8BCA544634D9344CAC05B7_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m22F2870D3ED5A9AA0CBE6547E58CBB45EEFB3ED7_RuntimeMethod_var);
@@ -28163,7 +28161,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityInputModule_Microsoft_MixedR
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mADA158D61BFDCA52F74D6505A54D63E33D426937_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MixedRealityInputModule_t574B111D4EE14DF45FD03659EB6D4FA1FCDB5F61_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MixedRealityToolkit_t60B2EC862F9B460964F7FA8747F6603FB0718627_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1EB9F4C97F94C3F9BA356B4DBC614CB95E9E1DAD);
 		s_Il2CppMethodInitialized = true;
 	}
 	AutoScope_tEB00834B4CEE8558238837BA3A36B64020E48F8D  V_0;
@@ -28199,7 +28196,7 @@ IL_000e:
 			V_2 = L_3;
 			// for (int i = 0; i < inputSource.Pointers.Length; i++)
 			V_3 = 0;
-			goto IL_008d;
+			goto IL_0082;
 		}
 
 IL_0019:
@@ -28222,7 +28219,7 @@ IL_0019:
 			RuntimeObject* L_11 = V_2;
 			if ((!(((RuntimeObject*)(RuntimeObject*)L_10) == ((RuntimeObject*)(RuntimeObject*)L_11))))
 			{
-				goto IL_0089;
+				goto IL_007e;
 			}
 		}
 
@@ -28242,7 +28239,7 @@ IL_002d:
 			L_16 = Dictionary_2_ContainsKey_m0FF7623C1BD2F4A7D02936D842C2C3630A39358F(L_14, L_15, /*hidden argument*/Dictionary_2_ContainsKey_m0FF7623C1BD2F4A7D02936D842C2C3630A39358F_RuntimeMethod_var);
 			if (L_16)
 			{
-				goto IL_005d;
+				goto IL_0052;
 			}
 		}
 
@@ -28255,26 +28252,11 @@ IL_0045:
 			NullCheck(L_17);
 			bool L_18;
 			L_18 = MixedRealityToolkit_get_IsProfileSwitching_m5D19A9A0C256D64B1408B308B9A7AB1951E4022D_inline(L_17, /*hidden argument*/NULL);
-			if (L_18)
-			{
-				goto IL_005b;
-			}
-		}
-
-IL_0051:
-		{
-			// Debug.LogError("The pointer you are trying to remove does not exist in the mapping dict!");
-			IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-			Debug_LogError_m8850D65592770A364D494025FF3A73E8D4D70485(_stringLiteral1EB9F4C97F94C3F9BA356B4DBC614CB95E9E1DAD, /*hidden argument*/NULL);
-		}
-
-IL_005b:
-		{
 			// return;
-			IL2CPP_LEAVE(0xA8, FINALLY_009a);
+			IL2CPP_LEAVE(0x9D, FINALLY_008f);
 		}
 
-IL_005d:
+IL_0052:
 		{
 			// if (pointerDataToUpdate.TryGetValue(pointerId, out PointerData pointerData))
 			Dictionary_2_tCB5016B391E19ADB305776AB4375FCED878EF0B0 * L_19 = __this->get_pointerDataToUpdate_30();
@@ -28284,11 +28266,11 @@ IL_005d:
 			L_21 = Dictionary_2_TryGetValue_m22F2870D3ED5A9AA0CBE6547E58CBB45EEFB3ED7(L_19, L_20, (PointerData_t961238F7F343E720C726AACF3A25940C344E9595 **)(&V_6), /*hidden argument*/Dictionary_2_TryGetValue_m22F2870D3ED5A9AA0CBE6547E58CBB45EEFB3ED7_RuntimeMethod_var);
 			if (!L_21)
 			{
-				goto IL_0089;
+				goto IL_007e;
 			}
 		}
 
-IL_006e:
+IL_0063:
 		{
 			// pointerDataToRemove.Add(pointerData);
 			List_1_tCF73D85564F723B069954841E508160856ED5DE0 * L_22 = __this->get_pointerDataToRemove_31();
@@ -28303,14 +28285,14 @@ IL_006e:
 			L_26 = Dictionary_2_Remove_mFAA2592B4D40AEA30F8BCA544634D9344CAC05B7(L_24, L_25, /*hidden argument*/Dictionary_2_Remove_mFAA2592B4D40AEA30F8BCA544634D9344CAC05B7_RuntimeMethod_var);
 		}
 
-IL_0089:
+IL_007e:
 		{
 			// for (int i = 0; i < inputSource.Pointers.Length; i++)
 			int32_t L_27 = V_3;
 			V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_27, (int32_t)1));
 		}
 
-IL_008d:
+IL_0082:
 		{
 			// for (int i = 0; i < inputSource.Pointers.Length; i++)
 			int32_t L_28 = V_3;
@@ -28325,30 +28307,30 @@ IL_008d:
 			}
 		}
 
-IL_0098:
+IL_008d:
 		{
 			// }
-			IL2CPP_LEAVE(0xA8, FINALLY_009a);
+			IL2CPP_LEAVE(0x9D, FINALLY_008f);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_009a;
+		goto FINALLY_008f;
 	}
 
-FINALLY_009a:
+FINALLY_008f:
 	{ // begin finally (depth: 1)
 		AutoScope_Dispose_m5CDDCDA2B8769738BB695661EC4AC55DD7A0D7CA_inline((AutoScope_tEB00834B4CEE8558238837BA3A36B64020E48F8D *)(&V_0), /*hidden argument*/NULL);
-		IL2CPP_END_FINALLY(154)
+		IL2CPP_END_FINALLY(143)
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(154)
+	IL2CPP_CLEANUP(143)
 	{
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
-		IL2CPP_JUMP_TBL(0xA8, IL_00a8)
+		IL2CPP_JUMP_TBL(0x9D, IL_009d)
 	}
 
-IL_00a8:
+IL_009d:
 	{
 		// }
 		return;

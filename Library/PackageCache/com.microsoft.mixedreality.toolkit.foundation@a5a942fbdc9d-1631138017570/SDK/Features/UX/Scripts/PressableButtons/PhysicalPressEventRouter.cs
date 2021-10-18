@@ -12,7 +12,9 @@ namespace Microsoft.MixedReality.Toolkit
     [AddComponentMenu("Scripts/MRTK/SDK/PhysicalPressEventRouter")]
     public class PhysicalPressEventRouter : MonoBehaviour
     {
-        public GameObject menu;
+        public GameObject close;
+        public GameObject open;
+      //  public GameObject store;
         //menu.GetComponent<Collided>().onHit();
         [Tooltip("Interactable to which the press events are being routed. Defaults to the object of the component.")]
         public Interactable routingTarget;
@@ -48,7 +50,8 @@ namespace Microsoft.MixedReality.Toolkit
         public void OnHandPressTouched()
         {
             UnityEngine.Debug.Log("Button Pressed1");
-            menu.active = false;
+            open.active = true;
+            close.active = false;
 
             if (CanRouteInput())
             {
@@ -60,6 +63,7 @@ namespace Microsoft.MixedReality.Toolkit
                     routingTarget.HasPress = false;
                 }
             }
+            UnityEngine.Debug.Log("exited");
         }
 
         /// <summary>

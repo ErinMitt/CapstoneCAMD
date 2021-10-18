@@ -374,6 +374,8 @@ struct CloudSpatialAnchorSession_tA71B2460BEFD6D2F80236B2506272152F826ABB0;
 struct CloudSpatialAnchorSessionDeferral_t7629B303DC7F9C6160BC7C24F3DAB627BC9190CE;
 // System.Globalization.CodePageDataItem
 struct CodePageDataItem_t09A62F57142BF0456C8F414898A37E79BCC9F09E;
+// UnityEngine.Collider
+struct Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02;
 // Microsoft.MixedReality.OpenXR.ControllerModel
 struct ControllerModel_t1316A38F351EABE5461D60E869FA0E4B1B01E2DD;
 // UnityEngine.Coroutine
@@ -32193,17 +32195,17 @@ public:
 struct Collided_t22C1A605500A67195AFE8993F57262F9E06B875B  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
-	// UnityEngine.GameObject Collided::gameObject
-	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___gameObject_4;
+	// UnityEngine.Collider Collided::m_ObjectCollider
+	Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * ___m_ObjectCollider_4;
 
 public:
-	inline static int32_t get_offset_of_gameObject_4() { return static_cast<int32_t>(offsetof(Collided_t22C1A605500A67195AFE8993F57262F9E06B875B, ___gameObject_4)); }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_gameObject_4() const { return ___gameObject_4; }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_gameObject_4() { return &___gameObject_4; }
-	inline void set_gameObject_4(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	inline static int32_t get_offset_of_m_ObjectCollider_4() { return static_cast<int32_t>(offsetof(Collided_t22C1A605500A67195AFE8993F57262F9E06B875B, ___m_ObjectCollider_4)); }
+	inline Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * get_m_ObjectCollider_4() const { return ___m_ObjectCollider_4; }
+	inline Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 ** get_address_of_m_ObjectCollider_4() { return &___m_ObjectCollider_4; }
+	inline void set_m_ObjectCollider_4(Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * value)
 	{
-		___gameObject_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___gameObject_4), (void*)value);
+		___m_ObjectCollider_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_ObjectCollider_4), (void*)value);
 	}
 };
 
@@ -43637,7 +43639,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6506[5] =
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6509[1] = 
 {
-	Collided_t22C1A605500A67195AFE8993F57262F9E06B875B::get_offset_of_gameObject_4(),
+	Collided_t22C1A605500A67195AFE8993F57262F9E06B875B::get_offset_of_m_ObjectCollider_4(),
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6512[1] = 
 {
