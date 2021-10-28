@@ -36847,6 +36847,36 @@ public:
 };
 
 
+// coinstouched
+struct coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// UnityEngine.GameObject coinstouched::coins
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___coins_4;
+	// UnityEngine.GameObject coinstouched::cointracker
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___cointracker_5;
+
+public:
+	inline static int32_t get_offset_of_coins_4() { return static_cast<int32_t>(offsetof(coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617, ___coins_4)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_coins_4() const { return ___coins_4; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_coins_4() { return &___coins_4; }
+	inline void set_coins_4(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___coins_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___coins_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_cointracker_5() { return static_cast<int32_t>(offsetof(coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617, ___cointracker_5)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_cointracker_5() const { return ___cointracker_5; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_cointracker_5() { return &___cointracker_5; }
+	inline void set_cointracker_5(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___cointracker_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___cointracker_5), (void*)value);
+	}
+};
+
+
 // onTrigger
 struct onTrigger_t7D27562474B9E4AB438F9B68A92740A1215D255C  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -43641,7 +43671,12 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6509[1] =
 {
 	Collided_t22C1A605500A67195AFE8993F57262F9E06B875B::get_offset_of_m_ObjectCollider_4(),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6512[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6511[2] = 
+{
+	coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617::get_offset_of_coins_4(),
+	coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617::get_offset_of_cointracker_5(),
+};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6513[1] = 
 {
 	triggered_tCCB1DF2545C767EBD250BDD3C1722F3EFA903C0F::get_offset_of_startPos_4(),
 };

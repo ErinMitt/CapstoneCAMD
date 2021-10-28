@@ -30,12 +30,16 @@ struct MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A;
 struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A;
 // System.String
 struct String_t;
+// UnityEngine.TextMesh
+struct TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273;
 // UnityEngine.Transform
 struct Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1;
 // System.Void
 struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
 // buttonselected
 struct buttonselected_t19EC9DA7DA278D0F0D98D3F1FDF973729794F560;
+// coinstouched
+struct coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617;
 // onTrigger
 struct onTrigger_t7D27562474B9E4AB438F9B68A92740A1215D255C;
 // triggered
@@ -43,6 +47,7 @@ struct triggered_tCCB1DF2545C767EBD250BDD3C1722F3EFA903C0F;
 
 IL2CPP_EXTERN_C RuntimeClass* Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral4854AD76D65A8E87F9D4CA7FCDDF7F5014EEB3F4;
 IL2CPP_EXTERN_C String_t* _stringLiteral6EF8F7D01F218EB5A55D0DA937418864565ADAB1;
@@ -51,9 +56,11 @@ IL2CPP_EXTERN_C String_t* _stringLiteral8CB6B154CCC6C7F9AC1EF09CC033916BBE7EC610
 IL2CPP_EXTERN_C String_t* _stringLiteralAC355DBFF6DAA41ACD3E11017EF0AE49EBAEE027;
 IL2CPP_EXTERN_C String_t* _stringLiteralB2C1779E6635E7BE3F877BB034B30951538168F2;
 IL2CPP_EXTERN_C String_t* _stringLiteralCA706B38CFEC0AA56CF382BCA05EB975E7EB2E5B;
+IL2CPP_EXTERN_C String_t* _stringLiteralE7DFE6DFE2DE9912B1439827A04B6DDBBD628988;
 IL2CPP_EXTERN_C String_t* _stringLiteralF21700510B497B89FEE85DE675D6E241730F23A7;
 IL2CPP_EXTERN_C String_t* _stringLiteralFA46A87FB3C78DF4A767EE628200EAD23F2926FC;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCollider_t5E81E43C2ECA0209A7C4528E84A632712D192B02_mCE49E8783A1794715E6D539C8BB8C78CC589AB60_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisTextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273_m81EC88132D7EDC335BD0C2BE0287BC44F468FC00_RuntimeMethod_var;
 struct ContactPoint_tC179732A8E0014F5EFF5977ED1ADF12CF14A9017 ;
 
 
@@ -220,6 +227,24 @@ public:
 	inline void set_NegativeZero_7(double value)
 	{
 		___NegativeZero_7 = value;
+	}
+};
+
+
+// System.Int32
+struct Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046 
+{
+public:
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046, ___m_value_0)); }
+	inline int32_t get_m_value_0() const { return ___m_value_0; }
+	inline int32_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(int32_t value)
+	{
+		___m_value_0 = value;
 	}
 };
 
@@ -620,6 +645,15 @@ public:
 };
 
 
+// UnityEngine.TextMesh
+struct TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
+{
+public:
+
+public:
+};
+
+
 // UnityEngine.Transform
 struct Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
 {
@@ -666,6 +700,36 @@ public:
 };
 
 
+// coinstouched
+struct coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// UnityEngine.GameObject coinstouched::coins
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___coins_4;
+	// UnityEngine.GameObject coinstouched::cointracker
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___cointracker_5;
+
+public:
+	inline static int32_t get_offset_of_coins_4() { return static_cast<int32_t>(offsetof(coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617, ___coins_4)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_coins_4() const { return ___coins_4; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_coins_4() { return &___coins_4; }
+	inline void set_coins_4(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___coins_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___coins_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_cointracker_5() { return static_cast<int32_t>(offsetof(coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617, ___cointracker_5)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_cointracker_5() const { return ___cointracker_5; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_cointracker_5() { return &___cointracker_5; }
+	inline void set_cointracker_5(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___cointracker_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___cointracker_5), (void*)value);
+	}
+};
+
+
 // onTrigger
 struct onTrigger_t7D27562474B9E4AB438F9B68A92740A1215D255C  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -699,6 +763,8 @@ public:
 
 // !!0 UnityEngine.Component::GetComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Component_GetComponent_TisRuntimeObject_m69D9C576D6DD024C709E29EEADBC8041299A3AA7_gshared (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method);
+// !!0 UnityEngine.GameObject::GetComponent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * GameObject_GetComponent_TisRuntimeObject_mCE43118393A796C759AC5D43257AB2330881767D_gshared (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, const RuntimeMethod* method);
 
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Collider>()
 inline Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * Component_GetComponent_TisCollider_t5E81E43C2ECA0209A7C4528E84A632712D192B02_mCE49E8783A1794715E6D539C8BB8C78CC589AB60 (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method)
@@ -729,6 +795,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_mC0995D847F6A95B1A55
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Transform::get_position()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, const RuntimeMethod* method);
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.TextMesh>()
+inline TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * GameObject_GetComponent_TisTextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273_m81EC88132D7EDC335BD0C2BE0287BC44F468FC00 (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, const RuntimeMethod* method)
+{
+	return ((  TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * (*) (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_mCE43118393A796C759AC5D43257AB2330881767D_gshared)(__this, method);
+}
+// System.Void UnityEngine.GameObject::set_active(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_set_active_mC5C02354788BC2EDF19359EEAE7396BE350C2BFA (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, bool ___value0, const RuntimeMethod* method);
+// System.String UnityEngine.TextMesh::get_text()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TextMesh_get_text_m5F0AFB132AB91B91B04386F5769F2A2F04C2A13B (TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * __this, const RuntimeMethod* method);
+// System.Int32 System.String::get_Length()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline (String_t* __this, const RuntimeMethod* method);
+// System.String System.String::Substring(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B (String_t* __this, int32_t ___startIndex0, int32_t ___length1, const RuntimeMethod* method);
+// System.Int32 System.Int32::Parse(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C (String_t* ___s0, const RuntimeMethod* method);
+// System.String System.Int32::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411 (int32_t* __this, const RuntimeMethod* method);
+// System.Void UnityEngine.TextMesh::set_text(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMesh_set_text_m5879B13F5C9E4A1D05155839B89CCDB85BE28A04 (TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * __this, String_t* ___value0, const RuntimeMethod* method);
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -995,6 +1080,104 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void buttonselected__ctor_m6709F2165A359BAF9D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void coinstouched::clicked()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void coinstouched_clicked_mBB73A5BAE188940A3632EF4E0FF17D471654A854 (coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273_m81EC88132D7EDC335BD0C2BE0287BC44F468FC00_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE7DFE6DFE2DE9912B1439827A04B6DDBBD628988);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		// TextMesh t = cointracker.GetComponent<TextMesh>();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = __this->get_cointracker_5();
+		NullCheck(L_0);
+		TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * L_1;
+		L_1 = GameObject_GetComponent_TisTextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273_m81EC88132D7EDC335BD0C2BE0287BC44F468FC00(L_0, /*hidden argument*/GameObject_GetComponent_TisTextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273_m81EC88132D7EDC335BD0C2BE0287BC44F468FC00_RuntimeMethod_var);
+		// coins.active = false;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_2 = __this->get_coins_4();
+		NullCheck(L_2);
+		GameObject_set_active_mC5C02354788BC2EDF19359EEAE7396BE350C2BFA(L_2, (bool)0, /*hidden argument*/NULL);
+		// var CoinSize=t.text.Length;
+		TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * L_3 = L_1;
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = TextMesh_get_text_m5F0AFB132AB91B91B04386F5769F2A2F04C2A13B(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		// string money = t.text.Substring(8, CoinSize-8);
+		TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * L_6 = L_3;
+		NullCheck(L_6);
+		String_t* L_7;
+		L_7 = TextMesh_get_text_m5F0AFB132AB91B91B04386F5769F2A2F04C2A13B(L_6, /*hidden argument*/NULL);
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		String_t* L_9;
+		L_9 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_7, 8, ((int32_t)il2cpp_codegen_subtract((int32_t)L_8, (int32_t)8)), /*hidden argument*/NULL);
+		// int moneyVal = int.Parse(money);
+		int32_t L_10;
+		L_10 = Int32_Parse_mE5D220FEA7F0BFB1B220B2A30797D7DD83ACF22C(L_9, /*hidden argument*/NULL);
+		V_1 = L_10;
+		// Debug.Log(moneyVal);
+		int32_t L_11 = V_1;
+		int32_t L_12 = L_11;
+		RuntimeObject * L_13 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_12);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_13, /*hidden argument*/NULL);
+		// t.text = "Money $"+(moneyVal+10);
+		int32_t L_14 = V_1;
+		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_14, (int32_t)((int32_t)10)));
+		String_t* L_15;
+		L_15 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)(&V_2), /*hidden argument*/NULL);
+		String_t* L_16;
+		L_16 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteralE7DFE6DFE2DE9912B1439827A04B6DDBBD628988, L_15, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		TextMesh_set_text_m5879B13F5C9E4A1D05155839B89CCDB85BE28A04(L_6, L_16, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void coinstouched::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void coinstouched_Start_m4DA86FF676301BD62D81FCAAD5BA151F327D9150 (coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void coinstouched::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void coinstouched_Update_mD5FEC17AD7A7E564612F06A39A49104E6C2BB13C (coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void coinstouched::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void coinstouched__ctor_mB63879169678AF8AF2F4722A64638CFC72F5FB93 (coinstouched_t30F847454C778280BB419C4E3738F0CAEA3D8617 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void onTrigger::OnTriggerEnter(UnityEngine.Collider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void onTrigger_OnTriggerEnter_mF5299811196AEFF6B6C5B76C1D99B6293C70EF2E (onTrigger_t7D27562474B9E4AB438F9B68A92740A1215D255C * __this, Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * ___other0, const RuntimeMethod* method)
 {
@@ -1142,3 +1325,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void triggered__ctor_mE2200FD0E3BA06F7B58CF5D
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline (String_t* __this, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = __this->get_m_stringLength_0();
+		return L_0;
+	}
+}

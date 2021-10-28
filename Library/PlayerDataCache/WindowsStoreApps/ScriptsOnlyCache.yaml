@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Collided
+    - coinstouched
     AzureSpatialAnchors.SDK.Core.Runtime.dll:
     - Microsoft.Azure.SpatialAnchors.Unity.SpatialAnchorConfig
     FigmaToolkit.dll:
@@ -518,61 +519,63 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9842}
     - Class: 114
-      Script: {instanceID: 9894}
+      Script: {instanceID: 9844}
     - Class: 114
-      Script: {instanceID: 9926}
+      Script: {instanceID: 9896}
     - Class: 114
-      Script: {instanceID: 9930}
+      Script: {instanceID: 9928}
     - Class: 114
-      Script: {instanceID: 9982}
+      Script: {instanceID: 9932}
     - Class: 114
-      Script: {instanceID: 10330}
+      Script: {instanceID: 9984}
     - Class: 114
-      Script: {instanceID: 10438}
+      Script: {instanceID: 10332}
     - Class: 114
-      Script: {instanceID: 10518}
+      Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10534}
+      Script: {instanceID: 10520}
     - Class: 114
-      Script: {instanceID: 10572}
+      Script: {instanceID: 10536}
     - Class: 114
-      Script: {instanceID: 10594}
+      Script: {instanceID: 10574}
     - Class: 114
-      Script: {instanceID: 10772}
+      Script: {instanceID: 10596}
     - Class: 114
-      Script: {instanceID: 10786}
+      Script: {instanceID: 10774}
     - Class: 114
-      Script: {instanceID: 10900}
+      Script: {instanceID: 10788}
     - Class: 114
-      Script: {instanceID: 11096}
+      Script: {instanceID: 10902}
     - Class: 114
-      Script: {instanceID: 11130}
+      Script: {instanceID: 11098}
     - Class: 114
-      Script: {instanceID: 11186}
+      Script: {instanceID: 11132}
     - Class: 114
-      Script: {instanceID: 11346}
+      Script: {instanceID: 11188}
     - Class: 114
-      Script: {instanceID: 11468}
+      Script: {instanceID: 11348}
     - Class: 114
-      Script: {instanceID: 11550}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 11702}
+      Script: {instanceID: 11552}
     - Class: 114
-      Script: {instanceID: 11728}
+      Script: {instanceID: 11704}
     - Class: 114
-      Script: {instanceID: 11820}
+      Script: {instanceID: 11730}
     - Class: 114
-      Script: {instanceID: 11830}
+      Script: {instanceID: 11822}
     - Class: 114
-      Script: {instanceID: 11860}
+      Script: {instanceID: 11832}
     - Class: 114
-      Script: {instanceID: 11892}
+      Script: {instanceID: 11862}
     - Class: 114
-      Script: {instanceID: 11902}
+      Script: {instanceID: 11894}
     - Class: 114
-      Script: {instanceID: 11934}
+      Script: {instanceID: 11904}
     - Class: 114
-      Script: {instanceID: 47746}
+      Script: {instanceID: 11936}
+    - Class: 114
+      Script: {instanceID: 47756}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -3338,6 +3341,12 @@ ScriptsOnlyBuild:
     className: LocalOnlySignaler
   - hash:
       serializedVersion: 2
+      Hash: 84ed79561c44550ef03bf1bd05d625f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: coinstouched
+  - hash:
+      serializedVersion: 2
       Hash: fc503b2d9a224fad451ff9761b5a826e
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
@@ -4101,4 +4110,4 @@ ScriptsOnlyBuild:
   platform: 21
   scenePathNames:
   - Assets/DefaultScene.unity
-  playerPath: C:/Users/Student/Desktop/hololensbuilds/101820211751
+  playerPath: C:/Users/Student/Desktop/hololensbuilds/101920211025
