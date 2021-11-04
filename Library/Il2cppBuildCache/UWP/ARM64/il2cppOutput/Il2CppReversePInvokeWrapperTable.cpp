@@ -21,6 +21,7 @@ struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
 
 struct EVENT_FILTER_DESCRIPTOR_t59379AB6F16CCEA5C0BDF328FF5AC64040CED05B ;
 struct Guid_t ;
+struct PackedValue_t9C8419FDF493E5130A62F8CDBD63D79EC57F9200 ;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -278,6 +279,60 @@ public:
 };
 
 
+// Microsoft.Azure.RemoteRendering.ConnectionStatus
+struct ConnectionStatus_t389438FE8853A17D56FE125D35E5BD5C7B90C08D 
+{
+public:
+	// System.Int32 Microsoft.Azure.RemoteRendering.ConnectionStatus::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ConnectionStatus_t389438FE8853A17D56FE125D35E5BD5C7B90C08D, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// Microsoft.Azure.RemoteRendering.LogLevel
+struct LogLevel_t74808524F63A10C99F3730C6EA10465DB40B83A5 
+{
+public:
+	// System.Int32 Microsoft.Azure.RemoteRendering.LogLevel::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(LogLevel_t74808524F63A10C99F3730C6EA10465DB40B83A5, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// Microsoft.Azure.RemoteRendering.Result
+struct Result_t61DB64F1DFC54FDBC86A36A3B66A719A93818305 
+{
+public:
+	// System.Int32 Microsoft.Azure.RemoteRendering.Result::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Result_t61DB64F1DFC54FDBC86A36A3B66A719A93818305, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // UnityEngine.TextureFormat
 struct TextureFormat_tBED5388A0445FE978F97B41D247275B036407932 
 {
@@ -287,6 +342,24 @@ public:
 
 public:
 	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(TextureFormat_tBED5388A0445FE978F97B41D247275B036407932, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// Microsoft.Azure.RemoteRendering.status
+struct status_tC7F25CE01D2F27C7A9D645987EA2A35299F43F75 
+{
+public:
+	// System.Int32 Microsoft.Azure.RemoteRendering.status::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(status_tC7F25CE01D2F27C7A9D645987EA2A35299F43F75, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -441,11 +514,20 @@ extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationCont
 extern "C" void CDECL ReversePInvokeWrapper_ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1(uint64_t ___cookie0, intptr_t ___args1);
 extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OpenXRLoaderBase_ReceiveNativeEvent_m1B22309DB57E9CBCEE079C233A221B002F3EB651(int32_t ___e0, uint64_t ___payload1);
 extern "C" void CDECL ReversePInvokeWrapper_ProjectedObjectCache_ProjectedObjectCleanupHandler_mB6B642C75375902F952BF695EED0080E057632F4(uint64_t ___cookie0);
+extern "C" void CDECL ReversePInvokeWrapper_ProjectedObjectCache_ProjectedObjectCleanupHandler_mFDE7C5C6227FB9E96FA4F63AF61200DBA761B758(uint64_t ___cookie0);
+extern "C" void CDECL ReversePInvokeWrapper_Promise_InternalComplete_m2ED37CBD7FABE1FC5781A5D73BB5544FCA1E2540(intptr_t ___context0, PackedValue_t9C8419FDF493E5130A62F8CDBD63D79EC57F9200 * ___value1);
+extern "C" void CDECL ReversePInvokeWrapper_Promise_InternalError_m951A000787A9CEB545A4E572570047ACD8C84FAE(intptr_t ___context0, int32_t ___result1);
+extern "C" void CDECL ReversePInvokeWrapper_Promise_InternalProgress_m32B84394121D3190021090689478541BB6A2C152(intptr_t ___context0, float ___progress1);
+extern "C" void CDECL ReversePInvokeWrapper_RemoteRenderingClient_MessageLoggedStaticHandler_mFAEB25D08B16031D192ED34B6A0D71E5F7A1B924(uint64_t ___cookie0, int32_t ___level1, intptr_t ___message2);
+extern "C" void CDECL ReversePInvokeWrapper_RemoteRenderingClient_TokenRequiredStaticHandler_m76EE42A83264930D823372518780D2721794FB59(uint64_t ___cookie0, intptr_t ___args1);
+extern "C" void CDECL ReversePInvokeWrapper_RenderingConnection_MessageLoggedStaticHandler_m2F03296E96EE422E53CB06D730133854F9BF2F2C(uint64_t ___cookie0, int32_t ___level1, intptr_t ___message2);
+extern "C" void CDECL ReversePInvokeWrapper_RenderingConnection_UpdatedStaticHandler_mB861C34F06219171A23A579918D42177B0CFA42E(uint64_t ___cookie0);
+extern "C" void CDECL ReversePInvokeWrapper_RenderingSession_ConnectionStatusChangedStaticHandler_mB74A572F9CBB764C5B1C9767FB07238AA95D813D(uint64_t ___cookie0, int32_t ___status1, int32_t ___error2);
 extern "C" void DEFAULT_CALL ReversePInvokeWrapper_XRCpuImage_OnAsyncConversionComplete_m60DC813F1A2B8A59F993D245683847D933D292A9(int32_t ___status0, ConversionParams_t3DDB9752BA823641A302D0783C14048D9B09B74A  ___conversionParams1, intptr_t ___dataPtr2, int32_t ___dataLength3, intptr_t ___context4);
 
 
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
-const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[23] = 
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[32] = 
 {
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_AnchorLocatedStaticHandler_m64E9E6D3AB036F0C861FE8ADCE0533E48FFA1B90),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_ErrorStaticHandler_m6BB2FBBE0E72FE3F9FC434B8E95FE0A4851E8302),
@@ -469,5 +551,14 @@ const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[23] =
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OpenXRLoaderBase_ReceiveNativeEvent_m1B22309DB57E9CBCEE079C233A221B002F3EB651),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ProjectedObjectCache_ProjectedObjectCleanupHandler_mB6B642C75375902F952BF695EED0080E057632F4),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ProjectedObjectCache_ProjectedObjectCleanupHandler_mFDE7C5C6227FB9E96FA4F63AF61200DBA761B758),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Promise_InternalComplete_m2ED37CBD7FABE1FC5781A5D73BB5544FCA1E2540),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Promise_InternalError_m951A000787A9CEB545A4E572570047ACD8C84FAE),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Promise_InternalProgress_m32B84394121D3190021090689478541BB6A2C152),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RemoteRenderingClient_MessageLoggedStaticHandler_mFAEB25D08B16031D192ED34B6A0D71E5F7A1B924),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RemoteRenderingClient_TokenRequiredStaticHandler_m76EE42A83264930D823372518780D2721794FB59),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RenderingConnection_MessageLoggedStaticHandler_m2F03296E96EE422E53CB06D730133854F9BF2F2C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RenderingConnection_UpdatedStaticHandler_mB861C34F06219171A23A579918D42177B0CFA42E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_RenderingSession_ConnectionStatusChangedStaticHandler_mB74A572F9CBB764C5B1C9767FB07238AA95D813D),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_XRCpuImage_OnAsyncConversionComplete_m60DC813F1A2B8A59F993D245683847D933D292A9),
 };

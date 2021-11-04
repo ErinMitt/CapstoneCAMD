@@ -5466,25 +5466,25 @@ struct RenderQueueRange_t328914EF72BEF60B323076881C62F04CE14027B7_StaticFields
 {
 public:
 	// System.Int32 UnityEngine.Rendering.RenderQueueRange::minimumBound
-	int32_t ___minimumBound_2;
+	int32_t ___minimumBound_3;
 	// System.Int32 UnityEngine.Rendering.RenderQueueRange::maximumBound
-	int32_t ___maximumBound_3;
+	int32_t ___maximumBound_5;
 
 public:
-	inline static int32_t get_offset_of_minimumBound_2() { return static_cast<int32_t>(offsetof(RenderQueueRange_t328914EF72BEF60B323076881C62F04CE14027B7_StaticFields, ___minimumBound_2)); }
-	inline int32_t get_minimumBound_2() const { return ___minimumBound_2; }
-	inline int32_t* get_address_of_minimumBound_2() { return &___minimumBound_2; }
-	inline void set_minimumBound_2(int32_t value)
+	inline static int32_t get_offset_of_minimumBound_3() { return static_cast<int32_t>(offsetof(RenderQueueRange_t328914EF72BEF60B323076881C62F04CE14027B7_StaticFields, ___minimumBound_3)); }
+	inline int32_t get_minimumBound_3() const { return ___minimumBound_3; }
+	inline int32_t* get_address_of_minimumBound_3() { return &___minimumBound_3; }
+	inline void set_minimumBound_3(int32_t value)
 	{
-		___minimumBound_2 = value;
+		___minimumBound_3 = value;
 	}
 
-	inline static int32_t get_offset_of_maximumBound_3() { return static_cast<int32_t>(offsetof(RenderQueueRange_t328914EF72BEF60B323076881C62F04CE14027B7_StaticFields, ___maximumBound_3)); }
-	inline int32_t get_maximumBound_3() const { return ___maximumBound_3; }
-	inline int32_t* get_address_of_maximumBound_3() { return &___maximumBound_3; }
-	inline void set_maximumBound_3(int32_t value)
+	inline static int32_t get_offset_of_maximumBound_5() { return static_cast<int32_t>(offsetof(RenderQueueRange_t328914EF72BEF60B323076881C62F04CE14027B7_StaticFields, ___maximumBound_5)); }
+	inline int32_t get_maximumBound_5() const { return ___maximumBound_5; }
+	inline int32_t* get_address_of_maximumBound_5() { return &___maximumBound_5; }
+	inline void set_maximumBound_5(int32_t value)
 	{
-		___maximumBound_3 = value;
+		___maximumBound_5 = value;
 	}
 };
 
@@ -11396,75 +11396,75 @@ struct RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13
 {
 public:
 	// UnityEngine.Rendering.BuiltinRenderTextureType UnityEngine.Rendering.RenderTargetIdentifier::m_Type
-	int32_t ___m_Type_0;
+	int32_t ___m_Type_1;
 	// System.Int32 UnityEngine.Rendering.RenderTargetIdentifier::m_NameID
-	int32_t ___m_NameID_1;
+	int32_t ___m_NameID_2;
 	// System.Int32 UnityEngine.Rendering.RenderTargetIdentifier::m_InstanceID
-	int32_t ___m_InstanceID_2;
+	int32_t ___m_InstanceID_3;
 	// System.IntPtr UnityEngine.Rendering.RenderTargetIdentifier::m_BufferPointer
-	intptr_t ___m_BufferPointer_3;
+	intptr_t ___m_BufferPointer_4;
 	// System.Int32 UnityEngine.Rendering.RenderTargetIdentifier::m_MipLevel
-	int32_t ___m_MipLevel_4;
+	int32_t ___m_MipLevel_5;
 	// UnityEngine.CubemapFace UnityEngine.Rendering.RenderTargetIdentifier::m_CubeFace
-	int32_t ___m_CubeFace_5;
+	int32_t ___m_CubeFace_6;
 	// System.Int32 UnityEngine.Rendering.RenderTargetIdentifier::m_DepthSlice
-	int32_t ___m_DepthSlice_6;
+	int32_t ___m_DepthSlice_7;
 
 public:
-	inline static int32_t get_offset_of_m_Type_0() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_Type_0)); }
-	inline int32_t get_m_Type_0() const { return ___m_Type_0; }
-	inline int32_t* get_address_of_m_Type_0() { return &___m_Type_0; }
-	inline void set_m_Type_0(int32_t value)
+	inline static int32_t get_offset_of_m_Type_1() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_Type_1)); }
+	inline int32_t get_m_Type_1() const { return ___m_Type_1; }
+	inline int32_t* get_address_of_m_Type_1() { return &___m_Type_1; }
+	inline void set_m_Type_1(int32_t value)
 	{
-		___m_Type_0 = value;
+		___m_Type_1 = value;
 	}
 
-	inline static int32_t get_offset_of_m_NameID_1() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_NameID_1)); }
-	inline int32_t get_m_NameID_1() const { return ___m_NameID_1; }
-	inline int32_t* get_address_of_m_NameID_1() { return &___m_NameID_1; }
-	inline void set_m_NameID_1(int32_t value)
+	inline static int32_t get_offset_of_m_NameID_2() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_NameID_2)); }
+	inline int32_t get_m_NameID_2() const { return ___m_NameID_2; }
+	inline int32_t* get_address_of_m_NameID_2() { return &___m_NameID_2; }
+	inline void set_m_NameID_2(int32_t value)
 	{
-		___m_NameID_1 = value;
+		___m_NameID_2 = value;
 	}
 
-	inline static int32_t get_offset_of_m_InstanceID_2() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_InstanceID_2)); }
-	inline int32_t get_m_InstanceID_2() const { return ___m_InstanceID_2; }
-	inline int32_t* get_address_of_m_InstanceID_2() { return &___m_InstanceID_2; }
-	inline void set_m_InstanceID_2(int32_t value)
+	inline static int32_t get_offset_of_m_InstanceID_3() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_InstanceID_3)); }
+	inline int32_t get_m_InstanceID_3() const { return ___m_InstanceID_3; }
+	inline int32_t* get_address_of_m_InstanceID_3() { return &___m_InstanceID_3; }
+	inline void set_m_InstanceID_3(int32_t value)
 	{
-		___m_InstanceID_2 = value;
+		___m_InstanceID_3 = value;
 	}
 
-	inline static int32_t get_offset_of_m_BufferPointer_3() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_BufferPointer_3)); }
-	inline intptr_t get_m_BufferPointer_3() const { return ___m_BufferPointer_3; }
-	inline intptr_t* get_address_of_m_BufferPointer_3() { return &___m_BufferPointer_3; }
-	inline void set_m_BufferPointer_3(intptr_t value)
+	inline static int32_t get_offset_of_m_BufferPointer_4() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_BufferPointer_4)); }
+	inline intptr_t get_m_BufferPointer_4() const { return ___m_BufferPointer_4; }
+	inline intptr_t* get_address_of_m_BufferPointer_4() { return &___m_BufferPointer_4; }
+	inline void set_m_BufferPointer_4(intptr_t value)
 	{
-		___m_BufferPointer_3 = value;
+		___m_BufferPointer_4 = value;
 	}
 
-	inline static int32_t get_offset_of_m_MipLevel_4() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_MipLevel_4)); }
-	inline int32_t get_m_MipLevel_4() const { return ___m_MipLevel_4; }
-	inline int32_t* get_address_of_m_MipLevel_4() { return &___m_MipLevel_4; }
-	inline void set_m_MipLevel_4(int32_t value)
+	inline static int32_t get_offset_of_m_MipLevel_5() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_MipLevel_5)); }
+	inline int32_t get_m_MipLevel_5() const { return ___m_MipLevel_5; }
+	inline int32_t* get_address_of_m_MipLevel_5() { return &___m_MipLevel_5; }
+	inline void set_m_MipLevel_5(int32_t value)
 	{
-		___m_MipLevel_4 = value;
+		___m_MipLevel_5 = value;
 	}
 
-	inline static int32_t get_offset_of_m_CubeFace_5() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_CubeFace_5)); }
-	inline int32_t get_m_CubeFace_5() const { return ___m_CubeFace_5; }
-	inline int32_t* get_address_of_m_CubeFace_5() { return &___m_CubeFace_5; }
-	inline void set_m_CubeFace_5(int32_t value)
+	inline static int32_t get_offset_of_m_CubeFace_6() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_CubeFace_6)); }
+	inline int32_t get_m_CubeFace_6() const { return ___m_CubeFace_6; }
+	inline int32_t* get_address_of_m_CubeFace_6() { return &___m_CubeFace_6; }
+	inline void set_m_CubeFace_6(int32_t value)
 	{
-		___m_CubeFace_5 = value;
+		___m_CubeFace_6 = value;
 	}
 
-	inline static int32_t get_offset_of_m_DepthSlice_6() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_DepthSlice_6)); }
-	inline int32_t get_m_DepthSlice_6() const { return ___m_DepthSlice_6; }
-	inline int32_t* get_address_of_m_DepthSlice_6() { return &___m_DepthSlice_6; }
-	inline void set_m_DepthSlice_6(int32_t value)
+	inline static int32_t get_offset_of_m_DepthSlice_7() { return static_cast<int32_t>(offsetof(RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13, ___m_DepthSlice_7)); }
+	inline int32_t get_m_DepthSlice_7() const { return ___m_DepthSlice_7; }
+	inline int32_t* get_address_of_m_DepthSlice_7() { return &___m_DepthSlice_7; }
+	inline void set_m_DepthSlice_7(int32_t value)
 	{
-		___m_DepthSlice_6 = value;
+		___m_DepthSlice_7 = value;
 	}
 };
 
@@ -35187,7 +35187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RTHandleSystem_DemandResize_m53AE2D6FE0E
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_13 = V_0;
 		NullCheck(L_13);
 		int32_t L_14;
-		L_14 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_13);
+		L_14 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_13);
 		int32_t L_15;
 		L_15 = Vector2Int_get_x_mDBEFBCDF9C7924767344ED2CEE1307885AED947B_inline((Vector2Int_tF49F5C2443670DE126D9EC8DBE81D8F480EAA6E9 *)(&V_1), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_14) == ((uint32_t)L_15))))
@@ -35199,7 +35199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RTHandleSystem_DemandResize_m53AE2D6FE0E
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_16 = V_0;
 		NullCheck(L_16);
 		int32_t L_17;
-		L_17 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_16);
+		L_17 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_16);
 		int32_t L_18;
 		L_18 = Vector2Int_get_y_m282591DEB0E70B02F4F4DDFAB90116AEC8E6B86C_inline((Vector2Int_tF49F5C2443670DE126D9EC8DBE81D8F480EAA6E9 *)(&V_1), /*hidden argument*/NULL);
 		G_B3_0 = ((((int32_t)((((int32_t)L_17) == ((int32_t)L_18))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -35280,13 +35280,13 @@ IL_0099:
 		int32_t L_31;
 		L_31 = Vector2Int_get_x_mDBEFBCDF9C7924767344ED2CEE1307885AED947B_inline((Vector2Int_tF49F5C2443670DE126D9EC8DBE81D8F480EAA6E9 *)(&V_1), /*hidden argument*/NULL);
 		NullCheck(L_30);
-		VirtActionInvoker1< int32_t >::Invoke(5 /* System.Void UnityEngine.Texture::set_width(System.Int32) */, L_30, L_31);
+		VirtActionInvoker1< int32_t >::Invoke(6 /* System.Void UnityEngine.Texture::set_width(System.Int32) */, L_30, L_31);
 		// rt.height = scaledSize.y;
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_32 = V_0;
 		int32_t L_33;
 		L_33 = Vector2Int_get_y_m282591DEB0E70B02F4F4DDFAB90116AEC8E6B86C_inline((Vector2Int_tF49F5C2443670DE126D9EC8DBE81D8F480EAA6E9 *)(&V_1), /*hidden argument*/NULL);
 		NullCheck(L_32);
-		VirtActionInvoker1< int32_t >::Invoke(7 /* System.Void UnityEngine.Texture::set_height(System.Int32) */, L_32, L_33);
+		VirtActionInvoker1< int32_t >::Invoke(8 /* System.Void UnityEngine.Texture::set_height(System.Int32) */, L_32, L_33);
 		// rt.name = CoreUtils.GetRenderTargetAutoName(
 		//     rt.width,
 		//     rt.height,
@@ -35303,11 +35303,11 @@ IL_0099:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_35 = V_0;
 		NullCheck(L_35);
 		int32_t L_36;
-		L_36 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_35);
+		L_36 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_35);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_37 = V_0;
 		NullCheck(L_37);
 		int32_t L_38;
-		L_38 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_37);
+		L_38 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_37);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_39 = V_0;
 		NullCheck(L_39);
 		int32_t L_40;
@@ -35319,7 +35319,7 @@ IL_0099:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_43 = V_0;
 		NullCheck(L_43);
 		int32_t L_44;
-		L_44 = VirtFuncInvoker0< int32_t >::Invoke(8 /* UnityEngine.Rendering.TextureDimension UnityEngine.Texture::get_dimension() */, L_43);
+		L_44 = VirtFuncInvoker0< int32_t >::Invoke(9 /* UnityEngine.Rendering.TextureDimension UnityEngine.Texture::get_dimension() */, L_43);
 		RTHandle_t2E47719EB0807C3A23D79B1CDE881D0A112C13D6 * L_45 = ___rth0;
 		NullCheck(L_45);
 		String_t* L_46 = L_45->get_m_Name_7();
@@ -35634,7 +35634,7 @@ IL_0093:
 		int32_t L_33;
 		L_33 = Mathf_Max_mAB2544BF70651EC36982F5F4EBD250AEE283335A(L_32, 1, /*hidden argument*/NULL);
 		NullCheck(L_31);
-		VirtActionInvoker1< int32_t >::Invoke(5 /* System.Void UnityEngine.Texture::set_width(System.Int32) */, L_31, L_33);
+		VirtActionInvoker1< int32_t >::Invoke(6 /* System.Void UnityEngine.Texture::set_width(System.Int32) */, L_31, L_33);
 		// renderTexture.height = Mathf.Max(scaledSize.y, 1);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_34 = V_4;
 		int32_t L_35;
@@ -35642,7 +35642,7 @@ IL_0093:
 		int32_t L_36;
 		L_36 = Mathf_Max_mAB2544BF70651EC36982F5F4EBD250AEE283335A(L_35, 1, /*hidden argument*/NULL);
 		NullCheck(L_34);
-		VirtActionInvoker1< int32_t >::Invoke(7 /* System.Void UnityEngine.Texture::set_height(System.Int32) */, L_34, L_36);
+		VirtActionInvoker1< int32_t >::Invoke(8 /* System.Void UnityEngine.Texture::set_height(System.Int32) */, L_34, L_36);
 		// if (rth.m_EnableMSAA)
 		RTHandle_t2E47719EB0807C3A23D79B1CDE881D0A112C13D6 * L_37 = V_3;
 		NullCheck(L_37);
@@ -35667,11 +35667,11 @@ IL_00ef:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_42 = V_4;
 		NullCheck(L_42);
 		int32_t L_43;
-		L_43 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_42);
+		L_43 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_42);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_44 = V_4;
 		NullCheck(L_44);
 		int32_t L_45;
-		L_45 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_44);
+		L_45 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_44);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_46 = V_4;
 		NullCheck(L_46);
 		int32_t L_47;
@@ -35683,7 +35683,7 @@ IL_00ef:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_50 = V_4;
 		NullCheck(L_50);
 		int32_t L_51;
-		L_51 = VirtFuncInvoker0< int32_t >::Invoke(8 /* UnityEngine.Rendering.TextureDimension UnityEngine.Texture::get_dimension() */, L_50);
+		L_51 = VirtFuncInvoker0< int32_t >::Invoke(9 /* UnityEngine.Rendering.TextureDimension UnityEngine.Texture::get_dimension() */, L_50);
 		RTHandle_t2E47719EB0807C3A23D79B1CDE881D0A112C13D6 * L_52 = V_3;
 		NullCheck(L_52);
 		String_t* L_53 = L_52->get_m_Name_7();
@@ -35857,7 +35857,7 @@ IL_0030:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_18 = L_16;
 		int32_t L_19 = ___dimension7;
 		NullCheck(L_18);
-		VirtActionInvoker1< int32_t >::Invoke(9 /* System.Void UnityEngine.Texture::set_dimension(UnityEngine.Rendering.TextureDimension) */, L_18, L_19);
+		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void UnityEngine.Texture::set_dimension(UnityEngine.Rendering.TextureDimension) */, L_18, L_19);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_20 = L_18;
 		bool L_21 = ___enableRandomWrite8;
 		NullCheck(L_20);
@@ -35958,7 +35958,7 @@ IL_00ce:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_61 = L_59;
 		int32_t L_62 = ___dimension7;
 		NullCheck(L_61);
-		VirtActionInvoker1< int32_t >::Invoke(9 /* System.Void UnityEngine.Texture::set_dimension(UnityEngine.Rendering.TextureDimension) */, L_61, L_62);
+		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void UnityEngine.Texture::set_dimension(UnityEngine.Rendering.TextureDimension) */, L_61, L_62);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_63 = L_61;
 		bool L_64 = ___enableRandomWrite8;
 		NullCheck(L_63);
@@ -36480,7 +36480,7 @@ IL_0069:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_26 = L_24;
 		int32_t L_27 = ___dimension7;
 		NullCheck(L_26);
-		VirtActionInvoker1< int32_t >::Invoke(9 /* System.Void UnityEngine.Texture::set_dimension(UnityEngine.Rendering.TextureDimension) */, L_26, L_27);
+		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void UnityEngine.Texture::set_dimension(UnityEngine.Rendering.TextureDimension) */, L_26, L_27);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_28 = L_26;
 		bool L_29 = V_1;
 		NullCheck(L_28);
@@ -36587,7 +36587,7 @@ IL_0118:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_73 = L_71;
 		int32_t L_74 = ___dimension7;
 		NullCheck(L_73);
-		VirtActionInvoker1< int32_t >::Invoke(9 /* System.Void UnityEngine.Texture::set_dimension(UnityEngine.Rendering.TextureDimension) */, L_73, L_74);
+		VirtActionInvoker1< int32_t >::Invoke(10 /* System.Void UnityEngine.Texture::set_dimension(UnityEngine.Rendering.TextureDimension) */, L_73, L_74);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_75 = L_73;
 		bool L_76 = V_1;
 		NullCheck(L_75);
@@ -36949,7 +36949,7 @@ IL_003a:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_24 = V_3;
 		NullCheck(L_24);
 		int32_t L_25;
-		L_25 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_24);
+		L_25 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_24);
 		int32_t L_26 = L_25;
 		RuntimeObject * L_27 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_26);
 		NullCheck(L_23);
@@ -36959,7 +36959,7 @@ IL_003a:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_29 = V_3;
 		NullCheck(L_29);
 		int32_t L_30;
-		L_30 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_29);
+		L_30 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_29);
 		int32_t L_31 = L_30;
 		RuntimeObject * L_32 = Box(Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var, &L_31);
 		NullCheck(L_28);
