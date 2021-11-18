@@ -26,12 +26,13 @@ public class EventProcessor : MonoBehaviour
     void Update()
     {
         TextMesh t = TextLatitude.GetComponent<TextMesh>();
-        Debug.Log("update called");
+       // Debug.Log("update called");
         t.text = "Update Called";
         MoveQueuedEventsToExecuting();
         while (_processingData.Count > 0)
         {
             Debug.Log("EventProcessor while called");
+            t.text = "in While";
             var byteData = _processingData[0];
             _processingData.RemoveAt(0);
             try

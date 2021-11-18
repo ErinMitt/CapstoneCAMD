@@ -5,6 +5,12 @@ using UnityEngine.Serialization;
 
 public class Collided : MonoBehaviour
 {
+    public GameObject Marino;
+    public GameObject Centennial;
+    public GameObject curry;
+    public GameObject ruggles;
+    public GameObject money;
+    public GameObject snell;
     [SerializeField]
     [FormerlySerializedAs("collider")]
     [Tooltip("BoxCollider used to calculate bounds and local center, if not set before runtime the gameObjects's BoxCollider will be used by default")]
@@ -15,7 +21,7 @@ public class Collided : MonoBehaviour
         //Here the GameObject's Collider is not a trigger
         //m_ObjectCollider.isTrigger = false;
         //Output whether the Collider is a trigger type Collider or not
-        Debug.Log("Trigger On : " + m_ObjectCollider.isTrigger);
+    //    Debug.Log("Trigger On : " + m_ObjectCollider.isTrigger);
     }
 
     private void OnHit()

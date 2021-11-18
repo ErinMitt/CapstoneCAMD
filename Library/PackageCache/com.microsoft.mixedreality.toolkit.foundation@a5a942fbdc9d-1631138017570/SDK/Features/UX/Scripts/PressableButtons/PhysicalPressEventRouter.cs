@@ -3,8 +3,12 @@
 
 using Microsoft.MixedReality.Toolkit.UI;
 using UnityEngine;
-namespace Microsoft.MixedReality.Toolkit
-{
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+namespace Microsoft.MixedReality.Toolkit{
     ///<summary>
     /// This class exists to route <see cref="Microsoft.MixedReality.Toolkit.UI.PressableButton"/> events through to <see cref="Microsoft.MixedReality.Toolkit.UI.Interactable"/>.
     /// The result is being able to have physical touch call Interactable.OnPointerClicked.
@@ -12,13 +16,32 @@ namespace Microsoft.MixedReality.Toolkit
     [AddComponentMenu("Scripts/MRTK/SDK/PhysicalPressEventRouter")]
     public class PhysicalPressEventRouter : MonoBehaviour
     {
-        public GameObject close;
+       // public GameObject close;
         public GameObject open;
-      //  public GameObject store;
+        public GameObject open2;
+       // GameObject currentScene;
+        //  public GameObject store;
         //menu.GetComponent<Collided>().onHit();
         [Tooltip("Interactable to which the press events are being routed. Defaults to the object of the component.")]
         public Interactable routingTarget;
+        void QuestionFailed()
+        {
+            StartCoroutine(waiter());
+        }
+        void Start()
+        {
+           /* while (forever)
+            {
+                StartCoroutine(waiter());
+                //add health
+            }*/
+        }
 
+        IEnumerator waiter()
+        {
+            yield return new WaitForSeconds(20);
+            Debug.Log("waited 20 seconds");
+        }
         /// Enum specifying which button event causes a Click to be raised.
         public enum PhysicalPressEventBehavior
         {
@@ -35,6 +58,7 @@ namespace Microsoft.MixedReality.Toolkit
                 routingTarget = GetComponent<Interactable>();
             }
             Debug.Log("logs work");
+
         }
 
         private bool CanRouteInput()
@@ -49,10 +73,11 @@ namespace Microsoft.MixedReality.Toolkit
         /// </summary>
         public void OnHandPressTouched()
         {
-            UnityEngine.Debug.Log("Button Pressed1");
             open.active = true;
-            close.active = false;
-
+            transform.parent.gameObject.active = false;
+            open2.active = true;
+            
+          //  currentScene = open;
             if (CanRouteInput())
             {
                 routingTarget.HasPhysicalTouch = true;
