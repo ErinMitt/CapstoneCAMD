@@ -24,8 +24,28 @@ namespace Microsoft.MixedReality.Toolkit{
         //menu.GetComponent<Collided>().onHit();
         [Tooltip("Interactable to which the press events are being routed. Defaults to the object of the component.")]
         public Interactable routingTarget;
-        void QuestionFailed()
+        void QuestionFailed(GameObject inactive)
         {
+            //find component button and make it inactive
+            GameObject LocationsScreen= GameObject.Find("Locations Screen");
+            GameObject invisibleChild;
+            //GameObject possibleComponents = LocationsScreen.GetComponentsInChildren();
+          /*  foreach (Transform child in LocationsScreen)
+            {
+              /*  Debug.Log(t.name());
+                if (t.name() == inactive.name())
+                {
+                    t.active = false;
+                }
+            }*/
+             /*Transform[] ts = gameObject.GetComponentsInChildren<Transform>();
+             if (ts == null)
+             return gs;
+             foreach (Transform t in ts) {
+             if (t != null && t.gameobject != null)
+             gs.Add(t.gameobject);
+             }*/
+
             StartCoroutine(waiter());
         }
         void Start()
@@ -76,6 +96,11 @@ namespace Microsoft.MixedReality.Toolkit{
             open.active = true;
             transform.parent.gameObject.active = false;
             open2.active = true;
+            if(open.name == "Wrong")
+            {
+                QuestionFailed(transform.parent.gameObject);
+            }
+
             
           //  currentScene = open;
             if (CanRouteInput())

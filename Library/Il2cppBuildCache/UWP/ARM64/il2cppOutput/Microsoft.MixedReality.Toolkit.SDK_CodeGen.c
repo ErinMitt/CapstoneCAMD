@@ -12,8 +12,8 @@
 
 
 
-// 0x00000001 System.Void Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::QuestionFailed()
-extern void PhysicalPressEventRouter_QuestionFailed_m6554942A2A426591FBDA5FE47CEED532F111AAA1 (void);
+// 0x00000001 System.Void Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::QuestionFailed(UnityEngine.GameObject)
+extern void PhysicalPressEventRouter_QuestionFailed_m38C8B346070155A4060728200EE3EDA708F2B879 (void);
 // 0x00000002 System.Void Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::Start()
 extern void PhysicalPressEventRouter_Start_mD42275189276787B4088D8D49C58C10CA56B73C5 (void);
 // 0x00000003 System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::waiter()
@@ -8215,7 +8215,7 @@ extern void ColorPicker__ctor_mCEC835FE95E766692182247AC33F6BBB8C93A08F (void);
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m8759701B4B7DF7FEC280271580ECD002622A7CD9 (void);
 static Il2CppMethodPointer s_methodPointers[4158] = 
 {
-	PhysicalPressEventRouter_QuestionFailed_m6554942A2A426591FBDA5FE47CEED532F111AAA1,
+	PhysicalPressEventRouter_QuestionFailed_m38C8B346070155A4060728200EE3EDA708F2B879,
 	PhysicalPressEventRouter_Start_mD42275189276787B4088D8D49C58C10CA56B73C5,
 	PhysicalPressEventRouter_waiter_m46DE89CBAB1DC1B69CBC3DF039C5B3F22AAE249A,
 	PhysicalPressEventRouter_Awake_m48F0C50BA77B434CB08757A7C9149BE5B68CC366,
@@ -12495,7 +12495,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[58] =
 };
 static const int32_t s_InvokerIndices[4158] = 
 {
-	5312,
+	4310,
 	5312,
 	5207,
 	5312,

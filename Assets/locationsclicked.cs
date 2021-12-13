@@ -23,7 +23,7 @@ public class locationsclicked : MonoBehaviour
         //Here the GameObject's Collider is not a trigger
         //m_ObjectCollider.isTrigger = false;
         //Output whether the Collider is a trigger type Collider or not
-        Debug.Log("Trigger On : " + m_ObjectCollider.isTrigger);
+     //   Debug.Log("Trigger On : " + m_ObjectCollider.isTrigger);
     }
 
     public void OnTriggerEnter()

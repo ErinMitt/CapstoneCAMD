@@ -13,9 +13,9 @@
 
 
 // 0x00000001 System.Void Windows.Foundation.AsyncActionCompletedHandler::.ctor(System.Object,System.IntPtr)
-extern void AsyncActionCompletedHandler__ctor_mFB087F426B85A21CFD3EC42705296735802E4C6E (void);
+extern void AsyncActionCompletedHandler__ctor_m8174AC23FE63E72DDA50BF9060B8EA33D3CC2FC6 (void);
 // 0x00000002 System.Void Windows.Foundation.AsyncActionCompletedHandler::Invoke(Windows.Foundation.IAsyncAction,Windows.Foundation.AsyncStatus)
-extern void AsyncActionCompletedHandler_Invoke_m351D4D540D59485AB4607AD62FDB182A704C4239 (void);
+extern void AsyncActionCompletedHandler_Invoke_m9E54CBC26496783FCB9C5EF40E4B947F2C0E0EC6 (void);
 // 0x00000003 System.Void Windows.Foundation.AsyncOperationCompletedHandler`1::.ctor(System.Object,System.IntPtr)
 // 0x00000004 System.Void Windows.Foundation.AsyncOperationCompletedHandler`1::Invoke(Windows.Foundation.IAsyncOperation`1<TResult>,Windows.Foundation.AsyncStatus)
 // 0x00000005 Windows.Foundation.Collections.IIterator`1<T> Windows.Foundation.Collections.IIterable`1::First()
@@ -55,7 +55,7 @@ extern void AsyncActionCompletedHandler_Invoke_m351D4D540D59485AB4607AD62FDB182A
 // 0x00000027 System.Void Windows.Foundation.EventHandler`1::.ctor(System.Object,System.IntPtr)
 // 0x00000028 System.Void Windows.Foundation.EventHandler`1::Invoke(System.Object,T)
 // 0x00000029 System.Void Windows.Foundation.IAsyncAction::put_Completed(Windows.Foundation.AsyncActionCompletedHandler)
-extern void IAsyncAction_put_Completed_mE1223109A7CBD5DA29413156BA2C75157F169C87 (void);
+extern void IAsyncAction_put_Completed_m153FFA20288B2A12135D5E31F5E321CB7C7C32A4 (void);
 // 0x0000002A Windows.Foundation.AsyncActionCompletedHandler Windows.Foundation.IAsyncAction::get_Completed()
 extern void IAsyncAction_get_Completed_mEEA8DB3EB0D4FE9F33A54B6A16D65902B70DCB39 (void);
 // 0x0000002B System.Void Windows.Foundation.IAsyncAction::GetResults()
@@ -63,18 +63,18 @@ extern void IAsyncAction_GetResults_mD06D8F02D7793FED272208F851EF8A2D9B25FE38 (v
 // 0x0000002C System.UInt32 Windows.Foundation.IAsyncInfo::get_Id()
 extern void IAsyncInfo_get_Id_m3863CB02C1CDBA1050DAAE7311DF9F3E8BCD9D74 (void);
 // 0x0000002D Windows.Foundation.AsyncStatus Windows.Foundation.IAsyncInfo::get_Status()
-extern void IAsyncInfo_get_Status_m9393658D0FD28BE7960FBB531A31A1E1CB106F80 (void);
+extern void IAsyncInfo_get_Status_m7E8AA78C1877123B35EAFA58FEF0FA86D8A97583 (void);
 // 0x0000002E System.Exception Windows.Foundation.IAsyncInfo::get_ErrorCode()
-extern void IAsyncInfo_get_ErrorCode_m0C4F0079B788C88A5A572A827AAACA0B3BB233C5 (void);
+extern void IAsyncInfo_get_ErrorCode_m37ACAD97746ABA13006C88EDF582C3B73B68D806 (void);
 // 0x0000002F System.Void Windows.Foundation.IAsyncInfo::Cancel()
-extern void IAsyncInfo_Cancel_m55A00D21BF943DA94D606044A66295FEF77139EE (void);
+extern void IAsyncInfo_Cancel_m53FE58D39AE61799A01EE7ECB9429CB3EE01EEFE (void);
 // 0x00000030 System.Void Windows.Foundation.IAsyncInfo::Close()
 extern void IAsyncInfo_Close_mD8F3D2C7103B340A9FF16F58333E33643F552635 (void);
 // 0x00000031 System.Void Windows.Foundation.IAsyncOperation`1::put_Completed(Windows.Foundation.AsyncOperationCompletedHandler`1<TResult>)
 // 0x00000032 Windows.Foundation.AsyncOperationCompletedHandler`1<TResult> Windows.Foundation.IAsyncOperation`1::get_Completed()
 // 0x00000033 TResult Windows.Foundation.IAsyncOperation`1::GetResults()
 // 0x00000034 System.Void Windows.Foundation.IClosable::Close()
-extern void IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999 (void);
+extern void IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871 (void);
 // 0x00000035 Windows.Foundation.PropertyType Windows.Foundation.IPropertyValue::get_Type()
 extern void IPropertyValue_get_Type_m2BC440F5119A133BE4DD895657519ADAA3B34272 (void);
 // 0x00000036 System.Boolean Windows.Foundation.IPropertyValue::get_IsNumericScalar()
@@ -947,11 +947,11 @@ extern void InputPaneVisibilityEventArgs_Finalize_m32338BD57EC4DA232D1916DB6F6FA
 // 0x000002B1 Windows.UI.Xaml.Interop.IBindableIterator Windows.UI.Xaml.Interop.IBindableIterable::First()
 extern void IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7 (void);
 // 0x000002B2 System.Object Windows.UI.Xaml.Interop.IBindableIterator::get_Current()
-extern void IBindableIterator_get_Current_m53A4B6F2DECC874908CA9335785007A39D6FC93E (void);
+extern void IBindableIterator_get_Current_m925423E867873FA1E4ED0804031A06C0852D7A54 (void);
 // 0x000002B3 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::get_HasCurrent()
-extern void IBindableIterator_get_HasCurrent_m4FD33F7F3A504A8F4A4C7DE3965342B19EA3A974 (void);
+extern void IBindableIterator_get_HasCurrent_m4DAEC47CD0F9FD8C8102793367E1977C7F759FFA (void);
 // 0x000002B4 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::MoveNext()
-extern void IBindableIterator_MoveNext_mA70DABC057BE3ED9199D4E0E6FEBDF6ED3570A75 (void);
+extern void IBindableIterator_MoveNext_m4FB28C3D3863BB69F92027EE724CA8BE91833706 (void);
 // 0x000002B5 System.Object Windows.UI.Xaml.Interop.IBindableVector::GetAt(System.UInt32)
 extern void IBindableVector_GetAt_m33D2170810828C01473D9BDC22745A0354FA4FED (void);
 // 0x000002B6 System.UInt32 Windows.UI.Xaml.Interop.IBindableVector::get_Size()
@@ -980,8 +980,8 @@ extern void IBindableVectorView_get_Size_m4F48139B27CB215D7E728F77E748FA6573F7DA
 extern void IBindableVectorView_IndexOf_mD85EC41D34BC2E450FA0133CC802906157D765F2 (void);
 static Il2CppMethodPointer s_methodPointers[705] = 
 {
-	AsyncActionCompletedHandler__ctor_mFB087F426B85A21CFD3EC42705296735802E4C6E,
-	AsyncActionCompletedHandler_Invoke_m351D4D540D59485AB4607AD62FDB182A704C4239,
+	AsyncActionCompletedHandler__ctor_m8174AC23FE63E72DDA50BF9060B8EA33D3CC2FC6,
+	AsyncActionCompletedHandler_Invoke_m9E54CBC26496783FCB9C5EF40E4B947F2C0E0EC6,
 	NULL,
 	NULL,
 	NULL,
@@ -1020,18 +1020,18 @@ static Il2CppMethodPointer s_methodPointers[705] =
 	NULL,
 	NULL,
 	NULL,
-	IAsyncAction_put_Completed_mE1223109A7CBD5DA29413156BA2C75157F169C87,
+	IAsyncAction_put_Completed_m153FFA20288B2A12135D5E31F5E321CB7C7C32A4,
 	IAsyncAction_get_Completed_mEEA8DB3EB0D4FE9F33A54B6A16D65902B70DCB39,
 	IAsyncAction_GetResults_mD06D8F02D7793FED272208F851EF8A2D9B25FE38,
 	IAsyncInfo_get_Id_m3863CB02C1CDBA1050DAAE7311DF9F3E8BCD9D74,
-	IAsyncInfo_get_Status_m9393658D0FD28BE7960FBB531A31A1E1CB106F80,
-	IAsyncInfo_get_ErrorCode_m0C4F0079B788C88A5A572A827AAACA0B3BB233C5,
-	IAsyncInfo_Cancel_m55A00D21BF943DA94D606044A66295FEF77139EE,
+	IAsyncInfo_get_Status_m7E8AA78C1877123B35EAFA58FEF0FA86D8A97583,
+	IAsyncInfo_get_ErrorCode_m37ACAD97746ABA13006C88EDF582C3B73B68D806,
+	IAsyncInfo_Cancel_m53FE58D39AE61799A01EE7ECB9429CB3EE01EEFE,
 	IAsyncInfo_Close_mD8F3D2C7103B340A9FF16F58333E33643F552635,
 	NULL,
 	NULL,
 	NULL,
-	IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999,
+	IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871,
 	IPropertyValue_get_Type_m2BC440F5119A133BE4DD895657519ADAA3B34272,
 	IPropertyValue_get_IsNumericScalar_mC8DE97926668A5F2EA3F4A9B128E966CBC7B0D60,
 	IPropertyValue_GetUInt8_m25D96C5F9AC133BF7B682C59FE83EE05A0075B05,
@@ -1669,9 +1669,9 @@ static Il2CppMethodPointer s_methodPointers[705] =
 	InputPane_Finalize_m8809B1FF06ECD21D728BE2FD2327093FD0E70BEB,
 	InputPaneVisibilityEventArgs_Finalize_m32338BD57EC4DA232D1916DB6F6FA7C001EFB6D0,
 	IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7,
-	IBindableIterator_get_Current_m53A4B6F2DECC874908CA9335785007A39D6FC93E,
-	IBindableIterator_get_HasCurrent_m4FD33F7F3A504A8F4A4C7DE3965342B19EA3A974,
-	IBindableIterator_MoveNext_mA70DABC057BE3ED9199D4E0E6FEBDF6ED3570A75,
+	IBindableIterator_get_Current_m925423E867873FA1E4ED0804031A06C0852D7A54,
+	IBindableIterator_get_HasCurrent_m4DAEC47CD0F9FD8C8102793367E1977C7F759FFA,
+	IBindableIterator_MoveNext_m4FB28C3D3863BB69F92027EE724CA8BE91833706,
 	IBindableVector_GetAt_m33D2170810828C01473D9BDC22745A0354FA4FED,
 	IBindableVector_get_Size_m45347BCD42A1FE180ED2B377BB9C88C7B50CD7D9,
 	IBindableVector_GetView_m9736FE93BC8979E0CBF8ED26090D1FE54C2E1A38,
