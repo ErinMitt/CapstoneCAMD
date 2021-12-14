@@ -32786,7 +32786,7 @@ IL_0063:
 		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_20), L_11, L_15, L_19, /*hidden argument*/NULL);
 		NullCheck(L_10);
 		Transform_set_localScale_mF4D1611E48D1BA7566A1E166DC2DACF3ADD8BA3A(L_10, L_20, /*hidden argument*/NULL);
-		// playerHealth.transform.localPosition = new Vector3(-.005f * (float)countPlay, 0, 0);
+		// playerHealth.transform.localPosition = new Vector3(-.005f * (float)countPlay, 0, -.001f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_21 = __this->get_playerHealth_11();
 		NullCheck(L_21);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_22;
@@ -32794,7 +32794,7 @@ IL_0063:
 		double L_23 = __this->get_countPlay_7();
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_24;
 		memset((&L_24), 0, sizeof(L_24));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_24), ((float)il2cpp_codegen_multiply((float)(-0.00499999989f), (float)((float)((float)L_23)))), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_24), ((float)il2cpp_codegen_multiply((float)(-0.00499999989f), (float)((float)((float)L_23)))), (0.0f), (-0.00100000005f), /*hidden argument*/NULL);
 		NullCheck(L_22);
 		Transform_set_localPosition_m2A2B0033EF079077FAE7C65196078EAF5D041AFC(L_22, L_24, /*hidden argument*/NULL);
 		// }
@@ -32861,7 +32861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void monsterFight_OnTriggerEnter_mB9C060A36B7
 		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_19), L_10, L_14, L_18, /*hidden argument*/NULL);
 		NullCheck(L_9);
 		Transform_set_localScale_mF4D1611E48D1BA7566A1E166DC2DACF3ADD8BA3A(L_9, L_19, /*hidden argument*/NULL);
-		// healthBar.transform.localPosition= new Vector3(-.02f*(float)count, 0, 0);
+		// healthBar.transform.localPosition= new Vector3(-.02f*(float)count, 0, -.001f);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_20 = __this->get_healthBar_4();
 		NullCheck(L_20);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_21;
@@ -32869,7 +32869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void monsterFight_OnTriggerEnter_mB9C060A36B7
 		double L_22 = __this->get_count_6();
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_23;
 		memset((&L_23), 0, sizeof(L_23));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_23), ((float)il2cpp_codegen_multiply((float)(-0.0199999996f), (float)((float)((float)L_22)))), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_23), ((float)il2cpp_codegen_multiply((float)(-0.0199999996f), (float)((float)((float)L_22)))), (0.0f), (-0.00100000005f), /*hidden argument*/NULL);
 		NullCheck(L_21);
 		Transform_set_localPosition_m2A2B0033EF079077FAE7C65196078EAF5D041AFC(L_21, L_23, /*hidden argument*/NULL);
 		// Debug.Log("triggered! and entered");

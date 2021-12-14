@@ -20,6 +20,11 @@ public class monsterFight : MonoBehaviour
     int attackCount = 0;
     int attackCount2 = 0;
     public GameObject NoMoreHealth;
+    public GameObject GameWon;
+    public GameObject firstAid;
+    private IEnumerator coroutine;
+    private IEnumerator coroutine2;
+    public GameObject mainCameraDeadCount;
 
     void Start()
     {
@@ -58,13 +63,18 @@ public class monsterFight : MonoBehaviour
         double multvalcount = 20 - countPlay;
         float multVal = initxVal * (float)(multvalcount / (multvalcount + 1));
         if (multvalcount < 0)
-        {
-            Debug.Log("you are at 0 health");
+        {//neeed to call a corotine in other script
+            gameObject.active = false;
+            NoMoreHealth.active = true;
+            coroutine = sendMessage(10.0f);
+            StartCoroutine(coroutine);
+            coroutine2 = WaitAndPrint(60.0f);
+            StartCoroutine(coroutine2);
         }
         else
         {
             playerHealth.transform.localScale = new Vector3(multVal, playerHealth.transform.localScale.y, playerHealth.transform.localScale.z);
-            playerHealth.transform.localPosition = new Vector3(-.005f * (float)countPlay, 0, 0);
+            playerHealth.transform.localPosition = new Vector3(-.005f * (float)countPlay, 0, -.001f);
         }
    
     }
@@ -73,23 +83,43 @@ public class monsterFight : MonoBehaviour
         float initxVal = healthBar.transform.localScale.x;
         count++;
         double multvalcount = 5 - count;
-        float multVal = initxVal*(float)(multvalcount / (multvalcount + 1));
-        healthBar.transform.localScale= new Vector3(multVal, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
-        healthBar.transform.localPosition= new Vector3(-.02f*(float)count, 0, 0);
+        float multVal = initxVal * (float)(multvalcount / (multvalcount + 1));
+        healthBar.transform.localScale = new Vector3(multVal, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
+        healthBar.transform.localPosition = new Vector3(-.02f * (float)count, 0, -.001f);
         Debug.Log("triggered! and entered");
         if (count == 5)
         {
             gameObject.active = false;
+           // mainCameraDeadCount.GetComponent<monsterDeadCount>().MonstersKilled();
+            int monsterDead = mainCameraDeadCount.GetComponent<monsterDeadCount>().MonstersKilled();//mainCameraDeadCount.GetComponent<monsterDeadCount>().monstersDead;
+            Debug.Log("reached courses" + monsterDead);
+            float newVal = .04f*(float)monsterDead;
             float initxValCourse = healthBar.transform.localScale.x;
-            //float multVal = initxVal * (float)(multvalcount / (multvalcount + 1));
-            courses.transform.localScale = new Vector3(healthBar.transform.localScale.x+.04f, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
+            courses.transform.localScale = new Vector3(newVal, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
             courses.transform.localPosition = new Vector3(healthBar.transform.localPosition.x + .02f, healthBar.transform.localPosition.y, healthBar.transform.localPosition.z);
-            if (healthBar.transform.localScale.x>.2f)
+            if (monsterDead==5)
             {
+                GameWon.active = true;
                 Debug.Log("game won");
             }
         }
     }
+    private IEnumerator sendMessage(float waitTime)
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(waitTime);
+            NoMoreHealth.active = false;
+        }
+    }
+    private IEnumerator WaitAndPrint(float waitTime)
+        {
+            while (true)
+            {
+            yield return new WaitForSeconds(waitTime);
+            firstAid.active = true;
+        }
+        }
 
  
 }

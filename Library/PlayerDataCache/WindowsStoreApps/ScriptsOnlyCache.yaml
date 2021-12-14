@@ -3339,7 +3339,7 @@ ScriptsOnlyBuild:
     className: buttonselected
   - hash:
       serializedVersion: 2
-      Hash: 5905a68595be1441f5fbbfef02d20611
+      Hash: c771beecb552c274d9187c2264e59e7a
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: ButtonSizeOffset
@@ -4978,4 +4978,4 @@ ScriptsOnlyBuild:
   platform: 21
   scenePathNames:
   - Assets/DefaultScene.unity
-  playerPath: C:/Users/Student/Desktop/hololensbuilds/121220211545
+  playerPath: C:/Users/Student/Desktop/hololensbuilds/121220211036

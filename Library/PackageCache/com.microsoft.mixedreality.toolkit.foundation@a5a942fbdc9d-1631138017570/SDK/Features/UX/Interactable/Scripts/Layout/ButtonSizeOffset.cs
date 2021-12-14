@@ -19,8 +19,8 @@ namespace Microsoft.MixedReality.Toolkit.UI
         [Tooltip("The transform this object should be linked and aligned to")]
         public Transform AnchorTransform;
 
-        [Tooltip(" How much to scale compared to the Anchor's size")]
-        public Vector3 Scale = Vector3.one;
+       // [Tooltip(" How much to scale compared to the Anchor's size")]
+       // public Vector3 Scale = Vector3.one;
 
         [Tooltip("That absolute amount to offset the scale")]
         public Vector3 Offset;
@@ -31,11 +31,11 @@ namespace Microsoft.MixedReality.Toolkit.UI
         /// <summary>
         /// Set the size based on the anchor's size and the buffers
         /// </summary>
-        private void UpdateSize()
+       /* private void UpdateSize()
         {
             Vector3 scale = Vector3.Scale(AnchorTransform.localScale, Scale) + Offset / BasePixelScale;
             transform.localScale = scale;
-        }
+        }*/
 
         // Update is called once per frame
         void Update()
@@ -44,7 +44,7 @@ namespace Microsoft.MixedReality.Toolkit.UI
             {
                 if ((Application.isPlaying && !OnlyInEditMode) || (!Application.isPlaying))
                 {
-                    UpdateSize();
+                 //   UpdateSize();
                 }
             }
         }
