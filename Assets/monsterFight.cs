@@ -63,18 +63,15 @@ public class monsterFight : MonoBehaviour
         double multvalcount = 20 - countPlay;
         float multVal = initxVal * (float)(multvalcount / (multvalcount + 1));
         if (multvalcount < 0)
-        {//neeed to call a corotine in other script
-            gameObject.active = false;
+        {
+            transform.parent.gameObject.active = false;
             NoMoreHealth.active = true;
-            coroutine = sendMessage(10.0f);
-            StartCoroutine(coroutine);
-            coroutine2 = WaitAndPrint(60.0f);
-            StartCoroutine(coroutine2);
+            mainCameraDeadCount.GetComponent<monsterDeadCount>().callCoroutines();
         }
         else
         {
             playerHealth.transform.localScale = new Vector3(multVal, playerHealth.transform.localScale.y, playerHealth.transform.localScale.z);
-            playerHealth.transform.localPosition = new Vector3(-.005f * (float)countPlay, 0, -.001f);
+            playerHealth.transform.localPosition = new Vector3(multVal/2-.1f, 0, -.001f);
         }
    
     }
@@ -90,13 +87,12 @@ public class monsterFight : MonoBehaviour
         if (count == 5)
         {
             gameObject.active = false;
-           // mainCameraDeadCount.GetComponent<monsterDeadCount>().MonstersKilled();
             int monsterDead = mainCameraDeadCount.GetComponent<monsterDeadCount>().MonstersKilled();//mainCameraDeadCount.GetComponent<monsterDeadCount>().monstersDead;
             Debug.Log("reached courses" + monsterDead);
             float newVal = .04f*(float)monsterDead;
             float initxValCourse = healthBar.transform.localScale.x;
             courses.transform.localScale = new Vector3(newVal, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
-            courses.transform.localPosition = new Vector3(healthBar.transform.localPosition.x + .02f, healthBar.transform.localPosition.y, healthBar.transform.localPosition.z);
+            courses.transform.localPosition = new Vector3(healthBar.transform.localPosition.x + newVal/2, healthBar.transform.localPosition.y, healthBar.transform.localPosition.z);
             if (monsterDead==5)
             {
                 GameWon.active = true;
