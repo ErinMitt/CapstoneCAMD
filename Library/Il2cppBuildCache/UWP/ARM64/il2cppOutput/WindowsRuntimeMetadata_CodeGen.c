@@ -13,9 +13,9 @@
 
 
 // 0x00000001 System.Void Windows.Foundation.AsyncActionCompletedHandler::.ctor(System.Object,System.IntPtr)
-extern void AsyncActionCompletedHandler__ctor_mFB087F426B85A21CFD3EC42705296735802E4C6E (void);
+extern void AsyncActionCompletedHandler__ctor_m8174AC23FE63E72DDA50BF9060B8EA33D3CC2FC6 (void);
 // 0x00000002 System.Void Windows.Foundation.AsyncActionCompletedHandler::Invoke(Windows.Foundation.IAsyncAction,Windows.Foundation.AsyncStatus)
-extern void AsyncActionCompletedHandler_Invoke_m351D4D540D59485AB4607AD62FDB182A704C4239 (void);
+extern void AsyncActionCompletedHandler_Invoke_m9E54CBC26496783FCB9C5EF40E4B947F2C0E0EC6 (void);
 // 0x00000003 System.Void Windows.Foundation.AsyncOperationCompletedHandler`1::.ctor(System.Object,System.IntPtr)
 // 0x00000004 System.Void Windows.Foundation.AsyncOperationCompletedHandler`1::Invoke(Windows.Foundation.IAsyncOperation`1<TResult>,Windows.Foundation.AsyncStatus)
 // 0x00000005 Windows.Foundation.Collections.IIterator`1<T> Windows.Foundation.Collections.IIterable`1::First()
@@ -55,7 +55,7 @@ extern void AsyncActionCompletedHandler_Invoke_m351D4D540D59485AB4607AD62FDB182A
 // 0x00000027 System.Void Windows.Foundation.EventHandler`1::.ctor(System.Object,System.IntPtr)
 // 0x00000028 System.Void Windows.Foundation.EventHandler`1::Invoke(System.Object,T)
 // 0x00000029 System.Void Windows.Foundation.IAsyncAction::put_Completed(Windows.Foundation.AsyncActionCompletedHandler)
-extern void IAsyncAction_put_Completed_mE1223109A7CBD5DA29413156BA2C75157F169C87 (void);
+extern void IAsyncAction_put_Completed_m153FFA20288B2A12135D5E31F5E321CB7C7C32A4 (void);
 // 0x0000002A Windows.Foundation.AsyncActionCompletedHandler Windows.Foundation.IAsyncAction::get_Completed()
 extern void IAsyncAction_get_Completed_mEEA8DB3EB0D4FE9F33A54B6A16D65902B70DCB39 (void);
 // 0x0000002B System.Void Windows.Foundation.IAsyncAction::GetResults()
@@ -63,18 +63,18 @@ extern void IAsyncAction_GetResults_mD06D8F02D7793FED272208F851EF8A2D9B25FE38 (v
 // 0x0000002C System.UInt32 Windows.Foundation.IAsyncInfo::get_Id()
 extern void IAsyncInfo_get_Id_m3863CB02C1CDBA1050DAAE7311DF9F3E8BCD9D74 (void);
 // 0x0000002D Windows.Foundation.AsyncStatus Windows.Foundation.IAsyncInfo::get_Status()
-extern void IAsyncInfo_get_Status_m9393658D0FD28BE7960FBB531A31A1E1CB106F80 (void);
+extern void IAsyncInfo_get_Status_m7E8AA78C1877123B35EAFA58FEF0FA86D8A97583 (void);
 // 0x0000002E System.Exception Windows.Foundation.IAsyncInfo::get_ErrorCode()
-extern void IAsyncInfo_get_ErrorCode_m0C4F0079B788C88A5A572A827AAACA0B3BB233C5 (void);
+extern void IAsyncInfo_get_ErrorCode_m37ACAD97746ABA13006C88EDF582C3B73B68D806 (void);
 // 0x0000002F System.Void Windows.Foundation.IAsyncInfo::Cancel()
-extern void IAsyncInfo_Cancel_m55A00D21BF943DA94D606044A66295FEF77139EE (void);
+extern void IAsyncInfo_Cancel_m53FE58D39AE61799A01EE7ECB9429CB3EE01EEFE (void);
 // 0x00000030 System.Void Windows.Foundation.IAsyncInfo::Close()
 extern void IAsyncInfo_Close_mD8F3D2C7103B340A9FF16F58333E33643F552635 (void);
 // 0x00000031 System.Void Windows.Foundation.IAsyncOperation`1::put_Completed(Windows.Foundation.AsyncOperationCompletedHandler`1<TResult>)
 // 0x00000032 Windows.Foundation.AsyncOperationCompletedHandler`1<TResult> Windows.Foundation.IAsyncOperation`1::get_Completed()
 // 0x00000033 TResult Windows.Foundation.IAsyncOperation`1::GetResults()
 // 0x00000034 System.Void Windows.Foundation.IClosable::Close()
-extern void IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999 (void);
+extern void IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871 (void);
 // 0x00000035 Windows.Foundation.PropertyType Windows.Foundation.IPropertyValue::get_Type()
 extern void IPropertyValue_get_Type_m2BC440F5119A133BE4DD895657519ADAA3B34272 (void);
 // 0x00000036 System.Boolean Windows.Foundation.IPropertyValue::get_IsNumericScalar()
@@ -803,217 +803,185 @@ extern void IRandomAccessStream_GetInputStreamAt_m9CC820A0D61D6396A06770F777B93F
 // 0x00000241 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped5_get_CanRead()
 // 0x00000242 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped6_get_CanWrite()
 // 0x00000243 System.Void Windows.Storage.Streams.IRandomAccessStreamReference::$__Stripped0_OpenReadAsync()
-// 0x00000244 Windows.Foundation.IAsyncOperation`1<System.Boolean> Windows.System.ILauncherStatics::LaunchFileAsync(Windows.Storage.IStorageFile)
-// 0x00000245 System.Void Windows.System.ILauncherStatics::$__Stripped0_LaunchFileAsync()
-// 0x00000246 System.Void Windows.System.ILauncherStatics::$__Stripped1_LaunchUriAsync()
-// 0x00000247 System.Void Windows.System.ILauncherStatics::$__Stripped2_LaunchUriAsync()
-// 0x00000248 System.Void Windows.System.ILauncherStatics2::$__Stripped0_LaunchUriForResultsAsync()
-// 0x00000249 System.Void Windows.System.ILauncherStatics2::$__Stripped1_LaunchUriForResultsAsync()
-// 0x0000024A System.Void Windows.System.ILauncherStatics2::$__Stripped2_LaunchUriAsync()
-// 0x0000024B System.Void Windows.System.ILauncherStatics2::$__Stripped3_QueryUriSupportAsync()
-// 0x0000024C System.Void Windows.System.ILauncherStatics2::$__Stripped4_QueryUriSupportAsync()
-// 0x0000024D System.Void Windows.System.ILauncherStatics2::$__Stripped5_QueryFileSupportAsync()
-// 0x0000024E System.Void Windows.System.ILauncherStatics2::$__Stripped6_QueryFileSupportAsync()
-// 0x0000024F System.Void Windows.System.ILauncherStatics2::$__Stripped7_FindUriSchemeHandlersAsync()
-// 0x00000250 System.Void Windows.System.ILauncherStatics2::$__Stripped8_FindUriSchemeHandlersAsync()
-// 0x00000251 System.Void Windows.System.ILauncherStatics2::$__Stripped9_FindFileHandlersAsync()
-// 0x00000252 System.Void Windows.System.ILauncherStatics3::$__Stripped0_LaunchFolderAsync()
-// 0x00000253 System.Void Windows.System.ILauncherStatics3::$__Stripped1_LaunchFolderAsync()
-// 0x00000254 System.Void Windows.System.ILauncherStatics4::$__Stripped0_QueryAppUriSupportAsync()
-// 0x00000255 System.Void Windows.System.ILauncherStatics4::$__Stripped1_QueryAppUriSupportAsync()
-// 0x00000256 System.Void Windows.System.ILauncherStatics4::$__Stripped2_FindAppUriHandlersAsync()
-// 0x00000257 System.Void Windows.System.ILauncherStatics4::$__Stripped3_LaunchUriForUserAsync()
-// 0x00000258 System.Void Windows.System.ILauncherStatics4::$__Stripped4_LaunchUriForUserAsync()
-// 0x00000259 System.Void Windows.System.ILauncherStatics4::$__Stripped5_LaunchUriForUserAsync()
-// 0x0000025A System.Void Windows.System.ILauncherStatics4::$__Stripped6_LaunchUriForResultsForUserAsync()
-// 0x0000025B System.Void Windows.System.ILauncherStatics4::$__Stripped7_LaunchUriForResultsForUserAsync()
-// 0x0000025C System.Void Windows.System.ILauncherStatics5::$__Stripped0_LaunchFolderPathAsync()
-// 0x0000025D System.Void Windows.System.ILauncherStatics5::$__Stripped1_LaunchFolderPathAsync()
-// 0x0000025E System.Void Windows.System.ILauncherStatics5::$__Stripped2_LaunchFolderPathForUserAsync()
-// 0x0000025F System.Void Windows.System.ILauncherStatics5::$__Stripped3_LaunchFolderPathForUserAsync()
-// 0x00000260 System.UInt64 Windows.System.IMemoryManagerStatics::get_AppMemoryUsage()
-// 0x00000261 System.UInt64 Windows.System.IMemoryManagerStatics::get_AppMemoryUsageLimit()
-// 0x00000262 System.Void Windows.System.IMemoryManagerStatics::$__Stripped0_get_AppMemoryUsageLevel()
-// 0x00000263 System.Void Windows.System.IMemoryManagerStatics::$__Stripped1_add_AppMemoryUsageIncreased()
-// 0x00000264 System.Void Windows.System.IMemoryManagerStatics::$__Stripped2_remove_AppMemoryUsageIncreased()
-// 0x00000265 System.Void Windows.System.IMemoryManagerStatics::$__Stripped3_add_AppMemoryUsageDecreased()
-// 0x00000266 System.Void Windows.System.IMemoryManagerStatics::$__Stripped4_remove_AppMemoryUsageDecreased()
-// 0x00000267 System.Void Windows.System.IMemoryManagerStatics::$__Stripped5_add_AppMemoryUsageLimitChanging()
-// 0x00000268 System.Void Windows.System.IMemoryManagerStatics::$__Stripped6_remove_AppMemoryUsageLimitChanging()
-// 0x00000269 System.Void Windows.System.IMemoryManagerStatics2::$__Stripped0_GetAppMemoryReport()
-// 0x0000026A System.Void Windows.System.IMemoryManagerStatics2::$__Stripped1_GetProcessMemoryReport()
-// 0x0000026B System.Void Windows.System.IMemoryManagerStatics3::$__Stripped0_TrySetAppMemoryUsageLimit()
-// 0x0000026C System.Void Windows.System.IMemoryManagerStatics4::$__Stripped0_get_ExpectedAppMemoryUsageLimit()
-// 0x0000026D Windows.Foundation.IAsyncOperation`1<System.Boolean> Windows.System.Launcher::LaunchFileAsync(Windows.Storage.IStorageFile)
-extern void Launcher_LaunchFileAsync_mA224E32231282DA8172EA656DD623109BC7B9C76 (void);
-// 0x0000026E System.Void Windows.System.Launcher::Finalize()
-extern void Launcher_Finalize_mE9C34631E2D9B9C379349247516FABDF9D688DD6 (void);
-// 0x0000026F System.UInt64 Windows.System.MemoryManager::get_AppMemoryUsage()
+// 0x00000244 System.UInt64 Windows.System.IMemoryManagerStatics::get_AppMemoryUsage()
+// 0x00000245 System.UInt64 Windows.System.IMemoryManagerStatics::get_AppMemoryUsageLimit()
+// 0x00000246 System.Void Windows.System.IMemoryManagerStatics::$__Stripped0_get_AppMemoryUsageLevel()
+// 0x00000247 System.Void Windows.System.IMemoryManagerStatics::$__Stripped1_add_AppMemoryUsageIncreased()
+// 0x00000248 System.Void Windows.System.IMemoryManagerStatics::$__Stripped2_remove_AppMemoryUsageIncreased()
+// 0x00000249 System.Void Windows.System.IMemoryManagerStatics::$__Stripped3_add_AppMemoryUsageDecreased()
+// 0x0000024A System.Void Windows.System.IMemoryManagerStatics::$__Stripped4_remove_AppMemoryUsageDecreased()
+// 0x0000024B System.Void Windows.System.IMemoryManagerStatics::$__Stripped5_add_AppMemoryUsageLimitChanging()
+// 0x0000024C System.Void Windows.System.IMemoryManagerStatics::$__Stripped6_remove_AppMemoryUsageLimitChanging()
+// 0x0000024D System.Void Windows.System.IMemoryManagerStatics2::$__Stripped0_GetAppMemoryReport()
+// 0x0000024E System.Void Windows.System.IMemoryManagerStatics2::$__Stripped1_GetProcessMemoryReport()
+// 0x0000024F System.Void Windows.System.IMemoryManagerStatics3::$__Stripped0_TrySetAppMemoryUsageLimit()
+// 0x00000250 System.Void Windows.System.IMemoryManagerStatics4::$__Stripped0_get_ExpectedAppMemoryUsageLimit()
+// 0x00000251 System.UInt64 Windows.System.MemoryManager::get_AppMemoryUsage()
 extern void MemoryManager_get_AppMemoryUsage_mC56F027A2D650BCC43228CD8AEDCEBB517F0B677 (void);
-// 0x00000270 System.UInt64 Windows.System.MemoryManager::get_AppMemoryUsageLimit()
+// 0x00000252 System.UInt64 Windows.System.MemoryManager::get_AppMemoryUsageLimit()
 extern void MemoryManager_get_AppMemoryUsageLimit_m4037BAE37C41E7F7FE868436D715C41E4CD9E636 (void);
-// 0x00000271 System.Void Windows.System.MemoryManager::Finalize()
+// 0x00000253 System.Void Windows.System.MemoryManager::Finalize()
 extern void MemoryManager_Finalize_m32730D6E439088B61A9D7DE5C6C5B45FA6529549 (void);
-// 0x00000272 System.Void Windows.UI.Input.Spatial.ISpatialInteractionController::$__Stripped0_get_HasTouchpad()
-// 0x00000273 System.Void Windows.UI.Input.Spatial.ISpatialInteractionController::$__Stripped1_get_HasThumbstick()
-// 0x00000274 System.Void Windows.UI.Input.Spatial.ISpatialInteractionController::$__Stripped2_get_SimpleHapticsController()
-// 0x00000275 System.UInt16 Windows.UI.Input.Spatial.ISpatialInteractionController::get_VendorId()
-// 0x00000276 System.UInt16 Windows.UI.Input.Spatial.ISpatialInteractionController::get_ProductId()
-// 0x00000277 System.UInt16 Windows.UI.Input.Spatial.ISpatialInteractionController::get_Version()
-// 0x00000278 Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType> Windows.UI.Input.Spatial.ISpatialInteractionController2::TryGetRenderableModelAsync()
-// 0x00000279 System.Void Windows.UI.Input.Spatial.ISpatialInteractionController3::$__Stripped0_TryGetBatteryReport()
-// 0x0000027A System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped0_add_SourceDetected()
-// 0x0000027B System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped1_remove_SourceDetected()
-// 0x0000027C System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped2_add_SourceLost()
-// 0x0000027D System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped3_remove_SourceLost()
-// 0x0000027E System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped4_add_SourceUpdated()
-// 0x0000027F System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped5_remove_SourceUpdated()
-// 0x00000280 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped6_add_SourcePressed()
-// 0x00000281 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped7_remove_SourcePressed()
-// 0x00000282 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped8_add_SourceReleased()
-// 0x00000283 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped9_remove_SourceReleased()
-// 0x00000284 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped10_add_InteractionDetected()
-// 0x00000285 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped11_remove_InteractionDetected()
-// 0x00000286 System.Collections.Generic.IReadOnlyList`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState> Windows.UI.Input.Spatial.ISpatialInteractionManager::GetDetectedSourcesAtTimestamp(Windows.Perception.PerceptionTimestamp)
-// 0x00000287 Windows.UI.Input.Spatial.SpatialInteractionManager Windows.UI.Input.Spatial.ISpatialInteractionManagerStatics::GetForCurrentView()
-// 0x00000288 System.Boolean Windows.UI.Input.Spatial.ISpatialInteractionManagerStatics2::IsSourceKindSupported(Windows.UI.Input.Spatial.SpatialInteractionSourceKind)
-// 0x00000289 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource::$__Stripped0_get_Id()
-// 0x0000028A Windows.UI.Input.Spatial.SpatialInteractionSourceKind Windows.UI.Input.Spatial.ISpatialInteractionSource::get_Kind()
-// 0x0000028B System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped0_get_IsPointingSupported()
-// 0x0000028C System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped1_get_IsMenuSupported()
-// 0x0000028D System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped2_get_IsGraspSupported()
-// 0x0000028E Windows.UI.Input.Spatial.SpatialInteractionController Windows.UI.Input.Spatial.ISpatialInteractionSource2::get_Controller()
-// 0x0000028F System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped3_TryGetStateAtTimestamp()
-// 0x00000290 Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness Windows.UI.Input.Spatial.ISpatialInteractionSource3::get_Handedness()
-// 0x00000291 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource4::$__Stripped0_TryCreateHandMeshObserver()
-// 0x00000292 Windows.Foundation.IAsyncOperation`1<Windows.Perception.People.HandMeshObserver> Windows.UI.Input.Spatial.ISpatialInteractionSource4::TryCreateHandMeshObserverAsync()
-// 0x00000293 Windows.UI.Input.Spatial.SpatialInteractionSource Windows.UI.Input.Spatial.ISpatialInteractionSourceState::get_Source()
-// 0x00000294 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped0_get_Properties()
-// 0x00000295 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped1_get_IsPressed()
-// 0x00000296 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped2_get_Timestamp()
-// 0x00000297 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped3_TryGetPointerPose()
-// 0x00000298 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped0_get_IsSelectPressed()
-// 0x00000299 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped1_get_IsMenuPressed()
-// 0x0000029A System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped2_get_IsGrasped()
-// 0x0000029B System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped3_get_SelectPressedValue()
-// 0x0000029C System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped4_get_ControllerProperties()
-// 0x0000029D Windows.Perception.People.HandPose Windows.UI.Input.Spatial.ISpatialInteractionSourceState3::TryGetHandPose()
-// 0x0000029E System.Void Windows.UI.Input.Spatial.ISpatialPointerPose::$__Stripped0_get_Timestamp()
-// 0x0000029F Windows.Perception.People.HeadPose Windows.UI.Input.Spatial.ISpatialPointerPose::get_Head()
-// 0x000002A0 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose2::$__Stripped0_TryGetInteractionSourcePose()
-// 0x000002A1 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose3::$__Stripped0_get_Eyes()
-// 0x000002A2 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose3::$__Stripped1_get_IsHeadCapturedBySystem()
-// 0x000002A3 Windows.UI.Input.Spatial.SpatialPointerPose Windows.UI.Input.Spatial.ISpatialPointerPoseStatics::TryGetAtTimestamp(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.PerceptionTimestamp)
-// 0x000002A4 System.UInt16 Windows.UI.Input.Spatial.SpatialInteractionController::get_VendorId()
+// 0x00000254 System.Void Windows.UI.Input.Spatial.ISpatialInteractionController::$__Stripped0_get_HasTouchpad()
+// 0x00000255 System.Void Windows.UI.Input.Spatial.ISpatialInteractionController::$__Stripped1_get_HasThumbstick()
+// 0x00000256 System.Void Windows.UI.Input.Spatial.ISpatialInteractionController::$__Stripped2_get_SimpleHapticsController()
+// 0x00000257 System.UInt16 Windows.UI.Input.Spatial.ISpatialInteractionController::get_VendorId()
+// 0x00000258 System.UInt16 Windows.UI.Input.Spatial.ISpatialInteractionController::get_ProductId()
+// 0x00000259 System.UInt16 Windows.UI.Input.Spatial.ISpatialInteractionController::get_Version()
+// 0x0000025A Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType> Windows.UI.Input.Spatial.ISpatialInteractionController2::TryGetRenderableModelAsync()
+// 0x0000025B System.Void Windows.UI.Input.Spatial.ISpatialInteractionController3::$__Stripped0_TryGetBatteryReport()
+// 0x0000025C System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped0_add_SourceDetected()
+// 0x0000025D System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped1_remove_SourceDetected()
+// 0x0000025E System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped2_add_SourceLost()
+// 0x0000025F System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped3_remove_SourceLost()
+// 0x00000260 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped4_add_SourceUpdated()
+// 0x00000261 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped5_remove_SourceUpdated()
+// 0x00000262 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped6_add_SourcePressed()
+// 0x00000263 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped7_remove_SourcePressed()
+// 0x00000264 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped8_add_SourceReleased()
+// 0x00000265 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped9_remove_SourceReleased()
+// 0x00000266 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped10_add_InteractionDetected()
+// 0x00000267 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped11_remove_InteractionDetected()
+// 0x00000268 System.Collections.Generic.IReadOnlyList`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState> Windows.UI.Input.Spatial.ISpatialInteractionManager::GetDetectedSourcesAtTimestamp(Windows.Perception.PerceptionTimestamp)
+// 0x00000269 Windows.UI.Input.Spatial.SpatialInteractionManager Windows.UI.Input.Spatial.ISpatialInteractionManagerStatics::GetForCurrentView()
+// 0x0000026A System.Boolean Windows.UI.Input.Spatial.ISpatialInteractionManagerStatics2::IsSourceKindSupported(Windows.UI.Input.Spatial.SpatialInteractionSourceKind)
+// 0x0000026B System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource::$__Stripped0_get_Id()
+// 0x0000026C Windows.UI.Input.Spatial.SpatialInteractionSourceKind Windows.UI.Input.Spatial.ISpatialInteractionSource::get_Kind()
+// 0x0000026D System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped0_get_IsPointingSupported()
+// 0x0000026E System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped1_get_IsMenuSupported()
+// 0x0000026F System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped2_get_IsGraspSupported()
+// 0x00000270 Windows.UI.Input.Spatial.SpatialInteractionController Windows.UI.Input.Spatial.ISpatialInteractionSource2::get_Controller()
+// 0x00000271 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped3_TryGetStateAtTimestamp()
+// 0x00000272 Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness Windows.UI.Input.Spatial.ISpatialInteractionSource3::get_Handedness()
+// 0x00000273 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource4::$__Stripped0_TryCreateHandMeshObserver()
+// 0x00000274 Windows.Foundation.IAsyncOperation`1<Windows.Perception.People.HandMeshObserver> Windows.UI.Input.Spatial.ISpatialInteractionSource4::TryCreateHandMeshObserverAsync()
+// 0x00000275 Windows.UI.Input.Spatial.SpatialInteractionSource Windows.UI.Input.Spatial.ISpatialInteractionSourceState::get_Source()
+// 0x00000276 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped0_get_Properties()
+// 0x00000277 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped1_get_IsPressed()
+// 0x00000278 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped2_get_Timestamp()
+// 0x00000279 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped3_TryGetPointerPose()
+// 0x0000027A System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped0_get_IsSelectPressed()
+// 0x0000027B System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped1_get_IsMenuPressed()
+// 0x0000027C System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped2_get_IsGrasped()
+// 0x0000027D System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped3_get_SelectPressedValue()
+// 0x0000027E System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped4_get_ControllerProperties()
+// 0x0000027F Windows.Perception.People.HandPose Windows.UI.Input.Spatial.ISpatialInteractionSourceState3::TryGetHandPose()
+// 0x00000280 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose::$__Stripped0_get_Timestamp()
+// 0x00000281 Windows.Perception.People.HeadPose Windows.UI.Input.Spatial.ISpatialPointerPose::get_Head()
+// 0x00000282 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose2::$__Stripped0_TryGetInteractionSourcePose()
+// 0x00000283 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose3::$__Stripped0_get_Eyes()
+// 0x00000284 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose3::$__Stripped1_get_IsHeadCapturedBySystem()
+// 0x00000285 Windows.UI.Input.Spatial.SpatialPointerPose Windows.UI.Input.Spatial.ISpatialPointerPoseStatics::TryGetAtTimestamp(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.PerceptionTimestamp)
+// 0x00000286 System.UInt16 Windows.UI.Input.Spatial.SpatialInteractionController::get_VendorId()
 extern void SpatialInteractionController_get_VendorId_mFA4C0E49C5F91D0D3BB411B7CE4346A1D909609B (void);
-// 0x000002A5 System.UInt16 Windows.UI.Input.Spatial.SpatialInteractionController::get_ProductId()
+// 0x00000287 System.UInt16 Windows.UI.Input.Spatial.SpatialInteractionController::get_ProductId()
 extern void SpatialInteractionController_get_ProductId_m7A6756B1F64BFEAA4398555190277FC94199A744 (void);
-// 0x000002A6 System.UInt16 Windows.UI.Input.Spatial.SpatialInteractionController::get_Version()
+// 0x00000288 System.UInt16 Windows.UI.Input.Spatial.SpatialInteractionController::get_Version()
 extern void SpatialInteractionController_get_Version_mE798D242DAEE266C80EF790A41CC240E0368570E (void);
-// 0x000002A7 Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType> Windows.UI.Input.Spatial.SpatialInteractionController::TryGetRenderableModelAsync()
+// 0x00000289 Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType> Windows.UI.Input.Spatial.SpatialInteractionController::TryGetRenderableModelAsync()
 extern void SpatialInteractionController_TryGetRenderableModelAsync_m860C17ECB83D18A7A4B7BCECD005FDF45641A14C (void);
-// 0x000002A8 System.Void Windows.UI.Input.Spatial.SpatialInteractionController::Finalize()
+// 0x0000028A System.Void Windows.UI.Input.Spatial.SpatialInteractionController::Finalize()
 extern void SpatialInteractionController_Finalize_m642EB566F306A3C04583BCE2BE4C764F0B2DD0A5 (void);
-// 0x000002A9 System.Collections.Generic.IReadOnlyList`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState> Windows.UI.Input.Spatial.SpatialInteractionManager::GetDetectedSourcesAtTimestamp(Windows.Perception.PerceptionTimestamp)
+// 0x0000028B System.Collections.Generic.IReadOnlyList`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState> Windows.UI.Input.Spatial.SpatialInteractionManager::GetDetectedSourcesAtTimestamp(Windows.Perception.PerceptionTimestamp)
 extern void SpatialInteractionManager_GetDetectedSourcesAtTimestamp_mFDD037494C2CC363994DF81B98E33ADAD4CBE7F4 (void);
-// 0x000002AA System.Boolean Windows.UI.Input.Spatial.SpatialInteractionManager::IsSourceKindSupported(Windows.UI.Input.Spatial.SpatialInteractionSourceKind)
+// 0x0000028C System.Boolean Windows.UI.Input.Spatial.SpatialInteractionManager::IsSourceKindSupported(Windows.UI.Input.Spatial.SpatialInteractionSourceKind)
 extern void SpatialInteractionManager_IsSourceKindSupported_m5ADA1FAB14D51E057C9097C2B24D01C0E3A88EB8 (void);
-// 0x000002AB Windows.UI.Input.Spatial.SpatialInteractionManager Windows.UI.Input.Spatial.SpatialInteractionManager::GetForCurrentView()
+// 0x0000028D Windows.UI.Input.Spatial.SpatialInteractionManager Windows.UI.Input.Spatial.SpatialInteractionManager::GetForCurrentView()
 extern void SpatialInteractionManager_GetForCurrentView_m77EF39A84C58C1F95BF8E7D002F88B86B9382560 (void);
-// 0x000002AC System.Void Windows.UI.Input.Spatial.SpatialInteractionManager::Finalize()
+// 0x0000028E System.Void Windows.UI.Input.Spatial.SpatialInteractionManager::Finalize()
 extern void SpatialInteractionManager_Finalize_mA2949D4E2F4B8797DF477422FF6BD8A6DA683D3B (void);
-// 0x000002AD Windows.UI.Input.Spatial.SpatialInteractionSourceKind Windows.UI.Input.Spatial.SpatialInteractionSource::get_Kind()
+// 0x0000028F Windows.UI.Input.Spatial.SpatialInteractionSourceKind Windows.UI.Input.Spatial.SpatialInteractionSource::get_Kind()
 extern void SpatialInteractionSource_get_Kind_mB837C9DC9D8F931CF39DDD57BF2BA08A67B71563 (void);
-// 0x000002AE Windows.UI.Input.Spatial.SpatialInteractionController Windows.UI.Input.Spatial.SpatialInteractionSource::get_Controller()
+// 0x00000290 Windows.UI.Input.Spatial.SpatialInteractionController Windows.UI.Input.Spatial.SpatialInteractionSource::get_Controller()
 extern void SpatialInteractionSource_get_Controller_m31E0D64BF83B1B6604E0C39983311A99313F991D (void);
-// 0x000002AF Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness Windows.UI.Input.Spatial.SpatialInteractionSource::get_Handedness()
+// 0x00000291 Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness Windows.UI.Input.Spatial.SpatialInteractionSource::get_Handedness()
 extern void SpatialInteractionSource_get_Handedness_m7A992293451DE1EC0F32AC0ADA84209090427A8C (void);
-// 0x000002B0 Windows.Foundation.IAsyncOperation`1<Windows.Perception.People.HandMeshObserver> Windows.UI.Input.Spatial.SpatialInteractionSource::TryCreateHandMeshObserverAsync()
+// 0x00000292 Windows.Foundation.IAsyncOperation`1<Windows.Perception.People.HandMeshObserver> Windows.UI.Input.Spatial.SpatialInteractionSource::TryCreateHandMeshObserverAsync()
 extern void SpatialInteractionSource_TryCreateHandMeshObserverAsync_mE8630D9D92744C27BD5EBD758B42C3CB6ACFEC5C (void);
-// 0x000002B1 System.Void Windows.UI.Input.Spatial.SpatialInteractionSource::Finalize()
+// 0x00000293 System.Void Windows.UI.Input.Spatial.SpatialInteractionSource::Finalize()
 extern void SpatialInteractionSource_Finalize_m2E7441F57E01F76AE61CB05870AB437017873B24 (void);
-// 0x000002B2 Windows.UI.Input.Spatial.SpatialInteractionSource Windows.UI.Input.Spatial.SpatialInteractionSourceState::get_Source()
+// 0x00000294 Windows.UI.Input.Spatial.SpatialInteractionSource Windows.UI.Input.Spatial.SpatialInteractionSourceState::get_Source()
 extern void SpatialInteractionSourceState_get_Source_mDFBB7ECDC326D42075DCF0B8D5779B7D11EAFD8F (void);
-// 0x000002B3 Windows.Perception.People.HandPose Windows.UI.Input.Spatial.SpatialInteractionSourceState::TryGetHandPose()
+// 0x00000295 Windows.Perception.People.HandPose Windows.UI.Input.Spatial.SpatialInteractionSourceState::TryGetHandPose()
 extern void SpatialInteractionSourceState_TryGetHandPose_m9B623E31B753FD11674C848601622016AF260110 (void);
-// 0x000002B4 System.Void Windows.UI.Input.Spatial.SpatialInteractionSourceState::Finalize()
+// 0x00000296 System.Void Windows.UI.Input.Spatial.SpatialInteractionSourceState::Finalize()
 extern void SpatialInteractionSourceState_Finalize_m65423EE26DA8DD2AB9DA87C46363C2CFC82329BC (void);
-// 0x000002B5 Windows.Perception.People.HeadPose Windows.UI.Input.Spatial.SpatialPointerPose::get_Head()
+// 0x00000297 Windows.Perception.People.HeadPose Windows.UI.Input.Spatial.SpatialPointerPose::get_Head()
 extern void SpatialPointerPose_get_Head_mC788CD23770CD682FC645D987F6C91B9768AC60A (void);
-// 0x000002B6 Windows.UI.Input.Spatial.SpatialPointerPose Windows.UI.Input.Spatial.SpatialPointerPose::TryGetAtTimestamp(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.PerceptionTimestamp)
+// 0x00000298 Windows.UI.Input.Spatial.SpatialPointerPose Windows.UI.Input.Spatial.SpatialPointerPose::TryGetAtTimestamp(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.PerceptionTimestamp)
 extern void SpatialPointerPose_TryGetAtTimestamp_m0038031AA8B49B7F5B7716B9D771E71137C8812B (void);
-// 0x000002B7 System.Void Windows.UI.Input.Spatial.SpatialPointerPose::Finalize()
+// 0x00000299 System.Void Windows.UI.Input.Spatial.SpatialPointerPose::Finalize()
 extern void SpatialPointerPose_Finalize_m8F6C143526C3742BA8C41AB1E8754A3D272A5D66 (void);
-// 0x000002B8 System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.IInputPane::add_Showing(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
-// 0x000002B9 System.Void Windows.UI.ViewManagement.IInputPane::remove_Showing(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
-// 0x000002BA System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.IInputPane::add_Hiding(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
-// 0x000002BB System.Void Windows.UI.ViewManagement.IInputPane::remove_Hiding(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
-// 0x000002BC System.Void Windows.UI.ViewManagement.IInputPane::$__Stripped0_get_OccludedRect()
-// 0x000002BD System.Boolean Windows.UI.ViewManagement.IInputPane2::TryShow()
-// 0x000002BE System.Boolean Windows.UI.ViewManagement.IInputPane2::TryHide()
-// 0x000002BF System.Void Windows.UI.ViewManagement.IInputPaneControl::$__Stripped0_get_Visible()
-// 0x000002C0 System.Void Windows.UI.ViewManagement.IInputPaneControl::$__Stripped1_put_Visible()
-// 0x000002C1 Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.IInputPaneStatics::GetForCurrentView()
-// 0x000002C2 System.Void Windows.UI.ViewManagement.IInputPaneStatics2::$__Stripped0_GetForUIContext()
-// 0x000002C3 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::$__Stripped0_get_OccludedRect()
-// 0x000002C4 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::$__Stripped1_put_EnsuredFocusedElementInView()
-// 0x000002C5 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::$__Stripped2_get_EnsuredFocusedElementInView()
-// 0x000002C6 System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.InputPane::add_Showing(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
+// 0x0000029A System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.IInputPane::add_Showing(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
+// 0x0000029B System.Void Windows.UI.ViewManagement.IInputPane::remove_Showing(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
+// 0x0000029C System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.IInputPane::add_Hiding(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
+// 0x0000029D System.Void Windows.UI.ViewManagement.IInputPane::remove_Hiding(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
+// 0x0000029E System.Void Windows.UI.ViewManagement.IInputPane::$__Stripped0_get_OccludedRect()
+// 0x0000029F System.Boolean Windows.UI.ViewManagement.IInputPane2::TryShow()
+// 0x000002A0 System.Boolean Windows.UI.ViewManagement.IInputPane2::TryHide()
+// 0x000002A1 System.Void Windows.UI.ViewManagement.IInputPaneControl::$__Stripped0_get_Visible()
+// 0x000002A2 System.Void Windows.UI.ViewManagement.IInputPaneControl::$__Stripped1_put_Visible()
+// 0x000002A3 Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.IInputPaneStatics::GetForCurrentView()
+// 0x000002A4 System.Void Windows.UI.ViewManagement.IInputPaneStatics2::$__Stripped0_GetForUIContext()
+// 0x000002A5 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::$__Stripped0_get_OccludedRect()
+// 0x000002A6 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::$__Stripped1_put_EnsuredFocusedElementInView()
+// 0x000002A7 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::$__Stripped2_get_EnsuredFocusedElementInView()
+// 0x000002A8 System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.InputPane::add_Showing(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
 extern void InputPane_add_Showing_m510DB824DF283E477B413C64BE61B2FC04F9BE23 (void);
-// 0x000002C7 System.Void Windows.UI.ViewManagement.InputPane::remove_Showing(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
+// 0x000002A9 System.Void Windows.UI.ViewManagement.InputPane::remove_Showing(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
 extern void InputPane_remove_Showing_m59CF2BD5B31F30E9C32FCBBD4805627FDB367747 (void);
-// 0x000002C8 System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.InputPane::add_Hiding(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
+// 0x000002AA System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.InputPane::add_Hiding(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
 extern void InputPane_add_Hiding_mBCF3CC1091181DD03D13F468A9FB45BE7FDE5112 (void);
-// 0x000002C9 System.Void Windows.UI.ViewManagement.InputPane::remove_Hiding(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
+// 0x000002AB System.Void Windows.UI.ViewManagement.InputPane::remove_Hiding(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
 extern void InputPane_remove_Hiding_mAC2C1C54000EB20167222F325263400E964C9E13 (void);
-// 0x000002CA System.Boolean Windows.UI.ViewManagement.InputPane::TryShow()
+// 0x000002AC System.Boolean Windows.UI.ViewManagement.InputPane::TryShow()
 extern void InputPane_TryShow_m9BD2715E64C17BFB5602DA8BAFA794DD83236842 (void);
-// 0x000002CB System.Boolean Windows.UI.ViewManagement.InputPane::TryHide()
+// 0x000002AD System.Boolean Windows.UI.ViewManagement.InputPane::TryHide()
 extern void InputPane_TryHide_m379F5A7CB24231C21343A18608E763D783430937 (void);
-// 0x000002CC Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.InputPane::GetForCurrentView()
+// 0x000002AE Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.InputPane::GetForCurrentView()
 extern void InputPane_GetForCurrentView_mD4BE2A539C97CEF616B95558886A9DE875CBD45C (void);
-// 0x000002CD System.Void Windows.UI.ViewManagement.InputPane::Finalize()
+// 0x000002AF System.Void Windows.UI.ViewManagement.InputPane::Finalize()
 extern void InputPane_Finalize_m8809B1FF06ECD21D728BE2FD2327093FD0E70BEB (void);
-// 0x000002CE System.Void Windows.UI.ViewManagement.InputPaneVisibilityEventArgs::Finalize()
+// 0x000002B0 System.Void Windows.UI.ViewManagement.InputPaneVisibilityEventArgs::Finalize()
 extern void InputPaneVisibilityEventArgs_Finalize_m32338BD57EC4DA232D1916DB6F6FA7C001EFB6D0 (void);
-// 0x000002CF Windows.UI.Xaml.Interop.IBindableIterator Windows.UI.Xaml.Interop.IBindableIterable::First()
+// 0x000002B1 Windows.UI.Xaml.Interop.IBindableIterator Windows.UI.Xaml.Interop.IBindableIterable::First()
 extern void IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7 (void);
-// 0x000002D0 System.Object Windows.UI.Xaml.Interop.IBindableIterator::get_Current()
-extern void IBindableIterator_get_Current_m53A4B6F2DECC874908CA9335785007A39D6FC93E (void);
-// 0x000002D1 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::get_HasCurrent()
-extern void IBindableIterator_get_HasCurrent_m4FD33F7F3A504A8F4A4C7DE3965342B19EA3A974 (void);
-// 0x000002D2 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::MoveNext()
-extern void IBindableIterator_MoveNext_mA70DABC057BE3ED9199D4E0E6FEBDF6ED3570A75 (void);
-// 0x000002D3 System.Object Windows.UI.Xaml.Interop.IBindableVector::GetAt(System.UInt32)
+// 0x000002B2 System.Object Windows.UI.Xaml.Interop.IBindableIterator::get_Current()
+extern void IBindableIterator_get_Current_m925423E867873FA1E4ED0804031A06C0852D7A54 (void);
+// 0x000002B3 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::get_HasCurrent()
+extern void IBindableIterator_get_HasCurrent_m4DAEC47CD0F9FD8C8102793367E1977C7F759FFA (void);
+// 0x000002B4 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::MoveNext()
+extern void IBindableIterator_MoveNext_m4FB28C3D3863BB69F92027EE724CA8BE91833706 (void);
+// 0x000002B5 System.Object Windows.UI.Xaml.Interop.IBindableVector::GetAt(System.UInt32)
 extern void IBindableVector_GetAt_m33D2170810828C01473D9BDC22745A0354FA4FED (void);
-// 0x000002D4 System.UInt32 Windows.UI.Xaml.Interop.IBindableVector::get_Size()
+// 0x000002B6 System.UInt32 Windows.UI.Xaml.Interop.IBindableVector::get_Size()
 extern void IBindableVector_get_Size_m45347BCD42A1FE180ED2B377BB9C88C7B50CD7D9 (void);
-// 0x000002D5 Windows.UI.Xaml.Interop.IBindableVectorView Windows.UI.Xaml.Interop.IBindableVector::GetView()
+// 0x000002B7 Windows.UI.Xaml.Interop.IBindableVectorView Windows.UI.Xaml.Interop.IBindableVector::GetView()
 extern void IBindableVector_GetView_m9736FE93BC8979E0CBF8ED26090D1FE54C2E1A38 (void);
-// 0x000002D6 System.Boolean Windows.UI.Xaml.Interop.IBindableVector::IndexOf(System.Object,System.UInt32&)
+// 0x000002B8 System.Boolean Windows.UI.Xaml.Interop.IBindableVector::IndexOf(System.Object,System.UInt32&)
 extern void IBindableVector_IndexOf_m2F1A64750D19C5A03E9B65880F4A04275E6AABF4 (void);
-// 0x000002D7 System.Void Windows.UI.Xaml.Interop.IBindableVector::SetAt(System.UInt32,System.Object)
+// 0x000002B9 System.Void Windows.UI.Xaml.Interop.IBindableVector::SetAt(System.UInt32,System.Object)
 extern void IBindableVector_SetAt_mD4C84EC02EAD7F636873B77E6D48E7132055A213 (void);
-// 0x000002D8 System.Void Windows.UI.Xaml.Interop.IBindableVector::InsertAt(System.UInt32,System.Object)
+// 0x000002BA System.Void Windows.UI.Xaml.Interop.IBindableVector::InsertAt(System.UInt32,System.Object)
 extern void IBindableVector_InsertAt_m19A0C885F7C7A7FFA257A46218D7232317E022B5 (void);
-// 0x000002D9 System.Void Windows.UI.Xaml.Interop.IBindableVector::RemoveAt(System.UInt32)
+// 0x000002BB System.Void Windows.UI.Xaml.Interop.IBindableVector::RemoveAt(System.UInt32)
 extern void IBindableVector_RemoveAt_m1AC6E54165809374E91F456B9922A9B24F8652B0 (void);
-// 0x000002DA System.Void Windows.UI.Xaml.Interop.IBindableVector::Append(System.Object)
+// 0x000002BC System.Void Windows.UI.Xaml.Interop.IBindableVector::Append(System.Object)
 extern void IBindableVector_Append_mCA138F8E4026725AC867B607FA63709B6752BB7F (void);
-// 0x000002DB System.Void Windows.UI.Xaml.Interop.IBindableVector::RemoveAtEnd()
+// 0x000002BD System.Void Windows.UI.Xaml.Interop.IBindableVector::RemoveAtEnd()
 extern void IBindableVector_RemoveAtEnd_mB3178911995D4CC7BAC0EA43720C1280267E54E3 (void);
-// 0x000002DC System.Void Windows.UI.Xaml.Interop.IBindableVector::Clear()
+// 0x000002BE System.Void Windows.UI.Xaml.Interop.IBindableVector::Clear()
 extern void IBindableVector_Clear_mEF05B40EFF6D42CBB5A5E336B0946FECE7A4A6EF (void);
-// 0x000002DD System.Object Windows.UI.Xaml.Interop.IBindableVectorView::GetAt(System.UInt32)
+// 0x000002BF System.Object Windows.UI.Xaml.Interop.IBindableVectorView::GetAt(System.UInt32)
 extern void IBindableVectorView_GetAt_mB119DB25AF57A337D2C7112063778434CE0F5CF5 (void);
-// 0x000002DE System.UInt32 Windows.UI.Xaml.Interop.IBindableVectorView::get_Size()
+// 0x000002C0 System.UInt32 Windows.UI.Xaml.Interop.IBindableVectorView::get_Size()
 extern void IBindableVectorView_get_Size_m4F48139B27CB215D7E728F77E748FA6573F7DA09 (void);
-// 0x000002DF System.Boolean Windows.UI.Xaml.Interop.IBindableVectorView::IndexOf(System.Object,System.UInt32&)
+// 0x000002C1 System.Boolean Windows.UI.Xaml.Interop.IBindableVectorView::IndexOf(System.Object,System.UInt32&)
 extern void IBindableVectorView_IndexOf_mD85EC41D34BC2E450FA0133CC802906157D765F2 (void);
-static Il2CppMethodPointer s_methodPointers[735] = 
+static Il2CppMethodPointer s_methodPointers[705] = 
 {
-	AsyncActionCompletedHandler__ctor_mFB087F426B85A21CFD3EC42705296735802E4C6E,
-	AsyncActionCompletedHandler_Invoke_m351D4D540D59485AB4607AD62FDB182A704C4239,
+	AsyncActionCompletedHandler__ctor_m8174AC23FE63E72DDA50BF9060B8EA33D3CC2FC6,
+	AsyncActionCompletedHandler_Invoke_m9E54CBC26496783FCB9C5EF40E4B947F2C0E0EC6,
 	NULL,
 	NULL,
 	NULL,
@@ -1052,18 +1020,18 @@ static Il2CppMethodPointer s_methodPointers[735] =
 	NULL,
 	NULL,
 	NULL,
-	IAsyncAction_put_Completed_mE1223109A7CBD5DA29413156BA2C75157F169C87,
+	IAsyncAction_put_Completed_m153FFA20288B2A12135D5E31F5E321CB7C7C32A4,
 	IAsyncAction_get_Completed_mEEA8DB3EB0D4FE9F33A54B6A16D65902B70DCB39,
 	IAsyncAction_GetResults_mD06D8F02D7793FED272208F851EF8A2D9B25FE38,
 	IAsyncInfo_get_Id_m3863CB02C1CDBA1050DAAE7311DF9F3E8BCD9D74,
-	IAsyncInfo_get_Status_m9393658D0FD28BE7960FBB531A31A1E1CB106F80,
-	IAsyncInfo_get_ErrorCode_m0C4F0079B788C88A5A572A827AAACA0B3BB233C5,
-	IAsyncInfo_Cancel_m55A00D21BF943DA94D606044A66295FEF77139EE,
+	IAsyncInfo_get_Status_m7E8AA78C1877123B35EAFA58FEF0FA86D8A97583,
+	IAsyncInfo_get_ErrorCode_m37ACAD97746ABA13006C88EDF582C3B73B68D806,
+	IAsyncInfo_Cancel_m53FE58D39AE61799A01EE7ECB9429CB3EE01EEFE,
 	IAsyncInfo_Close_mD8F3D2C7103B340A9FF16F58333E33643F552635,
 	NULL,
 	NULL,
 	NULL,
-	IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999,
+	IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871,
 	IPropertyValue_get_Type_m2BC440F5119A133BE4DD895657519ADAA3B34272,
 	IPropertyValue_get_IsNumericScalar_mC8DE97926668A5F2EA3F4A9B128E966CBC7B0D60,
 	IPropertyValue_GetUInt8_m25D96C5F9AC133BF7B682C59FE83EE05A0075B05,
@@ -1604,36 +1572,6 @@ static Il2CppMethodPointer s_methodPointers[735] =
 	NULL,
 	NULL,
 	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	Launcher_LaunchFileAsync_mA224E32231282DA8172EA656DD623109BC7B9C76,
-	Launcher_Finalize_mE9C34631E2D9B9C379349247516FABDF9D688DD6,
 	MemoryManager_get_AppMemoryUsage_mC56F027A2D650BCC43228CD8AEDCEBB517F0B677,
 	MemoryManager_get_AppMemoryUsageLimit_m4037BAE37C41E7F7FE868436D715C41E4CD9E636,
 	MemoryManager_Finalize_m32730D6E439088B61A9D7DE5C6C5B45FA6529549,
@@ -1731,9 +1669,9 @@ static Il2CppMethodPointer s_methodPointers[735] =
 	InputPane_Finalize_m8809B1FF06ECD21D728BE2FD2327093FD0E70BEB,
 	InputPaneVisibilityEventArgs_Finalize_m32338BD57EC4DA232D1916DB6F6FA7C001EFB6D0,
 	IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7,
-	IBindableIterator_get_Current_m53A4B6F2DECC874908CA9335785007A39D6FC93E,
-	IBindableIterator_get_HasCurrent_m4FD33F7F3A504A8F4A4C7DE3965342B19EA3A974,
-	IBindableIterator_MoveNext_mA70DABC057BE3ED9199D4E0E6FEBDF6ED3570A75,
+	IBindableIterator_get_Current_m925423E867873FA1E4ED0804031A06C0852D7A54,
+	IBindableIterator_get_HasCurrent_m4DAEC47CD0F9FD8C8102793367E1977C7F759FFA,
+	IBindableIterator_MoveNext_m4FB28C3D3863BB69F92027EE724CA8BE91833706,
 	IBindableVector_GetAt_m33D2170810828C01473D9BDC22745A0354FA4FED,
 	IBindableVector_get_Size_m45347BCD42A1FE180ED2B377BB9C88C7B50CD7D9,
 	IBindableVector_GetView_m9736FE93BC8979E0CBF8ED26090D1FE54C2E1A38,
@@ -1748,10 +1686,10 @@ static Il2CppMethodPointer s_methodPointers[735] =
 	IBindableVectorView_get_Size_m4F48139B27CB215D7E728F77E748FA6573F7DA09,
 	IBindableVectorView_IndexOf_mD85EC41D34BC2E450FA0133CC802906157D765F2,
 };
-static const int32_t s_InvokerIndices[735] = 
+static const int32_t s_InvokerIndices[705] = 
 {
-	2667,
-	2665,
+	2453,
+	2451,
 	-1,
 	-1,
 	-1,
@@ -1790,708 +1728,678 @@ static const int32_t s_InvokerIndices[735] =
 	-1,
 	-1,
 	-1,
-	4728,
-	5747,
-	5882,
-	5697,
-	5697,
-	5747,
-	5882,
-	5882,
+	4310,
+	5207,
+	5312,
+	5169,
+	5169,
+	5207,
+	5312,
+	5312,
 	-1,
 	-1,
 	-1,
-	5882,
-	5697,
-	5811,
-	5811,
-	5696,
-	5696,
-	5697,
-	5697,
-	5698,
-	5698,
-	5828,
-	5635,
-	5696,
-	5811,
-	5747,
-	5665,
-	5631,
-	5854,
-	5759,
-	5829,
-	5783,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
-	4586,
+	5312,
+	5169,
+	5254,
+	5254,
+	5168,
+	5168,
+	5169,
+	5169,
+	5170,
+	5170,
+	5264,
+	5112,
+	5168,
+	5254,
+	5207,
+	5137,
+	5109,
+	5287,
+	5218,
+	5265,
+	5238,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
+	4181,
 	-1,
 	-1,
-	5747,
-	2452,
-	1479,
-	5882,
-	5882,
-	8523,
-	7754,
-	7754,
-	7749,
-	5882,
-	4728,
-	4690,
-	4690,
-	2665,
-	2665,
-	5882,
-	5882,
-	4728,
+	5207,
+	2269,
+	1355,
+	5312,
+	5312,
+	7532,
+	6914,
+	6914,
+	6909,
+	5312,
+	4310,
+	4274,
+	4274,
+	2451,
+	2451,
+	5312,
+	5312,
+	4310,
 	11,
-	4058,
-	2076,
-	5882,
-	5882,
-	2076,
-	5882,
-	5882,
-	5882,
-	2072,
-	5882,
-	4690,
-	4690,
-	5882,
-	4728,
-	5882,
-	1479,
-	4690,
-	5882,
+	3709,
+	1911,
+	5312,
+	5312,
+	1911,
+	5312,
+	5312,
+	5312,
+	1907,
+	5312,
+	4274,
+	4274,
+	5312,
+	4310,
+	5312,
+	1355,
+	4274,
+	5312,
 	-1,
 	-1,
-	3592,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5747,
-	5882,
-	5882,
-	3592,
-	8752,
-	5882,
-	3592,
-	3592,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5697,
-	5811,
-	4058,
-	3592,
-	3592,
-	1889,
-	5747,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	4728,
-	2673,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5747,
-	5697,
-	5811,
-	4058,
-	3592,
-	5747,
-	5747,
-	5747,
-	8427,
-	8427,
-	5882,
-	5747,
-	3583,
-	5697,
-	2069,
-	1709,
-	3583,
-	5697,
-	5747,
-	5747,
-	5882,
-	5811,
-	5882,
-	5747,
-	5673,
-	4668,
-	5882,
-	3583,
-	8752,
-	5882,
-	5747,
-	5882,
-	5747,
-	5882,
-	4781,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5811,
-	5882,
-	5882,
-	5882,
-	5882,
-	5747,
-	5882,
-	5882,
-	5673,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	4668,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	3583,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	4781,
-	5811,
-	3007,
-	4636,
-	8752,
-	5882,
-	5882,
-	5811,
-	3007,
-	4636,
-	5747,
-	5882,
-	5882,
-	5747,
-	5882,
-	5882,
-	5882,
-	3592,
-	3592,
-	4728,
-	5882,
-	5882,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	5698,
-	3584,
-	5882,
-	5882,
-	5882,
-	5882,
-	3592,
-	3592,
-	4728,
-	5882,
-	8752,
-	5882,
-	5882,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	3574,
-	5882,
-	5697,
-	5697,
-	4728,
-	3592,
-	5747,
-	5697,
-	5697,
-	5882,
-	5747,
-	4728,
-	5882,
-	5882,
-	5873,
-	5873,
-	5882,
-	5882,
-	5697,
-	5697,
-	4728,
-	3592,
-	5747,
-	5697,
-	5697,
-	5747,
-	4728,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5873,
-	5873,
-	5882,
-	5882,
-	8414,
-	5882,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	2898,
-	5882,
-	5665,
-	5723,
-	3579,
-	5882,
-	1165,
-	5882,
-	3592,
-	5882,
-	5882,
-	5665,
-	5723,
-	5882,
-	8427,
-	8419,
-	7088,
-	5882,
-	5747,
-	5882,
-	2898,
-	5882,
-	5747,
-	8752,
-	5882,
-	8427,
-	7626,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	3592,
-	5882,
-	1889,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	3592,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	3592,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	8427,
-	5882,
-	3592,
-	5882,
-	4728,
-	4728,
-	3583,
-	5882,
-	8427,
-	5882,
-	5882,
-	4728,
-	5747,
-	5697,
-	5697,
-	5697,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	5697,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	4728,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	3583,
-	5882,
-	5882,
-	3592,
-	3592,
-	5882,
-	5882,
-	5882,
-	5882,
-	5698,
-	5882,
-	3584,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	3592,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5698,
-	5698,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	8427,
-	5882,
-	8739,
-	8739,
-	5882,
-	5882,
-	5882,
-	5882,
-	5696,
-	5696,
-	5696,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	3592,
-	5747,
-	4020,
-	5882,
-	5697,
-	5882,
-	5882,
-	5882,
-	5747,
-	5882,
-	5697,
-	5882,
-	5747,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5882,
-	5747,
-	5882,
-	5747,
-	5882,
-	5882,
-	5882,
-	1889,
-	5696,
-	5696,
-	5696,
-	5747,
-	5882,
-	3592,
-	8517,
-	8752,
-	5882,
-	5697,
-	5747,
-	5697,
-	5747,
-	5882,
-	5747,
-	5747,
-	5882,
-	5747,
-	7626,
-	5882,
-	3007,
-	4636,
-	3007,
-	4636,
-	5882,
-	5811,
-	5811,
-	5882,
-	5882,
-	5747,
-	5882,
-	5882,
-	5882,
-	5882,
-	3007,
-	4636,
-	3007,
-	4636,
-	5811,
-	5811,
-	8752,
-	5882,
-	5882,
-	5747,
-	5747,
-	5811,
-	5811,
-	3583,
-	5697,
-	5747,
-	2069,
-	2452,
-	2452,
-	4690,
-	4728,
-	5882,
-	5882,
-	3583,
-	5697,
-	2069,
+	3305,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5207,
+	5312,
+	5312,
+	3305,
+	7734,
+	5312,
+	3305,
+	3305,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5169,
+	5254,
+	3709,
+	3305,
+	3305,
+	1731,
+	5207,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	4310,
+	2458,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5207,
+	5169,
+	5254,
+	3709,
+	3305,
+	5207,
+	5207,
+	5207,
+	7457,
+	7457,
+	5312,
+	5207,
+	3298,
+	5169,
+	1904,
+	1566,
+	3298,
+	5169,
+	5207,
+	5207,
+	5312,
+	5254,
+	5312,
+	5207,
+	5145,
+	4252,
+	5312,
+	3298,
+	7734,
+	5312,
+	5207,
+	5312,
+	5207,
+	5312,
+	4354,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5254,
+	5312,
+	5312,
+	5312,
+	5312,
+	5207,
+	5312,
+	5312,
+	5145,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	4252,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	3298,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	4354,
+	5254,
+	2765,
+	4223,
+	7734,
+	5312,
+	5312,
+	5254,
+	2765,
+	4223,
+	5207,
+	5312,
+	5312,
+	5207,
+	5312,
+	5312,
+	5312,
+	3305,
+	3305,
+	4310,
+	5312,
+	5312,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	5170,
+	3299,
+	5312,
+	5312,
+	5312,
+	5312,
+	3305,
+	3305,
+	4310,
+	5312,
+	7734,
+	5312,
+	5312,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	3289,
+	5312,
+	5169,
+	5169,
+	4310,
+	3305,
+	5207,
+	5169,
+	5169,
+	5312,
+	5207,
+	4310,
+	5312,
+	5312,
+	5305,
+	5305,
+	5312,
+	5312,
+	5169,
+	5169,
+	4310,
+	3305,
+	5207,
+	5169,
+	5169,
+	5207,
+	4310,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5305,
+	5305,
+	5312,
+	5312,
+	7444,
+	5312,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	2664,
+	5312,
+	5137,
+	5183,
+	3294,
+	5312,
+	1063,
+	5312,
+	3305,
+	5312,
+	5312,
+	5137,
+	5183,
+	5312,
+	7457,
+	7449,
+	6352,
+	5312,
+	5207,
+	5312,
+	2664,
+	5312,
+	5207,
+	7734,
+	5312,
+	7457,
+	6801,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	3305,
+	5312,
+	1731,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	3305,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	3305,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	7457,
+	5312,
+	3305,
+	5312,
+	4310,
+	4310,
+	3298,
+	5312,
+	7457,
+	5312,
+	5312,
+	4310,
+	5207,
+	5169,
+	5169,
+	5169,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	5169,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	4310,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	3298,
+	5312,
+	5312,
+	3305,
+	3305,
+	5312,
+	5312,
+	5312,
+	5312,
+	5170,
+	5312,
+	3299,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5170,
+	5170,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	7721,
+	7721,
+	5312,
+	5312,
+	5312,
+	5312,
+	5168,
+	5168,
+	5168,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	3305,
+	5207,
+	3674,
+	5312,
+	5169,
+	5312,
+	5312,
+	5312,
+	5207,
+	5312,
+	5169,
+	5312,
+	5207,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5312,
+	5207,
+	5312,
+	5207,
+	5312,
+	5312,
+	5312,
+	1731,
+	5168,
+	5168,
+	5168,
+	5207,
+	5312,
+	3305,
+	7526,
+	7734,
+	5312,
+	5169,
+	5207,
+	5169,
+	5207,
+	5312,
+	5207,
+	5207,
+	5312,
+	5207,
+	6801,
+	5312,
+	2765,
+	4223,
+	2765,
+	4223,
+	5312,
+	5254,
+	5254,
+	5312,
+	5312,
+	5207,
+	5312,
+	5312,
+	5312,
+	5312,
+	2765,
+	4223,
+	2765,
+	4223,
+	5254,
+	5254,
+	7734,
+	5312,
+	5312,
+	5207,
+	5207,
+	5254,
+	5254,
+	3298,
+	5169,
+	5207,
+	1904,
+	2269,
+	2269,
+	4274,
+	4310,
+	5312,
+	5312,
+	3298,
+	5169,
+	1904,
 };
 extern const CustomAttributesCacheGenerator g_WindowsRuntimeMetadata_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_WindowsRuntimeMetadata_CodeGenModule;
 const Il2CppCodeGenModule g_WindowsRuntimeMetadata_CodeGenModule = 
 {
 	"WindowsRuntimeMetadata",
-	735,
+	705,
 	s_methodPointers,
 	0,
 	NULL,

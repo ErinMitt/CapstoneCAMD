@@ -18540,6 +18540,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AnimatorStateInfo_IsName_mF1263FB1F2AB14
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void monsterFight_PlayerHealth_m641495FC6E195D1B6A1354F90705704E08B499F7 (monsterFight_t14D3FD21AF22B0B6F1E1FB13E3B5D6DBAF0B033A * __this, const RuntimeMethod* method);
 // UnityEngine.Transform UnityEngine.GameObject::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34 (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, const RuntimeMethod* method);
+// UnityEngine.Transform UnityEngine.Transform::get_parent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * Transform_get_parent_m7D06005D9CB55F90F39D42F6A2AF9C7BC80745C9 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, const RuntimeMethod* method);
 // !!0 UnityEngine.GameObject::GetComponent<monsterDeadCount>()
 inline monsterDeadCount_tE56D25CF706178975A94CE67CC529E341CFF0D32 * GameObject_GetComponent_TismonsterDeadCount_tE56D25CF706178975A94CE67CC529E341CFF0D32_m17D4876BA5221589A109F414A71A016AF7B0214B (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, const RuntimeMethod* method)
 {
@@ -32960,70 +32962,76 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void monsterFight_PlayerHealth_m641495FC6E195
 		double L_8 = V_0;
 		if ((!(((double)L_8) < ((double)(0.0)))))
 		{
-			goto IL_0081;
+			goto IL_008b;
 		}
 	}
 	{
-		// gameObject.active = false;
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_9;
-		L_9 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(__this, /*hidden argument*/NULL);
+		// transform.parent.gameObject.active = false;
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_9;
+		L_9 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(__this, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		GameObject_set_active_mC5C02354788BC2EDF19359EEAE7396BE350C2BFA(L_9, (bool)0, /*hidden argument*/NULL);
-		// NoMoreHealth.active = true;
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_10 = __this->get_NoMoreHealth_14();
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_10;
+		L_10 = Transform_get_parent_m7D06005D9CB55F90F39D42F6A2AF9C7BC80745C9(L_9, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		GameObject_set_active_mC5C02354788BC2EDF19359EEAE7396BE350C2BFA(L_10, (bool)1, /*hidden argument*/NULL);
-		// mainCameraDeadCount.GetComponent<monsterDeadCount>().callCoroutines();
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_11 = __this->get_mainCameraDeadCount_19();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_11;
+		L_11 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_10, /*hidden argument*/NULL);
 		NullCheck(L_11);
-		monsterDeadCount_tE56D25CF706178975A94CE67CC529E341CFF0D32 * L_12;
-		L_12 = GameObject_GetComponent_TismonsterDeadCount_tE56D25CF706178975A94CE67CC529E341CFF0D32_m17D4876BA5221589A109F414A71A016AF7B0214B(L_11, /*hidden argument*/GameObject_GetComponent_TismonsterDeadCount_tE56D25CF706178975A94CE67CC529E341CFF0D32_m17D4876BA5221589A109F414A71A016AF7B0214B_RuntimeMethod_var);
+		GameObject_set_active_mC5C02354788BC2EDF19359EEAE7396BE350C2BFA(L_11, (bool)0, /*hidden argument*/NULL);
+		// NoMoreHealth.active = true;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_12 = __this->get_NoMoreHealth_14();
 		NullCheck(L_12);
-		monsterDeadCount_callCoroutines_m3C8604FF6F711D320BD4887CB4B26905A1B1BD63(L_12, /*hidden argument*/NULL);
+		GameObject_set_active_mC5C02354788BC2EDF19359EEAE7396BE350C2BFA(L_12, (bool)1, /*hidden argument*/NULL);
+		// mainCameraDeadCount.GetComponent<monsterDeadCount>().callCoroutines();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_13 = __this->get_mainCameraDeadCount_19();
+		NullCheck(L_13);
+		monsterDeadCount_tE56D25CF706178975A94CE67CC529E341CFF0D32 * L_14;
+		L_14 = GameObject_GetComponent_TismonsterDeadCount_tE56D25CF706178975A94CE67CC529E341CFF0D32_m17D4876BA5221589A109F414A71A016AF7B0214B(L_13, /*hidden argument*/GameObject_GetComponent_TismonsterDeadCount_tE56D25CF706178975A94CE67CC529E341CFF0D32_m17D4876BA5221589A109F414A71A016AF7B0214B_RuntimeMethod_var);
+		NullCheck(L_14);
+		monsterDeadCount_callCoroutines_m3C8604FF6F711D320BD4887CB4B26905A1B1BD63(L_14, /*hidden argument*/NULL);
 		// }
 		return;
 	}
 
-IL_0081:
+IL_008b:
 	{
 		// playerHealth.transform.localScale = new Vector3(multVal, playerHealth.transform.localScale.y, playerHealth.transform.localScale.z);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_13 = __this->get_playerHealth_11();
-		NullCheck(L_13);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_14;
-		L_14 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_13, /*hidden argument*/NULL);
-		float L_15 = V_1;
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_16 = __this->get_playerHealth_11();
-		NullCheck(L_16);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_17;
-		L_17 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_16, /*hidden argument*/NULL);
-		NullCheck(L_17);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_18;
-		L_18 = Transform_get_localScale_mD9DF6CA81108C2A6002B5EA2BE25A6CD2723D046(L_17, /*hidden argument*/NULL);
-		float L_19 = L_18.get_y_3();
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_20 = __this->get_playerHealth_11();
-		NullCheck(L_20);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_21;
-		L_21 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_20, /*hidden argument*/NULL);
-		NullCheck(L_21);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_22;
-		L_22 = Transform_get_localScale_mD9DF6CA81108C2A6002B5EA2BE25A6CD2723D046(L_21, /*hidden argument*/NULL);
-		float L_23 = L_22.get_z_4();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_15 = __this->get_playerHealth_11();
+		NullCheck(L_15);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_16;
+		L_16 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_15, /*hidden argument*/NULL);
+		float L_17 = V_1;
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_18 = __this->get_playerHealth_11();
+		NullCheck(L_18);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_19;
+		L_19 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_18, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_20;
+		L_20 = Transform_get_localScale_mD9DF6CA81108C2A6002B5EA2BE25A6CD2723D046(L_19, /*hidden argument*/NULL);
+		float L_21 = L_20.get_y_3();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_22 = __this->get_playerHealth_11();
+		NullCheck(L_22);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_23;
+		L_23 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_22, /*hidden argument*/NULL);
+		NullCheck(L_23);
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_24;
-		memset((&L_24), 0, sizeof(L_24));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_24), L_15, L_19, L_23, /*hidden argument*/NULL);
-		NullCheck(L_14);
-		Transform_set_localScale_mF4D1611E48D1BA7566A1E166DC2DACF3ADD8BA3A(L_14, L_24, /*hidden argument*/NULL);
+		L_24 = Transform_get_localScale_mD9DF6CA81108C2A6002B5EA2BE25A6CD2723D046(L_23, /*hidden argument*/NULL);
+		float L_25 = L_24.get_z_4();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_26), L_17, L_21, L_25, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		Transform_set_localScale_mF4D1611E48D1BA7566A1E166DC2DACF3ADD8BA3A(L_16, L_26, /*hidden argument*/NULL);
 		// playerHealth.transform.localPosition = new Vector3(multVal/2-.1f, 0, -.001f);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_25 = __this->get_playerHealth_11();
-		NullCheck(L_25);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_26;
-		L_26 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_25, /*hidden argument*/NULL);
-		float L_27 = V_1;
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_28;
-		memset((&L_28), 0, sizeof(L_28));
-		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_28), ((float)il2cpp_codegen_subtract((float)((float)((float)L_27/(float)(2.0f))), (float)(0.100000001f))), (0.0f), (-0.00100000005f), /*hidden argument*/NULL);
-		NullCheck(L_26);
-		Transform_set_localPosition_m2A2B0033EF079077FAE7C65196078EAF5D041AFC(L_26, L_28, /*hidden argument*/NULL);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_27 = __this->get_playerHealth_11();
+		NullCheck(L_27);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_28;
+		L_28 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_27, /*hidden argument*/NULL);
+		float L_29 = V_1;
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_30;
+		memset((&L_30), 0, sizeof(L_30));
+		Vector3__ctor_m57495F692C6CE1CEF278CAD9A98221165D37E636_inline((&L_30), ((float)il2cpp_codegen_subtract((float)((float)((float)L_29/(float)(2.0f))), (float)(0.100000001f))), (0.0f), (-0.00100000005f), /*hidden argument*/NULL);
+		NullCheck(L_28);
+		Transform_set_localPosition_m2A2B0033EF079077FAE7C65196078EAF5D041AFC(L_28, L_30, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -37502,14 +37510,14 @@ IL_002c:
 		L_8 = WWW_get_texture_mC23FF88883698F3E6F7BED2733A2DB3B18F788E4(L_7, /*hidden argument*/NULL);
 		NullCheck(L_8);
 		int32_t L_9;
-		L_9 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_8);
+		L_9 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_8);
 		WWW_tCC46D6E5A368D4A83A3D6FAFF00B19700C5373E2 * L_10 = __this->get_www_2();
 		NullCheck(L_10);
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_11;
 		L_11 = WWW_get_texture_mC23FF88883698F3E6F7BED2733A2DB3B18F788E4(L_10, /*hidden argument*/NULL);
 		NullCheck(L_11);
 		int32_t L_12;
-		L_12 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_11);
+		L_12 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_11);
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_13 = (Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF *)il2cpp_codegen_object_new(Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF_il2cpp_TypeInfo_var);
 		Texture2D__ctor_mF138386223A07CBD4CE94672757E39D0EF718092(L_13, L_9, L_12, ((int32_t)10), (bool)0, /*hidden argument*/NULL);
 		V_1 = L_13;
@@ -37522,11 +37530,11 @@ IL_002c:
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_16 = V_1;
 		NullCheck(L_16);
 		int32_t L_17;
-		L_17 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_16);
+		L_17 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_16);
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_18 = V_1;
 		NullCheck(L_18);
 		int32_t L_19;
-		L_19 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_18);
+		L_19 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_18);
 		Rect__ctor_m12075526A02B55B680716A34AD5287B223122B70((Rect_t7D9187DB6339DBA5741C09B6CCEF2F54F1966878 *)(&V_2), (0.0f), (0.0f), ((float)((float)L_17)), ((float)((float)L_19)), /*hidden argument*/NULL);
 		// Sprite spriteToUse = Sprite.Create(texture, rec, new Vector2(0.5f, 0.5f), 100);
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_20 = V_1;
