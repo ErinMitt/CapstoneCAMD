@@ -17704,10 +17704,12 @@ public:
 	float ___BasePixelScale_4;
 	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset::AnchorTransform
 	Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * ___AnchorTransform_5;
+	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset::Scale
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___Scale_6;
 	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset::Offset
-	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___Offset_6;
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___Offset_7;
 	// System.Boolean Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset::OnlyInEditMode
-	bool ___OnlyInEditMode_7;
+	bool ___OnlyInEditMode_8;
 
 public:
 	inline static int32_t get_offset_of_BasePixelScale_4() { return static_cast<int32_t>(offsetof(ButtonSizeOffset_tB5B8068259D51B1A8F8C4633402891185C9B8153, ___BasePixelScale_4)); }
@@ -17727,20 +17729,28 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___AnchorTransform_5), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_Offset_6() { return static_cast<int32_t>(offsetof(ButtonSizeOffset_tB5B8068259D51B1A8F8C4633402891185C9B8153, ___Offset_6)); }
-	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_Offset_6() const { return ___Offset_6; }
-	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_Offset_6() { return &___Offset_6; }
-	inline void set_Offset_6(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
+	inline static int32_t get_offset_of_Scale_6() { return static_cast<int32_t>(offsetof(ButtonSizeOffset_tB5B8068259D51B1A8F8C4633402891185C9B8153, ___Scale_6)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_Scale_6() const { return ___Scale_6; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_Scale_6() { return &___Scale_6; }
+	inline void set_Scale_6(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
 	{
-		___Offset_6 = value;
+		___Scale_6 = value;
 	}
 
-	inline static int32_t get_offset_of_OnlyInEditMode_7() { return static_cast<int32_t>(offsetof(ButtonSizeOffset_tB5B8068259D51B1A8F8C4633402891185C9B8153, ___OnlyInEditMode_7)); }
-	inline bool get_OnlyInEditMode_7() const { return ___OnlyInEditMode_7; }
-	inline bool* get_address_of_OnlyInEditMode_7() { return &___OnlyInEditMode_7; }
-	inline void set_OnlyInEditMode_7(bool value)
+	inline static int32_t get_offset_of_Offset_7() { return static_cast<int32_t>(offsetof(ButtonSizeOffset_tB5B8068259D51B1A8F8C4633402891185C9B8153, ___Offset_7)); }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  get_Offset_7() const { return ___Offset_7; }
+	inline Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * get_address_of_Offset_7() { return &___Offset_7; }
+	inline void set_Offset_7(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  value)
 	{
-		___OnlyInEditMode_7 = value;
+		___Offset_7 = value;
+	}
+
+	inline static int32_t get_offset_of_OnlyInEditMode_8() { return static_cast<int32_t>(offsetof(ButtonSizeOffset_tB5B8068259D51B1A8F8C4633402891185C9B8153, ___OnlyInEditMode_8)); }
+	inline bool get_OnlyInEditMode_8() const { return ___OnlyInEditMode_8; }
+	inline bool* get_address_of_OnlyInEditMode_8() { return &___OnlyInEditMode_8; }
+	inline void set_OnlyInEditMode_8(bool value)
+	{
+		___OnlyInEditMode_8 = value;
 	}
 };
 
@@ -28178,6 +28188,8 @@ inline void Dictionary_2__ctor_mBBF36701EFA0270EA9E653A818DA663C6240AE52 (Dictio
 }
 // System.Void Microsoft.MixedReality.Toolkit.UI.ButtonSize::UpdateSize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonSize_UpdateSize_m085A2D504D41853C35F62EC4EB06D9910C64369C (ButtonSize_tC30276C5FFCA3A3B2152D380510ABC85A8396B0D * __this, const RuntimeMethod* method);
+// System.Void Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset::UpdateSize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonSizeOffset_UpdateSize_mAE19DC13F1526368560B62382833BA47E41228AC (ButtonSizeOffset_tB5B8068259D51B1A8F8C4633402891185C9B8153 * __this, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.Experimental.CameraSystem.CameraSystemManager::InitializeManager()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraSystemManager_InitializeManager_mB7668AF493F58B22003EAEA3E55ADE3A5D0CD760 (CameraSystemManager_tCE45616BC9C46C25FD873B3668CE2326C66DCBE5 * __this, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.Experimental.CameraSystem.CameraSystemManager::UninitializeManager()
@@ -39629,6 +39641,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonSize__ctor_m91928401374A06FDCC46E0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset::UpdateSize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonSizeOffset_UpdateSize_mAE19DC13F1526368560B62382833BA47E41228AC (ButtonSizeOffset_tB5B8068259D51B1A8F8C4633402891185C9B8153 * __this, const RuntimeMethod* method)
+{
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// Vector3 scale = Vector3.Scale(AnchorTransform.localScale, Scale) + Offset / BasePixelScale;
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_0 = __this->get_AnchorTransform_5();
+		NullCheck(L_0);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_1;
+		L_1 = Transform_get_localScale_mD9DF6CA81108C2A6002B5EA2BE25A6CD2723D046(L_0, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_2 = __this->get_Scale_6();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_3;
+		L_3 = Vector3_Scale_m8805EE8D2586DE7B6143FA35819B3D5CF1981FB3_inline(L_1, L_2, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_4 = __this->get_Offset_7();
+		float L_5 = __this->get_BasePixelScale_4();
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_6;
+		L_6 = Vector3_op_Division_mE5ACBFB168FED529587457A83BA98B7DB32E2A05_inline(L_4, L_5, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_7;
+		L_7 = Vector3_op_Addition_mEE4F672B923CCB184C39AABCA33443DB218E50E0_inline(L_3, L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		// transform.localScale = scale;
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_8;
+		L_8 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(__this, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_9 = V_0;
+		NullCheck(L_8);
+		Transform_set_localScale_mF4D1611E48D1BA7566A1E166DC2DACF3ADD8BA3A(L_8, L_9, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
 // System.Void Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset::Update()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonSizeOffset_Update_m7647B1AA8EA8EF39E802C8FBA03F826B9E4E47CD (ButtonSizeOffset_tB5B8068259D51B1A8F8C4633402891185C9B8153 * __this, const RuntimeMethod* method)
 {
@@ -39646,7 +39689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonSizeOffset_Update_m7647B1AA8EA8EF3
 		L_1 = Object_op_Inequality_mE1F187520BD83FB7D86A6D850710C4D42B864E90(L_0, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
 		if (!L_1)
 		{
-			goto IL_0023;
+			goto IL_002a;
 		}
 	}
 	{
@@ -39659,10 +39702,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonSizeOffset_Update_m7647B1AA8EA8EF3
 		}
 	}
 	{
-		bool L_3 = __this->get_OnlyInEditMode_7();
+		bool L_3 = __this->get_OnlyInEditMode_8();
 		if (!L_3)
 		{
-			goto IL_0023;
+			goto IL_0024;
 		}
 	}
 
@@ -39670,9 +39713,19 @@ IL_001d:
 	{
 		bool L_4;
 		L_4 = Application_get_isPlaying_m7BB718D8E58B807184491F64AFF0649517E56567(/*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_002a;
+		}
 	}
 
-IL_0023:
+IL_0024:
+	{
+		// UpdateSize();
+		ButtonSizeOffset_UpdateSize_mAE19DC13F1526368560B62382833BA47E41228AC(__this, /*hidden argument*/NULL);
+	}
+
+IL_002a:
 	{
 		// }
 		return;
@@ -39684,6 +39737,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonSizeOffset__ctor_m9D53993145AB9163
 	{
 		// public float BasePixelScale = 2048;
 		__this->set_BasePixelScale_4((2048.0f));
+		// public Vector3 Scale = Vector3.one;
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_0;
+		L_0 = Vector3_get_one_m9CDE5C456038B133ED94402673859EC37B1C1CCB(/*hidden argument*/NULL);
+		__this->set_Scale_6(L_0);
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
 	}

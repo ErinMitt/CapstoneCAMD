@@ -268,6 +268,8 @@ struct List_1_tDA25459A722F5B00FFE84463D9952660BC3F6673;
 struct List_1_t9E127897AEC2B39D662240E51C3924EC17C19AE8;
 // System.Collections.Generic.List`1<UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionConfig>
 struct List_1_tA396D5F0B3AA6DDDC4343F281F3F8104D80FD408;
+// System.Collections.Generic.List`1<UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionMapConfig>
+struct List_1_t32E30A0BD9E9BE5A271C9428B22B7DD0E0D28BA2;
 // System.Collections.Generic.List`1<UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/DeviceConfig>
 struct List_1_t053AC621F4C2B8D2BDBBFCEBECB02D0B1C6A6745;
 // Microsoft.MixedReality.OpenXR.OpenXRFeaturePlugin`1<Microsoft.MixedReality.OpenXR.Remoting.AppRemotingPlugin>
@@ -720,6 +722,7 @@ IL2CPP_EXTERN_C RuntimeClass* OpenXRFeaturePlugin_1_t71039D948983B82CFA2CA08AB4A
 IL2CPP_EXTERN_C RuntimeClass* OpenXRFeaturePlugin_1_t77DAA4AC0865DAD379A111935794C75DDA0A0F97_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* OpenXRFeaturePlugin_1_tA749FB07EA853CD04C2C20CD0C7E9B0CB6F52A58_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* OpenXRFeaturePlugin_1_tCAFCABB88764D3D66CC0EFE0621CC54B3000CDE8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OpenXRInteractionFeature_tB46A8FFE6491A26AF834EA1B1E0172BA33F2EA43_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* OpenXRSettings_t7E7706E7597849CCD2747A21E6E6EECB038F225C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* OpenXRViewConfigurationSettings_t1C3B7C8E38259D84C993229B70D1AF2347F53834_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var;
@@ -13705,16 +13708,24 @@ public:
 struct OpenXRInteractionFeature_tB46A8FFE6491A26AF834EA1B1E0172BA33F2EA43  : public OpenXRFeature_tBDE19E44A01E5E54925EAF67574691F11E88CDAA
 {
 public:
-	// System.Boolean UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature::m_AllowAddActionMap
-	bool ___m_AllowAddActionMap_15;
 
 public:
-	inline static int32_t get_offset_of_m_AllowAddActionMap_15() { return static_cast<int32_t>(offsetof(OpenXRInteractionFeature_tB46A8FFE6491A26AF834EA1B1E0172BA33F2EA43, ___m_AllowAddActionMap_15)); }
-	inline bool get_m_AllowAddActionMap_15() const { return ___m_AllowAddActionMap_15; }
-	inline bool* get_address_of_m_AllowAddActionMap_15() { return &___m_AllowAddActionMap_15; }
-	inline void set_m_AllowAddActionMap_15(bool value)
+};
+
+struct OpenXRInteractionFeature_tB46A8FFE6491A26AF834EA1B1E0172BA33F2EA43_StaticFields
+{
+public:
+	// System.Collections.Generic.List`1<UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionMapConfig> UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature::m_CreatedActionMaps
+	List_1_t32E30A0BD9E9BE5A271C9428B22B7DD0E0D28BA2 * ___m_CreatedActionMaps_15;
+
+public:
+	inline static int32_t get_offset_of_m_CreatedActionMaps_15() { return static_cast<int32_t>(offsetof(OpenXRInteractionFeature_tB46A8FFE6491A26AF834EA1B1E0172BA33F2EA43_StaticFields, ___m_CreatedActionMaps_15)); }
+	inline List_1_t32E30A0BD9E9BE5A271C9428B22B7DD0E0D28BA2 * get_m_CreatedActionMaps_15() const { return ___m_CreatedActionMaps_15; }
+	inline List_1_t32E30A0BD9E9BE5A271C9428B22B7DD0E0D28BA2 ** get_address_of_m_CreatedActionMaps_15() { return &___m_CreatedActionMaps_15; }
+	inline void set_m_CreatedActionMaps_15(List_1_t32E30A0BD9E9BE5A271C9428B22B7DD0E0D28BA2 * value)
 	{
-		___m_AllowAddActionMap_15 = value;
+		___m_CreatedActionMaps_15 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_CreatedActionMaps_15), (void*)value);
 	}
 };
 
@@ -20526,7 +20537,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HPMixedRealityControllerProfile_Register
 // System.Void Microsoft.MixedReality.OpenXR.HPMixedRealityControllerProfile::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HPMixedRealityControllerProfile__ctor_m6559486C949B336C877439E2E7D0AD7AF9F03607 (HPMixedRealityControllerProfile_t868ED836AA4D0B6CE8CD50EBC8B7C4645BFC4370 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OpenXRInteractionFeature_tB46A8FFE6491A26AF834EA1B1E0172BA33F2EA43_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(OpenXRInteractionFeature_tB46A8FFE6491A26AF834EA1B1E0172BA33F2EA43_il2cpp_TypeInfo_var);
 		OpenXRInteractionFeature__ctor_m86086DF1E92D3181AD930CE1D84CAA099829C9C1(__this, /*hidden argument*/NULL);
 		return;
 	}

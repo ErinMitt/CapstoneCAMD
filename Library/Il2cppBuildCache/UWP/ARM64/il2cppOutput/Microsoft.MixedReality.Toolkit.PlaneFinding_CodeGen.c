@@ -72,20 +72,20 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[5] =
 };
 static const int32_t s_InvokerIndices[14] = 
 {
-	6383,
-	7773,
-	7773,
-	7371,
-	7773,
-	7371,
-	6786,
-	7773,
-	5184,
-	5207,
-	5207,
-	5207,
-	4310,
-	5597,
+	6440,
+	7829,
+	7829,
+	7427,
+	7829,
+	7427,
+	6840,
+	7829,
+	5224,
+	5247,
+	5247,
+	5247,
+	4338,
+	5644,
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_PlaneFinding_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_PlaneFinding_CodeGenModule;

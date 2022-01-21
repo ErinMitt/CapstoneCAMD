@@ -296,15 +296,33 @@ public:
 };
 
 
-// UnityEngine.XR.OpenXR.Features.Mock.MockDriver/ScriptEvent
-struct ScriptEvent_tA81311951D5C2E7C1929F4B9D4BA3FF14C3C824F 
+// UnityEngine.XR.OpenXR.NativeTypes.XrResult
+struct XrResult_t49320B26C282219A0D054D88C92230D8DDC1B89E 
 {
 public:
-	// System.Int32 UnityEngine.XR.OpenXR.Features.Mock.MockDriver/ScriptEvent::value__
+	// System.Int32 UnityEngine.XR.OpenXR.NativeTypes.XrResult::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ScriptEvent_tA81311951D5C2E7C1929F4B9D4BA3FF14C3C824F, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(XrResult_t49320B26C282219A0D054D88C92230D8DDC1B89E, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEvent
+struct ScriptEvent_tD52B2D1398BCE888AEFC5A0A46FE25BE74DB5201 
+{
+public:
+	// System.Int32 UnityEngine.XR.OpenXR.Features.Mock.MockRuntime/ScriptEvent::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ScriptEvent_tD52B2D1398BCE888AEFC5A0A46FE25BE74DB5201, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -436,7 +454,9 @@ extern "C" void DEFAULT_CALL ReversePInvokeWrapper_EventProvider_EtwEnableCallBa
 extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_EventSource__invoke_m71874265067EDB834E74443057672268434BDAF9(intptr_t ___thisPtr0, intptr_t ___senderPtr1, intptr_t ___argsPtr2);
 extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_IAsyncOperation__OnCompleted_m9162AE1D5CD8B2E9AB25B2FBCA788284776404B0(intptr_t ___thisPtr0, intptr_t ___operationPtr1, int32_t ___status2);
 extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_IAsyncOperation__OnCompleted_m3C7ACDC2CB9AB362A08619425D622CE189D3869E(intptr_t ___thisPtr0, intptr_t ___operationPtr1, int32_t ___status2);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MockDriver_ReceiveScriptEvent_mB16599688141C2AE802A35DE7BBC274BF778161A(int32_t ___evt0, uint64_t ___param1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_AfterFunctionCallback_mAF8AAD83714DE1C2B13FF7FAE1CC275D15EB1001(char* ___function0, int32_t ___result1);
+extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_BeforeFunctionCallback_m5FDEF08149545E36EFDAE885A986A2A04151E5C9(char* ___function0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MockRuntime_ReceiveScriptEvent_m66F5CEF0D55D35B1E8447878C2B348426763571B(int32_t ___evt0, uint64_t ___param1);
 extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0(intptr_t ___arg0);
 extern "C" void CDECL ReversePInvokeWrapper_ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1(uint64_t ___cookie0, intptr_t ___args1);
 extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OpenXRLoaderBase_ReceiveNativeEvent_m1B22309DB57E9CBCEE079C233A221B002F3EB651(int32_t ___e0, uint64_t ___payload1);
@@ -445,7 +465,7 @@ extern "C" void DEFAULT_CALL ReversePInvokeWrapper_XRCpuImage_OnAsyncConversionC
 
 
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
-const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[23] = 
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[25] = 
 {
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_AnchorLocatedStaticHandler_m64E9E6D3AB036F0C861FE8ADCE0533E48FFA1B90),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CloudSpatialAnchorSession_ErrorStaticHandler_m6BB2FBBE0E72FE3F9FC434B8E95FE0A4851E8302),
@@ -464,7 +484,9 @@ const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[23] =
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_EventSource__invoke_m71874265067EDB834E74443057672268434BDAF9),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IAsyncOperation__OnCompleted_m9162AE1D5CD8B2E9AB25B2FBCA788284776404B0),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_IAsyncOperation__OnCompleted_m3C7ACDC2CB9AB362A08619425D622CE189D3869E),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockDriver_ReceiveScriptEvent_mB16599688141C2AE802A35DE7BBC274BF778161A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_AfterFunctionCallback_mAF8AAD83714DE1C2B13FF7FAE1CC275D15EB1001),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_BeforeFunctionCallback_m5FDEF08149545E36EFDAE885A986A2A04151E5C9),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_MockRuntime_ReceiveScriptEvent_m66F5CEF0D55D35B1E8447878C2B348426763571B),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_m0045E44F7E960D6B4A864D5206D4116249C09BB0),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ObjectInstance_ChangedStaticHandler_m1CE2D590919456EBD79555886BAD9E1358DFEEC1),
 	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OpenXRLoaderBase_ReceiveNativeEvent_m1B22309DB57E9CBCEE079C233A221B002F3EB651),

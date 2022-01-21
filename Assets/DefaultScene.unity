@@ -1596,6 +1596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasePixelScale: 2048
   AnchorTransform: {fileID: 220197833}
+  Scale: {x: 1, y: 1, z: 1}
   Offset: {x: 0, y: 0, z: 0}
   OnlyInEditMode: 0
 --- !u!23 &155973149
@@ -8150,6 +8151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasePixelScale: 2048
   AnchorTransform: {fileID: 279960978}
+  Scale: {x: 1, y: 1, z: 1}
   Offset: {x: 0, y: 0, z: 0}
   OnlyInEditMode: 0
 --- !u!23 &869137104
@@ -13276,7 +13278,7 @@ Transform:
   m_GameObject: {fileID: 1465106797}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.001}
-  m_LocalScale: {x: 0, y: 0.048828125, z: 0.0048828125}
+  m_LocalScale: {x: 0.20507812, y: 0.048828125, z: 0.0048828125}
   m_Children: []
   m_Father: {fileID: 64655244}
   m_RootOrder: 3
@@ -13295,6 +13297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasePixelScale: 2048
   AnchorTransform: {fileID: 1159857272}
+  Scale: {x: 1, y: 1, z: 1}
   Offset: {x: 0, y: 0, z: 0}
   OnlyInEditMode: 0
 --- !u!23 &1465106800
@@ -13755,6 +13758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasePixelScale: 2048
   AnchorTransform: {fileID: 1864256360}
+  Scale: {x: 1, y: 1, z: 1}
   Offset: {x: 0, y: 0, z: 0}
   OnlyInEditMode: 0
 --- !u!23 &1532326994
@@ -14429,6 +14433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasePixelScale: 2048
   AnchorTransform: {fileID: 916407395}
+  Scale: {x: 1, y: 1, z: 1}
   Offset: {x: 0, y: 0, z: 0}
   OnlyInEditMode: 0
 --- !u!23 &1635992040
@@ -16009,6 +16014,7 @@ GameObject:
   - component: {fileID: 1782756511}
   - component: {fileID: 1782756510}
   - component: {fileID: 1782756509}
+  - component: {fileID: 1782756514}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -16052,20 +16058,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1782756507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf98dd1206224111a38765365e98e207, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lockCursorWhenFocusLocked: 1
-  setCursorInvisibleWhenFocusLocked: 0
-  maxGazeCollisionDistance: 10
-  raycastLayerMasks:
-  - serializedVersion: 2
-    m_Bits: 4294967291
-  stabilizer:
-    storedStabilitySamples: 60
-  gazeTransform: {fileID: 0}
-  minHeadVelocityThreshold: 0.5
-  maxHeadVelocityThreshold: 2
+  m_Device: 0
+  m_PoseSource: 2
+  m_PoseProviderComponent: {fileID: 0}
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_UseRelativeTransform: 0
 --- !u!114 &1782756510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16151,6 +16152,29 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1782756514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782756507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf98dd1206224111a38765365e98e207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockCursorWhenFocusLocked: 1
+  setCursorInvisibleWhenFocusLocked: 0
+  maxGazeCollisionDistance: 10
+  raycastLayerMasks:
+  - serializedVersion: 2
+    m_Bits: 4294967291
+  stabilizer:
+    storedStabilitySamples: 60
+  gazeTransform: {fileID: 0}
+  minHeadVelocityThreshold: 0.5
+  maxHeadVelocityThreshold: 2
 --- !u!1 &1803527626
 GameObject:
   m_ObjectHideFlags: 0
@@ -16472,6 +16496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasePixelScale: 2048
   AnchorTransform: {fileID: 255171248}
+  Scale: {x: 1, y: 1, z: 1}
   Offset: {x: 0, y: 0, z: 0}
   OnlyInEditMode: 0
 --- !u!23 &1850487934
@@ -18445,6 +18470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BasePixelScale: 2048
   AnchorTransform: {fileID: 2117284238}
+  Scale: {x: 1, y: 1, z: 1}
   Offset: {x: 0, y: 0, z: 0}
   OnlyInEditMode: 0
 --- !u!23 &2015672509
@@ -18842,7 +18868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d9acc7968244a8886f3af591305bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeProfile: {fileID: 11400000, guid: 5e76c58829ea4bd4e9aec6e409943fa9, type: 2}
+  activeProfile: {fileID: 11400000, guid: 7e7c962b9eb9dfa44993d5b2f2576752, type: 2}
 --- !u!4 &2086969509
 Transform:
   m_ObjectHideFlags: 0

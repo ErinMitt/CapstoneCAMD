@@ -811,8 +811,6 @@ struct GetColorFromText_tB770B4A070F0125811D3599493D90B2EF5DA1A90;
 struct SetColorOnText_t6DD7515D152A44DDE7D748D2DE70E48695E5D7D3;
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 struct CullStateChangedEvent_t9B69755DEBEF041C3CC15C3604610BDD72856BD4;
-// Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter/<waiter>d__5
-struct U3CwaiterU3Ed__5_tB91A5E98F427F0E3DD4ADC21DC29B61DE0EF267A;
 // Microsoft.MixedReality.Toolkit.Input.PointerUtils/<GetPointers>d__7
 struct U3CGetPointersU3Ed__7_t2867C536BEDD7772AA0654FF8526D473C8321AC7;
 // Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2/<AnimateHighlightPlate>d__23
@@ -936,7 +934,6 @@ IL2CPP_EXTERN_C RuntimeClass* U3CResetAndDeterminePivotU3Ed__29_tBCCDBE11B9E9A30
 IL2CPP_EXTERN_C RuntimeClass* U3CRotateHintSequenceU3Ed__31_t8EFE992EA83F5750E462E969C98710C0BE4AC3E6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CTrackPositionSequenceU3Ed__30_t6D2E09C10309E00344C4E4EB64EBA7C0A0709476_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass8_0_t1517A164E7C610BA1AA704CD1DB222AC2B722C9F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CwaiterU3Ed__5_tB91A5E98F427F0E3DD4ADC21DC29B61DE0EF267A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t42BCBAE0E636B6EA2BE18B88C299A7B073019C4B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_tB4E066F51554C5D4E60119CFC660EBB9A261457E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityEvent_tA0EA9BC49FD7D5185E7A238EF2E0E6F5D0EE27F4_il2cpp_TypeInfo_var;
@@ -946,7 +943,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral06E5751C6A6A90B7BC972603A03098F763C5E600
 IL2CPP_EXTERN_C String_t* _stringLiteral0970CF2FD3560786B3DFD69BC3EE83E1A9521103;
 IL2CPP_EXTERN_C String_t* _stringLiteral14E7B4A35C5F1403184555930FA59B4749B56154;
 IL2CPP_EXTERN_C String_t* _stringLiteral19B7D722FFCBB1EBCC95DE76FB16F022050F3CC8;
-IL2CPP_EXTERN_C String_t* _stringLiteral1EE9957DAFD1E3CCAC15EA484274C0FAE8C5C5DE;
 IL2CPP_EXTERN_C String_t* _stringLiteral20678878421568C9CC690EDF70F1740E16083831;
 IL2CPP_EXTERN_C String_t* _stringLiteral2119D59F11FE2104B40FCFCDBB8C966011E0A3A5;
 IL2CPP_EXTERN_C String_t* _stringLiteral2248A678BB12406B44BE0B11E05428031CCF781F;
@@ -963,10 +959,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteral56C458E70EAB1A0A7C9501F5E5F8DA9EA76239CA
 IL2CPP_EXTERN_C String_t* _stringLiteral5A862B5C4D4368A2191C39E0A8918F3BC781AEAD;
 IL2CPP_EXTERN_C String_t* _stringLiteral5B3DE3C40CC2F25EB5A671323E95D3B2581F9874;
 IL2CPP_EXTERN_C String_t* _stringLiteral5CC8FF73B9F0FABD8FF462912602D6E81D00CAF9;
-IL2CPP_EXTERN_C String_t* _stringLiteral5D5C85873D3968D5F4B98FD2426C9D201BA83ED9;
 IL2CPP_EXTERN_C String_t* _stringLiteral5EA155C05EF7FFE1F33A90F8110A257996F16802;
 IL2CPP_EXTERN_C String_t* _stringLiteral61BB37ACBA68C62A7C38D03470D85FF9F7BDC734;
-IL2CPP_EXTERN_C String_t* _stringLiteral667A6D03D3F25FF1CD074CEE58A5C8EC5CBD08AA;
 IL2CPP_EXTERN_C String_t* _stringLiteral6BD22A6B5A9F8E1CB71A9770B5952D1875952E12;
 IL2CPP_EXTERN_C String_t* _stringLiteral81787CD547C2FCF399C7DD37B1A6E0178D08CC65;
 IL2CPP_EXTERN_C String_t* _stringLiteral8716F37D078E6DADF068183647E0D53D44B26BF7;
@@ -975,7 +969,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral8B1839410E40118D9B371F30642E876755335853
 IL2CPP_EXTERN_C String_t* _stringLiteral8BE2901DE1829B8111BF1F754DAE0D6273F3CF2D;
 IL2CPP_EXTERN_C String_t* _stringLiteral8C07105DF9E43FFDFD38E3C9639F3FF7B63DB189;
 IL2CPP_EXTERN_C String_t* _stringLiteral8DC340B2F0C8B60A3921ACE98F087FF50C14EF7A;
-IL2CPP_EXTERN_C String_t* _stringLiteral8EA8B20EDD69893CF1CEBDDBAF0C6049C9F2D64E;
 IL2CPP_EXTERN_C String_t* _stringLiteral94762F7301B6960D466EB0921B9C242FAADE65ED;
 IL2CPP_EXTERN_C String_t* _stringLiteral94F959FA44A6F233489BB7CFD109C9933D03C86B;
 IL2CPP_EXTERN_C String_t* _stringLiteral9B2E147FED9E8A8ED0E4F7E84ABEF52F1E9E5222;
@@ -984,8 +977,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA2DF5C0CBC300BBD4DE86CAD037D689B970E1753
 IL2CPP_EXTERN_C String_t* _stringLiteralA39DA86475AB7776B7D4E0D042A44D8F61F7D4F9;
 IL2CPP_EXTERN_C String_t* _stringLiteralAADDC93DC7865FE26AC43D595E1DBF250854D507;
 IL2CPP_EXTERN_C String_t* _stringLiteralB78A509B4143D3D9D738069A0BA66589CBB1BB73;
-IL2CPP_EXTERN_C String_t* _stringLiteralEFD7DA3C40216F9F2BDF80E678D3758A64C055AA;
-IL2CPP_EXTERN_C String_t* _stringLiteralF306F86BEC897EB5148B36EA8FC2EF0247F62623;
 IL2CPP_EXTERN_C String_t* _stringLiteralFB2B0B16C48C277D3D47A255003E6AD8C5AF71C8;
 IL2CPP_EXTERN_C String_t* _stringLiteralFB67F3D8B43F0FBD96CE5B37A99C007F8EF46DF8;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_m2A8E2330DA2682497439CB6DF3F48585BFFDF7E8_RuntimeMethod_var;
@@ -3381,35 +3372,6 @@ struct YieldInstruction_tB0B4E05316710E51ECCC1E57174C27FE6DEBBEAF_marshaled_pinv
 struct YieldInstruction_tB0B4E05316710E51ECCC1E57174C27FE6DEBBEAF_marshaled_com
 {
 };
-
-// Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter/<waiter>d__5
-struct U3CwaiterU3Ed__5_tB91A5E98F427F0E3DD4ADC21DC29B61DE0EF267A  : public RuntimeObject
-{
-public:
-	// System.Int32 Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter/<waiter>d__5::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter/<waiter>d__5::<>2__current
-	RuntimeObject * ___U3CU3E2__current_1;
-
-public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CwaiterU3Ed__5_tB91A5E98F427F0E3DD4ADC21DC29B61DE0EF267A, ___U3CU3E1__state_0)); }
-	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
-	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
-	inline void set_U3CU3E1__state_0(int32_t value)
-	{
-		___U3CU3E1__state_0 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CwaiterU3Ed__5_tB91A5E98F427F0E3DD4ADC21DC29B61DE0EF267A, ___U3CU3E2__current_1)); }
-	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
-	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
-	inline void set_U3CU3E2__current_1(RuntimeObject * value)
-	{
-		___U3CU3E2__current_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
-	}
-};
-
 
 // Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2/<AnimateHighlightPlate>d__23
 struct U3CAnimateHighlightPlateU3Ed__23_t480FFAC4534104815A3240C98CD213CE60520C2C  : public RuntimeObject
@@ -15323,49 +15285,27 @@ public:
 struct PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::open
-	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___open_4;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::open2
-	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___open2_5;
 	// Microsoft.MixedReality.Toolkit.UI.Interactable Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::routingTarget
-	Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * ___routingTarget_6;
+	Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * ___routingTarget_4;
 	// Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter/PhysicalPressEventBehavior Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::InteractableOnClick
-	int32_t ___InteractableOnClick_7;
+	int32_t ___InteractableOnClick_5;
 
 public:
-	inline static int32_t get_offset_of_open_4() { return static_cast<int32_t>(offsetof(PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1, ___open_4)); }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_open_4() const { return ___open_4; }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_open_4() { return &___open_4; }
-	inline void set_open_4(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	inline static int32_t get_offset_of_routingTarget_4() { return static_cast<int32_t>(offsetof(PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1, ___routingTarget_4)); }
+	inline Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * get_routingTarget_4() const { return ___routingTarget_4; }
+	inline Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 ** get_address_of_routingTarget_4() { return &___routingTarget_4; }
+	inline void set_routingTarget_4(Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * value)
 	{
-		___open_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___open_4), (void*)value);
+		___routingTarget_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___routingTarget_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_open2_5() { return static_cast<int32_t>(offsetof(PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1, ___open2_5)); }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_open2_5() const { return ___open2_5; }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_open2_5() { return &___open2_5; }
-	inline void set_open2_5(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	inline static int32_t get_offset_of_InteractableOnClick_5() { return static_cast<int32_t>(offsetof(PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1, ___InteractableOnClick_5)); }
+	inline int32_t get_InteractableOnClick_5() const { return ___InteractableOnClick_5; }
+	inline int32_t* get_address_of_InteractableOnClick_5() { return &___InteractableOnClick_5; }
+	inline void set_InteractableOnClick_5(int32_t value)
 	{
-		___open2_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___open2_5), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_routingTarget_6() { return static_cast<int32_t>(offsetof(PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1, ___routingTarget_6)); }
-	inline Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * get_routingTarget_6() const { return ___routingTarget_6; }
-	inline Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 ** get_address_of_routingTarget_6() { return &___routingTarget_6; }
-	inline void set_routingTarget_6(Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * value)
-	{
-		___routingTarget_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___routingTarget_6), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_InteractableOnClick_7() { return static_cast<int32_t>(offsetof(PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1, ___InteractableOnClick_7)); }
-	inline int32_t get_InteractableOnClick_7() const { return ___InteractableOnClick_7; }
-	inline int32_t* get_address_of_InteractableOnClick_7() { return &___InteractableOnClick_7; }
-	inline void set_InteractableOnClick_7(int32_t value)
-	{
-		___InteractableOnClick_7 = value;
+		___InteractableOnClick_5 = value;
 	}
 };
 
@@ -24216,14 +24156,6 @@ inline void UnityEvent_1_Invoke_m41AB623D2FD8847A0D43D806B0822A41D1F71E57 (Unity
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent__ctor_m98D9C5A59898546B23A45388CFACA25F52A9E5A6 (UnityEvent_tA0EA9BC49FD7D5185E7A238EF2E0E6F5D0EE27F4 * __this, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.UI.BoundsControl.HandlesBaseConfiguration::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandlesBaseConfiguration__ctor_m917B191ACD77B9634EE98EAC660B203ABF51D851 (HandlesBaseConfiguration_t39419FE618BFA2D5B36D10248331FA8D4164753B * __this, const RuntimeMethod* method);
-// UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * GameObject_Find_m20157C941F1A9DA0E33E0ACA1324FAA41C2B199B (String_t* ___name0, const RuntimeMethod* method);
-// System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::waiter()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PhysicalPressEventRouter_waiter_m46DE89CBAB1DC1B69CBC3DF039C5B3F22AAE249A (PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1 * __this, const RuntimeMethod* method);
-// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719 (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * __this, RuntimeObject* ___routine0, const RuntimeMethod* method);
-// System.Void Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter/<waiter>d__5::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CwaiterU3Ed__5__ctor_m4980361EA0FCAC034901EC7F6E9F0687187F8825 (U3CwaiterU3Ed__5_tB91A5E98F427F0E3DD4ADC21DC29B61DE0EF267A * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mEE9EC7EB5C7DC3E95B94AB904E1986FC4D566D54 (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___x0, Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___y1, const RuntimeMethod* method);
 // !!0 UnityEngine.Component::GetComponent<Microsoft.MixedReality.Toolkit.UI.Interactable>()
@@ -24231,24 +24163,8 @@ inline Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * Component_GetCom
 {
 	return ((  Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * (*) (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 *, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m69D9C576D6DD024C709E29EEADBC8041299A3AA7_gshared)(__this, method);
 }
-// System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8 (RuntimeObject * ___message0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mE1F187520BD83FB7D86A6D850710C4D42B864E90 (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___x0, Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___y1, const RuntimeMethod* method);
-// System.Void UnityEngine.GameObject::set_active(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_set_active_mC5C02354788BC2EDF19359EEAE7396BE350C2BFA (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, bool ___value0, const RuntimeMethod* method);
-// UnityEngine.Transform UnityEngine.Component::get_transform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method);
-// UnityEngine.Transform UnityEngine.Transform::get_parent()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * Transform_get_parent_m7D06005D9CB55F90F39D42F6A2AF9C7BC80745C9 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, const RuntimeMethod* method);
-// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method);
-// System.String UnityEngine.Object::get_name()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_m0C7BC870ED2F0DC5A2FB09628136CD7D1CB82CFB (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * __this, const RuntimeMethod* method);
-// System.Boolean System.String::op_Equality(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method);
-// System.Void Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::QuestionFailed(UnityEngine.GameObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_QuestionFailed_m38C8B346070155A4060728200EE3EDA708F2B879 (PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1 * __this, GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___inactive0, const RuntimeMethod* method);
 // System.Boolean Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::CanRouteInput()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhysicalPressEventRouter_CanRouteInput_m09BB9AFD9481D52C711FD6B99B6D331FF64D52DD (PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1 * __this, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::TriggerOnClick(System.Boolean)
@@ -24293,6 +24209,8 @@ inline int32_t Nullable_1_get_Value_m722346C6219E4B4C0A58454AD158D7584FCEC07A (N
 {
 	return ((  int32_t (*) (Nullable_1_t1CD48BCBDE32ED844D48D86603627DE84F6BAA17 *, const RuntimeMethod*))Nullable_1_get_Value_m77372528F6C4C9FDB4E3E861D107E867B4AF04C2_gshared)(__this, method);
 }
+// UnityEngine.Transform UnityEngine.Component::get_transform()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method);
 // UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.UI.PinchSlider::GetSliderAxis()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  PinchSlider_GetSliderAxis_mD0B163B89567472802A59D071D9F0517224538B8 (PinchSlider_tD113C536FB74015464EB422E6E363E0DCB07E825 * __this, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
@@ -24309,6 +24227,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  PinchSlider_get_SliderStartPosition_mD80F4748BE42129A0BA716E6D342068C2E883D31 (PinchSlider_tD113C536FB74015464EB422E6E363E0DCB07E825 * __this, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Vector3_op_Subtraction_m2725C96965D5C0B1F9715797E51762B13A5FED58_inline (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___a0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___b1, const RuntimeMethod* method);
+// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method);
+// System.String UnityEngine.Object::get_name()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_m0C7BC870ED2F0DC5A2FB09628136CD7D1CB82CFB (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * __this, const RuntimeMethod* method);
 // System.String System.String::Concat(System.String,System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method);
 // System.Void System.Exception::.ctor(System.String)
@@ -24644,6 +24566,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isPlaying_m7BB718D8E58B807184491F64AFF0649517E56567 (const RuntimeMethod* method);
 // UnityEngine.Transform Microsoft.MixedReality.Toolkit.UI.PressableButton::get_PushSpaceSourceTransform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * PressableButton_get_PushSpaceSourceTransform_m479BE78CC4E943970D146760CB6011B10CFBA051 (PressableButton_t72E0E9537996F63C4DCF36EE1E3C08ED59CD903F * __this, const RuntimeMethod* method);
+// UnityEngine.Transform UnityEngine.Transform::get_parent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * Transform_get_parent_m7D06005D9CB55F90F39D42F6A2AF9C7BC80745C9 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Transform::TransformVector(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Transform_TransformVector_m7C5F87858E82A686A233D1866443ACAEA296AA2B (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___vector0, const RuntimeMethod* method);
 // UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.UI.PressableButton::get_PushSpaceSourceParentPosition()
@@ -24664,6 +24588,8 @@ inline void List_1_Clear_m6C7B2A898BABD952EC1C0BFF68DE7A0B503EAE04 (List_1_t18C9
 }
 // System.Boolean Microsoft.MixedReality.Toolkit.UI.PressableButton::get_IsTouching()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PressableButton_get_IsTouching_m6E5A4D89DCE3555C4F69D65996AEFFCBCD5A9ECC_inline (PressableButton_t72E0E9537996F63C4DCF36EE1E3C08ED59CD903F * __this, const RuntimeMethod* method);
+// System.Void Microsoft.MixedReality.Toolkit.UI.PressableButton::UpdateTouch()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressableButton_UpdateTouch_mB61458F45283883923A82A5C35DAE12EB2164EF2 (PressableButton_t72E0E9537996F63C4DCF36EE1E3C08ED59CD903F * __this, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.UI.PressableButton::RetractButton()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressableButton_RetractButton_m01C24F68B34F6F124EA3A85B8F37303E0AE486DE (PressableButton_t72E0E9537996F63C4DCF36EE1E3C08ED59CD903F * __this, const RuntimeMethod* method);
 // System.Single Microsoft.MixedReality.Toolkit.UI.PressableButton::GetFarthestDistanceAlongPressDirection()
@@ -24742,8 +24668,6 @@ inline void Dictionary_2_set_Item_m8A75EAF2091C326418D6407803B135E2BFCB0B23 (Dic
 {
 	((  void (*) (Dictionary_2_tFB19AD637A1859A4B53CC7833DFF3EBCA3EDB5C3 *, RuntimeObject*, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E , const RuntimeMethod*))Dictionary_2_set_Item_mD54DD91FBB4FE1346722CBF9660471FDE6D34EDE_gshared)(__this, ___key0, ___value1, method);
 }
-// System.Void Microsoft.MixedReality.Toolkit.UI.PressableButton::UpdateTouch()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressableButton_UpdateTouch_mB61458F45283883923A82A5C35DAE12EB2164EF2 (PressableButton_t72E0E9537996F63C4DCF36EE1E3C08ED59CD903F * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.Toolkit.Input.IMixedRealityController,UnityEngine.Vector3>::Remove(!0)
 inline bool Dictionary_2_Remove_m2ECD278F715A70FB6248639EA83E713A0AB0B8A6 (Dictionary_2_tFB19AD637A1859A4B53CC7833DFF3EBCA3EDB5C3 * __this, RuntimeObject* ___key0, const RuntimeMethod* method)
 {
@@ -24827,6 +24751,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mF4D1611E48D1BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_m5FF0476C9886FD8A3E6BA82BBE34B896CA279413 (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * __this, Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * ___routine0, const RuntimeMethod* method);
 // System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2::AnimateHighlightPlate(System.Boolean,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PressableButtonHoloLens2_AnimateHighlightPlate_m10C213C4EAC18E91D1CA8030AE59CDBE1DF687C0 (PressableButtonHoloLens2_tD62301BBA35822786085AD29A6F641BC3943EC89 * __this, bool ___fadeIn0, float ___time1, const RuntimeMethod* method);
+// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719 (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * __this, RuntimeObject* ___routine0, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2/<AnimateHighlightPlate>d__23::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateHighlightPlateU3Ed__23__ctor_mAC9C395210965F73314A8FD535954260CCAD3E70 (U3CAnimateHighlightPlateU3Ed__23_t480FFAC4534104815A3240C98CD213CE60520C2C * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
 // System.Void UnityEngine.Renderer::GetPropertyBlock(UnityEngine.MaterialPropertyBlock)
@@ -25669,6 +25595,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Material_t8927C00353A72755313F046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualUtils_ApplyMaterialToAllRenderers_m9AA50625FCBF9F35BF23B8741415F66A9B6F225C (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___root0, Material_t8927C00353A72755313F046D0CE85178AE8218EE * ___material1, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.UI.BoundsControl.HandlesBase::ResetHandles()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandlesBase_ResetHandles_m8ACA18A2D77F2CB0CE59B22501FAB11C8D2C41D4 (HandlesBase_tC85E6CD73A285ADE2515E542D70CA93E30B3B4D2 * __this, const RuntimeMethod* method);
+// System.Boolean System.String::op_Equality(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method);
 // System.Boolean Microsoft.MixedReality.Toolkit.UI.BoundsControl.ScaleHandlesConfiguration::get_ShowScaleHandles()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ScaleHandlesConfiguration_get_ShowScaleHandles_mCC3B8AA168EFE0CAC85C548139DB34F5666D3300_inline (ScaleHandlesConfiguration_tAD1E1B5549DA9B04A6C6F2F34502C32445E5382E * __this, const RuntimeMethod* method);
 // System.Boolean Microsoft.MixedReality.Toolkit.UI.BoundsControl.HandlesBase::get_IsActive()
@@ -26385,51 +26313,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerAxisHandlesConfiguration__ctor_m53905
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::QuestionFailed(UnityEngine.GameObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_QuestionFailed_m38C8B346070155A4060728200EE3EDA708F2B879 (PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1 * __this, GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___inactive0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1EE9957DAFD1E3CCAC15EA484274C0FAE8C5C5DE);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GameObject LocationsScreen= GameObject.Find("Locations Screen");
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0;
-		L_0 = GameObject_Find_m20157C941F1A9DA0E33E0ACA1324FAA41C2B199B(_stringLiteral1EE9957DAFD1E3CCAC15EA484274C0FAE8C5C5DE, /*hidden argument*/NULL);
-		// StartCoroutine(waiter());
-		RuntimeObject* L_1;
-		L_1 = PhysicalPressEventRouter_waiter_m46DE89CBAB1DC1B69CBC3DF039C5B3F22AAE249A(__this, /*hidden argument*/NULL);
-		Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * L_2;
-		L_2 = MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719(__this, L_1, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_Start_mD42275189276787B4088D8D49C58C10CA56B73C5 (PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1 * __this, const RuntimeMethod* method)
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::waiter()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PhysicalPressEventRouter_waiter_m46DE89CBAB1DC1B69CBC3DF039C5B3F22AAE249A (PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CwaiterU3Ed__5_tB91A5E98F427F0E3DD4ADC21DC29B61DE0EF267A_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		U3CwaiterU3Ed__5_tB91A5E98F427F0E3DD4ADC21DC29B61DE0EF267A * L_0 = (U3CwaiterU3Ed__5_tB91A5E98F427F0E3DD4ADC21DC29B61DE0EF267A *)il2cpp_codegen_object_new(U3CwaiterU3Ed__5_tB91A5E98F427F0E3DD4ADC21DC29B61DE0EF267A_il2cpp_TypeInfo_var);
-		U3CwaiterU3Ed__5__ctor_m4980361EA0FCAC034901EC7F6E9F0687187F8825(L_0, 0, /*hidden argument*/NULL);
-		return L_0;
-	}
-}
 // System.Void Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::Awake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_Awake_m48F0C50BA77B434CB08757A7C9149BE5B68CC366 (PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1 * __this, const RuntimeMethod* method)
 {
@@ -26437,14 +26320,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_Awake_m48F0C50B
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisInteractable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2_m433DB11F5648E56D9BE7413AE3D0E1A7EFF1CD91_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEFD7DA3C40216F9F2BDF80E678D3758A64C055AA);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		// if (routingTarget == null)
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_0 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_0 = __this->get_routingTarget_4();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mEE9EC7EB5C7DC3E95B94AB904E1986FC4D566D54(L_0, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
@@ -26457,14 +26338,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_Awake_m48F0C50B
 		// routingTarget = GetComponent<Interactable>();
 		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_2;
 		L_2 = Component_GetComponent_TisInteractable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2_m433DB11F5648E56D9BE7413AE3D0E1A7EFF1CD91(__this, /*hidden argument*/Component_GetComponent_TisInteractable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2_m433DB11F5648E56D9BE7413AE3D0E1A7EFF1CD91_RuntimeMethod_var);
-		__this->set_routingTarget_6(L_2);
+		__this->set_routingTarget_4(L_2);
 	}
 
 IL_001a:
 	{
-		// Debug.Log("logs work");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteralEFD7DA3C40216F9F2BDF80E678D3758A64C055AA, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -26480,7 +26358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhysicalPressEventRouter_CanRouteInput_m
 	}
 	{
 		// return routingTarget != null && routingTarget.IsEnabled;
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_0 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_0 = __this->get_routingTarget_4();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mE1F187520BD83FB7D86A6D850710C4D42B864E90(L_0, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
@@ -26490,7 +26368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PhysicalPressEventRouter_CanRouteInput_m
 		}
 	}
 	{
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_2 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_2 = __this->get_routingTarget_4();
 		NullCheck(L_2);
 		bool L_3;
 		L_3 = VirtFuncInvoker0< bool >::Invoke(17 /* System.Boolean Microsoft.MixedReality.Toolkit.UI.Interactable::get_IsEnabled() */, L_2);
@@ -26505,101 +26383,44 @@ IL_001a:
 // System.Void Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::OnHandPressTouched()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_OnHandPressTouched_mA2387F72E01D6D18D6042D490A41E1ADCE6C87A1 (PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5D5C85873D3968D5F4B98FD2426C9D201BA83ED9);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral667A6D03D3F25FF1CD074CEE58A5C8EC5CBD08AA);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// open.active = true;
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = __this->get_open_4();
-		NullCheck(L_0);
-		GameObject_set_active_mC5C02354788BC2EDF19359EEAE7396BE350C2BFA(L_0, (bool)1, /*hidden argument*/NULL);
-		// transform.parent.gameObject.active = false;
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_1;
-		L_1 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(__this, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_2;
-		L_2 = Transform_get_parent_m7D06005D9CB55F90F39D42F6A2AF9C7BC80745C9(L_1, /*hidden argument*/NULL);
-		NullCheck(L_2);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_3;
-		L_3 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_2, /*hidden argument*/NULL);
-		NullCheck(L_3);
-		GameObject_set_active_mC5C02354788BC2EDF19359EEAE7396BE350C2BFA(L_3, (bool)0, /*hidden argument*/NULL);
-		// open2.active = true;
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_4 = __this->get_open2_5();
-		NullCheck(L_4);
-		GameObject_set_active_mC5C02354788BC2EDF19359EEAE7396BE350C2BFA(L_4, (bool)1, /*hidden argument*/NULL);
-		// if(open.name == "Wrong")
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_5 = __this->get_open_4();
-		NullCheck(L_5);
-		String_t* L_6;
-		L_6 = Object_get_name_m0C7BC870ED2F0DC5A2FB09628136CD7D1CB82CFB(L_5, /*hidden argument*/NULL);
-		bool L_7;
-		L_7 = String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB(L_6, _stringLiteral667A6D03D3F25FF1CD074CEE58A5C8EC5CBD08AA, /*hidden argument*/NULL);
-		if (!L_7)
-		{
-			goto IL_005b;
-		}
-	}
-	{
-		// QuestionFailed(transform.parent.gameObject);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_8;
-		L_8 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(__this, /*hidden argument*/NULL);
-		NullCheck(L_8);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_9;
-		L_9 = Transform_get_parent_m7D06005D9CB55F90F39D42F6A2AF9C7BC80745C9(L_8, /*hidden argument*/NULL);
-		NullCheck(L_9);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_10;
-		L_10 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_9, /*hidden argument*/NULL);
-		PhysicalPressEventRouter_QuestionFailed_m38C8B346070155A4060728200EE3EDA708F2B879(__this, L_10, /*hidden argument*/NULL);
-	}
-
-IL_005b:
 	{
 		// if (CanRouteInput())
-		bool L_11;
-		L_11 = PhysicalPressEventRouter_CanRouteInput_m09BB9AFD9481D52C711FD6B99B6D331FF64D52DD(__this, /*hidden argument*/NULL);
-		if (!L_11)
+		bool L_0;
+		L_0 = PhysicalPressEventRouter_CanRouteInput_m09BB9AFD9481D52C711FD6B99B6D331FF64D52DD(__this, /*hidden argument*/NULL);
+		if (!L_0)
 		{
-			goto IL_009c;
+			goto IL_0041;
 		}
 	}
 	{
 		// routingTarget.HasPhysicalTouch = true;
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_12 = __this->get_routingTarget_6();
-		NullCheck(L_12);
-		VirtActionInvoker1< bool >::Invoke(44 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPhysicalTouch(System.Boolean) */, L_12, (bool)1);
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_1 = __this->get_routingTarget_4();
+		NullCheck(L_1);
+		VirtActionInvoker1< bool >::Invoke(44 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPhysicalTouch(System.Boolean) */, L_1, (bool)1);
 		// if (InteractableOnClick == PhysicalPressEventBehavior.EventOnTouch)
-		int32_t L_13 = __this->get_InteractableOnClick_7();
-		if ((!(((uint32_t)L_13) == ((uint32_t)2))))
+		int32_t L_2 = __this->get_InteractableOnClick_5();
+		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
 		{
-			goto IL_009c;
+			goto IL_0041;
 		}
 	}
 	{
 		// routingTarget.HasPress = true;
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_14 = __this->get_routingTarget_6();
-		NullCheck(L_14);
-		VirtActionInvoker1< bool >::Invoke(22 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPress(System.Boolean) */, L_14, (bool)1);
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_3 = __this->get_routingTarget_4();
+		NullCheck(L_3);
+		VirtActionInvoker1< bool >::Invoke(22 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPress(System.Boolean) */, L_3, (bool)1);
 		// routingTarget.TriggerOnClick();
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_15 = __this->get_routingTarget_6();
-		NullCheck(L_15);
-		Interactable_TriggerOnClick_m27C797B5074B0DC597EFB8BA13544303D0238195(L_15, (bool)0, /*hidden argument*/NULL);
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_4 = __this->get_routingTarget_4();
+		NullCheck(L_4);
+		Interactable_TriggerOnClick_m27C797B5074B0DC597EFB8BA13544303D0238195(L_4, (bool)0, /*hidden argument*/NULL);
 		// routingTarget.HasPress = false;
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_16 = __this->get_routingTarget_6();
-		NullCheck(L_16);
-		VirtActionInvoker1< bool >::Invoke(22 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPress(System.Boolean) */, L_16, (bool)0);
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_5 = __this->get_routingTarget_4();
+		NullCheck(L_5);
+		VirtActionInvoker1< bool >::Invoke(22 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPress(System.Boolean) */, L_5, (bool)0);
 	}
 
-IL_009c:
+IL_0041:
 	{
-		// UnityEngine.Debug.Log("exited");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral5D5C85873D3968D5F4B98FD2426C9D201BA83ED9, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -26607,45 +26428,35 @@ IL_009c:
 // System.Void Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter::OnHandPressUntouched()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_OnHandPressUntouched_m6D2052585D5FEC07289531B324A63D052813E0C7 (PhysicalPressEventRouter_t83B5B061B71A0CFB8538C099E40E0DB9F05079D1 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8EA8B20EDD69893CF1CEBDDBAF0C6049C9F2D64E);
-		s_Il2CppMethodInitialized = true;
-	}
 	{
 		// if (CanRouteInput())
 		bool L_0;
 		L_0 = PhysicalPressEventRouter_CanRouteInput_m09BB9AFD9481D52C711FD6B99B6D331FF64D52DD(__this, /*hidden argument*/NULL);
 		if (!L_0)
 		{
-			goto IL_0033;
+			goto IL_0029;
 		}
 	}
 	{
 		// routingTarget.HasPhysicalTouch = false;
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_1 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_1 = __this->get_routingTarget_4();
 		NullCheck(L_1);
 		VirtActionInvoker1< bool >::Invoke(44 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPhysicalTouch(System.Boolean) */, L_1, (bool)0);
 		// if (InteractableOnClick == PhysicalPressEventBehavior.EventOnTouch)
-		int32_t L_2 = __this->get_InteractableOnClick_7();
+		int32_t L_2 = __this->get_InteractableOnClick_5();
 		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
 		{
-			goto IL_0033;
+			goto IL_0029;
 		}
 	}
 	{
 		// routingTarget.HasPress = true;
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_3 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_3 = __this->get_routingTarget_4();
 		NullCheck(L_3);
 		VirtActionInvoker1< bool >::Invoke(22 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPress(System.Boolean) */, L_3, (bool)1);
-		// UnityEngine.Debug.Log("Button Pressed");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral8EA8B20EDD69893CF1CEBDDBAF0C6049C9F2D64E, /*hidden argument*/NULL);
 	}
 
-IL_0033:
+IL_0029:
 	{
 		// }
 		return;
@@ -26665,15 +26476,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_OnHandPressTrig
 	}
 	{
 		// routingTarget.HasPhysicalTouch = true;
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_1 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_1 = __this->get_routingTarget_4();
 		NullCheck(L_1);
 		VirtActionInvoker1< bool >::Invoke(44 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPhysicalTouch(System.Boolean) */, L_1, (bool)1);
 		// routingTarget.HasPress = true;
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_2 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_2 = __this->get_routingTarget_4();
 		NullCheck(L_2);
 		VirtActionInvoker1< bool >::Invoke(22 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPress(System.Boolean) */, L_2, (bool)1);
 		// if (InteractableOnClick == PhysicalPressEventBehavior.EventOnPress)
-		int32_t L_3 = __this->get_InteractableOnClick_7();
+		int32_t L_3 = __this->get_InteractableOnClick_5();
 		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
 		{
 			goto IL_0035;
@@ -26681,7 +26492,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_OnHandPressTrig
 	}
 	{
 		// routingTarget.TriggerOnClick();
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_4 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_4 = __this->get_routingTarget_4();
 		NullCheck(L_4);
 		Interactable_TriggerOnClick_m27C797B5074B0DC597EFB8BA13544303D0238195(L_4, (bool)0, /*hidden argument*/NULL);
 	}
@@ -26706,15 +26517,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_OnHandPressComp
 	}
 	{
 		// routingTarget.HasPhysicalTouch = true;
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_1 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_1 = __this->get_routingTarget_4();
 		NullCheck(L_1);
 		VirtActionInvoker1< bool >::Invoke(44 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPhysicalTouch(System.Boolean) */, L_1, (bool)1);
 		// routingTarget.HasPress = true;
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_2 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_2 = __this->get_routingTarget_4();
 		NullCheck(L_2);
 		VirtActionInvoker1< bool >::Invoke(22 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPress(System.Boolean) */, L_2, (bool)1);
 		// if (InteractableOnClick == PhysicalPressEventBehavior.EventOnClickCompletion)
-		int32_t L_3 = __this->get_InteractableOnClick_7();
+		int32_t L_3 = __this->get_InteractableOnClick_5();
 		if (L_3)
 		{
 			goto IL_0034;
@@ -26722,7 +26533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_OnHandPressComp
 	}
 	{
 		// routingTarget.TriggerOnClick();
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_4 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_4 = __this->get_routingTarget_4();
 		NullCheck(L_4);
 		Interactable_TriggerOnClick_m27C797B5074B0DC597EFB8BA13544303D0238195(L_4, (bool)0, /*hidden argument*/NULL);
 	}
@@ -26730,11 +26541,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicalPressEventRouter_OnHandPressComp
 IL_0034:
 	{
 		// routingTarget.HasPress = false;
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_5 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_5 = __this->get_routingTarget_4();
 		NullCheck(L_5);
 		VirtActionInvoker1< bool >::Invoke(22 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPress(System.Boolean) */, L_5, (bool)0);
 		// routingTarget.HasPhysicalTouch = false;
-		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_6 = __this->get_routingTarget_6();
+		Interactable_tA1E638AA4938DBD6D4E2CCC082762389FC37F6E2 * L_6 = __this->get_routingTarget_4();
 		NullCheck(L_6);
 		VirtActionInvoker1< bool >::Invoke(44 /* System.Void Microsoft.MixedReality.Toolkit.UI.Interactable::set_HasPhysicalTouch(System.Boolean) */, L_6, (bool)0);
 	}
@@ -32750,38 +32561,30 @@ IL_0030:
 // System.Void Microsoft.MixedReality.Toolkit.UI.PressableButton::Update()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressableButton_Update_m9C55C1A43584F71BCC603C83BB3E817C29796FAF (PressableButton_t72E0E9537996F63C4DCF36EE1E3C08ED59CD903F * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF306F86BEC897EB5148B36EA8FC2EF0247F62623);
-		s_Il2CppMethodInitialized = true;
-	}
 	{
 		// if (IsTouching)
 		bool L_0;
 		L_0 = PressableButton_get_IsTouching_m6E5A4D89DCE3555C4F69D65996AEFFCBCD5A9ECC_inline(__this, /*hidden argument*/NULL);
 		if (!L_0)
 		{
-			goto IL_0013;
+			goto IL_000f;
 		}
 	}
 	{
-		// Debug.Log("button pressed");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteralF306F86BEC897EB5148B36EA8FC2EF0247F62623, /*hidden argument*/NULL);
+		// UpdateTouch();
+		PressableButton_UpdateTouch_mB61458F45283883923A82A5C35DAE12EB2164EF2(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
 
-IL_0013:
+IL_000f:
 	{
 		// else if (currentPushDistance > startPushDistance)
 		float L_1 = __this->get_currentPushDistance_22();
 		float L_2 = __this->get_startPushDistance_8();
 		if ((!(((float)L_1) > ((float)L_2))))
 		{
-			goto IL_0027;
+			goto IL_0023;
 		}
 	}
 	{
@@ -32789,7 +32592,7 @@ IL_0013:
 		PressableButton_RetractButton_m01C24F68B34F6F124EA3A85B8F37303E0AE486DE(__this, /*hidden argument*/NULL);
 	}
 
-IL_0027:
+IL_0023:
 	{
 		// }
 		return;

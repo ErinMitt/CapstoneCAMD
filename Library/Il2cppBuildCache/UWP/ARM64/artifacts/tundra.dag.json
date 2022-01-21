@@ -19,7 +19,7 @@
     },
     {
       "Annotation": "Il2Cpp C:/Users/Student/Documents/GitHub/Cap/Library/Il2cppBuildCache/UWP/ARM64/il2cppOutput/Data/Metadata/global-metadata.dat",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.17f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --incremental-g-c-time-slice=3 --baselib-directory=\"Temp\\StagingArea\\Il2CppOutputProject\\IL2CPP\\build\\baselib\\ARM64\\Release\" --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed --generatedcppdir=C:/Users/Student/Documents/GitHub/Cap/Library/Il2cppBuildCache/UWP/ARM64/il2cppOutput",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.26f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --incremental-g-c-time-slice=3 --baselib-directory=\"Temp\\StagingArea\\Il2CppOutputProject\\IL2CPP\\build\\baselib\\ARM64\\Release\" --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed --generatedcppdir=C:/Users/Student/Documents/GitHub/Cap/Library/Il2cppBuildCache/UWP/ARM64/il2cppOutput --stats-output-dir=C:/Users/Student/Documents/GitHub/Cap/Library/Il2cppBuildCache/UWP/ARM64/il2cppStats",
       "Inputs": [
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
@@ -94,7 +94,6 @@
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.XR.Oculus.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
-        "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.MockDriver.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
@@ -134,7 +133,7 @@
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
-        "\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
+        "\"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
       ],
       "Outputs": [
         "C:/Users/Student/Documents/GitHub/Cap/Library/Il2cppBuildCache/UWP/ARM64/il2cppOutput/Data/Metadata/global-metadata.dat"
