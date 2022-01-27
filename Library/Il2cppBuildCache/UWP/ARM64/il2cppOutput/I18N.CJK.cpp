@@ -8325,7 +8325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CodeTable_Dispose_m5E9943D7B65098A690757
 	{
 		Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_1 = __this->get_stream_0();
 		NullCheck(L_1);
-		VirtActionInvoker0::Invoke(13 /* System.Void System.IO.Stream::Close() */, L_1);
+		VirtActionInvoker0::Invoke(16 /* System.Void System.IO.Stream::Close() */, L_1);
 		__this->set_stream_0((Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB *)NULL);
 	}
 
@@ -8382,7 +8382,7 @@ IL_0022:
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_7 = V_2;
 		NullCheck(L_6);
 		int32_t L_8;
-		L_8 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(23 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, 0, 8);
+		L_8 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(27 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, 0, 8);
 		if ((!(((uint32_t)L_8) == ((uint32_t)8))))
 		{
 			goto IL_009c;
@@ -8437,7 +8437,7 @@ IL_0022:
 		int32_t L_38 = V_3;
 		NullCheck(L_36);
 		int32_t L_39;
-		L_39 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(23 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_36, L_37, 0, L_38);
+		L_39 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(27 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_36, L_37, 0, L_38);
 		int32_t L_40 = V_3;
 		if ((!(((uint32_t)L_39) == ((uint32_t)L_40))))
 		{
@@ -10815,7 +10815,7 @@ IL_03bb:
 			Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * L_80 = V_4;
 			NullCheck(L_80);
 			int32_t L_81;
-			L_81 = VirtFuncInvoker0< int32_t >::Invoke(24 /* System.Int32 System.IO.Stream::ReadByte() */, L_80);
+			L_81 = VirtFuncInvoker0< int32_t >::Invoke(28 /* System.Int32 System.IO.Stream::ReadByte() */, L_80);
 			*((int8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_78, (int32_t)L_79))) = (int8_t)((int32_t)((uint8_t)L_81));
 			int32_t L_82 = V_7;
 			V_7 = ((int32_t)il2cpp_codegen_add((int32_t)L_82, (int32_t)1));

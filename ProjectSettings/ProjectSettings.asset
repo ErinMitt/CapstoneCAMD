@@ -8,7 +8,7 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -160,7 +160,6 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: -4735955850148279991, guid: 94c0df01e526c734f9b39113c1fad65c, type: 2}
   - {fileID: -5199651493828815361, guid: 59e4d8426c0b7be4f86f887dad0fc879, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0

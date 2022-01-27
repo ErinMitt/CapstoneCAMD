@@ -33972,7 +33972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractableEvent_set_ReceiverType_m9500
 		L_2 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(117 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
 		if (L_3)
 		{
 			goto IL_002d;
@@ -42027,7 +42027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InteractableThemeBase_tA879A8ED588C33AE629AE2
 		L_2 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(117 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
 		if (L_3)
 		{
 			goto IL_002e;

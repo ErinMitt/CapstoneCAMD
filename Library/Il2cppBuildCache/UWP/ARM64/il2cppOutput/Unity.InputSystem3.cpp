@@ -30389,7 +30389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tBDAEDED25425A1D09910468B8BD175911564
 		L_0 = il2cpp_codegen_get_executing_assembly(InputSystem_get_version_m28552F4764AFB62B7D8681A92797F85EDB90D1CE_RuntimeMethod_var);
 		NullCheck(L_0);
 		AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * L_1;
-		L_1 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(19 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_0);
+		L_1 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(20 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_0);
 		NullCheck(L_1);
 		Version_tBDAEDED25425A1D09910468B8BD1759115646E3C * L_2;
 		L_2 = AssemblyName_get_Version_m1E5978822709B7B59BEB504A8BC567823766497D_inline(L_1, /*hidden argument*/NULL);

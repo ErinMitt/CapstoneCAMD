@@ -30195,7 +30195,7 @@ IL_000e:
 		L_5 = NamedValue_get_name_m842BF3A86522D0888519DA27A1CAC90ED20B73DC_inline((NamedValue_t0779F5798D434A96A43265D15168F9B9F4E5D489 *)__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		FieldInfo_t * L_6;
-		L_6 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(43 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_4, L_5, ((int32_t)53));
+		L_6 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(44 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_4, L_5, ((int32_t)53));
 		V_1 = L_6;
 		// if (field == null)
 		FieldInfo_t * L_7 = V_1;
@@ -46203,7 +46203,7 @@ IL_0139:
 		L_56 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_55, /*hidden argument*/NULL);
 		NullCheck(L_56);
 		Type_t * L_57;
-		L_57 = VirtFuncInvoker0< Type_t * >::Invoke(109 /* System.Type System.Type::GetEnumUnderlyingType() */, L_56);
+		L_57 = VirtFuncInvoker0< Type_t * >::Invoke(113 /* System.Type System.Type::GetEnumUnderlyingType() */, L_56);
 		// var underlyingTypeCode = Type.GetTypeCode(underlyingType);
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		int32_t L_58;

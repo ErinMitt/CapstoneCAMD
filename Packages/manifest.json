@@ -1,5 +1,6 @@
 {
-  "dependencies": {
+    "dependencies": {
+    "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.3.2.tgz",
     "com.microsoft.altspacevr_uploader": "file:MixedReality/com.microsoft.altspacevr_uploader-2.2.16.tgz",
     "com.microsoft.azure.object-anchors.runtime": "file:MixedReality/com.microsoft.azure.object-anchors.runtime-0.15.0.tgz",
     "com.microsoft.azure.remote-rendering": "file:MixedReality/com.microsoft.azure.remote-rendering-1.0.25.tgz",

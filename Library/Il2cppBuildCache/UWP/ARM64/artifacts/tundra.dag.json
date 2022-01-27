@@ -77,6 +77,7 @@
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/System.Runtime.Handles.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/System.Runtime.InteropServices.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/System.Runtime.Serialization.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/System.Runtime.Serialization.Xml.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/System.Runtime.WindowsRuntime.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/System.Runtime.WindowsRuntime.UI.Xaml.dll",
@@ -85,6 +86,9 @@
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/System.Xml.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/System.Xml.XPath.XDocument.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.InputSystem.dll",
+        "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.Mathematics.dll",
+        "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.RemoteRendering.dll",
+        "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
@@ -133,6 +137,9 @@
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
         "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Vuforia.Unity.Engine.dll",
+        "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/Vuforia.Unity.Wrapper.dll",
+        "C:/Users/Student/Documents/GitHub/Cap/Temp/StagingArea/Data/Managed/VuforiaScripts.dll",
         "\"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
       ],
       "Outputs": [

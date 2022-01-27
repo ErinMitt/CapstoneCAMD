@@ -33038,33 +33038,33 @@ IL_0040:
 		int32_t L_12;
 		L_12 = FourCC_op_Implicit_m2683C67F7A0FD488EDD80223C85270E6A46D7705_inline(L_11, /*hidden argument*/NULL);
 		NullCheck(L_10);
-		VirtActionInvoker1< int32_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_10, L_12);
+		VirtActionInvoker1< int32_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_10, L_12);
 		// writer.Write(kFileVersion);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_13 = V_0;
 		int32_t L_14 = ((InputEventTrace_t905233FE94AEA5F3A748CF627D1766D827D593A9_StaticFields*)il2cpp_codegen_static_fields_for(InputEventTrace_t905233FE94AEA5F3A748CF627D1766D827D593A9_il2cpp_TypeInfo_var))->get_kFileVersion_17();
 		NullCheck(L_13);
-		VirtActionInvoker1< int32_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_13, L_14);
+		VirtActionInvoker1< int32_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_13, L_14);
 		// writer.Write((int)flags);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_15 = V_0;
 		int32_t L_16 = V_1;
 		NullCheck(L_15);
-		VirtActionInvoker1< int32_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_15, L_16);
+		VirtActionInvoker1< int32_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_15, L_16);
 		// writer.Write((int)Application.platform);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_17 = V_0;
 		int32_t L_18;
 		L_18 = Application_get_platform_mB22F7F39CDD46667C3EF64507E55BB7DA18F66C4(/*hidden argument*/NULL);
 		NullCheck(L_17);
-		VirtActionInvoker1< int32_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_17, L_18);
+		VirtActionInvoker1< int32_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_17, L_18);
 		// writer.Write((ulong)m_EventCount);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_19 = V_0;
 		int64_t L_20 = __this->get_m_EventCount_9();
 		NullCheck(L_19);
-		VirtActionInvoker1< uint64_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.UInt64) */, L_19, L_20);
+		VirtActionInvoker1< uint64_t >::Invoke(20 /* System.Void System.IO.BinaryWriter::Write(System.UInt64) */, L_19, L_20);
 		// writer.Write((ulong)m_EventSizeInBytes);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_21 = V_0;
 		int64_t L_22 = __this->get_m_EventSizeInBytes_10();
 		NullCheck(L_21);
-		VirtActionInvoker1< uint64_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.UInt64) */, L_21, L_22);
+		VirtActionInvoker1< uint64_t >::Invoke(20 /* System.Void System.IO.BinaryWriter::Write(System.UInt64) */, L_21, L_22);
 		// foreach (var eventPtr in this)
 		RuntimeObject* L_23;
 		L_23 = InputEventTrace_GetEnumerator_m5CAEC4674F38ADBCE1A2262187B486DE902441D0(__this, /*hidden argument*/NULL);
@@ -33145,7 +33145,7 @@ IL_00c8:
 				BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_36 = V_0;
 				ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_37 = V_8;
 				NullCheck(L_36);
-				VirtActionInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(9 /* System.Void System.IO.BinaryWriter::Write(System.Byte[]) */, L_36, L_37);
+				VirtActionInvoker1< ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* >::Invoke(10 /* System.Void System.IO.BinaryWriter::Write(System.Byte[]) */, L_36, L_37);
 				IL2CPP_LEAVE(0xE7, FINALLY_00e3);
 			}
 		} // end try (depth: 2)
@@ -33239,7 +33239,7 @@ IL_00fe:
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_47 = V_0;
 		int32_t L_48 = V_3;
 		NullCheck(L_47);
-		VirtActionInvoker1< int32_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_47, L_48);
+		VirtActionInvoker1< int32_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_47, L_48);
 		// for (var i = 0; i < deviceCount; ++i)
 		V_11 = 0;
 		goto IL_0187;
@@ -33258,14 +33258,14 @@ IL_0123:
 		int32_t L_53;
 		L_53 = DeviceInfo_get_deviceId_m8243FAC5A47490FB42D01933BC233F0DB9CDCE2E_inline((DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 *)L_52, /*hidden argument*/NULL);
 		NullCheck(L_51);
-		VirtActionInvoker1< int32_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_51, L_53);
+		VirtActionInvoker1< int32_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_51, L_53);
 		// writer.Write(device.layout);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_54 = V_0;
 		DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 * L_55 = V_12;
 		String_t* L_56;
 		L_56 = DeviceInfo_get_layout_mCC81E275C79CDF365D9F0E2CD2855EF17E00219B_inline((DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 *)L_55, /*hidden argument*/NULL);
 		NullCheck(L_54);
-		VirtActionInvoker1< String_t* >::Invoke(21 /* System.Void System.IO.BinaryWriter::Write(System.String) */, L_54, L_56);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.String) */, L_54, L_56);
 		// writer.Write(device.stateFormat);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_57 = V_0;
 		DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 * L_58 = V_12;
@@ -33274,14 +33274,14 @@ IL_0123:
 		int32_t L_60;
 		L_60 = FourCC_op_Implicit_m2683C67F7A0FD488EDD80223C85270E6A46D7705_inline(L_59, /*hidden argument*/NULL);
 		NullCheck(L_57);
-		VirtActionInvoker1< int32_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_57, L_60);
+		VirtActionInvoker1< int32_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_57, L_60);
 		// writer.Write(device.stateSizeInBytes);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_61 = V_0;
 		DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 * L_62 = V_12;
 		int32_t L_63;
 		L_63 = DeviceInfo_get_stateSizeInBytes_mB4B10645FE849422070498D5648B8AC1C8CB74BB_inline((DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 *)L_62, /*hidden argument*/NULL);
 		NullCheck(L_61);
-		VirtActionInvoker1< int32_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_61, L_63);
+		VirtActionInvoker1< int32_t >::Invoke(17 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_61, L_63);
 		// writer.Write(device.m_FullLayoutJson ?? string.Empty);
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_64 = V_0;
 		DeviceInfo_t3C8FD25677096DF7A05A60865F709456A08BB9D0 * L_65 = V_12;
@@ -33305,7 +33305,7 @@ IL_0123:
 IL_017c:
 	{
 		NullCheck(G_B23_1);
-		VirtActionInvoker1< String_t* >::Invoke(21 /* System.Void System.IO.BinaryWriter::Write(System.String) */, G_B23_1, G_B23_0);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.IO.BinaryWriter::Write(System.String) */, G_B23_1, G_B23_0);
 		// for (var i = 0; i < deviceCount; ++i)
 		int32_t L_69 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add((int32_t)L_69, (int32_t)1));
@@ -33337,7 +33337,7 @@ IL_0187:
 		BinaryWriter_t70074014C7FE27CD9F7500C3F02C4AB61D35554F * L_76 = V_0;
 		int64_t L_77 = V_4;
 		NullCheck(L_76);
-		VirtActionInvoker1< int64_t >::Invoke(18 /* System.Void System.IO.BinaryWriter::Write(System.Int64) */, L_76, L_77);
+		VirtActionInvoker1< int64_t >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Int64) */, L_76, L_77);
 		// }
 		return;
 	}
@@ -37550,7 +37550,7 @@ IL_0027:
 		Type_t * L_8 = ___type1;
 		NullCheck(L_7);
 		bool L_9;
-		L_9 = VirtFuncInvoker1< bool, Type_t * >::Invoke(115 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_7, L_8);
+		L_9 = VirtFuncInvoker1< bool, Type_t * >::Invoke(119 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_7, L_8);
 		V_0 = L_9;
 		// var isControlLayout = typeof(InputControl).IsAssignableFrom(type);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_10 = { reinterpret_cast<intptr_t> (InputControl_t3CDD1115017147EEC9D825834637D7700669C006_0_0_0_var) };
@@ -37559,7 +37559,7 @@ IL_0027:
 		Type_t * L_12 = ___type1;
 		NullCheck(L_11);
 		bool L_13;
-		L_13 = VirtFuncInvoker1< bool, Type_t * >::Invoke(115 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_11, L_12);
+		L_13 = VirtFuncInvoker1< bool, Type_t * >::Invoke(119 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_11, L_12);
 		V_1 = L_13;
 		// if (!isDeviceLayout && !isControlLayout)
 		bool L_14 = V_0;
@@ -39547,7 +39547,7 @@ IL_0014:
 		Type_t * L_5 = ___type0;
 		NullCheck(L_4);
 		bool L_6;
-		L_6 = VirtFuncInvoker1< bool, Type_t * >::Invoke(115 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_4, L_5);
+		L_6 = VirtFuncInvoker1< bool, Type_t * >::Invoke(119 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_4, L_5);
 		if (L_6)
 		{
 			goto IL_0046;
@@ -39697,7 +39697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InternedString_tD1138602E8B7EA0F5B4851812B13C
 		Type_t * L_17 = V_2;
 		NullCheck(L_16);
 		bool L_18;
-		L_18 = VirtFuncInvoker1< bool, Type_t * >::Invoke(115 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_16, L_17);
+		L_18 = VirtFuncInvoker1< bool, Type_t * >::Invoke(119 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_16, L_17);
 		if (!L_18)
 		{
 			goto IL_006a;
