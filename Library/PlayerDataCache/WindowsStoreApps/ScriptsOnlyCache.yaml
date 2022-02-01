@@ -20,8 +20,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.OpenXR.MotionControllerFeaturePlugin
     - Microsoft.MixedReality.OpenXR.Remoting.AppRemotingPlugin
     - Microsoft.MixedReality.OpenXR.Remoting.PlayModeRemotingPlugin
-    Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll:
-    - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector
     Microsoft.MixedReality.Toolkit.Editor.Utilities.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences
     Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll:
@@ -6569,4 +6567,4 @@ ScriptsOnlyBuild:
   platform: 21
   scenePathNames:
   - Assets/DefaultScene.unity
-  playerPath: C:/Users/Student/Desktop/hololensbuilds/012720221302
+  playerPath: C:/Users/Student/Desktop/hololensbuilds/020120221725

@@ -12,17 +12,19 @@ public class ObjectsAppear : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void TargetActive()
     {
-        Debug.Log(gameObject.transform.parent.position);
-        Debug.Log(gameObject.transform.parent.name);
-        if (gameObject.transform.parent.position != Vector3.zero && gameObject.transform.parent.name == "ImageTarget S(4)")
+       
+       // Debug.Log(gameObject.transform.parent.name);
+       /* if (gameObject.transform.parent.position != Vector3.zero && gameObject.name == "Cube")
         {
+            Debug.Log(gameObject.transform.parent.position);
             monster.SetActive(true);
         }
-        if (gameObject.transform.parent.position != Vector3.zero && gameObject.transform.parent.name == "ImageTarget (3)")
-        {
+        if (gameObject.transform.parent.position != Vector3.zero && gameObject.name == "Sphere")
+        {*/
+            
             monster.SetActive(true);
-        }
+      //  }
     }
 }
