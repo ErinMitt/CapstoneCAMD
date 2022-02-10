@@ -148,27 +148,35 @@ extern void WindowsMixedRealityEyeGazeDataProvider_Enable_mA08D81B5820FC29B56441
 extern void WindowsMixedRealityEyeGazeDataProvider_EnableIfLoaderBecomesActive_m2201CC2D62A83B0AA6A57FF0D8D635FC32210CCA (void);
 // 0x00000044 System.Boolean Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityEyeGazeDataProvider::CheckCapability(Microsoft.MixedReality.Toolkit.MixedRealityCapability)
 extern void WindowsMixedRealityEyeGazeDataProvider_CheckCapability_m4444E3459C9CE5C7EDF1B82F9FA4FFC98E06D497 (void);
-// 0x00000045 System.Boolean Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityEyeGazeDataProvider::<EnableIfLoaderBecomesActive>b__23_0()
+// 0x00000045 System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityEyeGazeDataProvider::Initialize()
+extern void WindowsMixedRealityEyeGazeDataProvider_Initialize_mB6F09F6669188D26D90E903F87D7634DFFF61BCD (void);
+// 0x00000046 System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityEyeGazeDataProvider::ReadProfile()
+extern void WindowsMixedRealityEyeGazeDataProvider_ReadProfile_m6EB490AF4B416B7BE86EDE76B479441F2013BF96 (void);
+// 0x00000047 System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityEyeGazeDataProvider::Update()
+extern void WindowsMixedRealityEyeGazeDataProvider_Update_m248B76EF6154C71D3D59F7FB508A2A095F284B2A (void);
+// 0x00000048 System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityEyeGazeDataProvider::.cctor()
+extern void WindowsMixedRealityEyeGazeDataProvider__cctor_mE3E0D4A17CF7B1065B46E742BCBBAFA077F77592 (void);
+// 0x00000049 System.Boolean Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityEyeGazeDataProvider::<EnableIfLoaderBecomesActive>b__23_0()
 extern void WindowsMixedRealityEyeGazeDataProvider_U3CEnableIfLoaderBecomesActiveU3Eb__23_0_mEFC8518F719FE038185B56E9270320F59C02B640 (void);
-// 0x00000046 System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityEyeGazeDataProvider/<EnableIfLoaderBecomesActive>d__23::MoveNext()
+// 0x0000004A System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityEyeGazeDataProvider/<EnableIfLoaderBecomesActive>d__23::MoveNext()
 extern void U3CEnableIfLoaderBecomesActiveU3Ed__23_MoveNext_m1ADED6452287A7D89BC049DAB238FAB01E58164D (void);
-// 0x00000047 System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityEyeGazeDataProvider/<EnableIfLoaderBecomesActive>d__23::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000004B System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealityEyeGazeDataProvider/<EnableIfLoaderBecomesActive>d__23::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CEnableIfLoaderBecomesActiveU3Ed__23_SetStateMachine_mA13C60564E35D16AE912EF0A32DFCAFA65C58B7A (void);
-// 0x00000048 System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealitySpatialMeshObserver::.ctor(Microsoft.MixedReality.Toolkit.SpatialAwareness.IMixedRealitySpatialAwarenessSystem,System.String,System.UInt32,Microsoft.MixedReality.Toolkit.BaseMixedRealityProfile)
+// 0x0000004C System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealitySpatialMeshObserver::.ctor(Microsoft.MixedReality.Toolkit.SpatialAwareness.IMixedRealitySpatialAwarenessSystem,System.String,System.UInt32,Microsoft.MixedReality.Toolkit.BaseMixedRealityProfile)
 extern void WindowsMixedRealitySpatialMeshObserver__ctor_m4B058AB9B8F725CF824069DB6867A6F28C1BB712 (void);
-// 0x00000049 System.Nullable`1<System.Boolean> Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealitySpatialMeshObserver::get_IsActiveLoader()
+// 0x0000004D System.Nullable`1<System.Boolean> Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealitySpatialMeshObserver::get_IsActiveLoader()
 extern void WindowsMixedRealitySpatialMeshObserver_get_IsActiveLoader_mCFB022295E70A5ACBBAF581A3DB6CCC63520D4D1 (void);
-// 0x0000004A System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealitySpatialMeshObserver::ConfigureObserverVolume()
+// 0x0000004E System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealitySpatialMeshObserver::ConfigureObserverVolume()
 extern void WindowsMixedRealitySpatialMeshObserver_ConfigureObserverVolume_m2619D1EB51974E52850BB5112ACEAA46D4270FFD (void);
-// 0x0000004B System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealitySpatialMeshObserver::.cctor()
+// 0x0000004F System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.WindowsMixedRealitySpatialMeshObserver::.cctor()
 extern void WindowsMixedRealitySpatialMeshObserver__cctor_m728F909888E9682D045A2AFD6053B3A84B5E3DDD (void);
-// 0x0000004C System.IntPtr Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.XRSDKWindowsMixedRealityUtilitiesProvider::Microsoft.MixedReality.Toolkit.WindowsMixedReality.IWindowsMixedRealityUtilitiesProvider.get_ISpatialCoordinateSystemPtr()
+// 0x00000050 System.IntPtr Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.XRSDKWindowsMixedRealityUtilitiesProvider::Microsoft.MixedReality.Toolkit.WindowsMixedReality.IWindowsMixedRealityUtilitiesProvider.get_ISpatialCoordinateSystemPtr()
 extern void XRSDKWindowsMixedRealityUtilitiesProvider_Microsoft_MixedReality_Toolkit_WindowsMixedReality_IWindowsMixedRealityUtilitiesProvider_get_ISpatialCoordinateSystemPtr_mC67EA03A6CE5A70CCC1EDE2B723142AF75480107 (void);
-// 0x0000004D System.IntPtr Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.XRSDKWindowsMixedRealityUtilitiesProvider::Microsoft.MixedReality.Toolkit.WindowsMixedReality.IWindowsMixedRealityUtilitiesProvider.get_IHolographicFramePtr()
+// 0x00000051 System.IntPtr Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.XRSDKWindowsMixedRealityUtilitiesProvider::Microsoft.MixedReality.Toolkit.WindowsMixedReality.IWindowsMixedRealityUtilitiesProvider.get_IHolographicFramePtr()
 extern void XRSDKWindowsMixedRealityUtilitiesProvider_Microsoft_MixedReality_Toolkit_WindowsMixedReality_IWindowsMixedRealityUtilitiesProvider_get_IHolographicFramePtr_m24BCC855BC795BD377683DE7610B3250DCF07B51 (void);
-// 0x0000004E System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.XRSDKWindowsMixedRealityUtilitiesProvider::.ctor()
+// 0x00000052 System.Void Microsoft.MixedReality.Toolkit.XRSDK.WindowsMixedReality.XRSDKWindowsMixedRealityUtilitiesProvider::.ctor()
 extern void XRSDKWindowsMixedRealityUtilitiesProvider__ctor_mA246DFC092AC524F4AB2B35C2B815849C6F26506 (void);
-static Il2CppMethodPointer s_methodPointers[78] = 
+static Il2CppMethodPointer s_methodPointers[82] = 
 {
 	BaseWindowsMixedRealityXRSDKSource__ctor_m71643C96B4386CA9FEDD51F63DFD640BA71099CC,
 	BaseWindowsMixedRealityXRSDKSource_UpdatePoseData_m1B40D8B57C3FC15E2B299C33E54BC23190A4C560,
@@ -238,6 +246,10 @@ static Il2CppMethodPointer s_methodPointers[78] =
 	WindowsMixedRealityEyeGazeDataProvider_Enable_mA08D81B5820FC29B564415E0B5E07783D37D2D1B,
 	WindowsMixedRealityEyeGazeDataProvider_EnableIfLoaderBecomesActive_m2201CC2D62A83B0AA6A57FF0D8D635FC32210CCA,
 	WindowsMixedRealityEyeGazeDataProvider_CheckCapability_m4444E3459C9CE5C7EDF1B82F9FA4FFC98E06D497,
+	WindowsMixedRealityEyeGazeDataProvider_Initialize_mB6F09F6669188D26D90E903F87D7634DFFF61BCD,
+	WindowsMixedRealityEyeGazeDataProvider_ReadProfile_m6EB490AF4B416B7BE86EDE76B479441F2013BF96,
+	WindowsMixedRealityEyeGazeDataProvider_Update_m248B76EF6154C71D3D59F7FB508A2A095F284B2A,
+	WindowsMixedRealityEyeGazeDataProvider__cctor_mE3E0D4A17CF7B1065B46E742BCBBAFA077F77592,
 	WindowsMixedRealityEyeGazeDataProvider_U3CEnableIfLoaderBecomesActiveU3Eb__23_0_mEFC8518F719FE038185B56E9270320F59C02B640,
 	U3CEnableIfLoaderBecomesActiveU3Ed__23_MoveNext_m1ADED6452287A7D89BC049DAB238FAB01E58164D,
 	U3CEnableIfLoaderBecomesActiveU3Ed__23_SetStateMachine_mA13C60564E35D16AE912EF0A32DFCAFA65C58B7A,
@@ -265,96 +277,100 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[8] =
 	{ 0x06000020, U3CEnableIfLoaderBecomesActiveU3Ed__4_SetStateMachine_m39165A0CE9018095220468F598384F789B8C8233_AdjustorThunk },
 	{ 0x06000032, U3CEnableIfLoaderBecomesActiveU3Ed__4_MoveNext_m49E93F37EC7694091C9A3DBE7CF3681EA837CE01_AdjustorThunk },
 	{ 0x06000033, U3CEnableIfLoaderBecomesActiveU3Ed__4_SetStateMachine_mFD21BF1716A484CE4328A772C486B9C31EB168D5_AdjustorThunk },
-	{ 0x06000046, U3CEnableIfLoaderBecomesActiveU3Ed__23_MoveNext_m1ADED6452287A7D89BC049DAB238FAB01E58164D_AdjustorThunk },
-	{ 0x06000047, U3CEnableIfLoaderBecomesActiveU3Ed__23_SetStateMachine_mA13C60564E35D16AE912EF0A32DFCAFA65C58B7A_AdjustorThunk },
+	{ 0x0600004A, U3CEnableIfLoaderBecomesActiveU3Ed__23_MoveNext_m1ADED6452287A7D89BC049DAB238FAB01E58164D_AdjustorThunk },
+	{ 0x0600004B, U3CEnableIfLoaderBecomesActiveU3Ed__23_SetStateMachine_mA13C60564E35D16AE912EF0A32DFCAFA65C58B7A_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[78] = 
+static const int32_t s_InvokerIndices[82] = 
 {
 	464,
-	3280,
-	10686,
-	1214,
-	5701,
-	10686,
-	1214,
-	2526,
-	7126,
-	5701,
-	5701,
-	2126,
-	10686,
-	1214,
-	1214,
+	3297,
+	10838,
+	1215,
+	5745,
+	10838,
+	1215,
+	2536,
+	7193,
+	5745,
+	5745,
+	2136,
+	10838,
+	1215,
+	1215,
 	464,
-	3280,
-	3280,
-	2568,
-	7200,
-	10686,
-	2568,
-	7200,
-	5751,
-	1270,
-	6784,
-	7200,
-	7200,
-	7126,
-	7126,
-	7200,
-	5751,
-	1270,
-	6784,
-	7200,
-	7200,
-	7200,
-	4938,
-	4402,
-	3292,
-	3292,
-	4028,
-	4065,
-	4022,
-	4405,
-	4028,
-	4022,
-	10686,
-	7126,
-	7200,
-	5751,
-	1270,
-	6784,
-	7126,
-	5810,
-	7055,
-	5751,
-	5751,
-	7200,
-	5751,
-	5751,
-	7200,
-	5751,
-	5751,
-	7200,
-	7200,
-	7200,
-	4938,
-	7126,
-	7200,
-	5751,
-	1270,
-	6784,
-	7200,
-	10686,
-	7004,
-	7004,
-	7200,
+	3297,
+	3297,
+	2578,
+	7267,
+	10838,
+	2578,
+	7267,
+	5795,
+	1271,
+	6849,
+	7267,
+	7267,
+	7193,
+	7193,
+	7267,
+	5795,
+	1271,
+	6849,
+	7267,
+	7267,
+	7267,
+	4970,
+	4426,
+	3309,
+	3309,
+	4047,
+	4084,
+	4041,
+	4429,
+	4047,
+	4041,
+	10838,
+	7193,
+	7267,
+	5795,
+	1271,
+	6849,
+	7193,
+	5854,
+	7122,
+	5795,
+	5795,
+	7267,
+	5795,
+	5795,
+	7267,
+	5795,
+	5795,
+	7267,
+	7267,
+	7267,
+	4970,
+	7267,
+	7267,
+	7267,
+	10838,
+	7193,
+	7267,
+	5795,
+	1271,
+	6849,
+	7267,
+	10838,
+	7071,
+	7071,
+	7267,
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Providers_XRSDK_WindowsMixedReality_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Providers_XRSDK_WindowsMixedReality_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Providers_XRSDK_WindowsMixedReality_CodeGenModule = 
 {
 	"Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll",
-	78,
+	82,
 	s_methodPointers,
 	8,
 	s_adjustorThunks,

@@ -120,6 +120,8 @@ struct Font_tB53D3F362CB1A0B92307B362826F212AE2D2A6A9;
 struct Glyph_tC58ED6BC718B82A55B7E1A3690A289FFA8EBEFD1;
 // Microsoft.MixedReality.OpenXR.IOpenXRContext
 struct IOpenXRContext_tE1EC26D95266FB6CAFB29CEFCCFA65EC9124350D;
+// UnityEngine.ISubsystemDescriptor
+struct ISubsystemDescriptor_tEB935323042076ECFC076435FBD756B1E7953A14;
 // TMPro.ITextPreprocessor
 struct ITextPreprocessor_t4D7C2C115C9A65FB6B24304700B1E9167410EB54;
 // TMPro.KerningTable
@@ -308,8 +310,18 @@ struct NOVTABLE IBindableVector_tC070A96258CD93818901E9B7808E1A8EFB64B7EC : Il2C
 struct Subsystem_t2D97454A946149D608974CB6B674F5F5C613A6A4  : public RuntimeObject
 {
 public:
+	// UnityEngine.ISubsystemDescriptor UnityEngine.Subsystem::m_SubsystemDescriptor
+	RuntimeObject* ___m_SubsystemDescriptor_0;
 
 public:
+	inline static int32_t get_offset_of_m_SubsystemDescriptor_0() { return static_cast<int32_t>(offsetof(Subsystem_t2D97454A946149D608974CB6B674F5F5C613A6A4, ___m_SubsystemDescriptor_0)); }
+	inline RuntimeObject* get_m_SubsystemDescriptor_0() const { return ___m_SubsystemDescriptor_0; }
+	inline RuntimeObject** get_address_of_m_SubsystemDescriptor_0() { return &___m_SubsystemDescriptor_0; }
+	inline void set_m_SubsystemDescriptor_0(RuntimeObject* value)
+	{
+		___m_SubsystemDescriptor_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_SubsystemDescriptor_0), (void*)value);
+	}
 };
 
 
@@ -338,6 +350,8 @@ struct SubsystemDescriptor_tF663011CB44AB1D342821BBEF7B6811E799A7245  : public R
 public:
 	// System.String UnityEngine.SubsystemDescriptor::<id>k__BackingField
 	String_t* ___U3CidU3Ek__BackingField_0;
+	// System.Type UnityEngine.SubsystemDescriptor::<subsystemImplementationType>k__BackingField
+	Type_t * ___U3CsubsystemImplementationTypeU3Ek__BackingField_1;
 
 public:
 	inline static int32_t get_offset_of_U3CidU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(SubsystemDescriptor_tF663011CB44AB1D342821BBEF7B6811E799A7245, ___U3CidU3Ek__BackingField_0)); }
@@ -347,6 +361,15 @@ public:
 	{
 		___U3CidU3Ek__BackingField_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CidU3Ek__BackingField_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CsubsystemImplementationTypeU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(SubsystemDescriptor_tF663011CB44AB1D342821BBEF7B6811E799A7245, ___U3CsubsystemImplementationTypeU3Ek__BackingField_1)); }
+	inline Type_t * get_U3CsubsystemImplementationTypeU3Ek__BackingField_1() const { return ___U3CsubsystemImplementationTypeU3Ek__BackingField_1; }
+	inline Type_t ** get_address_of_U3CsubsystemImplementationTypeU3Ek__BackingField_1() { return &___U3CsubsystemImplementationTypeU3Ek__BackingField_1; }
+	inline void set_U3CsubsystemImplementationTypeU3Ek__BackingField_1(Type_t * value)
+	{
+		___U3CsubsystemImplementationTypeU3Ek__BackingField_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CsubsystemImplementationTypeU3Ek__BackingField_1), (void*)value);
 	}
 };
 

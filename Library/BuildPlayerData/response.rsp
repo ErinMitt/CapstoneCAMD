@@ -67,6 +67,8 @@
 -a="C:\Users\Student\Documents\GitHub\Cap\Library\PlayerScriptAssemblies\Microsoft.MixedReality.WorldLocking.Core.dll"
 -a="C:\Users\Student\Documents\GitHub\Cap\Library\PlayerScriptAssemblies\Microsoft.ObjectAnchors.Runtime.Api.WSA.dll"
 -a="C:\Users\Student\Documents\GitHub\Cap\Library\PlayerScriptAssemblies\Unity.XR.ARFoundation.dll"
+-a="C:\Users\Student\Documents\GitHub\Cap\Library\PlayerScriptAssemblies\Unity.XR.InteractionSubsystems.dll"
+-a="C:\Users\Student\Documents\GitHub\Cap\Library\PlayerScriptAssemblies\Unity.XR.WindowsMixedReality.dll"
 -a="C:\Users\Student\Documents\GitHub\Cap\Library\PackageCache\com.ptc.vuforia.engine@fbf52c151ee7-1635979565000\Vuforia\Plugins\Managed\Lumin\Vuforia.Unity.Wrapper.dll"
 -a="C:\Users\Student\Documents\GitHub\Cap\Library\PackageCache\com.ptc.vuforia.engine@fbf52c151ee7-1635979565000\Vuforia\Plugins\Managed\UWP\Vuforia.Unity.Wrapper.dll"
 -a="C:\Users\Student\Documents\GitHub\Cap\Library\PackageCache\com.ptc.vuforia.engine@fbf52c151ee7-1635979565000\Vuforia\Plugins\Managed\iOS\Vuforia.Unity.Wrapper.dll"

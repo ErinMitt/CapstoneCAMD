@@ -2,7 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Collided
-    - EventProcessor
     - FirstAidCollected
     - ObjectsAppear
     - coinstouched
@@ -21,9 +20,19 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.OpenXR.Remoting.AppRemotingPlugin
     - Microsoft.MixedReality.OpenXR.Remoting.PlayModeRemotingPlugin
     Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll:
+    - Microsoft.MixedReality.Toolkit.Editor.MixedRealityCameraProfileInspector
     - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector
+    - Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityControllerMappingProfileInspector
+    - Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityControllerVisualizationProfileInspector
+    - Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityGesturesProfileInspector
+    - Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityInputSystemProfileInspector
     Microsoft.MixedReality.Toolkit.Editor.Utilities.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences
+    Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll:
+    - Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.HandPhysicsServiceProfile
+    - Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.JointKinematicBody
+    Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll:
+    - Microsoft.MixedReality.Toolkit.LeapMotion.Input.LeapMotionDeviceManagerProfile
     Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll:
     - Microsoft.MixedReality.Toolkit.XRSDK.OpenXR.OpenXRCameraSettingsProfile
     Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll:
@@ -119,6 +128,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.MixedRealityToolkit
     - Microsoft.MixedReality.Toolkit.MixedRealityToolkitConfigurationProfile
     - Microsoft.MixedReality.Toolkit.Physics.DistorterGravity
+    - Microsoft.MixedReality.Toolkit.SceneSystem.MixedRealitySceneSystemProfile
     - Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessMeshObserverProfile
     - Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessSystemProfile
     - Microsoft.MixedReality.Toolkit.Utilities.BezierDataProvider
@@ -137,6 +147,8 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.RemoteRendering.dll:
     - HybridRenderingPassFeature
     Unity.RenderPipelines.Core.Runtime.dll:
@@ -190,11 +202,14 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.Editor.dll:
+    - Unity.XR.Oculus.Editor.OculusSettingsEditor
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusSettings
     Unity.XR.OpenXR.Editor.dll:
     - UnityEditor.XR.OpenXR.OpenXREditorSettings
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
+    - UnityEditor.XR.OpenXR.PackageSettingsEditor
     Unity.XR.OpenXR.Features.ConformanceAutomation.dll:
     - UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature
     Unity.XR.OpenXR.Features.MockRuntime.dll:
@@ -211,8 +226,13 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile
     - UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile
     - UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile
-    - UnityEngine.XR.OpenXR.OpenXRLoaderNoPreInit
     - UnityEngine.XR.OpenXR.OpenXRSettings
+    Unity.XR.WindowsMixedReality.Editor.dll:
+    - UnityEditor.XR.WindowsMR.WindowsMRPackageSettings
+    Unity.XR.WindowsMixedReality.dll:
+    - UnityEngine.XR.WindowsMR.WindowsMRBuildSettings
+    - UnityEngine.XR.WindowsMR.WindowsMRLoader
+    - UnityEngine.XR.WindowsMR.WindowsMRSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -315,8 +335,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2022}
     - Class: 114
       Script: {instanceID: 2036}
-    - Class: 114
-      Script: {instanceID: 2076}
     - Class: 114
       Script: {instanceID: 2146}
     - Class: 114
@@ -623,6 +641,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13546}
     - Class: 114
       Script: {instanceID: 13560}
+    - Class: 114
+      Script: {instanceID: 428898}
+    - Class: 114
+      Script: {instanceID: 428934}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -6560,7 +6582,37 @@ ScriptsOnlyBuild:
     assemblyName: AzureSpatialAnchors.SDK.Core.Runtime.dll
     namespaceName: Microsoft.Azure.SpatialAnchors.Unity
     className: CloudNativeAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRLoader
+  - hash:
+      serializedVersion: 2
+      Hash: fc9fbe84dfc8979993a99d11baf2a29b
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRBuildSettings
+  - hash:
+      serializedVersion: 2
+      Hash: a9929eb283202738e8ec9a2be9d18701
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 3bfdd2b07bbd77314ed3b2a142269ad9
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRGestures
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRRemotingConnector
   platform: 21
   scenePathNames:
   - Assets/DefaultScene.unity
-  playerPath: C:/Users/Student/Desktop/hololensbuilds/021020221458
+  playerPath: C:/Users/Student/Desktop/hololensbuilds/021020221546

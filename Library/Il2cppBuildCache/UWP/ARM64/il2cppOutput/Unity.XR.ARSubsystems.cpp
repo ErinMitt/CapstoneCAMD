@@ -792,6 +792,15 @@ public:
 };
 
 
+// UnityEngine.XR.ARSubsystems.NativeCopyUtility
+struct NativeCopyUtility_t537698701837049415442B997E0E9BA15843AE3E  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+
 // UnityEngine.XR.ARSubsystems.SessionAvailabilityExtensions
 struct SessionAvailabilityExtensions_tDE27B6B971581EFEB9EADCF90B32C418F1378E50  : public RuntimeObject
 {
@@ -12146,6 +12155,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashCode_Combine_m23E4B1C1DC69FC295EA
 		return L_8;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
