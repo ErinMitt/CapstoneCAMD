@@ -10,7 +10,7 @@ namespace Microsoft.MixedReality.Toolkit.Input
     /// Animated cursor is a cursor driven using an animator to inject state information
     /// and animate accordingly
     /// </summary>
-    [AddComponentMenu("Scripts/MRTK/SDK/AnimatedCursor")]
+  /*  [AddComponentMenu("Scripts/MRTK/SDK/AnimatedCursor")]
     public class AnimatedCursor : BaseCursor
     {
         [SerializeField]
@@ -141,5 +141,5 @@ namespace Microsoft.MixedReality.Toolkit.Input
                     break;
             }
         }
-    }
+    }*/
 }

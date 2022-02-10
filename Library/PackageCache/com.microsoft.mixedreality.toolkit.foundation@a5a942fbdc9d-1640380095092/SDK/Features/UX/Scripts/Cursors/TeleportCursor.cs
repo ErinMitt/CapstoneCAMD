@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace Microsoft.MixedReality.Toolkit.Teleport
 {
-    [AddComponentMenu("Scripts/MRTK/SDK/TeleportCursor")]
+  /*  [AddComponentMenu("Scripts/MRTK/SDK/TeleportCursor")]
     public class TeleportCursor : AnimatedCursor, IMixedRealityTeleportHandler
     {
         private Vector3 cursorOrientation = Vector3.zero;
@@ -35,19 +35,19 @@ namespace Microsoft.MixedReality.Toolkit.Teleport
             }
         }
 
-        private TeleportPointer pointer;
+      //  private TeleportPointer pointer;
 
         /// <inheritdoc />
-        public override Vector3 Position => PrimaryCursorVisual.position;
+      //  public override Vector3 Position => PrimaryCursorVisual.position;
 
         /// <inheritdoc />
-        public override Quaternion Rotation => arrowTransform.rotation;
+      //  public override Quaternion Rotation => arrowTransform.rotation;
 
         /// <inheritdoc />
-        public override Vector3 LocalScale => PrimaryCursorVisual.localScale;
+      //  public override Vector3 LocalScale => PrimaryCursorVisual.localScale;
 
         /// <inheritdoc />
-        public override CursorStateEnum CheckCursorState()
+      /*  public override CursorStateEnum CheckCursorState()
         {
             if (CursorState != CursorStateEnum.Contextual)
             {
@@ -147,5 +147,5 @@ namespace Microsoft.MixedReality.Toolkit.Teleport
         }
 
         #endregion IMixedRealityTeleportHandler Implementation
-    }
+    }*/
 }

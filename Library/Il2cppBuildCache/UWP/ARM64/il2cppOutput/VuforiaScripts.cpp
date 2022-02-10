@@ -33,6 +33,16 @@ struct VirtFuncInvoker0
 		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
 	}
 };
+struct VirtActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
 template <typename T1, typename T2>
 struct VirtActionInvoker2
 {
@@ -42,16 +52,6 @@ struct VirtActionInvoker2
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
 		((Action)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
-	}
-};
-struct VirtActionInvoker0
-{
-	typedef void (*Action)(void*, const RuntimeMethod*);
-
-	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
-		((Action)invokeData.methodPtr)(obj, invokeData.method);
 	}
 };
 
@@ -500,6 +500,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral1C4303CE90A80E03466A934F3A49CF1FBA75C709
 IL2CPP_EXTERN_C String_t* _stringLiteral2005EA02AF99AFD38B775312CF9E5C2EFC3A4413;
 IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
 IL2CPP_EXTERN_C String_t* _stringLiteral357A715307A57766715F43C999C7811C93171CA2;
+IL2CPP_EXTERN_C String_t* _stringLiteral38AAD2E617FFB9767E59D87F9177827B5A1C92B9;
 IL2CPP_EXTERN_C String_t* _stringLiteral39590AB05537D2F84E8625BF232343DBD5B2DF1E;
 IL2CPP_EXTERN_C String_t* _stringLiteral48BAB1E925F3DD7D1AE846A2F35DC946C908ECDE;
 IL2CPP_EXTERN_C String_t* _stringLiteral4C25795CBE20352B03A629EEA3EA4EC884ED60D8;
@@ -10943,6 +10944,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultObserverEventHandler_OnObserverSt
 	String_t* G_B5_0 = NULL;
 	String_t* G_B5_1 = NULL;
 	String_t* G_B5_2 = NULL;
+	UnityEvent_tA0EA9BC49FD7D5185E7A238EF2E0E6F5D0EE27F4 * G_B9_0 = NULL;
+	UnityEvent_tA0EA9BC49FD7D5185E7A238EF2E0E6F5D0EE27F4 * G_B8_0 = NULL;
 	{
 		// var name = mObserverBehaviour.TargetName;
 		ObserverBehaviour_tE7AD12CD804A13F758F693B5A1C130E332042274 * L_0 = __this->get_mObserverBehaviour_7();
@@ -11028,20 +11031,40 @@ IL_0046:
 		L_19 = String_Format_m039737CCD992C5BFC8D16DFD681F5E8786E87FA6(_stringLiteral7607DB878D95B52658729D4CD10E90FB9C8AEEB2, L_12, L_15, L_18, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_19, /*hidden argument*/NULL);
-		// HandleTargetStatusChanged(mPreviousTargetStatus.Status, targetStatus.Status);
-		TargetStatus_t6840B338FC8C013F0E06F9E3530E7177434C7AF1 * L_20 = __this->get_address_of_mPreviousTargetStatus_8();
-		int32_t L_21;
-		L_21 = TargetStatus_get_Status_mD745DEB3CFE4D18A1E973178AA8CA9BB73178D5E_inline((TargetStatus_t6840B338FC8C013F0E06F9E3530E7177434C7AF1 *)L_20, /*hidden argument*/NULL);
-		int32_t L_22;
-		L_22 = TargetStatus_get_Status_mD745DEB3CFE4D18A1E973178AA8CA9BB73178D5E_inline((TargetStatus_t6840B338FC8C013F0E06F9E3530E7177434C7AF1 *)(&___targetStatus1), /*hidden argument*/NULL);
-		VirtActionInvoker2< int32_t, int32_t >::Invoke(6 /* System.Void DefaultObserverEventHandler::HandleTargetStatusChanged(Vuforia.Status,Vuforia.Status) */, __this, L_21, L_22);
-		// HandleTargetStatusInfoChanged(targetStatus.StatusInfo);
-		int32_t L_23;
-		L_23 = TargetStatus_get_StatusInfo_m45D7AFC8563C8FCEA15B0E2983F59E8C88A37B9D_inline((TargetStatus_t6840B338FC8C013F0E06F9E3530E7177434C7AF1 *)(&___targetStatus1), /*hidden argument*/NULL);
-		VirtActionInvoker1< int32_t >::Invoke(7 /* System.Void DefaultObserverEventHandler::HandleTargetStatusInfoChanged(Vuforia.StatusInfo) */, __this, L_23);
+		// if (targetStatus.StatusInfo == StatusInfo.NORMAL)
+		int32_t L_20;
+		L_20 = TargetStatus_get_StatusInfo_m45D7AFC8563C8FCEA15B0E2983F59E8C88A37B9D_inline((TargetStatus_t6840B338FC8C013F0E06F9E3530E7177434C7AF1 *)(&___targetStatus1), /*hidden argument*/NULL);
+		if (L_20)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		// OnTargetFound?.Invoke();
+		UnityEvent_tA0EA9BC49FD7D5185E7A238EF2E0E6F5D0EE27F4 * L_21 = __this->get_OnTargetFound_5();
+		UnityEvent_tA0EA9BC49FD7D5185E7A238EF2E0E6F5D0EE27F4 * L_22 = L_21;
+		G_B8_0 = L_22;
+		if (L_22)
+		{
+			G_B9_0 = L_22;
+			goto IL_0083;
+		}
+	}
+	{
+		goto IL_0088;
+	}
+
+IL_0083:
+	{
+		NullCheck(G_B9_0);
+		UnityEvent_Invoke_mDA46AA9786AD4C34211C6C6ADFB0963DFF430AF5(G_B9_0, /*hidden argument*/NULL);
+	}
+
+IL_0088:
+	{
 		// mPreviousTargetStatus = targetStatus;
-		TargetStatus_t6840B338FC8C013F0E06F9E3530E7177434C7AF1  L_24 = ___targetStatus1;
-		__this->set_mPreviousTargetStatus_8(L_24);
+		TargetStatus_t6840B338FC8C013F0E06F9E3530E7177434C7AF1  L_23 = ___targetStatus1;
+		__this->set_mPreviousTargetStatus_8(L_23);
 		// }
 		return;
 	}
@@ -11246,7 +11269,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultObserverEventHandler_OnTrackingFo
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentsInChildren_TisCanvas_t2B7E56B7BDC287962E092755372E214ACB6393EA_mD5E5663A016CDAD3F6409404EE12FD8BFAAC79FF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentsInChildren_TisCollider_t5E81E43C2ECA0209A7C4528E84A632712D192B02_m3B2271E32876821DA2A4626F1841EE1F38944EB2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentsInChildren_TisRenderer_t58147AB5B00224FE1460FD47542DC0DA7EC9378C_m1A95B452BAE19475E5A65028964BF91500D30E24_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral38AAD2E617FFB9767E59D87F9177827B5A1C92B9);
 		s_Il2CppMethodInitialized = true;
 	}
 	ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* V_0 = NULL;
@@ -11258,6 +11283,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultObserverEventHandler_OnTrackingFo
 	UnityEvent_tA0EA9BC49FD7D5185E7A238EF2E0E6F5D0EE27F4 * G_B12_0 = NULL;
 	UnityEvent_tA0EA9BC49FD7D5185E7A238EF2E0E6F5D0EE27F4 * G_B11_0 = NULL;
 	{
+		// Debug.Log("target fdound");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral38AAD2E617FFB9767E59D87F9177827B5A1C92B9, /*hidden argument*/NULL);
 		// if (mObserverBehaviour)
 		ObserverBehaviour_tE7AD12CD804A13F758F693B5A1C130E332042274 * L_0 = __this->get_mObserverBehaviour_7();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
@@ -11265,7 +11293,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultObserverEventHandler_OnTrackingFo
 		L_1 = Object_op_Implicit_mC8214E4F028CC2F036CC82BDB81D102A02893499(L_0, /*hidden argument*/NULL);
 		if (!L_1)
 		{
-			goto IL_0083;
+			goto IL_008d;
 		}
 	}
 	{
@@ -11289,10 +11317,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultObserverEventHandler_OnTrackingFo
 		// foreach (var component in rendererComponents)
 		V_2 = L_3;
 		V_3 = 0;
-		goto IL_0045;
+		goto IL_004f;
 	}
 
-IL_0038:
+IL_0042:
 	{
 		// foreach (var component in rendererComponents)
 		RendererU5BU5D_tE2D3C4350893C593CA40DE876B9F2F0EBBEC49B7* L_8 = V_2;
@@ -11307,7 +11335,7 @@ IL_0038:
 		V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_12, (int32_t)1));
 	}
 
-IL_0045:
+IL_004f:
 	{
 		// foreach (var component in rendererComponents)
 		int32_t L_13 = V_3;
@@ -11315,7 +11343,7 @@ IL_0045:
 		NullCheck(L_14);
 		if ((((int32_t)L_13) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))))))
 		{
-			goto IL_0038;
+			goto IL_0042;
 		}
 	}
 	{
@@ -11323,10 +11351,10 @@ IL_0045:
 		ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* L_15 = V_0;
 		V_4 = L_15;
 		V_3 = 0;
-		goto IL_0060;
+		goto IL_006a;
 	}
 
-IL_0052:
+IL_005c:
 	{
 		// foreach (var component in colliderComponents)
 		ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* L_16 = V_4;
@@ -11341,7 +11369,7 @@ IL_0052:
 		V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_20, (int32_t)1));
 	}
 
-IL_0060:
+IL_006a:
 	{
 		// foreach (var component in colliderComponents)
 		int32_t L_21 = V_3;
@@ -11349,7 +11377,7 @@ IL_0060:
 		NullCheck(L_22);
 		if ((((int32_t)L_21) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_22)->max_length))))))
 		{
-			goto IL_0052;
+			goto IL_005c;
 		}
 	}
 	{
@@ -11357,10 +11385,10 @@ IL_0060:
 		CanvasU5BU5D_tDD7B86FC4D93626690EB20E44D75AC253F04A5CF* L_23 = V_1;
 		V_5 = L_23;
 		V_3 = 0;
-		goto IL_007c;
+		goto IL_0086;
 	}
 
-IL_006e:
+IL_0078:
 	{
 		// foreach (var component in canvasComponents)
 		CanvasU5BU5D_tDD7B86FC4D93626690EB20E44D75AC253F04A5CF* L_24 = V_5;
@@ -11375,7 +11403,7 @@ IL_006e:
 		V_3 = ((int32_t)il2cpp_codegen_add((int32_t)L_28, (int32_t)1));
 	}
 
-IL_007c:
+IL_0086:
 	{
 		// foreach (var component in canvasComponents)
 		int32_t L_29 = V_3;
@@ -11383,11 +11411,11 @@ IL_007c:
 		NullCheck(L_30);
 		if ((((int32_t)L_29) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length))))))
 		{
-			goto IL_006e;
+			goto IL_0078;
 		}
 	}
 
-IL_0083:
+IL_008d:
 	{
 		// OnTargetFound?.Invoke();
 		UnityEvent_tA0EA9BC49FD7D5185E7A238EF2E0E6F5D0EE27F4 * L_31 = __this->get_OnTargetFound_5();
@@ -11396,14 +11424,14 @@ IL_0083:
 		if (L_32)
 		{
 			G_B12_0 = L_32;
-			goto IL_008e;
+			goto IL_0098;
 		}
 	}
 	{
 		return;
 	}
 
-IL_008e:
+IL_0098:
 	{
 		NullCheck(G_B12_0);
 		UnityEvent_Invoke_mDA46AA9786AD4C34211C6C6ADFB0963DFF430AF5(G_B12_0, /*hidden argument*/NULL);

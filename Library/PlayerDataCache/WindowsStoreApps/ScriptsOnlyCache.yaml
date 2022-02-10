@@ -32,7 +32,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.XRSDK.Oculus.Input.OculusXRSDKDeviceManagerProfile
     Microsoft.MixedReality.Toolkit.SDK.dll:
     - Microsoft.MixedReality.Toolkit.Experimental.UI.StepSlider
-    - Microsoft.MixedReality.Toolkit.Input.AnimatedCursor
     - Microsoft.MixedReality.Toolkit.Input.FingerCursor
     - Microsoft.MixedReality.Toolkit.Input.GGVPointer
     - Microsoft.MixedReality.Toolkit.Input.MeshCursor
@@ -47,7 +46,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.TouchPointer
     - Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter
     - Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer
-    - Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor
     - Microsoft.MixedReality.Toolkit.UI.AppBar
     - Microsoft.MixedReality.Toolkit.UI.AppBarButton
     - Microsoft.MixedReality.Toolkit.UI.Billboard
@@ -139,6 +137,8 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.RemoteRendering.dll:
+    - HybridRenderingPassFeature
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -168,6 +168,11 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.RenderPipelines.Universal.Editor.dll:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
+    Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Rendering.Universal.ForwardRendererData
+    - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+    - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -208,6 +213,14 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile
     - UnityEngine.XR.OpenXR.OpenXRLoaderNoPreInit
     - UnityEngine.XR.OpenXR.OpenXRSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -4023,12 +4036,6 @@ ScriptsOnlyBuild:
     className: MixedRealityInputModule
   - hash:
       serializedVersion: 2
-      Hash: 1fd29d18e0e6cfd266a2a352b78b03d0
-    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Input
-    className: AnimatedCursor
-  - hash:
-      serializedVersion: 2
       Hash: f0b4308155a1cb9ed56c87a0c1240ded
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -5011,12 +5018,6 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
     className: MixedRealitySpeechCommandsProfile
-  - hash:
-      serializedVersion: 2
-      Hash: aeb78c6188317b76ca54d5e2edddd613
-    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Teleport
-    className: TeleportCursor
   - hash:
       serializedVersion: 2
       Hash: a306e12d896ddcca949923c805691027
@@ -6562,4 +6563,4 @@ ScriptsOnlyBuild:
   platform: 21
   scenePathNames:
   - Assets/DefaultScene.unity
-  playerPath: C:/Users/Student/Desktop/hololensbuilds/020220221102
+  playerPath: C:/Users/Student/Desktop/hololensbuilds/021020221458

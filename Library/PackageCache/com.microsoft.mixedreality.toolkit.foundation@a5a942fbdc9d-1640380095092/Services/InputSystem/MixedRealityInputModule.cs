@@ -240,8 +240,8 @@ namespace Microsoft.MixedReality.Toolkit.Input
 
                 if (pointer.Controller != null && pointer.Controller.IsRotationAvailable)
                 {
-                    RaycastCamera.transform.position = pointer.Rays[0].Origin;
-                    RaycastCamera.transform.rotation = Quaternion.LookRotation(pointer.Rays[0].Direction);
+                    //   RaycastCamera.transform.position = pointer.Rays[0].Origin;
+                    // RaycastCamera.transform.rotation = Quaternion.LookRotation(pointer.Rays[0].Direction);
                 }
                 else
                 {
@@ -249,56 +249,57 @@ namespace Microsoft.MixedReality.Toolkit.Input
                     // In this case pointer.Rays[0].Origin will be the head position, but we want the 
                     // hand to do drag operations, not the head.
                     // pointer.Position gives the position of the hand, use that to compute drag deltas.
-                    RaycastCamera.transform.position = pointer.Position;
-                    RaycastCamera.transform.rotation = Quaternion.LookRotation(pointer.Rays[0].Direction);
+                    //  RaycastCamera.transform.position = pointer.Position;
+                    //   RaycastCamera.transform.rotation = Quaternion.LookRotation(pointer.Rays[0].Direction);
                 }
 
                 // Populate eventDataLeft
-                pointerData.eventDataLeft.Reset();
+                /*  pointerData.eventDataLeft.Reset();
 
-                // The RayCastCamera is placed so that the current cursor position is in the center of the camera's view space.
-                Vector3 viewportPos = new Vector3(0.5f, 0.5f, 1.0f);
-                Vector2 newPos = RaycastCamera.ViewportToScreenPoint(viewportPos);
+                  // The RayCastCamera is placed so that the current cursor position is in the center of the camera's view space.
+                  Vector3 viewportPos = new Vector3(0.5f, 0.5f, 1.0f);
+                  Vector2 newPos = RaycastCamera.ViewportToScreenPoint(viewportPos);
 
-                // Populate initial data or drag data
-                Vector2 lastPosition;
-                if (pointerData.lastMousePoint3d == null)
-                {
-                    // For the first event, use the same position for 'last' and 'new'.
-                    lastPosition = newPos;
-                }
-                else
-                {
-                    // Otherwise, re-project the last pointer position.
-                    lastPosition = RaycastCamera.WorldToScreenPoint(pointerData.lastMousePoint3d.Value);
-                }
+                  // Populate initial data or drag data
+                  Vector2 lastPosition;
+                  if (pointerData.lastMousePoint3d == null)
+                  {
+                      // For the first event, use the same position for 'last' and 'new'.
+                      lastPosition = newPos;
+                  }
+                  else
+                  {
+                      // Otherwise, re-project the last pointer position.
+                      lastPosition = RaycastCamera.WorldToScreenPoint(pointerData.lastMousePoint3d.Value);
+                  }
 
-                // Save off the 3D position of the cursor.
-                pointerData.lastMousePoint3d = RaycastCamera.ViewportToWorldPoint(viewportPos);
+                  // Save off the 3D position of the cursor.
+                  pointerData.lastMousePoint3d = RaycastCamera.ViewportToWorldPoint(viewportPos);
 
-                // Calculate delta
-                pointerData.eventDataLeft.delta = newPos - lastPosition;
-                pointerData.eventDataLeft.position = newPos;
+                  // Calculate delta
+                  pointerData.eventDataLeft.delta = newPos - lastPosition;
+                  pointerData.eventDataLeft.position = newPos;
 
-                // Move the press position to allow dragging
-                pointerData.eventDataLeft.pressPosition += pointerData.eventDataLeft.delta;
+                  // Move the press position to allow dragging
+                  pointerData.eventDataLeft.pressPosition += pointerData.eventDataLeft.delta;
 
-                // Populate raycast data
-                pointerData.eventDataLeft.pointerCurrentRaycast = pointer.Result != null ? pointer.Result.Details.LastGraphicsRaycastResult : new RaycastResult();
-                // TODO: Simulate raycast for 3D objects?
+                  // Populate raycast data
+                  pointerData.eventDataLeft.pointerCurrentRaycast = pointer.Result != null ? pointer.Result.Details.LastGraphicsRaycastResult : new RaycastResult();
+                  // TODO: Simulate raycast for 3D objects?
 
-                // Populate the data for the buttons
-                pointerData.eventDataLeft.button = PointerEventData.InputButton.Left;
-                pointerData.mouseState.SetButtonState(PointerEventData.InputButton.Left, StateForPointer(pointerData), pointerData.eventDataLeft);
+                  // Populate the data for the buttons
+                  pointerData.eventDataLeft.button = PointerEventData.InputButton.Left;
+                  pointerData.mouseState.SetButtonState(PointerEventData.InputButton.Left, StateForPointer(pointerData), pointerData.eventDataLeft);
 
-                // Need to provide data for middle and right button for MouseState, although not used by MRTK pointers.
-                CopyFromTo(pointerData.eventDataLeft, pointerData.eventDataRight);
-                pointerData.eventDataRight.button = PointerEventData.InputButton.Right;
-                pointerData.mouseState.SetButtonState(PointerEventData.InputButton.Right, PointerEventData.FramePressState.NotChanged, pointerData.eventDataRight);
+                  // Need to provide data for middle and right button for MouseState, although not used by MRTK pointers.
+                  CopyFromTo(pointerData.eventDataLeft, pointerData.eventDataRight);
+                  pointerData.eventDataRight.button = PointerEventData.InputButton.Right;
+                  pointerData.mouseState.SetButtonState(PointerEventData.InputButton.Right, PointerEventData.FramePressState.NotChanged, pointerData.eventDataRight);
 
-                CopyFromTo(pointerData.eventDataLeft, pointerData.eventDataMiddle);
-                pointerData.eventDataMiddle.button = PointerEventData.InputButton.Middle;
-                pointerData.mouseState.SetButtonState(PointerEventData.InputButton.Middle, PointerEventData.FramePressState.NotChanged, pointerData.eventDataMiddle);
+                  CopyFromTo(pointerData.eventDataLeft, pointerData.eventDataMiddle);
+                  pointerData.eventDataMiddle.button = PointerEventData.InputButton.Middle;
+                  pointerData.mouseState.SetButtonState(PointerEventData.InputButton.Middle, PointerEventData.FramePressState.NotChanged, pointerData.eventDataMiddle);
+              }*/
             }
         }
 

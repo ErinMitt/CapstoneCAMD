@@ -35,6 +35,8 @@ public class DefaultObserverEventHandler : MonoBehaviour
     public TrackingStatusFilter StatusFilter = TrackingStatusFilter.Tracked_ExtendedTracked_Limited;
     public UnityEvent OnTargetFound;
     public UnityEvent OnTargetLost;
+  //  public UnityEvent OnFound;
+
 
 
     protected ObserverBehaviour mObserverBehaviour;
@@ -76,9 +78,13 @@ public class DefaultObserverEventHandler : MonoBehaviour
         }
         
         Debug.Log($"Target status: { name } { targetStatus.Status } -- { targetStatus.StatusInfo }");
-
-        HandleTargetStatusChanged(mPreviousTargetStatus.Status, targetStatus.Status);
-        HandleTargetStatusInfoChanged(targetStatus.StatusInfo);
+      
+        if (targetStatus.StatusInfo == StatusInfo.NORMAL)
+        {
+            OnTargetFound?.Invoke();
+        }
+       // HandleTargetStatusChanged(mPreviousTargetStatus.Status, targetStatus.Status);
+       // HandleTargetStatusInfoChanged(targetStatus.StatusInfo);
 
         mPreviousTargetStatus = targetStatus;
     }
@@ -144,12 +150,13 @@ public class DefaultObserverEventHandler : MonoBehaviour
             // this is mainly recommended for Anchors.
             return true;
         }
-
+       
         return false;
     }
 
     protected virtual void OnTrackingFound()
     {
+        Debug.Log("target fdound");
         if (mObserverBehaviour)
         {
             var rendererComponents = mObserverBehaviour.GetComponentsInChildren<Renderer>(true);
@@ -168,7 +175,6 @@ public class DefaultObserverEventHandler : MonoBehaviour
             foreach (var component in canvasComponents)
                 component.enabled = true;
         }
-
         OnTargetFound?.Invoke();
     }
 

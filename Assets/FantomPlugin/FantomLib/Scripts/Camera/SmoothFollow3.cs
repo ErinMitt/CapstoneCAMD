@@ -189,6 +189,7 @@ namespace FantomLib
         // Update is called once per frame
         void Update()
         {
+            Debug.Log("update called");
 #if !UNITY_EDITOR && (UNITY_ANDROID || UNITY_IOS)   //Only platforms you want to obtain with touch      //タッチで取得したいプラットフォームのみ（モバイル等）
             if (Input.touchCount != 1 || Input.touches[0].fingerId != 0) //Limit to operation of the first finger   //最初の指１本の操作に限定する
             {
@@ -324,6 +325,7 @@ namespace FantomLib
 
         void LateUpdate()
         {
+            Debug.Log("late update called");
             if (target == null)
                 return;
 
@@ -350,9 +352,9 @@ namespace FantomLib
             var currentRotation = Quaternion.Euler(0, currentRotationAngle, 0);
             Vector3 pos = target.position - currentRotation * Vector3.forward * distance;
             pos.y = currentHeight;
-            transform.position = pos;
+           // transform.position = pos;
 
-            transform.LookAt(target);
+        //    transform.LookAt(target);
         }
 
 #endregion Unity life cycle Section
