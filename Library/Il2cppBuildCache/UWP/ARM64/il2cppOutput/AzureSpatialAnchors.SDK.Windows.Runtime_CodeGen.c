@@ -919,16 +919,16 @@ static const Il2CppTokenRangePair s_rgctxIndices[1] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[10] = 
 {
-	{ (Il2CppRGCTXDataType)2, 3409 },
+	{ (Il2CppRGCTXDataType)2, 3410 },
 	{ (Il2CppRGCTXDataType)2, 911 },
-	{ (Il2CppRGCTXDataType)2, 17724 },
-	{ (Il2CppRGCTXDataType)3, 69348 },
-	{ (Il2CppRGCTXDataType)3, 15589 },
-	{ (Il2CppRGCTXDataType)3, 15588 },
+	{ (Il2CppRGCTXDataType)2, 17725 },
 	{ (Il2CppRGCTXDataType)3, 69349 },
+	{ (Il2CppRGCTXDataType)3, 15590 },
+	{ (Il2CppRGCTXDataType)3, 15589 },
+	{ (Il2CppRGCTXDataType)3, 69350 },
+	{ (Il2CppRGCTXDataType)3, 15588 },
+	{ (Il2CppRGCTXDataType)2, 4924 },
 	{ (Il2CppRGCTXDataType)3, 15587 },
-	{ (Il2CppRGCTXDataType)2, 4923 },
-	{ (Il2CppRGCTXDataType)3, 15586 },
 };
 extern const CustomAttributesCacheGenerator g_AzureSpatialAnchors_SDK_Windows_Runtime_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AzureSpatialAnchors_SDK_Windows_Runtime_CodeGenModule;

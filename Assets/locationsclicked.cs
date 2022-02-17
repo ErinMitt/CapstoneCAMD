@@ -12,6 +12,7 @@ public class locationsclicked : MonoBehaviour
     public GameObject money;
     public GameObject snell;
     public GameObject wrong;
+    public GameObject locations;
     [SerializeField]
     [FormerlySerializedAs("collider")]
     [Tooltip("BoxCollider used to calculate bounds and local center, if not set before runtime the gameObjects's BoxCollider will be used by default")]
@@ -35,6 +36,7 @@ public class locationsclicked : MonoBehaviour
         money.active = false;
         snell.active = false;
         wrong.active = false;
+        locations.active = true;
         Debug.Log("triggered! and entered");
     }
         private void OnHit()
