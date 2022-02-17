@@ -107,7 +107,7 @@ public class DefaultObserverEventHandler : MonoBehaviour
                 OnTrackingLost();
             }
         }
-
+       // OnTargetFound?.Invoke();
         mCallbackReceivedOnce = true;
     }
 
