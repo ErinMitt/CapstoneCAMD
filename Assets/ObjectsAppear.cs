@@ -25,7 +25,7 @@ public class ObjectsAppear : MonoBehaviour
         {*/
             
             monster.SetActive(true);
-        monster.transform.position = new Vector3(gameObject.transform.parent.localPosition.x, gameObject.transform.parent.localPosition.y, gameObject.transform.parent.localPosition.z+0.5f);
+        monster.transform.position = new Vector3(gameObject.transform.parent.localPosition.x, gameObject.transform.parent.localPosition.y, gameObject.transform.parent.localPosition.z);
 
       //  }
     }
