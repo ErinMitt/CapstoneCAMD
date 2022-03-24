@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,14 +7,41 @@ public class monsterDeadCount : MonoBehaviour
 {
     public GameObject NoMoreHealth;
     public GameObject firstAid;
+    public GameObject Cylinder;
+    public GameObject Sphere;
+    public GameObject Cube;
+    public GameObject Capsule;
+    public bool isCylinder=false;//if it is completed
+    public bool isSphere = false;
+    public bool isCube = false;
+    public bool isCapsule = false;
+    double countPlay = 0;
+
     public static int monstersDead=0;
+    int levelsComplete = 0;
 
     private IEnumerator coroutine;
     private IEnumerator coroutine2;
-    public int MonstersKilled()
+    public int MonstersKilled(bool isKill)
     {
-        monstersDead=monstersDead+1;
+        if (isKill)
+            monstersDead = monstersDead + 1;
+        else
+            monstersDead = 0;
         return monstersDead;
+    }
+    public int currMonsters()
+    {
+        return monstersDead;
+    }
+    public int LevelsComplete()
+    {
+        return levelsComplete;
+    }
+    public double playerHealth()
+    {
+        countPlay++;
+        return countPlay;
     }
     // Start is called before the first frame update
     public void callCoroutines()
@@ -37,6 +65,60 @@ public class monsterDeadCount : MonoBehaviour
         {
             yield return new WaitForSeconds(waitTime);
             firstAid.active = true;
+        }
+    }
+
+    public void levelsCompleted()
+    {
+         levelsComplete++;
+        if (!isCylinder&&Cylinder.active==false)
+        {
+            isCylinder = true; 
+            Sphere.GetComponent<ObjectsAppear>().TargetActive();
+        }
+       else if (!isSphere && Sphere.active == false)
+        {
+            isSphere = true;
+            Cube.GetComponent<ObjectsAppear>().TargetActive();
+        }
+       else if (!isCube && Cube.active == false)
+        {
+            isCube = true;
+            Capsule.GetComponent<ObjectsAppear>().TargetActive();
+
+        }
+       else if (!isCapsule && Capsule.active == false)
+        {
+            isCapsule = true;
+        }
+        else
+        {
+            Debug.Log("failed");
+        }
+        
+    }
+    public void levelFailed()
+    {
+        if (!isCylinder && Cylinder.active == false)
+        {
+            Cylinder.SetActive(true);
+        }
+        else if (!isSphere && Sphere.active == false)
+        {
+            Sphere.SetActive(true);
+        }
+        else if (!isCube && Cube.active == false)
+        {
+            Cube.SetActive(true);
+
+        }
+        else if (!isCapsule && Capsule.active == false)
+        {
+            Capsule.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("failed2");
         }
     }
 }

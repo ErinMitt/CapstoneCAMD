@@ -39,7 +39,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.PokePointer
     - Microsoft.MixedReality.Toolkit.Input.RiggedHandVisualizer
     - Microsoft.MixedReality.Toolkit.Input.ShellHandRayPointer
-    - Microsoft.MixedReality.Toolkit.Input.SpeechInputHandler
     - Microsoft.MixedReality.Toolkit.Input.SpherePointer
     - Microsoft.MixedReality.Toolkit.Input.SpherePointerGrabPoint
     - Microsoft.MixedReality.Toolkit.Input.SpherePointerVisual
@@ -63,7 +62,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.ButtonSizeOffset
     - Microsoft.MixedReality.Toolkit.UI.ConstraintManager
     - Microsoft.MixedReality.Toolkit.UI.CursorContextObjectManipulator
-    - Microsoft.MixedReality.Toolkit.UI.DestroyOnAnimationComplete
     - Microsoft.MixedReality.Toolkit.UI.DialogButton
     - Microsoft.MixedReality.Toolkit.UI.DialogShell
     - Microsoft.MixedReality.Toolkit.UI.FaceUserConstraint
@@ -80,7 +78,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.ProgressIndicatorOrbsRotator
     - Microsoft.MixedReality.Toolkit.UI.RotationAxisConstraint
     - Microsoft.MixedReality.Toolkit.UI.SliderSounds
-    - Microsoft.MixedReality.Toolkit.UI.SpeechConfirmationTooltip
     - Microsoft.MixedReality.Toolkit.UI.States
     - Microsoft.MixedReality.Toolkit.UI.Theme
     - Microsoft.MixedReality.Toolkit.UI.ToolTip
@@ -90,7 +87,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.ConstantViewSize
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.Follow
-    - Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraintPalmUp
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler
     Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll:
@@ -106,7 +102,6 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Boundary.MixedRealityBoundaryVisualizationProfile
     - Microsoft.MixedReality.Toolkit.Diagnostics.MixedRealityDiagnosticsProfile
     - Microsoft.MixedReality.Toolkit.Input.BaseHandVisualizer
-    - Microsoft.MixedReality.Toolkit.Input.HandBounds
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerMappingProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizationProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityEyeTrackingProfile
@@ -142,8 +137,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
-    Unity.RemoteRendering.dll:
-    - HybridRenderingPassFeature
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -173,11 +166,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.RenderPipelines.Universal.Editor.dll:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
-    Unity.RenderPipelines.Universal.Runtime.dll:
-    - UnityEngine.Rendering.Universal.ForwardRendererData
-    - UnityEngine.Rendering.Universal.PostProcessData
-    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
-    - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -221,10 +209,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -248,8 +234,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
-    Vuforia.Unity.Editor.dll:
-    - Vuforia.EditorClasses.VuforiaConfigurationEditor
     Vuforia.Unity.Engine.dll:
     - Vuforia.ImageTargetBehaviour
     - Vuforia.TurnOffBehaviour
@@ -305,343 +289,331 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 14712}
+      Script: {instanceID: 2006}
     - Class: 114
-      Script: {instanceID: 14726}
+      Script: {instanceID: 2008}
     - Class: 114
-      Script: {instanceID: 14744}
+      Script: {instanceID: 2010}
     - Class: 114
-      Script: {instanceID: 14768}
+      Script: {instanceID: 2012}
     - Class: 114
-      Script: {instanceID: 14838}
+      Script: {instanceID: 2018}
     - Class: 114
-      Script: {instanceID: 14844}
+      Script: {instanceID: 2020}
     - Class: 114
-      Script: {instanceID: 14988}
+      Script: {instanceID: 2022}
     - Class: 114
-      Script: {instanceID: 15266}
+      Script: {instanceID: 2030}
     - Class: 114
-      Script: {instanceID: 15316}
+      Script: {instanceID: 2044}
     - Class: 114
-      Script: {instanceID: 15334}
+      Script: {instanceID: 2084}
     - Class: 114
-      Script: {instanceID: 15346}
+      Script: {instanceID: 2154}
     - Class: 114
-      Script: {instanceID: 15372}
+      Script: {instanceID: 2160}
     - Class: 114
-      Script: {instanceID: 15434}
+      Script: {instanceID: 2304}
     - Class: 114
-      Script: {instanceID: 15476}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 15524}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 15614}
+      Script: {instanceID: 2660}
     - Class: 114
-      Script: {instanceID: 15654}
+      Script: {instanceID: 2672}
     - Class: 114
-      Script: {instanceID: 15736}
+      Script: {instanceID: 2698}
     - Class: 114
-      Script: {instanceID: 15824}
+      Script: {instanceID: 2760}
     - Class: 114
-      Script: {instanceID: 15836}
+      Script: {instanceID: 2802}
     - Class: 114
-      Script: {instanceID: 15910}
+      Script: {instanceID: 2850}
     - Class: 114
-      Script: {instanceID: 15936}
+      Script: {instanceID: 2940}
     - Class: 114
-      Script: {instanceID: 16024}
+      Script: {instanceID: 2980}
     - Class: 114
-      Script: {instanceID: 16046}
+      Script: {instanceID: 3064}
     - Class: 114
-      Script: {instanceID: 16062}
+      Script: {instanceID: 3150}
     - Class: 114
-      Script: {instanceID: 16140}
+      Script: {instanceID: 3162}
     - Class: 114
-      Script: {instanceID: 16164}
+      Script: {instanceID: 3236}
     - Class: 114
-      Script: {instanceID: 16200}
+      Script: {instanceID: 3262}
     - Class: 114
-      Script: {instanceID: 16202}
+      Script: {instanceID: 3352}
     - Class: 114
-      Script: {instanceID: 16286}
+      Script: {instanceID: 3376}
     - Class: 114
-      Script: {instanceID: 16332}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 16392}
+      Script: {instanceID: 3472}
     - Class: 114
-      Script: {instanceID: 16434}
+      Script: {instanceID: 3496}
     - Class: 114
-      Script: {instanceID: 16446}
+      Script: {instanceID: 3538}
     - Class: 114
-      Script: {instanceID: 16778}
+      Script: {instanceID: 3624}
     - Class: 114
-      Script: {instanceID: 16790}
+      Script: {instanceID: 3670}
     - Class: 114
-      Script: {instanceID: 16796}
+      Script: {instanceID: 3730}
     - Class: 114
-      Script: {instanceID: 16834}
+      Script: {instanceID: 3772}
     - Class: 114
-      Script: {instanceID: 16884}
+      Script: {instanceID: 3784}
     - Class: 114
-      Script: {instanceID: 16928}
+      Script: {instanceID: 4116}
     - Class: 114
-      Script: {instanceID: 16986}
+      Script: {instanceID: 4128}
     - Class: 114
-      Script: {instanceID: 17042}
+      Script: {instanceID: 4134}
     - Class: 114
-      Script: {instanceID: 17058}
+      Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 17114}
+      Script: {instanceID: 4226}
     - Class: 114
-      Script: {instanceID: 17250}
+      Script: {instanceID: 4270}
     - Class: 114
-      Script: {instanceID: 17270}
+      Script: {instanceID: 4330}
     - Class: 114
-      Script: {instanceID: 17376}
+      Script: {instanceID: 4386}
     - Class: 114
-      Script: {instanceID: 17430}
+      Script: {instanceID: 4402}
     - Class: 114
-      Script: {instanceID: 17434}
+      Script: {instanceID: 4458}
     - Class: 114
-      Script: {instanceID: 17646}
+      Script: {instanceID: 4596}
     - Class: 114
-      Script: {instanceID: 17750}
+      Script: {instanceID: 4616}
     - Class: 114
-      Script: {instanceID: 17794}
+      Script: {instanceID: 4722}
     - Class: 114
-      Script: {instanceID: 17806}
+      Script: {instanceID: 4776}
     - Class: 114
-      Script: {instanceID: 17808}
+      Script: {instanceID: 4780}
     - Class: 114
-      Script: {instanceID: 17860}
+      Script: {instanceID: 4996}
     - Class: 114
-      Script: {instanceID: 18024}
+      Script: {instanceID: 5146}
     - Class: 114
-      Script: {instanceID: 18036}
+      Script: {instanceID: 5158}
     - Class: 114
-      Script: {instanceID: 18042}
+      Script: {instanceID: 5160}
     - Class: 114
-      Script: {instanceID: 18186}
+      Script: {instanceID: 5212}
     - Class: 114
-      Script: {instanceID: 18454}
+      Script: {instanceID: 5378}
     - Class: 114
-      Script: {instanceID: 18476}
+      Script: {instanceID: 5390}
     - Class: 114
-      Script: {instanceID: 18518}
+      Script: {instanceID: 5396}
     - Class: 114
-      Script: {instanceID: 18606}
+      Script: {instanceID: 5542}
     - Class: 114
-      Script: {instanceID: 18652}
+      Script: {instanceID: 5814}
     - Class: 114
-      Script: {instanceID: 18936}
+      Script: {instanceID: 5836}
     - Class: 114
-      Script: {instanceID: 18986}
+      Script: {instanceID: 5878}
     - Class: 114
-      Script: {instanceID: 19036}
+      Script: {instanceID: 5968}
     - Class: 114
-      Script: {instanceID: 19058}
+      Script: {instanceID: 6014}
     - Class: 114
-      Script: {instanceID: 19088}
+      Script: {instanceID: 6300}
     - Class: 114
-      Script: {instanceID: 19108}
+      Script: {instanceID: 6352}
     - Class: 114
-      Script: {instanceID: 19134}
+      Script: {instanceID: 6402}
     - Class: 114
-      Script: {instanceID: 19330}
+      Script: {instanceID: 6424}
     - Class: 114
-      Script: {instanceID: 19390}
+      Script: {instanceID: 6454}
     - Class: 114
-      Script: {instanceID: 19446}
+      Script: {instanceID: 6474}
     - Class: 114
-      Script: {instanceID: 19460}
+      Script: {instanceID: 6500}
     - Class: 114
-      Script: {instanceID: 19472}
+      Script: {instanceID: 6698}
     - Class: 114
-      Script: {instanceID: 19844}
+      Script: {instanceID: 6758}
     - Class: 114
-      Script: {instanceID: 19888}
+      Script: {instanceID: 6814}
     - Class: 114
-      Script: {instanceID: 19974}
+      Script: {instanceID: 6830}
     - Class: 114
-      Script: {instanceID: 20086}
+      Script: {instanceID: 6842}
     - Class: 114
-      Script: {instanceID: 20162}
+      Script: {instanceID: 7216}
     - Class: 114
-      Script: {instanceID: 20208}
+      Script: {instanceID: 7260}
     - Class: 114
-      Script: {instanceID: 20212}
+      Script: {instanceID: 7348}
     - Class: 114
-      Script: {instanceID: 20246}
+      Script: {instanceID: 7460}
     - Class: 114
-      Script: {instanceID: 20416}
+      Script: {instanceID: 7540}
     - Class: 114
-      Script: {instanceID: 20440}
+      Script: {instanceID: 7588}
     - Class: 114
-      Script: {instanceID: 20518}
+      Script: {instanceID: 7592}
     - Class: 114
-      Script: {instanceID: 20586}
+      Script: {instanceID: 7626}
     - Class: 114
-      Script: {instanceID: 20700}
+      Script: {instanceID: 7796}
     - Class: 114
-      Script: {instanceID: 20838}
+      Script: {instanceID: 7820}
     - Class: 114
-      Script: {instanceID: 21032}
+      Script: {instanceID: 7898}
     - Class: 114
-      Script: {instanceID: 21052}
+      Script: {instanceID: 7968}
     - Class: 114
-      Script: {instanceID: 21226}
+      Script: {instanceID: 8082}
     - Class: 114
-      Script: {instanceID: 21422}
+      Script: {instanceID: 8226}
     - Class: 114
-      Script: {instanceID: 21442}
+      Script: {instanceID: 8424}
     - Class: 114
-      Script: {instanceID: 21500}
+      Script: {instanceID: 8444}
     - Class: 114
-      Script: {instanceID: 21504}
+      Script: {instanceID: 8618}
     - Class: 114
-      Script: {instanceID: 21720}
+      Script: {instanceID: 8818}
     - Class: 114
-      Script: {instanceID: 21824}
+      Script: {instanceID: 8838}
     - Class: 114
-      Script: {instanceID: 21936}
+      Script: {instanceID: 8898}
     - Class: 114
-      Script: {instanceID: 22040}
+      Script: {instanceID: 9118}
     - Class: 114
-      Script: {instanceID: 22070}
+      Script: {instanceID: 9222}
     - Class: 114
-      Script: {instanceID: 22304}
+      Script: {instanceID: 9336}
     - Class: 114
-      Script: {instanceID: 22318}
+      Script: {instanceID: 9440}
     - Class: 114
-      Script: {instanceID: 22324}
+      Script: {instanceID: 9470}
     - Class: 114
-      Script: {instanceID: 22478}
+      Script: {instanceID: 9708}
     - Class: 114
-      Script: {instanceID: 22552}
+      Script: {instanceID: 9722}
     - Class: 114
-      Script: {instanceID: 22616}
+      Script: {instanceID: 9728}
     - Class: 114
-      Script: {instanceID: 22636}
+      Script: {instanceID: 10040}
     - Class: 114
-      Script: {instanceID: 22652}
+      Script: {instanceID: 10056}
     - Class: 114
-      Script: {instanceID: 22774}
+      Script: {instanceID: 10178}
     - Class: 114
-      Script: {instanceID: 22780}
+      Script: {instanceID: 10184}
     - Class: 114
-      Script: {instanceID: 22810}
+      Script: {instanceID: 10214}
     - Class: 114
-      Script: {instanceID: 22836}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 22842}
+      Script: {instanceID: 10248}
     - Class: 114
-      Script: {instanceID: 22896}
+      Script: {instanceID: 10302}
     - Class: 114
-      Script: {instanceID: 22912}
+      Script: {instanceID: 10318}
     - Class: 114
-      Script: {instanceID: 22942}
+      Script: {instanceID: 10348}
     - Class: 114
-      Script: {instanceID: 22976}
+      Script: {instanceID: 10382}
     - Class: 114
-      Script: {instanceID: 22982}
+      Script: {instanceID: 10388}
     - Class: 114
-      Script: {instanceID: 23292}
+      Script: {instanceID: 10710}
     - Class: 114
-      Script: {instanceID: 23382}
+      Script: {instanceID: 10870}
     - Class: 114
-      Script: {instanceID: 23444}
+      Script: {instanceID: 10878}
     - Class: 114
-      Script: {instanceID: 23452}
+      Script: {instanceID: 10964}
     - Class: 114
-      Script: {instanceID: 23538}
+      Script: {instanceID: 10998}
     - Class: 114
-      Script: {instanceID: 23572}
+      Script: {instanceID: 11040}
     - Class: 114
-      Script: {instanceID: 23614}
+      Script: {instanceID: 11048}
     - Class: 114
-      Script: {instanceID: 23622}
+      Script: {instanceID: 11188}
     - Class: 114
-      Script: {instanceID: 23758}
+      Script: {instanceID: 11206}
     - Class: 114
-      Script: {instanceID: 23760}
+      Script: {instanceID: 11232}
     - Class: 114
-      Script: {instanceID: 23776}
+      Script: {instanceID: 11260}
     - Class: 114
-      Script: {instanceID: 23800}
+      Script: {instanceID: 11262}
     - Class: 114
-      Script: {instanceID: 23826}
+      Script: {instanceID: 11358}
     - Class: 114
-      Script: {instanceID: 23828}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 23858}
+      Script: {instanceID: 11476}
     - Class: 114
-      Script: {instanceID: 23926}
+      Script: {instanceID: 11550}
     - Class: 114
-      Script: {instanceID: 23980}
+      Script: {instanceID: 11552}
     - Class: 114
-      Script: {instanceID: 24044}
+      Script: {instanceID: 11566}
     - Class: 114
-      Script: {instanceID: 24118}
+      Script: {instanceID: 11690}
     - Class: 114
-      Script: {instanceID: 24120}
+      Script: {instanceID: 11794}
     - Class: 114
-      Script: {instanceID: 24122}
+      Script: {instanceID: 11850}
     - Class: 114
-      Script: {instanceID: 24136}
+      Script: {instanceID: 11914}
     - Class: 114
-      Script: {instanceID: 24258}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 24360}
+      Script: {instanceID: 12008}
     - Class: 114
-      Script: {instanceID: 24416}
+      Script: {instanceID: 12028}
     - Class: 114
-      Script: {instanceID: 24480}
+      Script: {instanceID: 12082}
     - Class: 114
-      Script: {instanceID: 24494}
+      Script: {instanceID: 12194}
     - Class: 114
-      Script: {instanceID: 24574}
+      Script: {instanceID: 12210}
     - Class: 114
-      Script: {instanceID: 24594}
+      Script: {instanceID: 12272}
     - Class: 114
-      Script: {instanceID: 24648}
+      Script: {instanceID: 12312}
     - Class: 114
-      Script: {instanceID: 24756}
+      Script: {instanceID: 12354}
     - Class: 114
-      Script: {instanceID: 24772}
+      Script: {instanceID: 12358}
     - Class: 114
-      Script: {instanceID: 24834}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 24874}
+      Script: {instanceID: 12938}
     - Class: 114
-      Script: {instanceID: 24914}
+      Script: {instanceID: 12950}
     - Class: 114
-      Script: {instanceID: 24918}
+      Script: {instanceID: 13110}
     - Class: 114
-      Script: {instanceID: 25350}
+      Script: {instanceID: 13148}
     - Class: 114
-      Script: {instanceID: 25490}
+      Script: {instanceID: 13294}
     - Class: 114
-      Script: {instanceID: 25502}
+      Script: {instanceID: 13342}
     - Class: 114
-      Script: {instanceID: 25578}
+      Script: {instanceID: 13472}
     - Class: 114
-      Script: {instanceID: 25662}
+      Script: {instanceID: 13560}
     - Class: 114
-      Script: {instanceID: 25698}
+      Script: {instanceID: 13582}
     - Class: 114
-      Script: {instanceID: 25844}
-    - Class: 114
-      Script: {instanceID: 25892}
-    - Class: 114
-      Script: {instanceID: 26020}
-    - Class: 114
-      Script: {instanceID: 26102}
-    - Class: 114
-      Script: {instanceID: 26124}
-    - Class: 114
-      Script: {instanceID: 26138}
-    - Class: 114
-      Script: {instanceID: 60730}
+      Script: {instanceID: 13596}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -671,6 +643,60 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: ed9f9ba4f86811683bd63e5cc6dae905
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
       Hash: f69dfc6409fbbd89d3689368e99688a8
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -687,12 +713,6 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit
     className: MixedRealitySceneContent
-  - hash:
-      serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
   - hash:
       serializedVersion: 2
       Hash: 36c6eafa77e56aa5d6af4b62ba2f2e39
@@ -1061,12 +1081,6 @@ ScriptsOnlyBuild:
     className: MicrosoftHandInteraction
   - hash:
       serializedVersion: 2
-      Hash: a306e12d896ddcca949923c805691027
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: InputField
-  - hash:
-      serializedVersion: 2
       Hash: bda47d8d681c9b5fb4c4602acb4727e6
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
@@ -1145,6 +1159,12 @@ ScriptsOnlyBuild:
     className: MagneticFieldSensorController
   - hash:
       serializedVersion: 2
+      Hash: 3275ca04daeb0dcfd44b12fe85576315
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
+    className: ReturnToBounds
+  - hash:
+      serializedVersion: 2
       Hash: b1c05ae9e75ce74a9defbba57c122e94
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1221,6 +1241,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.OpenXR.dll
     namespaceName: UnityEngine.XR.OpenXR
     className: OpenXRRestarter
+  - hash:
+      serializedVersion: 2
+      Hash: 4566e5f236de2060736a23afcb716eae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
+    className: BoundingBoxExampleTest
   - hash:
       serializedVersion: 2
       Hash: 2388eb9e99b86b3813e7b6dbfe4b3e0c
@@ -2075,12 +2101,6 @@ ScriptsOnlyBuild:
     className: BatteryTemperatureText
   - hash:
       serializedVersion: 2
-      Hash: bcaee4c2a83047257b5f47d6ed264b75
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Toggle
-  - hash:
-      serializedVersion: 2
       Hash: 46bb4031913b885748fd5f96156f3707
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities.Solvers
@@ -2391,6 +2411,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Teleport
     className: TeleportHotspot
+  - hash:
+      serializedVersion: 2
+      Hash: 4566e5f236de2060736a23afcb716eae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
+    className: BoundsControlRuntimeExample
   - hash:
       serializedVersion: 2
       Hash: bb6b9a25e695d7981ce2d853a697a828
@@ -3497,6 +3523,12 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: ac64cfac2f4ca724390e7fbc047689fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Experimental.DialogTest
+    className: DialogExampleController
+  - hash:
+      serializedVersion: 2
       Hash: 94b211fb6b2700173ae99a8d539d9a06
     assemblyName: Assembly-CSharp.dll
     namespaceName: FantomLib
@@ -3573,6 +3605,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: RenderObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 07a93b68941b766b305bf5fbcf77f41f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
+    className: GridObjectLayoutControl
   - hash:
       serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
@@ -3705,12 +3743,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: FantomLib
     className: NumericTextDialogController
-  - hash:
-      serializedVersion: 2
-      Hash: ed9f9ba4f86811683bd63e5cc6dae905
-    assemblyName: Vuforia.Unity.Engine.dll
-    namespaceName: Vuforia
-    className: AnchorBehaviour
   - hash:
       serializedVersion: 2
       Hash: 72095f3bdca6a5ced808052624115e3b
@@ -4053,12 +4085,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
-  - hash:
-      serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: f894a118c4e669ef1e0052490ead6d10
@@ -4823,12 +4849,6 @@ ScriptsOnlyBuild:
     className: NewBehaviourScript
   - hash:
       serializedVersion: 2
-      Hash: aba7b2852ef61d175dd9602e7723d5e5
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Mask
-  - hash:
-      serializedVersion: 2
       Hash: c03819a53c1609aec5276e3f3bd7c621
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
@@ -5021,6 +5041,12 @@ ScriptsOnlyBuild:
     className: ARPointCloudParticleVisualizer
   - hash:
       serializedVersion: 2
+      Hash: d165228985fb27863dd882ab50a15a33
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
+    className: ChangeManipulation
+  - hash:
+      serializedVersion: 2
       Hash: 158953140e2daf869bb65a7e82aa91c4
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
@@ -5115,6 +5141,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit
     className: MixedRealityExperienceSettingsProfile
+  - hash:
+      serializedVersion: 2
+      Hash: dfed7bf708531f6487d006774d3edd23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Dwell
+    className: InstantDwellSample
   - hash:
       serializedVersion: 2
       Hash: 62460aa4ee132b1770b3f8e798ecec5f
@@ -5253,6 +5285,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Collided
+  - hash:
+      serializedVersion: 2
+      Hash: 4c7b1ffd6a3fe280c224357982784c49
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
+    className: ProgressIndicatorDemo
   - hash:
       serializedVersion: 2
       Hash: 24c74cc0d527a06113f2b967042769f0
@@ -5429,6 +5467,12 @@ ScriptsOnlyBuild:
     className: MeshLineRenderer
   - hash:
       serializedVersion: 2
+      Hash: 46a0c231e529de939e1bc4d7e55366a9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Dwell
+    className: ToggleDwellSample
+  - hash:
+      serializedVersion: 2
       Hash: 5783cae45df2b06a5fb5da44370e65f1
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
@@ -5445,12 +5489,6 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
     className: InteractableReceiver
-  - hash:
-      serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
   - hash:
       serializedVersion: 2
       Hash: 3ac8afdfe524d8dd82d09519695b7163
@@ -5565,12 +5603,6 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit
     className: MixedRealityRegisteredServiceProvidersProfile
-  - hash:
-      serializedVersion: 2
-      Hash: a1aa98c78061c6f03a8c124cda576e67
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 75199b62ab6206c5ccf6f64360b78483
@@ -5775,6 +5807,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
     namespaceName: Microsoft.MixedReality.Toolkit.WindowsMixedReality
     className: WindowsMixedRealityReprojectionUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 3fa242c2d538759066262ec1d574de1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
+    className: SliderLunarLander
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -6359,12 +6397,6 @@ ScriptsOnlyBuild:
     className: PlayModeRemotingPlugin
   - hash:
       serializedVersion: 2
-      Hash: 040dd48e3a027d5424519a5fa2009df4
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: ScrollRect
-  - hash:
-      serializedVersion: 2
       Hash: 1d7cb9012debc264191fe747cb3d0cb6
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.UI
@@ -6437,7 +6469,7 @@ ScriptsOnlyBuild:
     className: UpdateSliderTrackLine
   - hash:
       serializedVersion: 2
-      Hash: dd8d838f827b6c96feb22656491984f0
+      Hash: 9a5b5454b385a2d2a70dbd7e240aee95
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: locationsclicked
@@ -6533,6 +6565,12 @@ ScriptsOnlyBuild:
     className: HandPhysicsServiceProfile
   - hash:
       serializedVersion: 2
+      Hash: aaecbc43f81bd109f9c7c2fb0706b915
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.Dwell
+    className: ListItemDwell
+  - hash:
+      serializedVersion: 2
       Hash: e7c62687d44555b8e639a05ba7b2b903
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Input
@@ -6591,73 +6629,7 @@ ScriptsOnlyBuild:
     assemblyName: AzureSpatialAnchors.SDK.Core.Runtime.dll
     namespaceName: Microsoft.Azure.SpatialAnchors.Unity
     className: CloudNativeAnchor
-  - hash:
-      serializedVersion: 2
-      Hash: 3fa242c2d538759066262ec1d574de1c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
-    className: SliderLunarLander
-  - hash:
-      serializedVersion: 2
-      Hash: 46a0c231e529de939e1bc4d7e55366a9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Dwell
-    className: ToggleDwellSample
-  - hash:
-      serializedVersion: 2
-      Hash: 4566e5f236de2060736a23afcb716eae
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
-    className: BoundingBoxExampleTest
-  - hash:
-      serializedVersion: 2
-      Hash: dfed7bf708531f6487d006774d3edd23
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Dwell
-    className: InstantDwellSample
-  - hash:
-      serializedVersion: 2
-      Hash: 4566e5f236de2060736a23afcb716eae
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
-    className: BoundsControlRuntimeExample
-  - hash:
-      serializedVersion: 2
-      Hash: 07a93b68941b766b305bf5fbcf77f41f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
-    className: GridObjectLayoutControl
-  - hash:
-      serializedVersion: 2
-      Hash: ac64cfac2f4ca724390e7fbc047689fd
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Experimental.DialogTest
-    className: DialogExampleController
-  - hash:
-      serializedVersion: 2
-      Hash: 3275ca04daeb0dcfd44b12fe85576315
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
-    className: ReturnToBounds
-  - hash:
-      serializedVersion: 2
-      Hash: aaecbc43f81bd109f9c7c2fb0706b915
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Dwell
-    className: ListItemDwell
-  - hash:
-      serializedVersion: 2
-      Hash: d165228985fb27863dd882ab50a15a33
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
-    className: ChangeManipulation
-  - hash:
-      serializedVersion: 2
-      Hash: 4c7b1ffd6a3fe280c224357982784c49
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.Examples.Demos
-    className: ProgressIndicatorDemo
   platform: 21
   scenePathNames:
   - Assets/DefaultScene.unity
-  playerPath: C:/Users/Student/Desktop/hololensbuilds/021720221013
+  playerPath: C:/Users/Student/Documents/GitHub/Cap/030220220927

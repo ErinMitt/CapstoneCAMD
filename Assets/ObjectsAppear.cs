@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class ObjectsAppear : MonoBehaviour
 {
-    public GameObject monster;
+    public GameObject level1;
+    public GameObject level2;
+    public GameObject level3;
+    public GameObject level4;
+    public GameObject mainCameraDeadCount;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,18 +19,29 @@ public class ObjectsAppear : MonoBehaviour
     // Update is called once per frame
     public void TargetActive()
     {
-       
-       // Debug.Log(gameObject.transform.parent.name);
-       /* if (gameObject.transform.parent.position != Vector3.zero && gameObject.name == "Cube")
+        int levelsComplete = mainCameraDeadCount.GetComponent<monsterDeadCount>().LevelsComplete();
+        switch (levelsComplete)
         {
-            Debug.Log(gameObject.transform.parent.position);
-            monster.SetActive(true);
+            case 0:
+                level1.SetActive(true);
+                level1.transform.position = new Vector3(gameObject.transform.parent.localPosition.x, gameObject.transform.parent.localPosition.y, gameObject.transform.parent.localPosition.z + 1.0f);
+                break;
+            case 1:
+                level2.SetActive(true);
+                level2.transform.position = new Vector3(gameObject.transform.parent.localPosition.x, gameObject.transform.parent.localPosition.y, gameObject.transform.parent.localPosition.z + 1.0f);
+                break;
+            case 2:
+                level3.SetActive(true);
+                level3.transform.position = new Vector3(gameObject.transform.parent.localPosition.x, gameObject.transform.parent.localPosition.y, gameObject.transform.parent.localPosition.z + 1.0f);
+                break;
+            case 3:
+                level4.SetActive(true);
+                level4.transform.position = new Vector3(gameObject.transform.parent.localPosition.x, gameObject.transform.parent.localPosition.y, gameObject.transform.parent.localPosition.z + 1.0f);
+                break;
+
         }
-        if (gameObject.transform.parent.position != Vector3.zero && gameObject.name == "Sphere")
-        {*/
-            
-            monster.SetActive(true);
-        monster.transform.position = new Vector3(gameObject.transform.parent.localPosition.x, gameObject.transform.parent.localPosition.y, gameObject.transform.parent.localPosition.z);
+        gameObject.SetActive(false);
+
 
       //  }
     }

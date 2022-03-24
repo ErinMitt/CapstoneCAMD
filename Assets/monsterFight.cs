@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class monsterFight : MonoBehaviour
 {
@@ -12,7 +14,6 @@ public class monsterFight : MonoBehaviour
     private Collider m_ObjectCollider;
     //Fetch the GameObject's Collider (make sure they have a Collider component)
     double count=0;
-    double countPlay = 0;
     public GameObject courses;
     public Animator anim;
     private int animLayer=0;
@@ -25,15 +26,30 @@ public class monsterFight : MonoBehaviour
     private IEnumerator coroutine;
     private IEnumerator coroutine2;
     public GameObject mainCameraDeadCount;
+    public TextMesh healthText;
+    float initxVal;
+    public AudioClip loseHealth;
 
     void Start()
     {
+        initxVal = playerHealth.transform.localScale.x;
         Debug.Log("Base: " + anim.GetLayerIndex("Base Layer"));
         m_ObjectCollider = GetComponent<Collider>();
         //Here the GameObject's Collider is not a trigger
         //m_ObjectCollider.isTrigger = false;
         //Output whether the Collider is a trigger type Collider or not
         Debug.Log("Trigger On : " + m_ObjectCollider.isTrigger);
+        StartCoroutine(wait());
+       
+
+    }
+    IEnumerator wait()
+    {
+        int r = Random.Range(0, 4);
+        Debug.Log(r);
+        yield return new WaitForSeconds((float)r);
+        
+        anim.enabled = true;
 
     }
     void FixedUpdate()
@@ -58,43 +74,61 @@ public class monsterFight : MonoBehaviour
 
     public void PlayerHealth()
     {
-        float initxVal = playerHealth.transform.localScale.x;
-        countPlay++;
+
+        double countPlay= mainCameraDeadCount.GetComponent<monsterDeadCount>().playerHealth();
         double multvalcount = 20 - countPlay;
-        float multVal = initxVal * (float)(multvalcount / (multvalcount + 1));
-        if (multvalcount < 0)
+        float multVal = initxVal*(float)multvalcount;
+        if (multvalcount <= 0)
         {
             transform.parent.gameObject.active = false;
             NoMoreHealth.active = true;
+            mainCameraDeadCount.GetComponent<monsterDeadCount>().levelFailed();
             mainCameraDeadCount.GetComponent<monsterDeadCount>().callCoroutines();
+            
+
         }
         else
         {
-            playerHealth.transform.localScale = new Vector3(multVal, playerHealth.transform.localScale.y, playerHealth.transform.localScale.z);
-            playerHealth.transform.localPosition = new Vector3(multVal/2-.1f, 0, -.001f);
+            playerHealth.transform.localScale = new Vector3(multVal/20, playerHealth.transform.localScale.y, playerHealth.transform.localScale.z);
+            playerHealth.transform.localPosition = new Vector3(multVal/40-.1f, 0, -.001f);
+            AudioSource.PlayClipAtPoint(loseHealth, transform.position);
         }
-   
+        healthText.text = "Health:" + multvalcount * 5 + "%";
+
+
     }
     public void OnTriggerEnter()
     {
         float initxVal = healthBar.transform.localScale.x;
         count++;
-        double multvalcount = 5 - count;
+        double multvalcount = 4 - count;
         float multVal = initxVal * (float)(multvalcount / (multvalcount + 1));
         healthBar.transform.localScale = new Vector3(multVal, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
-        healthBar.transform.localPosition = new Vector3(-.02f * (float)count, 0, -.001f);
-        Debug.Log("triggered! and entered");
-        if (count == 5)
+        healthBar.transform.localPosition = new Vector3(-.025f * (float)count, 0, -.001f);
+        if (count == 4)
         {
-            gameObject.active = false;
-            int monsterDead = mainCameraDeadCount.GetComponent<monsterDeadCount>().MonstersKilled();//mainCameraDeadCount.GetComponent<monsterDeadCount>().monstersDead;
-            Debug.Log("reached courses" + monsterDead);
-            float newVal = .04f*(float)monsterDead;
-            float initxValCourse = healthBar.transform.localScale.x;
-            courses.transform.localScale = new Vector3(newVal, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
-            courses.transform.localPosition = new Vector3(healthBar.transform.localPosition.x + newVal/2, healthBar.transform.localPosition.y, healthBar.transform.localPosition.z);
-            if (monsterDead==5)
+            gameObject.SetActive(false);
+            int monsterDead = mainCameraDeadCount.GetComponent<monsterDeadCount>().MonstersKilled(true);
+           
+            bool dead = false;
+            Debug.Log("dead monster");
+            
+            if (mainCameraDeadCount.GetComponent<monsterDeadCount>().currMonsters()> mainCameraDeadCount.GetComponent<monsterDeadCount>().LevelsComplete())
             {
+                Debug.Log("level completed");
+                mainCameraDeadCount.GetComponent<monsterDeadCount>().levelsCompleted();
+                monsterDead = mainCameraDeadCount.GetComponent<monsterDeadCount>().MonstersKilled(false);
+                float newVal = 0.05f * (float)mainCameraDeadCount.GetComponent<monsterDeadCount>().LevelsComplete();
+                float initxValCourse = healthBar.transform.localScale.x;
+                courses.transform.localScale = new Vector3(newVal, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
+                courses.transform.localPosition = new Vector3(healthBar.transform.localPosition.x + newVal / 2.5f, healthBar.transform.localPosition.y, healthBar.transform.localPosition.z);
+                
+            }
+           
+            
+            if (mainCameraDeadCount.GetComponent<monsterDeadCount>().LevelsComplete()==4)//need to change to each location completed
+            {
+                courses.transform.localScale = new Vector3(0, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
                 GameWon.active = true;
                 Debug.Log("game won");
             }
