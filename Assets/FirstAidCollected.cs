@@ -6,6 +6,7 @@ public class FirstAidCollected : MonoBehaviour
 {
     public GameObject firstAid;
     public GameObject healthBar;
+    public GameObject mainCameraDeadCount;
 
     public void clicked()
     {
@@ -13,6 +14,7 @@ public class FirstAidCollected : MonoBehaviour
         firstAid.active = false;
         healthBar.transform.localScale = new Vector3(.205f, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
         healthBar.transform.localPosition = new Vector3(0.003f, 0, -.001f);
+        mainCameraDeadCount.GetComponent <monsterDeadCount>().playerHealth(20);
 
     }
     // Start is called before the first frame update

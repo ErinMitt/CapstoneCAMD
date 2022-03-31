@@ -20,6 +20,13 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.OpenXR.MotionControllerFeaturePlugin
     - Microsoft.MixedReality.OpenXR.Remoting.AppRemotingPlugin
     - Microsoft.MixedReality.OpenXR.Remoting.PlayModeRemotingPlugin
+    Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll:
+    - Microsoft.MixedReality.Toolkit.Boundary.Editor.MixedRealityBoundaryVisualizationProfileInspector
+    - Microsoft.MixedReality.Toolkit.Editor.MixedRealityCameraProfileInspector
+    - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector
+    - Microsoft.MixedReality.Toolkit.Editor.SpatialAwareness.MixedRealitySpatialAwarenessMeshObserverProfileInspector
+    - Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityInputSystemProfileInspector
+    - Microsoft.MixedReality.Toolkit.SpatialAwareness.Editor.MixedRealitySpatialAwarenessSystemProfileInspector
     Microsoft.MixedReality.Toolkit.Editor.Utilities.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences
     Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll:
@@ -137,6 +144,8 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -499,121 +508,121 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9470}
     - Class: 114
-      Script: {instanceID: 9708}
+      Script: {instanceID: 9710}
     - Class: 114
-      Script: {instanceID: 9722}
+      Script: {instanceID: 9724}
     - Class: 114
-      Script: {instanceID: 9728}
+      Script: {instanceID: 9730}
     - Class: 114
-      Script: {instanceID: 10040}
+      Script: {instanceID: 10042}
     - Class: 114
-      Script: {instanceID: 10056}
+      Script: {instanceID: 10058}
     - Class: 114
-      Script: {instanceID: 10178}
+      Script: {instanceID: 10180}
     - Class: 114
-      Script: {instanceID: 10184}
+      Script: {instanceID: 10186}
     - Class: 114
-      Script: {instanceID: 10214}
+      Script: {instanceID: 10216}
     - Class: 114
-      Script: {instanceID: 10242}
+      Script: {instanceID: 10244}
     - Class: 114
-      Script: {instanceID: 10248}
+      Script: {instanceID: 10250}
     - Class: 114
-      Script: {instanceID: 10302}
+      Script: {instanceID: 10304}
     - Class: 114
-      Script: {instanceID: 10318}
+      Script: {instanceID: 10320}
     - Class: 114
-      Script: {instanceID: 10348}
+      Script: {instanceID: 10350}
     - Class: 114
-      Script: {instanceID: 10382}
+      Script: {instanceID: 10384}
     - Class: 114
-      Script: {instanceID: 10388}
+      Script: {instanceID: 10390}
     - Class: 114
-      Script: {instanceID: 10710}
+      Script: {instanceID: 10712}
     - Class: 114
-      Script: {instanceID: 10870}
+      Script: {instanceID: 10872}
     - Class: 114
-      Script: {instanceID: 10878}
+      Script: {instanceID: 10880}
     - Class: 114
-      Script: {instanceID: 10964}
+      Script: {instanceID: 10966}
     - Class: 114
-      Script: {instanceID: 10998}
+      Script: {instanceID: 11000}
     - Class: 114
-      Script: {instanceID: 11040}
+      Script: {instanceID: 11042}
     - Class: 114
-      Script: {instanceID: 11048}
+      Script: {instanceID: 11050}
     - Class: 114
-      Script: {instanceID: 11188}
+      Script: {instanceID: 11190}
     - Class: 114
-      Script: {instanceID: 11206}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11232}
-    - Class: 114
-      Script: {instanceID: 11260}
+      Script: {instanceID: 11234}
     - Class: 114
       Script: {instanceID: 11262}
     - Class: 114
-      Script: {instanceID: 11358}
+      Script: {instanceID: 11264}
     - Class: 114
-      Script: {instanceID: 11412}
+      Script: {instanceID: 11360}
     - Class: 114
-      Script: {instanceID: 11476}
+      Script: {instanceID: 11414}
     - Class: 114
-      Script: {instanceID: 11550}
+      Script: {instanceID: 11478}
     - Class: 114
       Script: {instanceID: 11552}
     - Class: 114
-      Script: {instanceID: 11566}
+      Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11690}
+      Script: {instanceID: 11568}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11692}
     - Class: 114
-      Script: {instanceID: 11850}
+      Script: {instanceID: 11796}
     - Class: 114
-      Script: {instanceID: 11914}
+      Script: {instanceID: 11852}
     - Class: 114
-      Script: {instanceID: 11928}
+      Script: {instanceID: 11916}
     - Class: 114
-      Script: {instanceID: 12008}
+      Script: {instanceID: 11930}
     - Class: 114
-      Script: {instanceID: 12028}
+      Script: {instanceID: 12010}
     - Class: 114
-      Script: {instanceID: 12082}
+      Script: {instanceID: 12030}
     - Class: 114
-      Script: {instanceID: 12194}
+      Script: {instanceID: 12084}
     - Class: 114
-      Script: {instanceID: 12210}
+      Script: {instanceID: 12196}
     - Class: 114
-      Script: {instanceID: 12272}
+      Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12312}
+      Script: {instanceID: 12274}
     - Class: 114
-      Script: {instanceID: 12354}
+      Script: {instanceID: 12314}
     - Class: 114
-      Script: {instanceID: 12358}
+      Script: {instanceID: 12356}
     - Class: 114
-      Script: {instanceID: 12796}
+      Script: {instanceID: 12360}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12798}
     - Class: 114
-      Script: {instanceID: 12950}
+      Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 13110}
+      Script: {instanceID: 12952}
     - Class: 114
-      Script: {instanceID: 13148}
+      Script: {instanceID: 13112}
     - Class: 114
-      Script: {instanceID: 13294}
+      Script: {instanceID: 13150}
     - Class: 114
-      Script: {instanceID: 13342}
+      Script: {instanceID: 13296}
     - Class: 114
-      Script: {instanceID: 13472}
+      Script: {instanceID: 13344}
     - Class: 114
-      Script: {instanceID: 13560}
+      Script: {instanceID: 13474}
     - Class: 114
-      Script: {instanceID: 13582}
+      Script: {instanceID: 13562}
     - Class: 114
-      Script: {instanceID: 13596}
+      Script: {instanceID: 13584}
+    - Class: 114
+      Script: {instanceID: 13598}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1471,7 +1480,7 @@ ScriptsOnlyBuild:
     className: MixedRealityInputRecordingProfile
   - hash:
       serializedVersion: 2
-      Hash: 5fa89f1df7791f5724d6853c7e1b60f0
+      Hash: e49179dde050a953605235499aab708e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FirstAidCollected
@@ -4417,7 +4426,7 @@ ScriptsOnlyBuild:
     className: VuMarkBehaviour
   - hash:
       serializedVersion: 2
-      Hash: 744ebceb7c4e0bc4ad6cff8cc9bb60dd
+      Hash: 6fbb1595e2aaf1fc49ce190732435c17
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: monsterDeadCount
@@ -4691,6 +4700,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Diagnostics
     className: VisualProfilerControl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: randomSwitch
   - hash:
       serializedVersion: 2
       Hash: 2fba61c4298409162f811e183315a9c9
@@ -4993,7 +5008,7 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 9d20f45a4a39a0f387f5018fae00aaf3
+      Hash: 9fd4e205c4dfd5ea58fa24b3d0c48f4b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjectsAppear
@@ -6409,7 +6424,7 @@ ScriptsOnlyBuild:
     className: ButtonCollider
   - hash:
       serializedVersion: 2
-      Hash: 739c28b1bdef3891110ad3b562d9f841
+      Hash: 94c6b5da390a354c4fac9489623d50e0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: monsterFight
@@ -6632,4 +6647,4 @@ ScriptsOnlyBuild:
   platform: 21
   scenePathNames:
   - Assets/DefaultScene.unity
-  playerPath: C:/Users/Student/Documents/GitHub/Cap/030220220927
+  playerPath: C:/Users/Student/Documents/GitHub/Cap/033120221038

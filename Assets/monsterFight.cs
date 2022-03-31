@@ -29,7 +29,10 @@ public class monsterFight : MonoBehaviour
     public TextMesh healthText;
     float initxVal;
     public AudioClip loseHealth;
+    public AudioClip monsterHealth;
     public AudioClip powerup;
+    public AudioClip levelWon;
+    public AudioClip levelLost;
 
     void Start()
     {
@@ -86,8 +89,8 @@ public class monsterFight : MonoBehaviour
             NoMoreHealth.active = true;
             mainCameraDeadCount.GetComponent<monsterDeadCount>().levelFailed();
             mainCameraDeadCount.GetComponent<monsterDeadCount>().callCoroutines();
-            
 
+            AudioSource.PlayClipAtPoint(levelLost, transform.position);
         }
         else
         {
@@ -101,6 +104,7 @@ public class monsterFight : MonoBehaviour
     }
     public void OnTriggerEnter()
     {
+        AudioSource.PlayClipAtPoint(monsterHealth, transform.position);
         float initxVal = healthBar.transform.localScale.x;
         count++;
         double multvalcount = 4 - count;
@@ -118,6 +122,7 @@ public class monsterFight : MonoBehaviour
             if (mainCameraDeadCount.GetComponent<monsterDeadCount>().currMonsters()> mainCameraDeadCount.GetComponent<monsterDeadCount>().LevelsComplete())
             {
                 Debug.Log("level completed");
+                AudioSource.PlayClipAtPoint(levelWon, transform.position);
                 mainCameraDeadCount.GetComponent<monsterDeadCount>().levelsCompleted();
 
                 monsterDead = mainCameraDeadCount.GetComponent<monsterDeadCount>().MonstersKilled(false);

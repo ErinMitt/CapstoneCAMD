@@ -11,6 +11,10 @@ public class monsterDeadCount : MonoBehaviour
     public GameObject Sphere;
     public GameObject Cube;
     public GameObject Capsule;
+    public GameObject curryCheck;
+    public GameObject RugglesCheck;
+    public GameObject MarinoCheck;
+    public GameObject SnellCheck;
     public bool isCylinder=false;//if it is completed
     public bool isSphere = false;
     public bool isCube = false;
@@ -78,23 +82,28 @@ public class monsterDeadCount : MonoBehaviour
          levelsComplete++;
         if (!isCylinder&&Cylinder.active==false)
         {
+            curryCheck.SetActive(true);
             isCylinder = true; 
-            Sphere.GetComponent<ObjectsAppear>().TargetActive();
+          //  Sphere.GetComponent<ObjectsAppear>().TargetActive();
+
         }
        else if (!isSphere && Sphere.active == false)
         {
+            SnellCheck.SetActive(true);
             isSphere = true;
-            Cube.GetComponent<ObjectsAppear>().TargetActive();
+          //  Cube.GetComponent<ObjectsAppear>().TargetActive();
         }
        else if (!isCube && Cube.active == false)
         {
+            MarinoCheck.SetActive(true);
             isCube = true;
-            Capsule.GetComponent<ObjectsAppear>().TargetActive();
+          //  Capsule.GetComponent<ObjectsAppear>().TargetActive();
 
         }
        else if (!isCapsule && Capsule.active == false)
         {
             isCapsule = true;
+            RugglesCheck.SetActive(true);
         }
         else
         {
