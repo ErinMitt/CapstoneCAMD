@@ -38,9 +38,14 @@ public class monsterDeadCount : MonoBehaviour
     {
         return levelsComplete;
     }
-    public double playerHealth()
+    public double playerHealth(int v)
     {
-        countPlay++;
+
+        countPlay=countPlay-v;
+        if (countPlay < 0)
+        {
+            countPlay = 0;
+        }
         return countPlay;
     }
     // Start is called before the first frame update

@@ -29,6 +29,7 @@ public class monsterFight : MonoBehaviour
     public TextMesh healthText;
     float initxVal;
     public AudioClip loseHealth;
+    public AudioClip powerup;
 
     void Start()
     {
@@ -75,9 +76,10 @@ public class monsterFight : MonoBehaviour
     public void PlayerHealth()
     {
 
-        double countPlay= mainCameraDeadCount.GetComponent<monsterDeadCount>().playerHealth();
+        double countPlay= mainCameraDeadCount.GetComponent<monsterDeadCount>().playerHealth(-1);
         double multvalcount = 20 - countPlay;
         float multVal = initxVal*(float)multvalcount;
+        healthText.text = "Health:" + multvalcount * 5 + "%";
         if (multvalcount <= 0)
         {
             transform.parent.gameObject.active = false;
@@ -93,7 +95,7 @@ public class monsterFight : MonoBehaviour
             playerHealth.transform.localPosition = new Vector3(multVal/40-.1f, 0, -.001f);
             AudioSource.PlayClipAtPoint(loseHealth, transform.position);
         }
-        healthText.text = "Health:" + multvalcount * 5 + "%";
+      
 
 
     }
@@ -117,12 +119,20 @@ public class monsterFight : MonoBehaviour
             {
                 Debug.Log("level completed");
                 mainCameraDeadCount.GetComponent<monsterDeadCount>().levelsCompleted();
+
                 monsterDead = mainCameraDeadCount.GetComponent<monsterDeadCount>().MonstersKilled(false);
                 float newVal = 0.05f * (float)mainCameraDeadCount.GetComponent<monsterDeadCount>().LevelsComplete();
                 float initxValCourse = healthBar.transform.localScale.x;
+
+                double countPlay = mainCameraDeadCount.GetComponent<monsterDeadCount>().playerHealth(mainCameraDeadCount.GetComponent<monsterDeadCount>().LevelsComplete()*2);
+                 multvalcount = 20 - countPlay;
+                 multVal = initxVal * (float)multvalcount;
+                Debug.Log(multvalcount);
+                playerHealth.transform.localScale = new Vector3(.2f*((float)multvalcount/ 20), playerHealth.transform.localScale.y, playerHealth.transform.localScale.z);
+                playerHealth.transform.localPosition = new Vector3(0.003f-(.1f * ((float)countPlay / 20)), 0, -.001f);
                 courses.transform.localScale = new Vector3(newVal, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
                 courses.transform.localPosition = new Vector3(healthBar.transform.localPosition.x + newVal / 2.5f, healthBar.transform.localPosition.y, healthBar.transform.localPosition.z);
-                
+                healthText.text = "Health:" + multvalcount * 5 + "%";
             }
            
             
